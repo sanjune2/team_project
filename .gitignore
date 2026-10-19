@@ -218,3 +218,20 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# Team project additions
+node_modules/
+.next/
+.vite/
+.env.*
+!.env.example
+data/raw/
+data/private/
+models/
+checkpoints/
+*.pt
+*.pth
+*.safetensors
+*.onnx
+.DS_Store
+Thumbs.db
