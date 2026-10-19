@@ -18,6 +18,8 @@
 | docs/ | JSON 계약, 협업 규칙, 일정 | 전원 |
 
 ## 먼저 읽기
+- [팀 칸반](https://github.com/orgs/yds-review-lab/projects/1)
+- [작업 이슈 5개](https://github.com/yds-review-lab/lecture-review-ai/issues)
 - [AI-백엔드 JSON 계약](docs/api-contract.md)
 - [PR 협업 규칙](CONTRIBUTING.md)
 - [일정과 역할](docs/team-plan.md)
