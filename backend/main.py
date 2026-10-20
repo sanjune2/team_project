@@ -2,7 +2,6 @@ from fastapi import FastAPI, HTTPException
 from pydantic import BaseModel, Field
 from typing import List, Optional
 
-# 반드시 backend.schemas에서 임포트해야 합니다!
 from backend.schemas import (
     AnalysisResponse,
     ReviewResult,
