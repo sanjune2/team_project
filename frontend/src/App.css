@@ -1,0 +1,87 @@
+:root {
+  --bg: #f7f7f5;
+  --card: #ffffff;
+  --text: #1f2328;
+  --muted: #6b7280;
+  --line: #e5e7eb;
+  --pos: #1a7f4b;
+  --pos-bg: #e6f4ec;
+  --neg: #c2410c;
+  --neg-bg: #fdeee6;
+  --neu: #4b5563;
+  --neu-bg: #eef0f2;
+  --mix: #6d28d9;
+  --mix-bg: #f1ebfd;
+  font-family: system-ui, -apple-system, "Apple SD Gothic Neo", "Malgun Gothic", sans-serif;
+  color: var(--text);
+  background: var(--bg);
+}
+
+body { margin: 0; }
+main { max-width: 860px; margin: 0 auto; padding: 32px 16px 64px; }
+h1 { font-size: 24px; margin: 0 0 4px; }
+.hint, .meta, .note { color: var(--muted); font-size: 13px; }
+
+textarea {
+  width: 100%;
+  box-sizing: border-box;
+  padding: 12px;
+  font: inherit;
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  resize: vertical;
+}
+
+button {
+  margin-top: 8px;
+  padding: 10px 20px;
+  font: inherit;
+  font-weight: 600;
+  color: #fff;
+  background: var(--text);
+  border: 0;
+  border-radius: 8px;
+  cursor: pointer;
+}
+button:disabled { opacity: 0.5; cursor: wait; }
+
+.field { display: flex; flex-direction: column; gap: 4px; font-size: 13px; color: var(--muted); margin: 12px 0 4px; max-width: 200px; }
+.field input { font: inherit; padding: 8px 10px; border: 1px solid var(--line); border-radius: 8px; color: var(--text); }
+
+.error { color: var(--neg); }
+.warn { color: var(--neg); font-size: 12px; margin-top: 4px; }
+
+.card {
+  background: var(--card);
+  border: 1px solid var(--line);
+  border-radius: 10px;
+  padding: 16px;
+  margin-top: 16px;
+}
+.card.failed { border-color: var(--neg); }
+.card header { display: flex; gap: 8px; align-items: center; }
+.id { font-weight: 600; font-size: 13px; color: var(--muted); }
+.original { line-height: 1.7; }
+
+.badge {
+  display: inline-block;
+  padding: 2px 8px;
+  border-radius: 999px;
+  font-size: 12px;
+  font-weight: 600;
+  white-space: nowrap;
+}
+.badge.positive { color: var(--pos); background: var(--pos-bg); }
+.badge.negative { color: var(--neg); background: var(--neg-bg); }
+.badge.neutral, .badge.none { color: var(--neu); background: var(--neu-bg); }
+.badge.mixed { color: var(--mix); background: var(--mix-bg); }
+.badge.failed { color: #fff; background: var(--neg); }
+
+mark.hl { padding: 1px 2px; border-radius: 3px; }
+mark.hl.positive { background: var(--pos-bg); }
+mark.hl.negative { background: var(--neg-bg); }
+mark.hl.neutral { background: var(--neu-bg); }
+
+table { width: 100%; border-collapse: collapse; font-size: 14px; }
+th, td { text-align: left; padding: 8px 6px; border-top: 1px solid var(--line); vertical-align: top; }
+th { color: var(--muted); font-weight: 600; font-size: 12px; }
