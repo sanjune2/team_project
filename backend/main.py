@@ -1,107 +1,91 @@
-from fastapi import FastAPI, HTTPException
-from pydantic import BaseModel, Field
-from typing import List, Optional
+"""강의평 분석 API.
 
+실행 (저장소 루트에서): uvicorn backend.main:app --reload --port 8000
+"""
+
+import os
+from datetime import datetime, timezone
+
+from dotenv import load_dotenv
+from fastapi import FastAPI, Request
+from fastapi.exceptions import RequestValidationError
+from fastapi.responses import JSONResponse
+
+from backend.mock import mock_analyze
+from backend.postprocess import build_result, failed_result, summarize_by_category
 from backend.schemas import (
-    AnalysisResponse,
+    CATEGORY_LABELS,
+    AnalyzeRequest,
+    AnalyzeResponse,
+    CategoryInfo,
+    LLMReviewOutput,
+    Meta,
+    ReviewInput,
     ReviewResult,
-    AspectItem,
-    CategoryEnum,
-    SentimentEnum,
-    OverallSentimentEnum,
-    MetaInfo,
-    SummaryByCategory,
+    ReviewStatus,
 )
 
-app = FastAPI(title="Lecture Evaluation AI API")
+load_dotenv()
+USE_MOCK = os.getenv("USE_MOCK", "true").lower() == "true"
+MODEL_NAME = "mock" if USE_MOCK else os.getenv("OPENAI_MODEL", "unknown")
+
+app = FastAPI(title="Lecture Review Analysis API")
 
 
-@app.get("/")
-def read_root():
-    return {"message": "Lecture Evaluation AI Backend is running!"}
+@app.exception_handler(RequestValidationError)
+async def validation_error_handler(request: Request, exc: RequestValidationError):
+    """입력 오류를 합의한 에러 형식 {"error": {"code", "message"}}으로 반환."""
+    details = [
+        {"loc": ".".join(str(p) for p in e["loc"]), "msg": e["msg"]}
+        for e in exc.errors()
+    ]
+    return JSONResponse(
+        status_code=422,
+        content={
+            "error": {
+                "code": "INVALID_INPUT",
+                "message": "요청 형식이 올바르지 않습니다.",
+                "details": details,
+            }
+        },
+    )
 
 
-# 요청 스키마 (테스트 케이스 구조와 일치시킴)
-class SingleReviewInput(BaseModel):
-    id: str  # 또는 int
-    text: str
-    semester: Optional[str] = None
+def call_llm(text: str) -> LLMReviewOutput:
+    """실제 LLM 호출. 분석 파트(analysis/)가 구현하면 여기서 연결."""
+    raise NotImplementedError("LLM 분석 함수가 아직 연결되지 않았습니다.")
 
 
-class BatchReviewRequest(BaseModel):
-    reviews: List[SingleReviewInput]
+def analyze_one(review: ReviewInput) -> ReviewResult:
+    try:
+        output = mock_analyze(review.text) if USE_MOCK else call_llm(review.text)
+        return build_result(review, output)
+    except Exception as e:  # 리뷰 하나가 실패해도 나머지는 계속 처리
+        return failed_result(review, str(e))
 
 
-@app.post("/api/analyze", response_model=AnalysisResponse)
-def analyze_review(request: BatchReviewRequest):
-    # 1. 422 에러 테스트 대응 (리뷰가 비어있는 경우)
-    if not request.reviews:
-        raise HTTPException(
-            status_code=422, detail="INVALID_INPUT: Reviews list cannot be empty"
-        )
+@app.get("/api/health")
+def health():
+    return {"status": "ok", "mock": USE_MOCK}
 
-    results = []
 
-    for rev in request.reviews:
-        # 2. #fail 테스트 케이스 대응
-        if "#fail" in rev.text:
-            results.append(
-                ReviewResult(
-                    review_id=str(rev.id),
-                    semester=rev.semester,
-                    status="failed",
-                    error="Simulated failure for testing",
-                    items=[],
-                )
-            )
-            continue
+@app.get("/api/categories", response_model=list[CategoryInfo])
+def categories():
+    return [CategoryInfo(code=c, label=label) for c, label in CATEGORY_LABELS.items()]
 
-        # 3. #empty 테스트 케이스 대응
-        if "#empty" in rev.text:
-            results.append(
-                ReviewResult(
-                    review_id=str(rev.id),
-                    semester=rev.semester,
-                    status="ok",
-                    overall_sentiment=OverallSentimentEnum.NEUTRAL,
-                    items=[],
-                )
-            )
-            continue
 
-        # 4. 일반적인 Mixed 감성 테스트 케이스 대응 (가이드 예시)
-        results.append(
-            ReviewResult(
-                review_id=str(rev.id),
-                semester=rev.semester,
-                status="ok",
-                overall_sentiment=OverallSentimentEnum.MIXED,
-                items=[
-                    AspectItem(
-                        category=CategoryEnum.LEARNING,
-                        sentiment=SentimentEnum.POSITIVE,
-                        summary="설명 내용이 좋음",
-                        evidence="설명은 좋은데",
-                    ),
-                    AspectItem(
-                        category=CategoryEnum.EXAM,
-                        sentiment=SentimentEnum.NEGATIVE,
-                        summary="시험 출제가 부적절함",
-                        evidence="시험 문제가 수업에서 안 다룬 내용 같아요.",
-                    ),
-                ],
-            )
-        )
-
-    # 최종 응답 객체 반환
-    return AnalysisResponse(
+@app.post("/api/analyze", response_model=AnalyzeResponse)
+def analyze(request: AnalyzeRequest):
+    results = [analyze_one(r) for r in request.reviews]
+    succeeded = sum(r.status == ReviewStatus.OK for r in results)
+    return AnalyzeResponse(
         reviews=results,
-        summary_by_category=[],
-        meta=MetaInfo(
-            total_reviews=len(request.reviews),
-            success_count=sum(1 for r in results if r.status == "ok"),
-            failed_count=sum(1 for r in results if r.status == "failed"),
-            model_name="mock-model",
-            processed_at="2026-10-20T17:00:00",
+        summary_by_category=summarize_by_category(results),
+        meta=Meta(
+            total_reviews=len(results),
+            succeeded=succeeded,
+            failed=len(results) - succeeded,
+            model=MODEL_NAME,
+            processed_at=datetime.now(timezone.utc),
         ),
     )

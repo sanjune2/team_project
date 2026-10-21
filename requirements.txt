@@ -1,10 +1,8 @@
+# Python 3.14 venv에서 설치 테스트 후 버전을 고정하세요 (pip freeze 결과로 갱신)
 fastapi
-uvicorn
+uvicorn[standard]
 pydantic
-openai
 python-dotenv
-streamlit
-plotly
-requests
+openai
 pandas
 ruff
