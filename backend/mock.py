@@ -13,6 +13,9 @@
 evidence_match가 none으로 나온다 ("원문 확인 필요" 화면 확인용).
 """
 
+import hashlib
+from backend.schemas import Category, LLMItem, LLMReviewOutput, Sentiment
+
 from backend.schemas import Category, LLMItem, LLMReviewOutput, Sentiment
 
 DEFAULT_OUTPUT = LLMReviewOutput(
@@ -71,3 +74,65 @@ def mock_analyze(text: str) -> LLMReviewOutput:
                 ]
             )
     return DEFAULT_OUTPUT.model_copy(deep=True)
+
+def mock_analyze(text: str) -> LLMReviewOutput:
+    if "#fail" in text:
+        raise MockFailure("Mock: 분석 실패 시뮬레이션 (#fail)")
+    if "#empty" in text:
+        return LLMReviewOutput(items=[])
+    for tag, (category, sentiment, summary) in _SINGLE.items():
+        if tag in text:
+            evidence = text.replace(tag, "").strip() or text
+            return LLMReviewOutput(
+                items=[
+                    LLMItem(
+                        category=category,
+                        sentiment=sentiment,
+                        summary=summary,
+                        evidence=evidence,
+                        keywords=[],
+                        condition=None,
+                        mentions_change=False,
+                    )
+                ]
+            )
+
+    # 태그가 없는 경우: 텍스트 해시값을 이용해 카테고리와 감성을 고정적이고 다양하게 배정
+    categories = list(Category)
+    sentiments = [Sentiment.POSITIVE, Sentiment.NEGATIVE, Sentiment.NEUTRAL]
+
+    # 문자열의 해시값 계산 (항상 동일한 문자열은 같은 숫자가 나옴)
+    h = int(hashlib.md5(text.encode("utf-8")).hexdigest(), 16)
+
+    cat1 = categories[h % len(categories)]
+    cat2 = categories[(h // 7) % len(categories)]
+    sent1 = sentiments[(h // 3) % len(sentiments)]
+    sent2 = sentiments[(h // 11) % len(sentiments)]
+
+    items = [
+        LLMItem(
+            category=cat1,
+            sentiment=sent1,
+            summary=f"해시 기반 자동 분석 요약 1 ({cat1.value})",
+            evidence=text,
+            keywords=["자동키워드1"],
+            condition=None,
+            mentions_change=False,
+        )
+    ]
+
+    # 문장이 길거나 해시값 조건에 따라 2번째 아이템도 추가하여 다양성 확보
+    if h % 2 == 0 and cat1 != cat2:
+        items.append(
+            LLMItem(
+                category=cat2,
+                sentiment=sent2,
+                summary=f"해시 기반 자동 분석 요약 2 ({cat2.value})",
+                evidence=text,
+                keywords=["자동키워드2"],
+                condition=None,
+                mentions_change=False,
+            )
+        )
+
+    return LLMReviewOutput(items=items)
