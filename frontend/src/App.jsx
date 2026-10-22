@@ -2,6 +2,7 @@ import { useEffect, useState } from "react";
 import { analyzeReviews, fetchCategories } from "./api/client.js";
 import CategoryChart from "./components/CategoryChart.jsx";
 import ReviewCard from "./components/ReviewCard.jsx";
+import TopOpinions from "./components/TopOpinions.jsx";
 
 const SAMPLE = `설명은 좋은데 시험 문제가 수업에서 안 다룬 내용 같아요.
 팀플 있음 #neutral
@@ -91,6 +92,12 @@ export default function App() {
             {result.meta.failed > 0 && ` · ${result.meta.failed}개 실패`} · 모델 {result.meta.model}
           </p>
           <CategoryChart
+            summary={result.summary_by_category}
+            labels={labels}
+            selected={selected}
+            onSelect={toggleCategory}
+          />
+          <TopOpinions
             summary={result.summary_by_category}
             labels={labels}
             selected={selected}
