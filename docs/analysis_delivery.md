@@ -8,7 +8,7 @@
 Python 3.14에서 검증했다. 저장소 루트에서 실행한다.
 
 ```powershell
-python -m pip install -r requirements-llm.txt
+python -m pip install -r requirements.txt
 python -m unittest discover -s tests -p test_llm_connect.py -v
 ```
 
@@ -18,10 +18,13 @@ OPENAI_REASONING_EFFORT는 none을 사용했다. 키를 문서나 Git에 넣지 
 환경 변수 값이 .env보다 우선한다.
 
 ```powershell
-python scripts/smoke_analysis.py --output analysis_smoke.local.json
+python scripts/smoke_analysis.py --require-glossary --output analysis_smoke.local.json
 ```
 
 위 명령은 실제 유료 API를 호출한다. 저장한 실행 결과는 별도로 검토하며 자동 커밋하지 않는다.
+`--require-glossary`는 은어 사전이 없거나 성공 응답의 `glossary_loaded`가 true가 아니면 실패한다.
+`requirements.txt`에 검증 버전 `openai==2.54.0`, `pydantic==2.14.1`을 통합했다.
+별도 `requirements-llm.txt` 설치는 필요하지 않다.
 입력은 새로 작성한 가상 리뷰 5개다. 사람 정답 기반 정확도 평가가 아니다.
 
 ## 함수와 반환값

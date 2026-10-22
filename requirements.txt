@@ -1,8 +1,8 @@
-# Python 3.14 venv에서 설치 테스트 후 버전을 고정하세요 (pip freeze 결과로 갱신)
+# LLM 분석에서 검증한 openai/pydantic 버전을 고정합니다.
 fastapi
 uvicorn[standard]
-pydantic
+pydantic==2.14.1
 python-dotenv
-openai
+openai==2.54.0
 pandas
 ruff
