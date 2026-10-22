@@ -1,0 +1,10 @@
+# LLM 분석에서 검증한 openai/pydantic 버전을 고정합니다.
+fastapi
+uvicorn[standard]
+pydantic==2.14.1
+python-dotenv
+openai==2.54.0
+pandas
+ruff
+openai==2.54.0
+pydantic==2.14.1
