@@ -6,5 +6,8 @@ python-dotenv
 openai==2.54.0
 pandas
 ruff
+<<<<<<< HEAD
 openai==2.54.0
 pydantic==2.14.1
+=======
+>>>>>>> d0e779840c4c9e058e1e2dfb60828be81ca38869

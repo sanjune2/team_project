@@ -5,7 +5,11 @@
       <excludeFolder url="file://$MODULE_DIR$/.venv" />
       <excludeFolder url="file://$MODULE_DIR$/venv" />
     </content>
+<<<<<<< HEAD
     <orderEntry type="jdk" jdkName="D:\real_project\venv" jdkType="Python SDK" />
+=======
+    <orderEntry type="jdk" jdkName="C:\team_project\.venv" jdkType="Python SDK" />
+>>>>>>> d0e779840c4c9e058e1e2dfb60828be81ca38869
     <orderEntry type="sourceFolder" forTests="false" />
   </component>
 </module>
