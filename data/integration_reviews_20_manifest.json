@@ -1,0 +1,134 @@
+{
+  "source": "data/test_reviews.jsonl",
+  "source_sha256": "4e461319942440f4199aa14ceb74949171e08eb7a6107296b4f53bdce2aeb170",
+  "reviews": [
+    {
+      "position": 1,
+      "source_id": "m01",
+      "ui_id": "r001",
+      "group": "single"
+    },
+    {
+      "position": 2,
+      "source_id": "g01",
+      "ui_id": "r002",
+      "group": "single"
+    },
+    {
+      "position": 3,
+      "source_id": "t02",
+      "ui_id": "r003",
+      "group": "neutral"
+    },
+    {
+      "position": 4,
+      "source_id": "t04",
+      "ui_id": "r004",
+      "group": "mixed"
+    },
+    {
+      "position": 5,
+      "source_id": "g07",
+      "ui_id": "r005",
+      "group": "irony"
+    },
+    {
+      "position": 6,
+      "source_id": "g10",
+      "ui_id": "r006",
+      "group": "empty"
+    },
+    {
+      "position": 7,
+      "source_id": "t01",
+      "ui_id": "r007",
+      "group": "single"
+    },
+    {
+      "position": 8,
+      "source_id": "m02",
+      "ui_id": "r008",
+      "group": "single"
+    },
+    {
+      "position": 9,
+      "source_id": "g05",
+      "ui_id": "r009",
+      "group": "neutral"
+    },
+    {
+      "position": 10,
+      "source_id": "t07",
+      "ui_id": "r010",
+      "group": "mixed"
+    },
+    {
+      "position": 11,
+      "source_id": "c02",
+      "ui_id": "r011",
+      "group": "irony"
+    },
+    {
+      "position": 12,
+      "source_id": "c08",
+      "ui_id": "r012",
+      "group": "empty"
+    },
+    {
+      "position": 13,
+      "source_id": "m09",
+      "ui_id": "r013",
+      "group": "neutral"
+    },
+    {
+      "position": 14,
+      "source_id": "t08",
+      "ui_id": "r014",
+      "group": "mixed"
+    },
+    {
+      "position": 15,
+      "source_id": "c14",
+      "ui_id": "r015",
+      "group": "irony"
+    },
+    {
+      "position": 16,
+      "source_id": "c10",
+      "ui_id": "r016",
+      "group": "empty"
+    },
+    {
+      "position": 17,
+      "source_id": "m10",
+      "ui_id": "r017",
+      "group": "neutral"
+    },
+    {
+      "position": 18,
+      "source_id": "m04",
+      "ui_id": "r018",
+      "group": "mixed"
+    },
+    {
+      "position": 19,
+      "source_id": "c15",
+      "ui_id": "r019",
+      "group": "irony"
+    },
+    {
+      "position": 20,
+      "source_id": "c05",
+      "ui_id": "r020",
+      "group": "mixed"
+    }
+  ],
+  "group_counts": {
+    "single": 4,
+    "neutral": 4,
+    "mixed": 5,
+    "irony": 4,
+    "empty": 3
+  },
+  "status": "selected_only_no_http_or_web_integration_run"
+}

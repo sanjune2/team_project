@@ -1,0 +1,3 @@
+# Preserve the exact bytes recorded in the dataset freeze manifests.
+data/holdout_reviews.jsonl text eol=lf
+data/local_review_candidates.jsonl text eol=lf
