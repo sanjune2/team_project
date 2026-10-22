@@ -52,9 +52,11 @@ async def validation_error_handler(request: Request, exc: RequestValidationError
 
 
 def call_llm(text: str) -> LLMReviewOutput:
-    """실제 LLM 호출. 분석 파트(analysis/)가 구현하면 여기서 연결."""
-    raise NotImplementedError("LLM 분석 함수가 아직 연결되지 않았습니다.")
+    """실제 LLM 호출 (USE_MOCK=false일 때). 분석 결과를 백엔드 스키마로 변환한다."""
+    from analysis.llm import analyze_review  # Mock 모드에서는 openai를 불러오지 않도록 여기서 import
 
+    parsed = analyze_review(text)
+    return LLMReviewOutput.model_validate(parsed.model_dump())
 
 def analyze_one(review: ReviewInput) -> ReviewResult:
     try:
