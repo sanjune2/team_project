@@ -6,7 +6,7 @@ Discord나 팀원에게 직접 발송하지 않았다. 노션 변경은 아래�
 ## 팀 전달문
 
 ```text
-[동렬 / 3일차 후속 작업]
+[동렬 / 3일차 후속 작업 / PR #10]
 
 1. v2 동일 설정 재실행 1회 완료
 - 프롬프트·사전·45개 데이터 해시 동일. Luna / none / temperature=0 / 30초 / retry=0 / 출력4000 유지.
@@ -23,7 +23,8 @@ Discord나 팀원에게 직접 발송하지 않았다. 노션 변경은 아래�
 - 현재 main 웹은 r001~r020으로 ID를 다시 만듭니다. 원본 ID 매핑은 docs/integration_reviews_20.md에 있습니다.
 - 선택·형식 검사만 완료했습니다. 실제 17시 HTTP·웹 통합 검증은 아직입니다.
 
-3. 데이터 분리 PR 준비
+3. 데이터 분리 PR #10 제출 완료 (미병합)
+- PR: https://github.com/sanjune2/team_project/pull/10 / sanjune2님 리뷰 요청.
 - 기존 로컬 후보10개: data/local_review_candidates.jsonl. 모두 과거 Qwen/프롬프트 실험 사용 기록이 있어 엄격한 미사용 holdout은 아닙니다.
 - 신규 합성 holdout20개: data/holdout_reviews.jsonl. v2 동결 후 새로 작성했고 이 파일의 대상 모델 호출은 0회입니다.
 - 신규 holdout 정답은 AI 지원 초안입니다. 사람이 검토·합의하고 다시 해시를 동결한 뒤 첫 평가를 진행해야 합니다.
