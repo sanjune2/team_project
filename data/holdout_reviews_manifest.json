@@ -1,0 +1,159 @@
+{
+  "created_and_frozen_at_utc": "2026-10-22T05:15:58.913982+00:00",
+  "count": 20,
+  "ids": [
+    "h001",
+    "h002",
+    "h003",
+    "h004",
+    "h005",
+    "h006",
+    "h007",
+    "h008",
+    "h009",
+    "h010",
+    "h011",
+    "h012",
+    "h013",
+    "h014",
+    "h015",
+    "h016",
+    "h017",
+    "h018",
+    "h019",
+    "h020"
+  ],
+  "sha256": "1692bb1d079b2373e33a25df0dc9f3e224edcbcd676b2665008511a03212511f",
+  "status": "new_synthetic_holdout_draft_frozen_before_first_model_run",
+  "synthetic": true,
+  "author": "AI_assisted_new_draft",
+  "label_review_status": "team_human_review_pending",
+  "model_under_test_called_on_this_file": false,
+  "prompt_tuning_used_this_file": false,
+  "frozen_v2_instructions_sha256": "8044b7c8d55019191f1cce7410342823fce605c915180e8caa32cf670f618491",
+  "frozen_v2_model": "gpt-6-luna",
+  "frozen_v2_reasoning_effort": "none",
+  "frozen_v2_temperature": 0,
+  "primary_type_counts": {
+    "single": 10,
+    "neutral": 3,
+    "multi_mixed": 3,
+    "irony": 2,
+    "meta": 2
+  },
+  "annotated_items": 22,
+  "checks": {
+    "unique_ids": true,
+    "no_normalized_exact_text_duplicates_with_known_sets": true,
+    "no_whole_review_in_fewshot": true,
+    "character_similarity_threshold": 0.8
+  },
+  "similarity_audit": [
+    {
+      "id": "h001",
+      "nearest_source_id": "smoke05",
+      "normalized_character_similarity": 0.2154
+    },
+    {
+      "id": "h002",
+      "nearest_source_id": "m02",
+      "normalized_character_similarity": 0.2295
+    },
+    {
+      "id": "h003",
+      "nearest_source_id": "r003",
+      "normalized_character_similarity": 0.2333
+    },
+    {
+      "id": "h004",
+      "nearest_source_id": "r018",
+      "normalized_character_similarity": 0.2432
+    },
+    {
+      "id": "h005",
+      "nearest_source_id": "m09",
+      "normalized_character_similarity": 0.2769
+    },
+    {
+      "id": "h006",
+      "nearest_source_id": "smoke01",
+      "normalized_character_similarity": 0.2045
+    },
+    {
+      "id": "h007",
+      "nearest_source_id": "smoke01",
+      "normalized_character_similarity": 0.2857
+    },
+    {
+      "id": "h008",
+      "nearest_source_id": "smoke04",
+      "normalized_character_similarity": 0.2615
+    },
+    {
+      "id": "h009",
+      "nearest_source_id": "c14",
+      "normalized_character_similarity": 0.1846
+    },
+    {
+      "id": "h010",
+      "nearest_source_id": "r007",
+      "normalized_character_similarity": 0.3774
+    },
+    {
+      "id": "h011",
+      "nearest_source_id": "r023",
+      "normalized_character_similarity": 0.186
+    },
+    {
+      "id": "h012",
+      "nearest_source_id": "m09",
+      "normalized_character_similarity": 0.3333
+    },
+    {
+      "id": "h013",
+      "nearest_source_id": "m09",
+      "normalized_character_similarity": 0.2571
+    },
+    {
+      "id": "h014",
+      "nearest_source_id": "smoke04",
+      "normalized_character_similarity": 0.2759
+    },
+    {
+      "id": "h015",
+      "nearest_source_id": "r001",
+      "normalized_character_similarity": 0.2895
+    },
+    {
+      "id": "h016",
+      "nearest_source_id": "smoke03",
+      "normalized_character_similarity": 0.2474
+    },
+    {
+      "id": "h017",
+      "nearest_source_id": "r023",
+      "normalized_character_similarity": 0.2083
+    },
+    {
+      "id": "h018",
+      "nearest_source_id": "c13",
+      "normalized_character_similarity": 0.225
+    },
+    {
+      "id": "h019",
+      "nearest_source_id": "r017",
+      "normalized_character_similarity": 0.2128
+    },
+    {
+      "id": "h020",
+      "nearest_source_id": "r002",
+      "normalized_character_similarity": 0.2083
+    }
+  ],
+  "limits": [
+    "AI-authored labels need independent human review before first scoring.",
+    "Character similarity checks do not establish semantic independence.",
+    "First scoring must not be preceded by prompt edits using these rows.",
+    "After using results for tuning, distinguish further runs from the first unseen evaluation."
+  ]
+}

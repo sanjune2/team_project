@@ -1,0 +1,77 @@
+{
+  "count": 10,
+  "source_filename": "reviews_최동렬_v31_draft.jsonl",
+  "source_sha256": "9b113e07f7e06cbd49ca4335d21182f223e9e01dbc2071e711a829ad06107e36",
+  "candidate_sha256": "effc63b9f3e79f6357958cb938acb1ffeb6fb399a24ac98be36b85f08a2a2d45",
+  "ids": [
+    "r014",
+    "r015",
+    "r016",
+    "r017",
+    "r018",
+    "r019",
+    "r020",
+    "r027",
+    "r028",
+    "r029"
+  ],
+  "line_endings": "LF normalized; JSON fields and source file preserved",
+  "synthetic": true,
+  "label_review_status": "AI_assisted_draft_team_review_pending",
+  "previously_used_for_local_experiments": true,
+  "strict_unseen_holdout": false,
+  "canonical_test_set_changed": false,
+  "duplicate_id_with_test45": false,
+  "duplicate_exact_text_with_test45": false,
+  "exposure_evidence": [
+    {
+      "local_evidence_file": "experiments/qwen35_4b_baseline/predictions.json",
+      "used_ids": [
+        "r014",
+        "r015",
+        "r016",
+        "r017",
+        "r018",
+        "r019",
+        "r020",
+        "r027",
+        "r028",
+        "r029"
+      ],
+      "sha256": "955faae8b8cffbc8eae7efbf7e7844213f45ce66e3a07d3ba94fb883d4c88948"
+    },
+    {
+      "local_evidence_file": "experiments/notion_alignment/single_predictions.json",
+      "used_ids": [
+        "r014",
+        "r015",
+        "r016",
+        "r017",
+        "r018",
+        "r019",
+        "r020",
+        "r027",
+        "r028",
+        "r029"
+      ],
+      "sha256": "e4ad1956889e951944c77de1d9fbc8750b9e345613cec0f1711ed3c00f4dbe89"
+    },
+    {
+      "local_evidence_file": "experiments/notion_alignment/two_stage_developer_response.json",
+      "used_ids": [
+        "r014",
+        "r015",
+        "r016",
+        "r017",
+        "r018",
+        "r019",
+        "r020",
+        "r027",
+        "r028",
+        "r029"
+      ],
+      "sha256": "238d8763712a1cbb656bb66a7d18a82cd39c5809d5c719a08afa28d650444d89"
+    }
+  ],
+  "metadata_note": "r028 primary_type=ambiguous is preserved from the source; canonical primary_type normalization requires review."
+}
