@@ -1,6 +1,6 @@
-import CategoryChart from "./components/CategoryChart.jsx";
 import { useEffect, useState } from "react";
 import { analyzeReviews, fetchCategories } from "./api/client.js";
+import CategoryChart from "./components/CategoryChart.jsx";
 import ReviewCard from "./components/ReviewCard.jsx";
 
 const SAMPLE = `설명은 좋은데 시험 문제가 수업에서 안 다룬 내용 같아요.
@@ -31,6 +31,7 @@ export default function App() {
   const [loading, setLoading] = useState(false);
   const [error, setError] = useState("");
   const [pending, setPending] = useState(0);
+  const [selected, setSelected] = useState(null); // 차트에서 고른 항목 코드
 
   useEffect(() => {
     fetchCategories()
@@ -46,6 +47,7 @@ export default function App() {
       return;
     }
     setPending(reviews.length);
+    setSelected(null); // 새로 분석하면 필터 해제
     setLoading(true);
     setError("");
     try {
@@ -60,6 +62,12 @@ export default function App() {
   }
 
   const textById = Object.fromEntries(submitted.map((r) => [r.id, r.text]));
+
+  // 차트에서 항목을 고르면 그 항목이 들어간 리뷰만 보여 줌
+  const visibleReviews = result
+    ? result.reviews.filter((r) => !selected || r.items.some((i) => i.category === selected))
+    : [];
+  const toggleCategory = (code) => setSelected((cur) => (cur === code ? null : code));
 
   return (
     <main>
@@ -82,8 +90,19 @@ export default function App() {
             {result.meta.total_reviews}개 중 {result.meta.succeeded}개 분석 완료
             {result.meta.failed > 0 && ` · ${result.meta.failed}개 실패`} · 모델 {result.meta.model}
           </p>
-          <CategoryChart summary={result.summary_by_category} labels={labels} />
-          {result.reviews.map((review) => (
+          <CategoryChart
+            summary={result.summary_by_category}
+            labels={labels}
+            selected={selected}
+            onSelect={toggleCategory}
+          />
+          {selected && (
+            <p className="filter">
+              <strong>{labels[selected] ?? selected}</strong> 언급 리뷰 {visibleReviews.length}개만 보는 중
+              <button className="link" onClick={() => setSelected(null)}>전체 보기</button>
+            </p>
+          )}
+          {visibleReviews.map((review) => (
             <ReviewCard
               key={review.review_id}
               review={review}
