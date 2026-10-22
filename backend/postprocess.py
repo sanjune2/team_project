@@ -81,19 +81,79 @@ def failed_result(review: ReviewInput, reason: str) -> ReviewResult:
 
 
 def summarize_by_category(results: list[ReviewResult]) -> list[CategorySummary]:
-    """항목별 감성 '리뷰 수' 집계.
+    """항목별 집계 (mentioned, ratios, counts, top_pros, top_cons 계산)."""
+    # 실패한 리뷰는 집계에서 제외
+    successful_results = [r for r in results if r.status == ReviewStatus.OK]
 
-    같은 리뷰에서 같은 항목·같은 감성이 여러 번 나와도 1로 세고,
-    같은 항목에 긍정·부정이 둘 다 있으면 양쪽에 1씩 더한다.
-    """
+    cat_mentioned = defaultdict(set)
     counts: dict[Category, SentimentCounts] = defaultdict(SentimentCounts)
-    for result in results:
-        seen = {(item.category, item.sentiment) for item in result.items}
-        for category, sentiment in seen:
+    cat_pros = defaultdict(list)
+    cat_cons = defaultdict(list)
+
+    for result in successful_results:
+        review_id = result.review_id
+        # 언급된 리뷰 수 계산을 위해 해당 리뷰에서 등장한 카테고리 기록 (리뷰당 1회)
+        mentioned_categories_in_review = {item.category for item in result.items}
+        for cat in mentioned_categories_in_review:
+            cat_mentioned[cat].add(review_id)
+
+        # 같은 리뷰에서 같은 항목·같은 감성이 여러 번 나와도 1로 세기
+        seen_sentiment = {(item.category, item.sentiment) for item in result.items}
+        for category, sentiment in seen_sentiment:
             c = counts[category]
             setattr(c, sentiment.value, getattr(c, sentiment.value) + 1)
-    return [
-        CategorySummary(category=category, counts=counts[category])
-        for category in Category
-        if category in counts
-    ]
+
+        # top_pros / top_cons 수집을 위한 데이터 (summary, evidence_verified, keyword_count)
+        for item in result.items:
+            if item.summary:
+                item_info = (item.summary, item.evidence_verified, len(item.keywords))
+                if item.sentiment == Sentiment.POSITIVE:
+                    cat_pros[item.category].append(item_info)
+                elif item.sentiment == Sentiment.NEGATIVE:
+                    cat_cons[item.category].append(item_info)
+
+    summaries = []
+    for category in Category:
+        if category not in counts:
+            continue
+
+        c = counts[category]
+        total_sentiments = c.positive + c.negative + c.neutral
+
+        # 비율 계산 (분모: 해당 항목의 감성 건수 합계, 합 100%)
+        ratios = {
+            "positive": round((c.positive / total_sentiments * 100), 1)
+            if total_sentiments > 0
+            else 0.0,
+            "negative": round((c.negative / total_sentiments * 100), 1)
+            if total_sentiments > 0
+            else 0.0,
+            "neutral": round((c.neutral / total_sentiments * 100), 1)
+            if total_sentiments > 0
+            else 0.0,
+        }
+
+        # top_pros / top_cons 정렬 및 중복 제거 (evidence_verified=True 우선, 키워드 많은 순, 최대 3개)
+        def get_top_items(items_list):
+            sorted_items = sorted(items_list, key=lambda x: (x[1], x[2]), reverse=True)
+            unique = []
+            seen = set()
+            for summary, _, _ in sorted_items:
+                if summary not in seen:
+                    seen.add(summary)
+                    unique.append(summary)
+                if len(unique) == 3:
+                    break
+            return unique
+
+        summaries.append(
+            CategorySummary(
+                category=category,
+                mentioned=len(cat_mentioned[category]),
+                counts=c,
+                ratios=ratios,
+                top_pros=get_top_items(cat_pros[category]),
+                top_cons=get_top_items(cat_cons[category]),
+            )
+        )
+    return summaries
