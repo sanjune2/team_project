@@ -220,6 +220,8 @@ __marimo__/
 .streamlit/secrets.toml
 
 # Team project additions
+.runtime/
+*.local.json
 node_modules/
 .next/
 .vite/
