@@ -1,5 +1,6 @@
 import { useEffect, useState } from "react";
 import { analyzeReviews, fetchCategories } from "./api/client.js";
+import CategoryChart from "./components/CategoryChart.jsx";
 import ReviewCard from "./components/ReviewCard.jsx";
 
 const SAMPLE = `설명은 좋은데 시험 문제가 수업에서 안 다룬 내용 같아요.
@@ -29,6 +30,8 @@ export default function App() {
   const [submitted, setSubmitted] = useState([]);
   const [loading, setLoading] = useState(false);
   const [error, setError] = useState("");
+  const [pending, setPending] = useState(0);
+  const [selected, setSelected] = useState(null); // 차트에서 고른 항목 코드
 
   useEffect(() => {
     fetchCategories()
@@ -39,6 +42,12 @@ export default function App() {
   async function handleAnalyze() {
     const reviews = toReviews(input, semester);
     if (reviews.length === 0) return;
+    if (reviews.length > 50) {
+      setError(`리뷰는 한 번에 50개까지 분석할 수 있어요. (현재 ${reviews.length}개)`);
+      return;
+    }
+    setPending(reviews.length);
+    setSelected(null); // 새로 분석하면 필터 해제
     setLoading(true);
     setError("");
     try {
@@ -54,6 +63,12 @@ export default function App() {
 
   const textById = Object.fromEntries(submitted.map((r) => [r.id, r.text]));
 
+  // 차트에서 항목을 고르면 그 항목이 들어간 리뷰만 보여 줌
+  const visibleReviews = result
+    ? result.reviews.filter((r) => !selected || r.items.some((i) => i.category === selected))
+    : [];
+  const toggleCategory = (code) => setSelected((cur) => (cur === code ? null : code));
+
   return (
     <main>
       <h1>강의평 분석</h1>
@@ -64,9 +79,10 @@ export default function App() {
       <p className="hint">한 줄에 리뷰 하나씩 입력하세요. (최대 50개)</p>
       <textarea value={input} onChange={(e) => setInput(e.target.value)} rows={7} />
       <button onClick={handleAnalyze} disabled={loading}>
-        {loading ? "분석 중…" : "분석하기"}
+        {loading ? `${pending}개 분석 중…` : "분석하기"}
       </button>
-      {error && <p className="error">{error}</p>}
+      {loading && <p className="hint">리뷰가 많으면 수십 초 걸릴 수 있어요.</p>}
+      {error && <p className="error" role="alert">{error}</p>}
 
       {result && (
         <>
@@ -74,7 +90,19 @@ export default function App() {
             {result.meta.total_reviews}개 중 {result.meta.succeeded}개 분석 완료
             {result.meta.failed > 0 && ` · ${result.meta.failed}개 실패`} · 모델 {result.meta.model}
           </p>
-          {result.reviews.map((review) => (
+          <CategoryChart
+            summary={result.summary_by_category}
+            labels={labels}
+            selected={selected}
+            onSelect={toggleCategory}
+          />
+          {selected && (
+            <p className="filter">
+              <strong>{labels[selected] ?? selected}</strong> 언급 리뷰 {visibleReviews.length}개만 보는 중
+              <button className="link" onClick={() => setSelected(null)}>전체 보기</button>
+            </p>
+          )}
+          {visibleReviews.map((review) => (
             <ReviewCard
               key={review.review_id}
               review={review}

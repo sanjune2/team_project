@@ -85,3 +85,9 @@ mark.hl.neutral { background: var(--neu-bg); }
 table { width: 100%; border-collapse: collapse; font-size: 14px; }
 th, td { text-align: left; padding: 8px 6px; border-top: 1px solid var(--line); vertical-align: top; }
 th { color: var(--muted); font-weight: 600; font-size: 12px; }
+
+.chart { background: var(--card); border: 1px solid var(--line); border-radius: 12px; padding: 16px; margin: 16px 0; }
+.chart h2 { font-size: 15px; margin: 0 0 8px; }
+.chart-tip { background: var(--card); border: 1px solid var(--line); border-radius: 8px; padding: 8px 12px; font-size: 13px; display: grid; gap: 2px; }
+.filter { display: flex; align-items: center; gap: 8px; font-size: 13px; margin: 8px 0 0; }
+button.link { margin: 0; padding: 0; background: none; color: var(--muted); font-weight: 400; text-decoration: underline; }
