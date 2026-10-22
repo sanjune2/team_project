@@ -1,3 +1,4 @@
+import CategoryChart from "./components/CategoryChart.jsx";
 import { useEffect, useState } from "react";
 import { analyzeReviews, fetchCategories } from "./api/client.js";
 import ReviewCard from "./components/ReviewCard.jsx";
@@ -29,6 +30,7 @@ export default function App() {
   const [submitted, setSubmitted] = useState([]);
   const [loading, setLoading] = useState(false);
   const [error, setError] = useState("");
+  const [pending, setPending] = useState(0);
 
   useEffect(() => {
     fetchCategories()
@@ -39,6 +41,11 @@ export default function App() {
   async function handleAnalyze() {
     const reviews = toReviews(input, semester);
     if (reviews.length === 0) return;
+    if (reviews.length > 50) {
+      setError(`리뷰는 한 번에 50개까지 분석할 수 있어요. (현재 ${reviews.length}개)`);
+      return;
+    }
+    setPending(reviews.length);
     setLoading(true);
     setError("");
     try {
@@ -64,9 +71,10 @@ export default function App() {
       <p className="hint">한 줄에 리뷰 하나씩 입력하세요. (최대 50개)</p>
       <textarea value={input} onChange={(e) => setInput(e.target.value)} rows={7} />
       <button onClick={handleAnalyze} disabled={loading}>
-        {loading ? "분석 중…" : "분석하기"}
+        {loading ? `${pending}개 분석 중…` : "분석하기"}
       </button>
-      {error && <p className="error">{error}</p>}
+      {loading && <p className="hint">리뷰가 많으면 수십 초 걸릴 수 있어요.</p>}
+      {error && <p className="error" role="alert">{error}</p>}
 
       {result && (
         <>
@@ -74,6 +82,7 @@ export default function App() {
             {result.meta.total_reviews}개 중 {result.meta.succeeded}개 분석 완료
             {result.meta.failed > 0 && ` · ${result.meta.failed}개 실패`} · 모델 {result.meta.model}
           </p>
+          <CategoryChart summary={result.summary_by_category} labels={labels} />
           {result.reviews.map((review) => (
             <ReviewCard
               key={review.review_id}
