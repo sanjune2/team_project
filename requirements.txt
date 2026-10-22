@@ -1,4 +1,4 @@
-# LLM 분석에서 검증한 openai/pydantic 버전을 고정합니다.
+# Pinned versions verified by the LLM analysis module (openai, pydantic).
 fastapi
 uvicorn[standard]
 pydantic==2.14.1
