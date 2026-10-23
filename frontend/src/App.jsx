@@ -94,6 +94,7 @@ export default function App() {
           <CategoryChart
             summary={result.summary_by_category}
             labels={labels}
+            succeeded={result.meta.succeeded}
             selected={selected}
             onSelect={toggleCategory}
           />

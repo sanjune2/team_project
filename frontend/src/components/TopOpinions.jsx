@@ -8,7 +8,7 @@ export default function TopOpinions({ summary, labels, selected, onSelect }) {
       ...row,
       total: row.counts.positive + row.counts.negative + row.counts.neutral,
     }))
-    .sort((a, b) => b.total - a.total); // 차트와 같은 순서 (언급 많은 항목 먼저)
+    .sort((a, b) => (b.mentioned ?? b.total) - (a.mentioned ?? a.total) || b.total - a.total); // 차트와 같은 순서
 
   if (rows.length === 0) return null;
 
