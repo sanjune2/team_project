@@ -3,6 +3,7 @@
 실행 (저장소 루트에서): uvicorn backend.main:app --reload --port 8000
 """
 
+import asyncio
 import os
 from datetime import datetime, timezone
 
@@ -28,6 +29,9 @@ from backend.schemas import (
 load_dotenv()
 USE_MOCK = os.getenv("USE_MOCK", "true").lower() == "true"
 MODEL_NAME = "mock" if USE_MOCK else os.getenv("OPENAI_MODEL", "unknown")
+
+# 동시 실행 수를 5개로 제한하는 세마포어 생성
+SEMAPHORE = asyncio.Semaphore(10)
 
 app = FastAPI(title="Lecture Review Analysis API")
 
@@ -58,12 +62,20 @@ def call_llm(text: str) -> LLMReviewOutput:
     parsed = analyze_review(text)
     return LLMReviewOutput.model_validate(parsed.model_dump())
 
-def analyze_one(review: ReviewInput) -> ReviewResult:
-    try:
-        output = mock_analyze(review.text) if USE_MOCK else call_llm(review.text)
-        return build_result(review, output)
-    except Exception as e:  # 리뷰 하나가 실패해도 나머지는 계속 처리
-        return failed_result(review, str(e))
+
+async def analyze_one(review: ReviewInput) -> ReviewResult:
+    """개별 리뷰 분석 (세마포어를 통해 동시 실행 수 5개 제한)."""
+    async with SEMAPHORE:
+        try:
+            # call_llm이 블로킹 I/O일 경우를 위해 run_in_executor로 스레드 풀에서 실행
+            loop = asyncio.get_running_loop()
+            if USE_MOCK:
+                output = mock_analyze(review.text)
+            else:
+                output = await loop.run_in_executor(None, call_llm, review.text)
+            return build_result(review, output)
+        except Exception as e:  # 리뷰 하나가 실패해도 나머지는 계속 처리
+            return failed_result(review, str(e))
 
 
 @app.get("/api/health")
@@ -77,8 +89,11 @@ def categories():
 
 
 @app.post("/api/analyze", response_model=AnalyzeResponse)
-def analyze(request: AnalyzeRequest):
-    results = [analyze_one(r) for r in request.reviews]
+async def analyze(request: AnalyzeRequest):
+    # 입력된 리뷰 순서대로 태스크 생성 후 동시 실행 (순서 보장됨)
+    tasks = [analyze_one(r) for r in request.reviews]
+    results = await asyncio.gather(*tasks)
+
     succeeded = sum(r.status == ReviewStatus.OK for r in results)
     return AnalyzeResponse(
         reviews=results,

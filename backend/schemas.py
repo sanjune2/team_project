@@ -132,7 +132,7 @@ class SentimentCounts(BaseModel):
 
 class CategorySummary(BaseModel):
     category: Category
-    mentioned: int = 0  # <--- 이 줄을 추가해주세요
+    mentioned: int = 0
     counts: SentimentCounts
     ratios: dict[str, float] = Field(default_factory=dict)  # <--- 이 줄을 추가해주세요
     top_pros: list[str] = Field(default_factory=list, description="21일 이후 구현")
