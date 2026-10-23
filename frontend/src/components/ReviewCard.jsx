@@ -1,6 +1,11 @@
 import HighlightedText from "./HighlightedText.jsx";
 import { SENTIMENT_LABEL } from "../constants.js";
 
+// 실패 사유 원문(서버·OpenAI 오류 문구)은 화면에 그대로 보여 주지 않음
+function failMessage(error) {
+  if (error?.includes("제한 시간")) return "응답이 늦어져 이 리뷰는 분석하지 못했어요. 다시 분석해 주세요.";
+  return "이 리뷰는 분석하지 못했어요. 잠시 후 다시 분석해 주세요.";
+}
 export default function ReviewCard({ review, text, labels }) {
   if (review.status === "failed") {
     return (
@@ -10,7 +15,7 @@ export default function ReviewCard({ review, text, labels }) {
           <span className="badge failed">분석 실패</span>
         </header>
         <p className="original">{text}</p>
-        <p className="note">사유: {review.error}</p>
+        <p className="note">{failMessage(review.error)}</p>
       </article>
     );
   }

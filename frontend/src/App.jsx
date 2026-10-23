@@ -10,6 +10,9 @@ const SAMPLE = `설명은 좋은데 시험 문제가 수업에서 안 다룬 내
 #empty 학식 맛있음
 #fail 테스트`;
 
+const MAX_REVIEWS = 50; // 백엔드 AnalyzeRequest 제한과 같음
+const MAX_LENGTH = 3000; // 백엔드 ReviewInput.text 제한과 같음
+
 // 한 줄 = 리뷰 하나
 function toReviews(input, semester) {
   return input
@@ -43,8 +46,16 @@ export default function App() {
   async function handleAnalyze() {
     const reviews = toReviews(input, semester);
     if (reviews.length === 0) return;
-    if (reviews.length > 50) {
-      setError(`리뷰는 한 번에 50개까지 분석할 수 있어요. (현재 ${reviews.length}개)`);
+    if (reviews.length > MAX_REVIEWS) {
+      setError(`리뷰는 한 번에 ${MAX_REVIEWS}개까지 분석할 수 있어요. (현재 ${reviews.length}개)`);
+      return;
+    }
+    // 서버로 보내기 전에 길이 확인 (서버 422의 일반 문구 대신 몇 번째인지 알려 줌)
+    const tooLong = reviews.map((r, i) => (r.text.length > MAX_LENGTH ? i + 1 : null)).filter(Boolean);
+    if (tooLong.length > 0) {
+      const shown = tooLong.slice(0, 3).join(", ");
+      const more = tooLong.length > 3 ? ` 외 ${tooLong.length - 3}개` : "";
+      setError(`${shown}번째${more} 리뷰가 너무 길어요. 한 리뷰는 ${MAX_LENGTH.toLocaleString()}자까지 분석할 수 있어요.`);
       return;
     }
     setPending(reviews.length);
@@ -62,6 +73,7 @@ export default function App() {
     }
   }
 
+  const reviewCount = toReviews(input, semester).length;
   const textById = Object.fromEntries(submitted.map((r) => [r.id, r.text]));
 
   // 차트에서 항목을 고르면 그 항목이 들어간 리뷰만 보여 줌
@@ -77,12 +89,13 @@ export default function App() {
         수강 학기 (선택)
         <input value={semester} onChange={(e) => setSemester(e.target.value)} placeholder="예: 25-2" />
       </label>
-      <p className="hint">한 줄에 리뷰 하나씩 입력하세요. (최대 50개)</p>
+      <p className="hint">한 줄에 리뷰 하나씩 입력하세요. (최대 {MAX_REVIEWS}개, 현재 {reviewCount}개)</p>
       <textarea value={input} onChange={(e) => setInput(e.target.value)} rows={7} />
-      <button onClick={handleAnalyze} disabled={loading}>
+      <button onClick={handleAnalyze} disabled={loading || reviewCount === 0}>
         {loading ? `${pending}개 분석 중…` : "분석하기"}
       </button>
       {loading && <p className="hint">리뷰가 많으면 수십 초 걸릴 수 있어요.</p>}
+      {!loading && reviewCount === 0 && <p className="hint">분석할 리뷰를 한 줄 이상 입력해 주세요.</p>}
       {error && <p className="error" role="alert">{error}</p>}
 
       {result && (
