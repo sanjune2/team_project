@@ -28,7 +28,7 @@ FastAPI 기반의 `/api/analyze` 엔드포인트를 통해 리뷰 텍스트를 �
 {
   "reviews": [
     {
-      "id": 101,
+      "review_id": 101,
       "text": "강의 내용은 너무 좋은데 마이크 소리가 잘 안 들려요.",
       "semester": "25-2"
     }
