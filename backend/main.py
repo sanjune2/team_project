@@ -30,11 +30,8 @@ load_dotenv()
 USE_MOCK = os.getenv("USE_MOCK", "true").lower() == "true"
 MODEL_NAME = "mock" if USE_MOCK else os.getenv("OPENAI_MODEL", "unknown")
 
-<<<<<<< HEAD
+
 # 동시 실행 수를 10개로 제한하는 세마포어 생성
-=======
-# 동시 실행 수를 5개로 제한하는 세마포어 생성
->>>>>>> f089d38 (feat: 백엔드 API 비동기 병렬 처리(Semaphore 10), 예외 처리 검증 및 API 명세서 정돈)
 SEMAPHORE = asyncio.Semaphore(10)
 
 app = FastAPI(title="Lecture Review Analysis API")
