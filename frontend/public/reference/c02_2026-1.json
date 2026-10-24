@@ -1,0 +1,639 @@
+{
+  "reviews": [
+    {
+      "review_id": "c02-2026-1-r01",
+      "semester": "2026-1",
+      "status": "ok",
+      "overall_sentiment": "positive",
+      "items": [
+        {
+          "category": "learning",
+          "sentiment": "positive",
+          "summary": "반복 작업을 줄이는 데 도움이 되었다는 의견",
+          "evidence": "파프 듣고 반복작업 줄였음",
+          "keywords": [
+            "반복 작업"
+          ],
+          "condition": null,
+          "mentions_change": false,
+          "evidence_match": "exact",
+          "evidence_verified": true
+        },
+        {
+          "category": "delivery",
+          "sentiment": "positive",
+          "summary": "실습 위주로 진행되어 좋다는 의견",
+          "evidence": "실습 위주라 좋다",
+          "keywords": [
+            "실습"
+          ],
+          "condition": null,
+          "mentions_change": false,
+          "evidence_match": "exact",
+          "evidence_verified": true
+        }
+      ],
+      "error": null,
+      "text": "파프 듣고 반복작업 줄였음.. 실습 위주라 좋다"
+    },
+    {
+      "review_id": "c02-2026-1-r02",
+      "semester": "2026-1",
+      "status": "ok",
+      "overall_sentiment": null,
+      "items": [],
+      "error": null,
+      "text": "필통 새로 샀는데 지퍼 소리만 계속 듣는 중."
+    },
+    {
+      "review_id": "c02-2026-1-r03",
+      "semester": "2026-1",
+      "status": "ok",
+      "overall_sentiment": "negative",
+      "items": [
+        {
+          "category": "professor",
+          "sentiment": "negative",
+          "summary": "질문에 이미 설명한 내용이라고 답해 질문하기 어렵다는 의견 / 처음 배우는 학생을 기다려 주었으면 한다는 의견",
+          "evidence": "물어보면 이건 이미 설명했다고 하셔서 그 뒤로는 검색창한테만 물어봄",
+          "keywords": [
+            "질문 응대",
+            "초보자 배려"
+          ],
+          "condition": null,
+          "mentions_change": false,
+          "evidence_match": "exact",
+          "evidence_verified": true
+        }
+      ],
+      "error": null,
+      "text": "질문하기 정말 편한 분위기예요^^ 물어보면 이건 이미 설명했다고 하셔서 그 뒤로는 검색창한테만 물어봄.. 처음 배우는 사람도 좀 기다려 주셨으면."
+    },
+    {
+      "review_id": "c02-2026-1-r04",
+      "semester": "2026-1",
+      "status": "ok",
+      "overall_sentiment": "negative",
+      "items": [
+        {
+          "category": "exam",
+          "sentiment": "negative",
+          "summary": "기말 시험 시간이 짧아 문제를 다 풀기 어렵다는 의견 / 파일 처리 문제를 시작하지 못했다는 의견 / 과제에서 작동하던 코드가 시험에서는 작동하지 않았다는 의견",
+          "evidence": "기말 시간 왜케 짧음.. 문제 읽다가 반은 간듯.",
+          "keywords": [
+            "기말 시험",
+            "시험 시간",
+            "파일 처리 문제"
+          ],
+          "condition": null,
+          "mentions_change": false,
+          "evidence_match": "exact",
+          "evidence_verified": true
+        }
+      ],
+      "error": null,
+      "text": "기말 시간 왜케 짧음.. 문제 읽다가 반은 간듯. 뒤에 파일 처리 문제는 시작도 못 해서 개빡쳤음. 과제할 땐 돌아가던 코드가 시험만 가면 안 됨 ㅋㅋ"
+    },
+    {
+      "review_id": "c02-2026-1-r05",
+      "semester": "2026-1",
+      "status": "ok",
+      "overall_sentiment": "positive",
+      "items": [
+        {
+          "category": "workload",
+          "sentiment": "neutral",
+          "summary": "과제와 짧은 퀴즈가 있고 중간·기말 시험을 본다는 의견",
+          "evidence": "과제 8번에 짧은 퀴즈 3번, 중간기말 있습니다.",
+          "keywords": [
+            "과제",
+            "퀴즈",
+            "중간·기말"
+          ],
+          "condition": null,
+          "mentions_change": false,
+          "evidence_match": "exact",
+          "evidence_verified": true
+        },
+        {
+          "category": "grade",
+          "sentiment": "positive",
+          "summary": "A0 성적에 만족한다는 의견",
+          "evidence": "성적은 만족하고",
+          "keywords": [
+            "A0"
+          ],
+          "condition": null,
+          "mentions_change": false,
+          "evidence_match": "exact",
+          "evidence_verified": true
+        },
+        {
+          "category": "learning",
+          "sentiment": "positive",
+          "summary": "실습 예제를 다시 풀어본 것이 도움이 되었다는 의견",
+          "evidence": "실습 예제를 다시 풀어본 게 도움됐습니다.",
+          "keywords": [
+            "실습 예제"
+          ],
+          "condition": null,
+          "mentions_change": false,
+          "evidence_match": "exact",
+          "evidence_verified": true
+        }
+      ],
+      "error": null,
+      "text": "과제 8번에 짧은 퀴즈 3번, 중간기말 있습니다. 과제 출석 만점에 중간 79 기말 83으로 A0 받았어요. 성적은 만족하고, 실습 예제를 다시 풀어본 게 도움됐습니다."
+    },
+    {
+      "review_id": "c02-2026-1-r06",
+      "semester": "2026-1",
+      "status": "ok",
+      "overall_sentiment": "mixed",
+      "items": [
+        {
+          "category": "delivery",
+          "sentiment": "negative",
+          "summary": "진도가 빠르고 실습 중 설명을 놓치기 쉽다는 의견 / 기초가 부족한 학생은 수업 전에 준비 시간이 필요하다는 의견",
+          "evidence": "파프 진도가 꽤 빨라요. 실습 때 교수님 화면을 따라 치느라 설명을 놓치는 날이 많아서",
+          "keywords": [
+            "빠른 진도",
+            "실습",
+            "기초 문법"
+          ],
+          "condition": "기초가 부족하면",
+          "mentions_change": false,
+          "evidence_match": "exact",
+          "evidence_verified": true
+        },
+        {
+          "category": "workload",
+          "sentiment": "positive",
+          "summary": "수업 전에 예제 코드를 읽어 준비하면 실습을 따라가는 데 도움이 된다는 의견",
+          "evidence": "수업 전에 예제 코드를 미리 받아 읽었습니다. 그렇게 준비하니까",
+          "keywords": [
+            "예제 코드",
+            "수업 준비"
+          ],
+          "condition": "수업 전에 예제 코드를 미리 읽어 준비하면",
+          "mentions_change": false,
+          "evidence_match": "exact",
+          "evidence_verified": true
+        },
+        {
+          "category": "delivery",
+          "sentiment": "positive",
+          "summary": "코드의 값을 바꿔 결과를 확인하는 실습이 재미있다는 의견",
+          "evidence": "같은 코드에서 값을 바꿨을 때 결과가 달라지는 게 보여서 재미는 있었어요.",
+          "keywords": [
+            "코드 실습"
+          ],
+          "condition": null,
+          "mentions_change": false,
+          "evidence_match": "exact",
+          "evidence_verified": true
+        },
+        {
+          "category": "exam",
+          "sentiment": "negative",
+          "summary": "시험이 시간 싸움이라 아쉽다는 의견",
+          "evidence": "시험은 여전히 시간 싸움이라 아쉬웠고요.",
+          "keywords": [
+            "시험 시간"
+          ],
+          "condition": null,
+          "mentions_change": false,
+          "evidence_match": "exact",
+          "evidence_verified": true
+        },
+        {
+          "category": "professor",
+          "sentiment": "positive",
+          "summary": "에러를 보여 주고 구체적으로 질문하면 차분하게 함께 해결해 준다는 의견",
+          "evidence": "수업 끝나고 에러 화면을 보여 드렸을 때는 차분하게 같이 찾아 주셨습니다.",
+          "keywords": [
+            "질문 응대",
+            "에러 해결"
+          ],
+          "condition": "에러 화면을 보여 드렸을 때",
+          "mentions_change": false,
+          "evidence_match": "exact",
+          "evidence_verified": true
+        },
+        {
+          "category": "learning",
+          "sentiment": "positive",
+          "summary": "기본 문법이 있으면 실습 경험을 쌓기 괜찮다는 의견",
+          "evidence": "기본 문법이 있으면 실습 경험을 쌓기 괜찮은 과목입니다.",
+          "keywords": [
+            "실습 경험",
+            "기본 문법"
+          ],
+          "condition": "기본 문법이 있으면",
+          "mentions_change": false,
+          "evidence_match": "exact",
+          "evidence_verified": true
+        }
+      ],
+      "error": null,
+      "text": "저는 문법책 앞부분만 보고 들어갔는데 파프 진도가 꽤 빨라요. 실습 때 교수님 화면을 따라 치느라 설명을 놓치는 날이 많아서 수업 전에 예제 코드를 미리 받아 읽었습니다. 그렇게 준비하니까 같은 코드에서 값을 바꿨을 때 결과가 달라지는 게 보여서 재미는 있었어요. 시험은 여전히 시간 싸움이라 아쉬웠고요. 수업 끝나고 에러 화면을 보여 드렸을 때는 차분하게 같이 찾아 주셨습니다. 혼자 막연하게 모르겠다고 할 때랑 구체적으로 물어볼 때 반응 차이가 있는 것 같아요.. 노베면 준비 시간이 필요하고 기본 문법이 있으면 실습 경험을 쌓기 괜찮은 과목입니다."
+    },
+    {
+      "review_id": "c02-2026-1-r07",
+      "semester": "2026-1",
+      "status": "ok",
+      "overall_sentiment": "mixed",
+      "items": [
+        {
+          "category": "workload",
+          "sentiment": "negative",
+          "summary": "실습이 많아 수업에 손이 많이 간다는 의견 / 기초가 없는 학생은 첫 몇 주 예습 시간을 확보해야 한다는 의견",
+          "evidence": "노베라면 첫 몇 주 예습 시간을 꼭 잡고",
+          "keywords": [
+            "실습",
+            "예습",
+            "기초 지식"
+          ],
+          "condition": "기초가 없는 학생",
+          "mentions_change": false,
+          "evidence_match": "exact",
+          "evidence_verified": true
+        },
+        {
+          "category": "learning",
+          "sentiment": "positive",
+          "summary": "자료 정리 작업을 직접 해 보고 다른 과목에도 활용했다는 의견 / 수업을 통해 코드를 보는 두려움이 줄었다는 의견",
+          "evidence": "파일 여러 개 읽고 원하는 줄만 남기는 작업을 직접 해 봐서 나중에 다른 과목 자료 정리할 때 써먹었습니다.",
+          "keywords": [
+            "자료 정리",
+            "실습",
+            "코드"
+          ],
+          "condition": null,
+          "mentions_change": false,
+          "evidence_match": "exact",
+          "evidence_verified": true
+        },
+        {
+          "category": "delivery",
+          "sentiment": "positive",
+          "summary": "코드 암기 위주가 아닌 수업 방식이 좋았다는 의견",
+          "evidence": "그냥 코드 외우는 수업은 아니어서 그 부분은 좋았습니다.",
+          "keywords": [
+            "코드 암기"
+          ],
+          "condition": null,
+          "mentions_change": false,
+          "evidence_match": "exact",
+          "evidence_verified": true
+        },
+        {
+          "category": "exam",
+          "sentiment": "negative",
+          "summary": "시험이 어렵고 제한 시간 안에 문제를 풀기 어렵다는 의견 / 시험에서 문제 풀이 시간이 부족했다는 의견",
+          "evidence": "저는 한 문제 오류 찾다가 시간을 써서 마지막 문제를 못 풀었고, 기말에도 시간이 남지는 않았습니다.",
+          "keywords": [
+            "시험 난이도",
+            "시간 부족"
+          ],
+          "condition": null,
+          "mentions_change": false,
+          "evidence_match": "exact",
+          "evidence_verified": true
+        },
+        {
+          "category": "professor",
+          "sentiment": "positive",
+          "summary": "정리해서 가져간 질문에는 친절하게 답해 준다는 의견",
+          "evidence": "정리해서 가져간 질문에는 친절하게 답해 주셨는데",
+          "keywords": [
+            "질문 응대"
+          ],
+          "condition": null,
+          "mentions_change": false,
+          "evidence_match": "exact",
+          "evidence_verified": true
+        },
+        {
+          "category": "professor",
+          "sentiment": "negative",
+          "summary": "수업 흐름을 끊는 질문에는 급하게 넘어가는 편이라는 의견",
+          "evidence": "수업 중에 흐름을 끊는 질문에는 급하게 넘어가는 편입니다.",
+          "keywords": [
+            "질문 응대"
+          ],
+          "condition": null,
+          "mentions_change": false,
+          "evidence_match": "exact",
+          "evidence_verified": true
+        },
+        {
+          "category": "delivery",
+          "sentiment": "negative",
+          "summary": "기초가 없는 학생에게 수업 중 질문 응대 방식이 부담스러울 수 있다는 의견",
+          "evidence": "기초가 없는 친구는 그 부분이 부담스럽다고 했어요.",
+          "keywords": [
+            "기초 지식",
+            "질문 응대"
+          ],
+          "condition": "기초가 없는 학생",
+          "mentions_change": false,
+          "evidence_match": "exact",
+          "evidence_verified": true
+        },
+        {
+          "category": "general_impression",
+          "sentiment": "positive",
+          "summary": "배울 의지가 있는 학생에게 추천한다는 의견",
+          "evidence": "총평은 배울 의지가 있으면 추천.",
+          "keywords": [
+            "추천"
+          ],
+          "condition": "배울 의지가 있는 학생",
+          "mentions_change": false,
+          "evidence_match": "exact",
+          "evidence_verified": true
+        },
+        {
+          "category": "general_impression",
+          "sentiment": "negative",
+          "summary": "출석만 채우며 학점을 따려는 학생에게는 다른 수업을 권한다는 의견",
+          "evidence": "그냥 출석만 채우면서 학점 따려는 거면 다른 수업을 알아보는 편이 나을 듯합니다.",
+          "keywords": [
+            "비추천"
+          ],
+          "condition": "출석만 채우며 학점을 따려는 학생",
+          "mentions_change": false,
+          "evidence_match": "exact",
+          "evidence_verified": true
+        }
+      ],
+      "error": null,
+      "text": "파프 별점 높길래 편한 수업인 줄 알았는데 생각보다 손이 많이 갑니다.. 그렇다고 별점 낮추려고 쓰는 글은 아니고 저처럼 착각하고 들어오는 사람 있을까 봐 적어요.\n1) 실습은 확실히 많음. 파일 여러 개 읽고 원하는 줄만 남기는 작업을 직접 해 봐서 나중에 다른 과목 자료 정리할 때 써먹었습니다. 그냥 코드 외우는 수업은 아니어서 그 부분은 좋았습니다.\n2) 시험은 어려움. 중간 때는 짧은 문제를 빨리 풀고 넘어가야 뒤에 긴 문제를 볼 수 있었어요. 저는 한 문제 오류 찾다가 시간을 써서 마지막 문제를 못 풀었고, 기말에도 시간이 남지는 않았습니다. 실습을 이해하는 것과 제한 시간 안에 푸는 건 좀 달랐어요.\n3) 질문은 호불호 있을 듯. 정리해서 가져간 질문에는 친절하게 답해 주셨는데 수업 중에 흐름을 끊는 질문에는 급하게 넘어가는 편입니다. 기초가 없는 친구는 그 부분이 부담스럽다고 했어요.\n4) 총평은 배울 의지가 있으면 추천. 노베라면 첫 몇 주 예습 시간을 꼭 잡고, 그냥 출석만 채우면서 학점 따려는 거면 다른 수업을 알아보는 편이 나을 듯합니다. 저는 힘들긴 해도 코드를 보는 겁은 줄었습니다."
+    },
+    {
+      "review_id": "c02-2026-1-r08",
+      "semester": "2026-1",
+      "status": "ok",
+      "overall_sentiment": "mixed",
+      "items": [
+        {
+          "category": "delivery",
+          "sentiment": "positive",
+          "summary": "실행 결과를 계속 확인하는 수업 방식이 잘 맞았다는 의견 / 같은 기능을 여러 코드로 구현하고 비교하는 실습이 좋았다는 의견",
+          "evidence": "같은 기능을 두 가지 코드로 만들고 어떤 쪽이 읽기 쉬운지 비교하는 실습도 좋았어요.",
+          "keywords": [
+            "실행 결과 확인",
+            "코드 비교",
+            "실습"
+          ],
+          "condition": null,
+          "mentions_change": false,
+          "evidence_match": "exact",
+          "evidence_verified": true
+        },
+        {
+          "category": "workload",
+          "sentiment": "negative",
+          "summary": "과제에 막힌 이유까지 기록해야 해 처음에는 번거로웠다는 의견",
+          "evidence": "과제는 정답 파일만 올리는 게 아니라 중간에 막힌 이유도 적게 하셔서 처음에는 번거롭다고 느꼈습니다.",
+          "keywords": [
+            "과제",
+            "오류 기록"
+          ],
+          "condition": null,
+          "mentions_change": false,
+          "evidence_match": "exact",
+          "evidence_verified": true
+        },
+        {
+          "category": "learning",
+          "sentiment": "positive",
+          "summary": "과제 기록을 다시 보며 비슷한 오류를 더 빨리 고칠 수 있었다는 의견",
+          "evidence": "나중에 제 기록을 다시 보니 비슷한 오류를 빨리 고칠 수 있더라고요.",
+          "keywords": [
+            "오류 수정",
+            "과제 기록"
+          ],
+          "condition": null,
+          "mentions_change": false,
+          "evidence_match": "exact",
+          "evidence_verified": true
+        },
+        {
+          "category": "exam",
+          "sentiment": "negative",
+          "summary": "시험 문제가 실습 예제보다 길어 끝까지 읽을 시간이 부족했다는 의견",
+          "evidence": "다만 시험 문제는 실습 예제보다 길어서 끝까지 읽을 여유가 부족했고",
+          "keywords": [
+            "시험 문제",
+            "시간 부족"
+          ],
+          "condition": null,
+          "mentions_change": false,
+          "evidence_match": "exact",
+          "evidence_verified": true
+        },
+        {
+          "category": "grade",
+          "sentiment": "negative",
+          "summary": "성적 공지가 있을 때까지 불안했다는 의견",
+          "evidence": "성적 공지 때까지 불안했습니다..",
+          "keywords": [
+            "성적 공지"
+          ],
+          "condition": null,
+          "mentions_change": false,
+          "evidence_match": "exact",
+          "evidence_verified": true
+        },
+        {
+          "category": "general_impression",
+          "sentiment": "positive",
+          "summary": "과제를 성실히 하고 직접 만들어 보는 것을 선호하는 학생에게 추천한다는 의견",
+          "evidence": "과제는 성실히 할 자신이 있고 손으로 직접 만들어 보고 싶다면 추천해요.",
+          "keywords": [
+            "과제",
+            "직접 만들기"
+          ],
+          "condition": "과제를 성실히 할 자신이 있고 손으로 직접 만들어 보고 싶은 경우",
+          "mentions_change": false,
+          "evidence_match": "exact",
+          "evidence_verified": true
+        },
+        {
+          "category": "general_impression",
+          "sentiment": "negative",
+          "summary": "시험 부담이 적은 수업을 찾는 학생에게는 맞지 않을 수 있다는 의견",
+          "evidence": "시험 부담까지 적은 수업을 찾는 거면 맞지 않을 수 있습니다.",
+          "keywords": [
+            "시험 부담"
+          ],
+          "condition": "시험 부담이 적은 수업을 찾는 경우",
+          "mentions_change": false,
+          "evidence_match": "exact",
+          "evidence_verified": true
+        }
+      ],
+      "error": null,
+      "text": "지난번 다른 분반에서는 문법을 판서로만 배웠는데 여기서는 실행 결과를 계속 확인해서 저는 훨씬 잘 맞았습니다. 같은 기능을 두 가지 코드로 만들고 어떤 쪽이 읽기 쉬운지 비교하는 실습도 좋았어요. 과제는 정답 파일만 올리는 게 아니라 중간에 막힌 이유도 적게 하셔서 처음에는 번거롭다고 느꼈습니다. 나중에 제 기록을 다시 보니 비슷한 오류를 빨리 고칠 수 있더라고요. 다만 시험 문제는 실습 예제보다 길어서 끝까지 읽을 여유가 부족했고 성적 공지 때까지 불안했습니다.. 과제는 성실히 할 자신이 있고 손으로 직접 만들어 보고 싶다면 추천해요. 시험 부담까지 적은 수업을 찾는 거면 맞지 않을 수 있습니다."
+    }
+  ],
+  "summary_by_category": [
+    {
+      "category": "workload",
+      "mentioned": 4,
+      "counts": {
+        "positive": 1,
+        "negative": 2,
+        "neutral": 1
+      },
+      "ratios": {
+        "positive": 25.0,
+        "negative": 50.0,
+        "neutral": 25.0
+      },
+      "top_pros": [
+        "수업 전에 예제 코드를 읽어 준비하면 실습을 따라가는 데 도움이 된다는 의견"
+      ],
+      "top_cons": [
+        "실습이 많아 수업에 손이 많이 간다는 의견 / 기초가 없는 학생은 첫 몇 주 예습 시간을 확보해야 한다는 의견",
+        "과제에 막힌 이유까지 기록해야 해 처음에는 번거로웠다는 의견"
+      ]
+    },
+    {
+      "category": "exam",
+      "mentioned": 4,
+      "counts": {
+        "positive": 0,
+        "negative": 4,
+        "neutral": 0
+      },
+      "ratios": {
+        "positive": 0.0,
+        "negative": 100.0,
+        "neutral": 0.0
+      },
+      "top_pros": [],
+      "top_cons": [
+        "기말 시험 시간이 짧아 문제를 다 풀기 어렵다는 의견 / 파일 처리 문제를 시작하지 못했다는 의견 / 과제에서 작동하던 코드가 시험에서는 작동하지 않았다는 의견",
+        "시험이 어렵고 제한 시간 안에 문제를 풀기 어렵다는 의견 / 시험에서 문제 풀이 시간이 부족했다는 의견",
+        "시험 문제가 실습 예제보다 길어 끝까지 읽을 시간이 부족했다는 의견"
+      ]
+    },
+    {
+      "category": "delivery",
+      "mentioned": 4,
+      "counts": {
+        "positive": 4,
+        "negative": 2,
+        "neutral": 0
+      },
+      "ratios": {
+        "positive": 66.7,
+        "negative": 33.3,
+        "neutral": 0.0
+      },
+      "top_pros": [
+        "실행 결과를 계속 확인하는 수업 방식이 잘 맞았다는 의견 / 같은 기능을 여러 코드로 구현하고 비교하는 실습이 좋았다는 의견",
+        "실습 위주로 진행되어 좋다는 의견",
+        "코드의 값을 바꿔 결과를 확인하는 실습이 재미있다는 의견"
+      ],
+      "top_cons": [
+        "진도가 빠르고 실습 중 설명을 놓치기 쉽다는 의견 / 기초가 부족한 학생은 수업 전에 준비 시간이 필요하다는 의견",
+        "기초가 없는 학생에게 수업 중 질문 응대 방식이 부담스러울 수 있다는 의견"
+      ]
+    },
+    {
+      "category": "grade",
+      "mentioned": 2,
+      "counts": {
+        "positive": 1,
+        "negative": 1,
+        "neutral": 0
+      },
+      "ratios": {
+        "positive": 50.0,
+        "negative": 50.0,
+        "neutral": 0.0
+      },
+      "top_pros": [
+        "A0 성적에 만족한다는 의견"
+      ],
+      "top_cons": [
+        "성적 공지가 있을 때까지 불안했다는 의견"
+      ]
+    },
+    {
+      "category": "learning",
+      "mentioned": 5,
+      "counts": {
+        "positive": 5,
+        "negative": 0,
+        "neutral": 0
+      },
+      "ratios": {
+        "positive": 100.0,
+        "negative": 0.0,
+        "neutral": 0.0
+      },
+      "top_pros": [
+        "자료 정리 작업을 직접 해 보고 다른 과목에도 활용했다는 의견 / 수업을 통해 코드를 보는 두려움이 줄었다는 의견",
+        "기본 문법이 있으면 실습 경험을 쌓기 괜찮다는 의견",
+        "과제 기록을 다시 보며 비슷한 오류를 더 빨리 고칠 수 있었다는 의견"
+      ],
+      "top_cons": []
+    },
+    {
+      "category": "professor",
+      "mentioned": 3,
+      "counts": {
+        "positive": 2,
+        "negative": 2,
+        "neutral": 0
+      },
+      "ratios": {
+        "positive": 50.0,
+        "negative": 50.0,
+        "neutral": 0.0
+      },
+      "top_pros": [
+        "에러를 보여 주고 구체적으로 질문하면 차분하게 함께 해결해 준다는 의견",
+        "정리해서 가져간 질문에는 친절하게 답해 준다는 의견"
+      ],
+      "top_cons": [
+        "질문에 이미 설명한 내용이라고 답해 질문하기 어렵다는 의견 / 처음 배우는 학생을 기다려 주었으면 한다는 의견",
+        "수업 흐름을 끊는 질문에는 급하게 넘어가는 편이라는 의견"
+      ]
+    },
+    {
+      "category": "general_impression",
+      "mentioned": 2,
+      "counts": {
+        "positive": 2,
+        "negative": 2,
+        "neutral": 0
+      },
+      "ratios": {
+        "positive": 50.0,
+        "negative": 50.0,
+        "neutral": 0.0
+      },
+      "top_pros": [
+        "과제를 성실히 하고 직접 만들어 보는 것을 선호하는 학생에게 추천한다는 의견",
+        "배울 의지가 있는 학생에게 추천한다는 의견"
+      ],
+      "top_cons": [
+        "출석만 채우며 학점을 따려는 학생에게는 다른 수업을 권한다는 의견",
+        "시험 부담이 적은 수업을 찾는 학생에게는 맞지 않을 수 있다는 의견"
+      ]
+    }
+  ],
+  "meta": {
+    "total_reviews": 8,
+    "succeeded": 8,
+    "failed": 0,
+    "model": "gpt-6-luna",
+    "processed_at": "2026-10-24T10:47:39.949982Z"
+  }
+}
