@@ -1,0 +1,68 @@
+/* 결과 화면 (종합 요약·항목 상세·종합 의견). 값은 tokens.css 변수만 사용 */
+.result { word-break: keep-all; }
+.result h1 { font-size: var(--fs-title); font-weight: var(--fw-strong); line-height: var(--lh-tight); margin: 0; }
+.result h2 { font-size: var(--fs-body); font-weight: var(--fw-strong); margin: 0; }
+.result h3 { font-size: var(--fs-body); font-weight: var(--fw-strong); margin: 0 0 var(--sp-1); }
+
+.rv-head { padding-bottom: var(--sp-5); border-bottom: var(--border); }
+.rv-meta { display: flex; gap: var(--sp-4); margin: var(--sp-1) 0 0; color: var(--text-sub); font-size: var(--fs-small); }
+
+/* 만족 │ 불만족: 같은 순위끼리 한 줄 → 한쪽을 펼치면 같은 줄 반대쪽도 같이 늘어남 */
+.sb { display: grid; grid-template-columns: minmax(0, 1fr) minmax(0, 1fr); column-gap: var(--sp-7); padding-top: var(--sp-5); }
+.sb-title { padding: 0 var(--sp-3) var(--sp-2); }
+.sb-title.pos { color: var(--pos); }
+.sb-title.neg { color: var(--neg); }
+.sb-cell { min-width: 0; padding: var(--sp-3); border-top: var(--border); }
+.sb-cell.last { border-bottom: var(--border); }
+.sb-cell.open { background: var(--bg-hover); }
+
+.sb-head { all: unset; box-sizing: border-box; width: 100%; display: flex; align-items: baseline; gap: var(--sp-3); cursor: pointer; }
+.sb-head:focus-visible { outline: 0.5px solid var(--line-strong); outline-offset: 2px; }
+.sb-rank { flex: none; width: 16px; color: var(--text-sub); font-size: var(--fs-small); }
+.sb-name { flex: 1; font-weight: var(--fw-strong); }
+.sb-count { color: var(--text-sub); font-size: var(--fs-small); }
+.sb-note { margin: 2px 0 0 28px; color: var(--text-sub); white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+
+.sb-detail { margin: var(--sp-2) 0 0 28px; }
+.sb-ratio { display: flex; align-items: center; gap: var(--sp-3); color: var(--text-sub); font-size: var(--fs-small); }
+.sb-bar { flex: 1; display: flex; height: 6px; background: var(--bg-active); }
+.sb-bar .p { background: var(--pos-solid); }
+.sb-bar .n { background: var(--neg-solid); }
+.sb-bar .u { background: var(--neu-solid); }
+.sb-detail ul { margin: var(--sp-2) 0 0; padding-left: 18px; }
+.sb-detail li { margin: var(--sp-1) 0; overflow-wrap: anywhere; }
+.sb-more { all: unset; cursor: pointer; margin-top: var(--sp-2); color: var(--text-sub); font-size: var(--fs-small); }
+.sb-more:hover { color: var(--text); }
+.sb-none, .ov-none { margin: 0; padding: 0 var(--sp-3); color: var(--text-sub); }
+
+.sb.stacked { display: block; }
+.sb.stacked section + section .sb-title { padding-top: var(--sp-5); }
+
+/* 종합 의견: 위 두 단과 같은 폭·같은 안쪽 여백, 아래 목록도 두 단 위치에 맞춤 */
+.ov { padding: var(--sp-5) var(--sp-3) 0; }
+.ov > h2 { margin-bottom: var(--sp-2); }
+.ov > p { margin: 0; }
+.ov-cols { display: grid; grid-template-columns: minmax(0, 1fr) minmax(0, 1fr); column-gap: calc(var(--sp-7) + var(--sp-3) * 2); margin-top: var(--sp-5); }
+.ov-cols .pos h3 { color: var(--pos); }
+.ov-cols .neg h3 { color: var(--neg); }
+.ov-cols ul { margin: 0; padding-left: 18px; }
+.ov-cols li { margin: var(--sp-1) 0; overflow-wrap: anywhere; }
+.ov-cols .ov-none { padding: 0; }
+.ov-sub { color: var(--text-sub); }
+.ov-extra { display: block; color: var(--text-sub); font-size: var(--fs-small); }
+
+.rv-evidence { margin-top: var(--sp-6); padding-top: var(--sp-5); border-top: var(--border); }
+.rv-evidence-head { display: flex; align-items: baseline; justify-content: space-between; margin-bottom: var(--sp-3); }
+
+@media (max-width: 640px) {
+  .ov-cols { grid-template-columns: 1fr; row-gap: var(--sp-5); }
+}
+
+/* 여러 줄 문장은 양쪽 맞춤 (마지막 줄은 왼쪽) */
+.ov > p,
+.ov-cols li,
+.sb-detail li,
+.rv-evidence .original {
+  text-align: justify;
+  word-break: normal; /* 글자 단위 줄바꿈 허용 → 양쪽 맞춤 시 단어 사이가 벌어지지 않음 */
+}

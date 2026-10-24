@@ -1,0 +1,80 @@
+/*
+ * 디자인 토큰. 규칙은 frontend/DESIGN_GUIDE.md 참고.
+ * 색은 Radix Colors(@radix-ui/colors)만 사용하고, 컴포넌트에서는 아래 의미 이름만 씁니다.
+ * Radix 단계 용도: 1~2 배경 / 3~5 요소 배경 / 6~8 선 / 9~10 진한 색 / 11~12 글자
+ */
+@import "@radix-ui/colors/gray.css";
+@import "@radix-ui/colors/green.css";
+@import "@radix-ui/colors/red.css";
+
+:root {
+  /* 색: 기본 */
+  --bg: var(--gray-1);
+  --bg-subtle: var(--gray-2);
+  --bg-hover: var(--gray-3);
+  --bg-active: var(--gray-4);
+  --line: var(--gray-6);
+  --line-strong: var(--gray-7);
+  --text: var(--gray-12);
+  --text-sub: var(--gray-11);
+
+  /* 색: 의미 (만족 / 불만족 / 중립) */
+  --pos: var(--green-11);        /* 글자 */
+  --pos-solid: var(--green-9);   /* 비율 막대 */
+  --pos-bg: var(--green-3);      /* 선택된 행 배경 */
+  --neg: var(--red-11);
+  --neg-solid: var(--red-9);
+  --neg-bg: var(--red-3);
+  --neu: var(--gray-11);
+  --neu-solid: var(--gray-8);
+
+  /* 글자: 크기 3종 (최대 4종, 최소 12px) */
+  --fs-title: 20px;   /* 페이지·과목 제목 */
+  --fs-body: 15px;    /* 항목명·본문 */
+  --fs-small: 13px;   /* 수치·보조 정보 */
+  --fw-regular: 400;
+  --fw-strong: 600;
+  --lh-tight: 1.35;
+  --lh-body: 1.6;
+  --font: "Pretendard", system-ui, -apple-system, "Apple SD Gothic Neo", "Malgun Gothic", sans-serif;
+
+  /* 간격 (4의 배수) */
+  --sp-1: 4px;
+  --sp-2: 8px;
+  --sp-3: 12px;
+  --sp-4: 16px;
+  --sp-5: 24px;
+  --sp-6: 32px;
+  --sp-7: 48px;
+
+  /* 선·모서리 */
+  --border: 0.5px solid var(--line);
+  --radius: 0;
+  --radius-control: 2px;   /* 버튼·입력창만 */
+
+  /* 움직임: 기본은 없음. 꼭 필요할 때만 */
+  --ease: ease-out;
+  --dur: 250ms;
+}
+
+body {
+  margin: 0;
+  font-family: var(--font);
+  font-size: var(--fs-body);
+  line-height: var(--lh-body);
+  color: var(--text);
+  background: var(--bg);
+  -webkit-font-smoothing: antialiased;
+}
+
+/* 숫자는 폭 고정 */
+.num {
+  font-variant-numeric: tabular-nums;
+}
+
+/* 모션 줄이기 설정 존중 */
+@media (prefers-reduced-motion: reduce) {
+  :root {
+    --dur: 0ms;
+  }
+}
