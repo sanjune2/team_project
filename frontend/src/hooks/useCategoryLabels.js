@@ -1,16 +1,6 @@
-import { useEffect, useState } from "react";
-import { fetchCategories } from "../api/client.js";
 import { CATEGORY_LABEL } from "../constants.js";
 
-// 기본은 프론트 상수, 서버가 켜져 있으면 /api/categories 값으로 덮어씀
+// 화면에는 짧은 항목 이름을 씀 (서버 이름의 가운뎃점 "과제량·로드" 등은 디자인 규칙 1번에 걸림)
 export default function useCategoryLabels() {
-  const [labels, setLabels] = useState(CATEGORY_LABEL);
-
-  useEffect(() => {
-    fetchCategories()
-      .then((list) => setLabels(Object.fromEntries(list.map((c) => [c.code, c.label]))))
-      .catch(() => {});
-  }, []);
-
-  return labels;
+  return CATEGORY_LABEL;
 }

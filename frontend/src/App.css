@@ -1,20 +1,10 @@
 :root {
-  --bg: #f7f7f5;
-  --card: #ffffff;
-  --text: #1f2328;
-  --muted: #6b7280;
-  --line: #e5e7eb;
-  --pos: #1a7f4b;
-  --pos-bg: #e6f4ec;
-  --neg: #c2410c;
-  --neg-bg: #fdeee6;
-  --neu: #4b5563;
-  --neu-bg: #eef0f2;
-  --mix: #6d28d9;
-  --mix-bg: #f1ebfd;
-  font-family: system-ui, -apple-system, "Apple SD Gothic Neo", "Malgun Gothic", sans-serif;
-  color: var(--text);
-  background: var(--bg);
+  /* 색·글꼴·배경은 styles/tokens.css (Radix Colors)가 기준. 여기에는 토큰에 없는 값만 둠 */
+  --card: var(--bg);
+  --muted: var(--text-sub);
+  --neu-bg: var(--gray-3);
+  --mix: var(--text-sub);
+  --mix-bg: var(--gray-3);
 }
 
 body { margin: 0; }
