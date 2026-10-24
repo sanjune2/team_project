@@ -1,0 +1,783 @@
+{
+  "reviews": [
+    {
+      "review_id": "demo-r01",
+      "semester": "2026-1",
+      "status": "ok",
+      "overall_sentiment": "positive",
+      "items": [
+        {
+          "category": "delivery",
+          "sentiment": "positive",
+          "summary": "예시 코드를 함께 실행하며 설명해 처음 배우는 내용도 따라가기 쉽다는 의견",
+          "evidence": "예시 코드를 한 줄씩 같이 실행해 보면서 설명해 주셔서 처음 배우는 내용도 따라가기 쉬웠어요.",
+          "keywords": [
+            "예시 코드",
+            "설명"
+          ],
+          "condition": null,
+          "mentions_change": false,
+          "evidence_match": "exact",
+          "evidence_verified": true
+        }
+      ],
+      "error": null,
+      "text": "예시 코드를 한 줄씩 같이 실행해 보면서 설명해 주셔서 처음 배우는 내용도 따라가기 쉬웠어요."
+    },
+    {
+      "review_id": "demo-r02",
+      "semester": "2026-1",
+      "status": "ok",
+      "overall_sentiment": "positive",
+      "items": [
+        {
+          "category": "learning",
+          "sentiment": "positive",
+          "summary": "코드로 데이터를 정리할 수 있게 되었고 배운 것이 많다는 의견",
+          "evidence": "학기 끝나고 나니 엑셀 대신 직접 코드로 데이터를 정리할 수 있게 됐어요. 명강 인정합니다.",
+          "keywords": [
+            "코드",
+            "데이터 정리"
+          ],
+          "condition": null,
+          "mentions_change": false,
+          "evidence_match": "exact",
+          "evidence_verified": true
+        }
+      ],
+      "error": null,
+      "text": "학기 끝나고 나니 엑셀 대신 직접 코드로 데이터를 정리할 수 있게 됐어요. 명강 인정합니다."
+    },
+    {
+      "review_id": "demo-r03",
+      "semester": "2026-1",
+      "status": "ok",
+      "overall_sentiment": "negative",
+      "items": [
+        {
+          "category": "workload",
+          "sentiment": "negative",
+          "summary": "매주 실습 과제와 리딩으로 학업 부담이 크다는 의견",
+          "evidence": "매주 실습 과제에 리딩까지 있어서 로드가 꽤 많은 편이라 시험 기간에는 특히 힘들었어요.",
+          "keywords": [
+            "실습 과제",
+            "리딩",
+            "로드"
+          ],
+          "condition": "시험 기간",
+          "mentions_change": false,
+          "evidence_match": "exact",
+          "evidence_verified": true
+        }
+      ],
+      "error": null,
+      "text": "매주 실습 과제에 리딩까지 있어서 로드가 꽤 많은 편이라 시험 기간에는 특히 힘들었어요."
+    },
+    {
+      "review_id": "demo-r04",
+      "semester": "2026-1",
+      "status": "ok",
+      "overall_sentiment": "negative",
+      "items": [
+        {
+          "category": "exam",
+          "sentiment": "negative",
+          "summary": "시험 범위가 넓어 어디에 집중해야 할지 알기 어렵다는 의견",
+          "evidence": "시험 범위가 너무 넓어서 어디에 집중해야 할지 감이 안 왔어요.",
+          "keywords": [
+            "시험 범위"
+          ],
+          "condition": null,
+          "mentions_change": false,
+          "evidence_match": "exact",
+          "evidence_verified": true
+        }
+      ],
+      "error": null,
+      "text": "시험 범위가 너무 넓어서 어디에 집중해야 할지 감이 안 왔어요."
+    },
+    {
+      "review_id": "demo-r05",
+      "semester": "2026-1",
+      "status": "ok",
+      "overall_sentiment": "neutral",
+      "items": [
+        {
+          "category": "exam",
+          "sentiment": "neutral",
+          "summary": "중간고사와 기말고사가 있다는 의견",
+          "evidence": "중간고사와 기말고사가 있고",
+          "keywords": [
+            "중간고사",
+            "기말고사"
+          ],
+          "condition": null,
+          "mentions_change": false,
+          "evidence_match": "exact",
+          "evidence_verified": true
+        },
+        {
+          "category": "workload",
+          "sentiment": "neutral",
+          "summary": "과제를 격주로 총 6번 제출한다는 의견",
+          "evidence": "과제는 격주로 총 6번 제출합니다",
+          "keywords": [
+            "과제",
+            "격주",
+            "6번"
+          ],
+          "condition": null,
+          "mentions_change": false,
+          "evidence_match": "exact",
+          "evidence_verified": true
+        }
+      ],
+      "error": null,
+      "text": "중간고사와 기말고사가 있고, 과제는 격주로 총 6번 제출합니다."
+    },
+    {
+      "review_id": "demo-r06",
+      "semester": "2026-1",
+      "status": "ok",
+      "overall_sentiment": "neutral",
+      "items": [
+        {
+          "category": "attendance",
+          "sentiment": "neutral",
+          "summary": "출석을 전자출결로 확인한다는 의견",
+          "evidence": "출석은 전자출결로 확인하고",
+          "keywords": [
+            "전자출결"
+          ],
+          "condition": null,
+          "mentions_change": false,
+          "evidence_match": "exact",
+          "evidence_verified": true
+        },
+        {
+          "category": "team_project",
+          "sentiment": "neutral",
+          "summary": "팀 프로젝트를 네 명씩 한 팀으로 진행한다는 의견",
+          "evidence": "팀 프로젝트는 네 명이 한 팀으로 진행합니다.",
+          "keywords": [
+            "팀 프로젝트",
+            "네 명"
+          ],
+          "condition": null,
+          "mentions_change": false,
+          "evidence_match": "exact",
+          "evidence_verified": true
+        }
+      ],
+      "error": null,
+      "text": "출석은 전자출결로 확인하고, 팀 프로젝트는 네 명이 한 팀으로 진행합니다."
+    },
+    {
+      "review_id": "demo-r07",
+      "semester": "2026-1",
+      "status": "ok",
+      "overall_sentiment": "neutral",
+      "items": [
+        {
+          "category": "exam",
+          "sentiment": "neutral",
+          "summary": "시험을 오픈북으로 본다는 의견",
+          "evidence": "시험은 오픈북으로 보고",
+          "keywords": [
+            "오픈북 시험"
+          ],
+          "condition": null,
+          "mentions_change": false,
+          "evidence_match": "exact",
+          "evidence_verified": true
+        },
+        {
+          "category": "etc",
+          "sentiment": "neutral",
+          "summary": "실습 시간에 조교가 질문을 받아 준다는 의견",
+          "evidence": "실습 시간에는 조교가 돌아다니며 질문을 받아 줍니다.",
+          "keywords": [
+            "조교",
+            "질문 응대"
+          ],
+          "condition": null,
+          "mentions_change": false,
+          "evidence_match": "exact",
+          "evidence_verified": true
+        }
+      ],
+      "error": null,
+      "text": "시험은 오픈북으로 보고, 실습 시간에는 조교가 돌아다니며 질문을 받아 줍니다."
+    },
+    {
+      "review_id": "demo-r08",
+      "semester": "2026-1",
+      "status": "ok",
+      "overall_sentiment": "mixed",
+      "items": [
+        {
+          "category": "professor",
+          "sentiment": "positive",
+          "summary": "질문에 친절하게 답해 주신다는 의견",
+          "evidence": "교수님이 질문에 친절하게 답해 주시는데",
+          "keywords": [
+            "질문 응대"
+          ],
+          "condition": null,
+          "mentions_change": false,
+          "evidence_match": "exact",
+          "evidence_verified": true
+        },
+        {
+          "category": "delivery",
+          "sentiment": "negative",
+          "summary": "진도가 빨라 한 번 놓치면 따라가기 어렵다는 의견",
+          "evidence": "진도가 빨라서 한 번 놓치면 따라잡기 힘들어요.",
+          "keywords": [
+            "빠른 진도"
+          ],
+          "condition": null,
+          "mentions_change": false,
+          "evidence_match": "exact",
+          "evidence_verified": true
+        }
+      ],
+      "error": null,
+      "text": "교수님이 질문에 친절하게 답해 주시는데 진도가 빨라서 한 번 놓치면 따라잡기 힘들어요."
+    },
+    {
+      "review_id": "demo-r09",
+      "semester": "2026-1",
+      "status": "ok",
+      "overall_sentiment": "mixed",
+      "items": [
+        {
+          "category": "workload",
+          "sentiment": "negative",
+          "summary": "과제가 많아 부담스럽다는 의견",
+          "evidence": "과제는 많지만",
+          "keywords": [
+            "과제"
+          ],
+          "condition": null,
+          "mentions_change": false,
+          "evidence_match": "exact",
+          "evidence_verified": true
+        },
+        {
+          "category": "learning",
+          "sentiment": "positive",
+          "summary": "과제를 마치면 실력이 확실히 향상된다는 의견",
+          "evidence": "하고 나면 실력이 확실히 늘어서",
+          "keywords": [
+            "실력 향상"
+          ],
+          "condition": null,
+          "mentions_change": false,
+          "evidence_match": "exact",
+          "evidence_verified": true
+        },
+        {
+          "category": "general_impression",
+          "sentiment": "positive",
+          "summary": "수강을 추천한다는 의견",
+          "evidence": "추천해요.",
+          "keywords": [],
+          "condition": null,
+          "mentions_change": false,
+          "evidence_match": "exact",
+          "evidence_verified": true
+        }
+      ],
+      "error": null,
+      "text": "과제는 많지만 하고 나면 실력이 확실히 늘어서 추천해요."
+    },
+    {
+      "review_id": "demo-r10",
+      "semester": "2026-1",
+      "status": "ok",
+      "overall_sentiment": "mixed",
+      "items": [
+        {
+          "category": "team_project",
+          "sentiment": "positive",
+          "summary": "팀플 결과물에 만족했다는 의견",
+          "evidence": "팀플 결과물은 만족스러웠는데",
+          "keywords": [
+            "팀플 결과물"
+          ],
+          "condition": null,
+          "mentions_change": false,
+          "evidence_match": "exact",
+          "evidence_verified": true
+        },
+        {
+          "category": "team_project",
+          "sentiment": "negative",
+          "summary": "기여하지 않는 팀원 때문에 나머지 팀원이 고생했다는 의견",
+          "evidence": "통나무 팀원이 한 명 있어서 나머지가 고생했어요.",
+          "keywords": [
+            "통나무 팀원"
+          ],
+          "condition": null,
+          "mentions_change": false,
+          "evidence_match": "exact",
+          "evidence_verified": true
+        }
+      ],
+      "error": null,
+      "text": "팀플 결과물은 만족스러웠는데 통나무 팀원이 한 명 있어서 나머지가 고생했어요."
+    },
+    {
+      "review_id": "demo-r11",
+      "semester": "2026-1",
+      "status": "ok",
+      "overall_sentiment": "mixed",
+      "items": [
+        {
+          "category": "exam",
+          "sentiment": "positive",
+          "summary": "기말이 프로젝트 발표로 바뀌어 시험 부담이 줄었다는 의견",
+          "evidence": "기말을 프로젝트 발표로 바꿔서 시험 부담이 줄었어요",
+          "keywords": [
+            "기말",
+            "시험 부담"
+          ],
+          "condition": null,
+          "mentions_change": true,
+          "evidence_match": "exact",
+          "evidence_verified": true
+        },
+        {
+          "category": "workload",
+          "sentiment": "negative",
+          "summary": "발표 준비 기간이 짧아 준비가 촉박했다는 의견",
+          "evidence": "발표 준비 기간이 짧아 조금 촉박했습니다",
+          "keywords": [
+            "발표 준비 기간"
+          ],
+          "condition": null,
+          "mentions_change": false,
+          "evidence_match": "exact",
+          "evidence_verified": true
+        }
+      ],
+      "error": null,
+      "text": "이번 학기부터 기말을 프로젝트 발표로 바꿔서 시험 부담이 줄었어요. 대신 발표 준비 기간이 짧아 조금 촉박했습니다."
+    },
+    {
+      "review_id": "demo-r12",
+      "semester": "2026-1",
+      "status": "ok",
+      "overall_sentiment": "mixed",
+      "items": [
+        {
+          "category": "workload",
+          "sentiment": "negative",
+          "summary": "파이썬 기초가 없으면 초반 예습 부담이 크다는 의견",
+          "evidence": "파이썬 노베면 초반 몇 주는 예습을 꽤 해야 해요.",
+          "keywords": [
+            "예습",
+            "파이썬 기초"
+          ],
+          "condition": "파이썬 기초가 없는 경우",
+          "mentions_change": false,
+          "evidence_match": "exact",
+          "evidence_verified": true
+        },
+        {
+          "category": "delivery",
+          "sentiment": "positive",
+          "summary": "기초가 있으면 수업이 무난하다는 의견",
+          "evidence": "기초가 있으면 무난한 편입니다.",
+          "keywords": [
+            "선수지식"
+          ],
+          "condition": "기초가 있는 경우",
+          "mentions_change": false,
+          "evidence_match": "exact",
+          "evidence_verified": true
+        }
+      ],
+      "error": null,
+      "text": "파이썬 노베면 초반 몇 주는 예습을 꽤 해야 해요. 기초가 있으면 무난한 편입니다."
+    },
+    {
+      "review_id": "demo-r13",
+      "semester": "2026-1",
+      "status": "ok",
+      "overall_sentiment": "mixed",
+      "items": [
+        {
+          "category": "general_impression",
+          "sentiment": "positive",
+          "summary": "데이터 분야 진로를 생각하는 학생에게 추천한다는 의견",
+          "evidence": "데이터 분야로 진로를 생각하면 강추",
+          "keywords": [
+            "데이터 분야 진로"
+          ],
+          "condition": "데이터 분야로 진로를 생각하는 경우",
+          "mentions_change": false,
+          "evidence_match": "exact",
+          "evidence_verified": true
+        },
+        {
+          "category": "general_impression",
+          "sentiment": "negative",
+          "summary": "학점만 채우려는 학생에게는 다른 수업이 나을 수 있다는 의견",
+          "evidence": "학점만 채우려는 거면 다른 수업이 나을 수도 있어요.",
+          "keywords": [
+            "학점 이수"
+          ],
+          "condition": "학점만 채우려는 경우",
+          "mentions_change": false,
+          "evidence_match": "exact",
+          "evidence_verified": true
+        }
+      ],
+      "error": null,
+      "text": "데이터 분야로 진로를 생각하면 강추, 학점만 채우려는 거면 다른 수업이 나을 수도 있어요."
+    },
+    {
+      "review_id": "demo-r14",
+      "semester": "2026-1",
+      "status": "ok",
+      "overall_sentiment": "positive",
+      "items": [
+        {
+          "category": "grade",
+          "sentiment": "positive",
+          "summary": "열심히 하면 높은 학점을 받을 수 있다는 의견",
+          "evidence": "성적은 쁠몰이라 열심히 하면 에쁠도 충분히 노려볼 만해요.",
+          "keywords": [
+            "성적",
+            "에쁠"
+          ],
+          "condition": "열심히 하면",
+          "mentions_change": false,
+          "evidence_match": "exact",
+          "evidence_verified": true
+        }
+      ],
+      "error": null,
+      "text": "성적은 쁠몰이라 열심히 하면 에쁠도 충분히 노려볼 만해요."
+    },
+    {
+      "review_id": "demo-r15",
+      "semester": "2026-1",
+      "status": "ok",
+      "overall_sentiment": "negative",
+      "items": [
+        {
+          "category": "grade",
+          "sentiment": "negative",
+          "summary": "성적을 엄격하게 부여해 기말을 잘 봐도 학점이 기대보다 낮았다는 의견",
+          "evidence": "성적을 칼같이 주셔서 기말을 잘 봤는데도 학점이 생각보다 짜게 나왔어요.",
+          "keywords": [
+            "성적 부여",
+            "기말 성적"
+          ],
+          "condition": null,
+          "mentions_change": false,
+          "evidence_match": "exact",
+          "evidence_verified": true
+        }
+      ],
+      "error": null,
+      "text": "성적을 칼같이 주셔서 기말을 잘 봤는데도 학점이 생각보다 짜게 나왔어요."
+    },
+    {
+      "review_id": "demo-r16",
+      "semester": "2026-1",
+      "status": "ok",
+      "overall_sentiment": "negative",
+      "items": [
+        {
+          "category": "delivery",
+          "sentiment": "negative",
+          "summary": "과제 피드백을 학기 끝날 때까지 받지 못했다는 의견",
+          "evidence": "학기 끝날 때까지 한 번도 못 받았습니다.",
+          "keywords": [
+            "과제 피드백"
+          ],
+          "condition": null,
+          "mentions_change": false,
+          "evidence_match": "exact",
+          "evidence_verified": true
+        }
+      ],
+      "error": null,
+      "text": "과제 피드백이 정말 빠르시네요^^ 학기 끝날 때까지 한 번도 못 받았습니다."
+    },
+    {
+      "review_id": "demo-r17",
+      "semester": "2026-1",
+      "status": "ok",
+      "overall_sentiment": "positive",
+      "items": [
+        {
+          "category": "professor",
+          "sentiment": "positive",
+          "summary": "면담을 통해 진로 상담까지 해 주셔서 감사하다는 의견",
+          "evidence": "시간을 내서 진로 상담까지 해 주셔서 감사했어요.",
+          "keywords": [
+            "면담",
+            "진로 상담"
+          ],
+          "condition": "면담을 신청하면",
+          "mentions_change": false,
+          "evidence_match": "exact",
+          "evidence_verified": true
+        }
+      ],
+      "error": null,
+      "text": "면담 신청하면 시간을 내서 진로 상담까지 해 주셔서 감사했어요."
+    },
+    {
+      "review_id": "demo-r18",
+      "semester": "2026-1",
+      "status": "ok",
+      "overall_sentiment": "negative",
+      "items": [
+        {
+          "category": "attendance",
+          "sentiment": "negative",
+          "summary": "지각 누적에 따른 결석 처리가 엄격하다는 의견",
+          "evidence": "지각 세 번이면 결석 한 번으로 처리돼서 출석은 꽤 엄격한 편이에요.",
+          "keywords": [
+            "지각",
+            "결석 처리"
+          ],
+          "condition": null,
+          "mentions_change": false,
+          "evidence_match": "exact",
+          "evidence_verified": true
+        }
+      ],
+      "error": null,
+      "text": "지각 세 번이면 결석 한 번으로 처리돼서 출석은 꽤 엄격한 편이에요."
+    },
+    {
+      "review_id": "demo-r19",
+      "semester": "2026-1",
+      "status": "ok",
+      "overall_sentiment": null,
+      "items": [],
+      "error": null,
+      "text": "혹시 이번 학기 2분반 실습실 위치 아시는 분 계신가요?"
+    },
+    {
+      "review_id": "demo-r20",
+      "semester": "2026-1",
+      "status": "ok",
+      "overall_sentiment": null,
+      "items": [],
+      "error": null,
+      "text": "강의평 처음 써 봐요. 다른 분들 후기도 참고하고 있어요."
+    }
+  ],
+  "summary_by_category": [
+    {
+      "category": "workload",
+      "mentioned": 5,
+      "counts": {
+        "positive": 0,
+        "negative": 4,
+        "neutral": 1
+      },
+      "ratios": {
+        "positive": 0.0,
+        "negative": 80.0,
+        "neutral": 20.0
+      },
+      "top_pros": [],
+      "top_cons": [
+        "매주 실습 과제와 리딩으로 학업 부담이 크다는 의견",
+        "파이썬 기초가 없으면 초반 예습 부담이 크다는 의견",
+        "과제가 많아 부담스럽다는 의견"
+      ]
+    },
+    {
+      "category": "exam",
+      "mentioned": 4,
+      "counts": {
+        "positive": 1,
+        "negative": 1,
+        "neutral": 2
+      },
+      "ratios": {
+        "positive": 25.0,
+        "negative": 25.0,
+        "neutral": 50.0
+      },
+      "top_pros": [
+        "기말이 프로젝트 발표로 바뀌어 시험 부담이 줄었다는 의견"
+      ],
+      "top_cons": [
+        "시험 범위가 넓어 어디에 집중해야 할지 알기 어렵다는 의견"
+      ]
+    },
+    {
+      "category": "team_project",
+      "mentioned": 2,
+      "counts": {
+        "positive": 1,
+        "negative": 1,
+        "neutral": 1
+      },
+      "ratios": {
+        "positive": 33.3,
+        "negative": 33.3,
+        "neutral": 33.3
+      },
+      "top_pros": [
+        "팀플 결과물에 만족했다는 의견"
+      ],
+      "top_cons": [
+        "기여하지 않는 팀원 때문에 나머지 팀원이 고생했다는 의견"
+      ]
+    },
+    {
+      "category": "delivery",
+      "mentioned": 4,
+      "counts": {
+        "positive": 2,
+        "negative": 2,
+        "neutral": 0
+      },
+      "ratios": {
+        "positive": 50.0,
+        "negative": 50.0,
+        "neutral": 0.0
+      },
+      "top_pros": [
+        "예시 코드를 함께 실행하며 설명해 처음 배우는 내용도 따라가기 쉽다는 의견",
+        "기초가 있으면 수업이 무난하다는 의견"
+      ],
+      "top_cons": [
+        "진도가 빨라 한 번 놓치면 따라가기 어렵다는 의견",
+        "과제 피드백을 학기 끝날 때까지 받지 못했다는 의견"
+      ]
+    },
+    {
+      "category": "attendance",
+      "mentioned": 2,
+      "counts": {
+        "positive": 0,
+        "negative": 1,
+        "neutral": 1
+      },
+      "ratios": {
+        "positive": 0.0,
+        "negative": 50.0,
+        "neutral": 50.0
+      },
+      "top_pros": [],
+      "top_cons": [
+        "지각 누적에 따른 결석 처리가 엄격하다는 의견"
+      ]
+    },
+    {
+      "category": "grade",
+      "mentioned": 2,
+      "counts": {
+        "positive": 1,
+        "negative": 1,
+        "neutral": 0
+      },
+      "ratios": {
+        "positive": 50.0,
+        "negative": 50.0,
+        "neutral": 0.0
+      },
+      "top_pros": [
+        "열심히 하면 높은 학점을 받을 수 있다는 의견"
+      ],
+      "top_cons": [
+        "성적을 엄격하게 부여해 기말을 잘 봐도 학점이 기대보다 낮았다는 의견"
+      ]
+    },
+    {
+      "category": "learning",
+      "mentioned": 2,
+      "counts": {
+        "positive": 2,
+        "negative": 0,
+        "neutral": 0
+      },
+      "ratios": {
+        "positive": 100.0,
+        "negative": 0.0,
+        "neutral": 0.0
+      },
+      "top_pros": [
+        "코드로 데이터를 정리할 수 있게 되었고 배운 것이 많다는 의견",
+        "과제를 마치면 실력이 확실히 향상된다는 의견"
+      ],
+      "top_cons": []
+    },
+    {
+      "category": "professor",
+      "mentioned": 2,
+      "counts": {
+        "positive": 2,
+        "negative": 0,
+        "neutral": 0
+      },
+      "ratios": {
+        "positive": 100.0,
+        "negative": 0.0,
+        "neutral": 0.0
+      },
+      "top_pros": [
+        "면담을 통해 진로 상담까지 해 주셔서 감사하다는 의견",
+        "질문에 친절하게 답해 주신다는 의견"
+      ],
+      "top_cons": []
+    },
+    {
+      "category": "general_impression",
+      "mentioned": 2,
+      "counts": {
+        "positive": 2,
+        "negative": 1,
+        "neutral": 0
+      },
+      "ratios": {
+        "positive": 66.7,
+        "negative": 33.3,
+        "neutral": 0.0
+      },
+      "top_pros": [
+        "데이터 분야 진로를 생각하는 학생에게 추천한다는 의견",
+        "수강을 추천한다는 의견"
+      ],
+      "top_cons": [
+        "학점만 채우려는 학생에게는 다른 수업이 나을 수 있다는 의견"
+      ]
+    },
+    {
+      "category": "etc",
+      "mentioned": 1,
+      "counts": {
+        "positive": 0,
+        "negative": 0,
+        "neutral": 1
+      },
+      "ratios": {
+        "positive": 0.0,
+        "negative": 0.0,
+        "neutral": 100.0
+      },
+      "top_pros": [],
+      "top_cons": []
+    }
+  ],
+  "meta": {
+    "total_reviews": 20,
+    "succeeded": 20,
+    "failed": 0,
+    "model": "gpt-6-luna",
+    "processed_at": "2026-10-24T09:51:48.820082+00:00"
+  }
+}

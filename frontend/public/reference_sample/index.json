@@ -1,0 +1,31 @@
+{
+  "school": "가나대학교 (가상)",
+  "professors": [
+    {
+      "id": "p00",
+      "name": "샘플 교수",
+      "courses": [
+        {
+          "course_id": "c00",
+          "course_name": "데이터분석 기초(샘플)",
+          "section_id": "01",
+          "semester": "2026-1",
+          "review_count": 20,
+          "file": "c00_2026-1.json"
+        }
+      ]
+    }
+  ],
+  "courses": [
+    {
+      "course_id": "c00",
+      "course_name": "데이터분석 기초(샘플)",
+      "professor_name": "샘플 교수",
+      "semesters": [
+        "2026-1"
+      ],
+      "review_count": 20,
+      "file": "c00_all.json"
+    }
+  ]
+}
