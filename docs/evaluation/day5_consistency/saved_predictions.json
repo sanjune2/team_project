@@ -1,0 +1,7177 @@
+{
+  "candidate64_v3": [
+    {
+      "id": "c01-2025-2-r01",
+      "status": "ok",
+      "items": [
+        {
+          "category": "delivery",
+          "sentiment": "positive",
+          "summary": "설명을 듣고 바로 이해할 수 있었다는 의견",
+          "evidence": "설명 듣고 바로 이해됬음",
+          "keywords": [
+            "설명",
+            "이해"
+          ],
+          "condition": null,
+          "mentions_change": false
+        }
+      ]
+    },
+    {
+      "id": "c01-2025-2-r02",
+      "status": "ok",
+      "items": []
+    },
+    {
+      "id": "c01-2025-2-r03",
+      "status": "ok",
+      "items": [
+        {
+          "category": "workload",
+          "sentiment": "negative",
+          "summary": "과제가 연이어 주어지고 주말마다 표를 정리해야 해 부담스럽다는 의견",
+          "evidence": "월요일 제출하고 나면 화요일에 다음 게 올라와서 걱정할 틈조차 없거든.. 주말마다 표 정리하다 끝났음.",
+          "keywords": [
+            "과제 빈도",
+            "주말 과제"
+          ],
+          "condition": null,
+          "mentions_change": false
+        }
+      ]
+    },
+    {
+      "id": "c01-2025-2-r04",
+      "status": "ok",
+      "items": [
+        {
+          "category": "workload",
+          "sentiment": "negative",
+          "summary": "매주 데이터 정리와 그래프 제출로 과제 부담이 크고, 다른 전공 과제와 겹치면 밤샘하게 된다는 의견",
+          "evidence": "매주 데이터 정리하고 그래프까지 내야 해서 다른 전공 과제랑 겹치면 밤샘 확정임",
+          "keywords": [
+            "과제 부담",
+            "데이터 정리",
+            "그래프"
+          ],
+          "condition": null,
+          "mentions_change": false
+        },
+        {
+          "category": "delivery",
+          "sentiment": "positive",
+          "summary": "설명이 쉽다는 의견",
+          "evidence": "설명이 쉬운 거",
+          "keywords": [
+            "쉬운 설명"
+          ],
+          "condition": null,
+          "mentions_change": false
+        }
+      ]
+    },
+    {
+      "id": "c01-2025-2-r05",
+      "status": "ok",
+      "items": [
+        {
+          "category": "grade",
+          "sentiment": "negative",
+          "summary": "학점이 짜다는 의견",
+          "evidence": "제 기준엔 학점이 짜요.",
+          "keywords": [
+            "학점"
+          ],
+          "condition": null,
+          "mentions_change": false
+        },
+        {
+          "category": "exam",
+          "sentiment": "positive",
+          "summary": "시험이 배운 예시의 숫자를 바꾸는 방식이라 납득할 수 있었다는 의견",
+          "evidence": "시험은 배운 예시에서 숫자를 바꾸는 식이라 납득은 됐습니다.",
+          "keywords": [
+            "시험 유형",
+            "배운 예시"
+          ],
+          "condition": null,
+          "mentions_change": false
+        }
+      ]
+    },
+    {
+      "id": "c01-2025-2-r06",
+      "status": "ok",
+      "items": [
+        {
+          "category": "delivery",
+          "sentiment": "positive",
+          "summary": "표의 기초부터 차근차근 설명해 수업이 잘 들렸다는 의견 / 잘못된 숫자를 넣었을 때의 결과를 보여주는 예시가 좋았다는 의견",
+          "evidence": "엉뚱한 숫자를 넣었을 때 결과가 어떻게 망가지는지 보여주는 예시가 특히 좋았음",
+          "keywords": [
+            "기초 설명",
+            "예시"
+          ],
+          "condition": null,
+          "mentions_change": false
+        },
+        {
+          "category": "workload",
+          "sentiment": "negative",
+          "summary": "매주 과제 정리에 오래 걸리고 그래프 설명까지 작성해야 해 부담스럽다는 의견",
+          "evidence": "다만 매주 파일 하나씩 정리해서 내는 과제는 생각보다 오래 걸림. 코드를 다 돌린 뒤에도 그래프 설명을 따로 써야 해서 금요일 저녁이 그냥 사라졌어요.",
+          "keywords": [
+            "매주 과제",
+            "그래프 설명"
+          ],
+          "condition": null,
+          "mentions_change": false
+        },
+        {
+          "category": "general_impression",
+          "sentiment": "negative",
+          "summary": "학점을 쉽게 채우려는 사람에게는 추천하지 않는다는 의견",
+          "evidence": "학점 쉽게 채우려는 사람한텐 비추",
+          "keywords": [
+            "학점"
+          ],
+          "condition": "학점을 쉽게 채우려는 사람",
+          "mentions_change": false
+        },
+        {
+          "category": "learning",
+          "sentiment": "positive",
+          "summary": "직접 데이터를 다루는 감각을 얻고 싶은 사람에게 들을 만하다는 의견",
+          "evidence": "직접 데이터 만지는 감각을 얻고 싶은 사람이면 들을 만합니다",
+          "keywords": [
+            "데이터 활용"
+          ],
+          "condition": "직접 데이터를 다루는 감각을 얻고 싶은 사람",
+          "mentions_change": false
+        },
+        {
+          "category": "exam",
+          "sentiment": "neutral",
+          "summary": "중간고사와 기말고사를 두 번 본다는 의견",
+          "evidence": "시험은 중간이랑 기말 두 번 봤고",
+          "keywords": [
+            "중간고사",
+            "기말고사"
+          ],
+          "condition": null,
+          "mentions_change": false
+        },
+        {
+          "category": "team_project",
+          "sentiment": "neutral",
+          "summary": "팀플이 없다는 의견",
+          "evidence": "팀플은 없었어요",
+          "keywords": [
+            "팀플"
+          ],
+          "condition": null,
+          "mentions_change": false
+        }
+      ]
+    },
+    {
+      "id": "c01-2025-2-r07",
+      "status": "ok",
+      "items": [
+        {
+          "category": "delivery",
+          "sentiment": "positive",
+          "summary": "표를 읽는 순서를 보여 주어 과제 수행에 도움이 되었다는 의견",
+          "evidence": "표를 읽는 순서부터 보여 주세요.",
+          "keywords": [
+            "표 읽는 순서"
+          ],
+          "condition": null,
+          "mentions_change": false
+        },
+        {
+          "category": "learning",
+          "sentiment": "positive",
+          "summary": "표를 읽는 순서를 과제에 적용해 막히는 부분이 줄었다는 의견 / 그래프를 보고 판단을 바꾸는 연습이 좋았다는 의견",
+          "evidence": "숫자만 보고 결론 내렸다가 그래프를 보고 판단을 바꾸는 연습이 좋았습니다.",
+          "keywords": [
+            "과제 수행",
+            "그래프 해석"
+          ],
+          "condition": null,
+          "mentions_change": false
+        },
+        {
+          "category": "professor",
+          "sentiment": "positive",
+          "summary": "수업이 끝난 뒤 질문을 받아 주었다는 의견",
+          "evidence": "질문도 수업 끝나고 짧게 받아 주셨어요.",
+          "keywords": [
+            "질문 응대"
+          ],
+          "condition": null,
+          "mentions_change": false
+        },
+        {
+          "category": "workload",
+          "sentiment": "negative",
+          "summary": "자잘한 과제 작업에 예상보다 많은 시간이 들어 미리 시작해야 한다는 의견",
+          "evidence": "대충 한 시간이겠지 하고 미뤘다가 새벽까지 붙잡은 날도 있어서 왠만하면 미리 시작하세요..",
+          "keywords": [
+            "과제 시간",
+            "과제 작업"
+          ],
+          "condition": null,
+          "mentions_change": false
+        },
+        {
+          "category": "exam",
+          "sentiment": "neutral",
+          "summary": "학기 중 작은 퀴즈가 두 번 있었다는 의견",
+          "evidence": "학기 중 작은 퀴즈 두 번이 있었어요.",
+          "keywords": [
+            "퀴즈"
+          ],
+          "condition": null,
+          "mentions_change": false
+        },
+        {
+          "category": "grade",
+          "sentiment": "positive",
+          "summary": "본인의 점수와 과제 지각 제출에도 A0를 받아 성적이 나쁘지 않았다는 의견",
+          "evidence": "제 점수에서는 나쁘지 않았습니다.",
+          "keywords": [
+            "A0"
+          ],
+          "condition": null,
+          "mentions_change": false
+        },
+        {
+          "category": "general_impression",
+          "sentiment": "negative",
+          "summary": "출석만으로 학점을 받는 강의는 아니라는 의견 / 일정이 빡빡한 학기에는 수강을 다시 생각해 보라는 의견",
+          "evidence": "일정 빡빡한 학기에 같이 넣는 건 한 번 더 생각해 보시길.",
+          "keywords": [
+            "꿀강",
+            "일정"
+          ],
+          "condition": "일정이 빡빡한 학기",
+          "mentions_change": false
+        },
+        {
+          "category": "team_project",
+          "sentiment": "positive",
+          "summary": "팀플 없이 혼자 끝까지 해 볼 수 있다는 점이 장점이라는 의견",
+          "evidence": "팀플 없이 혼자 끝까지 해 볼 수 있다는 것도 장점이었어요.",
+          "keywords": [
+            "팀플 없음",
+            "개인 수행"
+          ],
+          "condition": null,
+          "mentions_change": false
+        },
+        {
+          "category": "general_impression",
+          "sentiment": "positive",
+          "summary": "수업을 추천한다는 의견",
+          "evidence": "수업은 추천하지만",
+          "keywords": [
+            "추천"
+          ],
+          "condition": null,
+          "mentions_change": false
+        }
+      ]
+    },
+    {
+      "id": "c01-2025-2-r08",
+      "status": "ok",
+      "items": [
+        {
+          "category": "delivery",
+          "sentiment": "positive",
+          "summary": "표의 여러 해석을 비교해 주는 설명이 좋았다는 의견",
+          "evidence": "교수님이 표 하나를 놓고 여러 해석을 비교해 주시는 부분이 좋았습니다.",
+          "keywords": [
+            "표 해석",
+            "설명"
+          ],
+          "condition": null,
+          "mentions_change": false
+        },
+        {
+          "category": "learning",
+          "sentiment": "positive",
+          "summary": "다른 열까지 확인하며 기존 결론을 바꾸게 되었다는 의견",
+          "evidence": "제가 처음엔 평균만 보고 맞다고 생각했던 결론을 다른 열까지 확인하면서 바꾸게 됐어요.",
+          "keywords": [
+            "결론 수정",
+            "데이터 해석"
+          ],
+          "condition": null,
+          "mentions_change": false
+        },
+        {
+          "category": "professor",
+          "sentiment": "positive",
+          "summary": "질문에 먼저 생각의 근거를 물어봐 부담이 덜했다는 의견",
+          "evidence": "질문하면 틀렸다고 바로 자르기보다 어느 숫자를 보고 그렇게 생각했는지 먼저 물어보셔서 부담이 덜했습니다.",
+          "keywords": [
+            "질문 응대",
+            "부담 완화"
+          ],
+          "condition": null,
+          "mentions_change": false
+        },
+        {
+          "category": "delivery",
+          "sentiment": "negative",
+          "summary": "과제 채점 피드백이 늦어 같은 실수를 반복했다는 의견 / 과제 피드백이 더 빨랐으면 좋겠다는 의견",
+          "evidence": "과제 채점 결과가 다음 과제 제출 뒤에 올라와 같은 실수를 두 번 한 적은 있어요.",
+          "keywords": [
+            "과제 피드백",
+            "지연",
+            "속도"
+          ],
+          "condition": null,
+          "mentions_change": false
+        },
+        {
+          "category": "attendance",
+          "sentiment": "neutral",
+          "summary": "매시간 전자출결을 한다는 의견",
+          "evidence": "출석은 매시간 전자출결이었고",
+          "keywords": [
+            "전자출결"
+          ],
+          "condition": null,
+          "mentions_change": false
+        },
+        {
+          "category": "exam",
+          "sentiment": "neutral",
+          "summary": "시험에 결과 해석 문제가 많다는 의견",
+          "evidence": "시험에선 손으로 계산하는 문제보다 결과 해석하는 문제가 많았어요.",
+          "keywords": [
+            "결과 해석",
+            "시험 유형"
+          ],
+          "condition": null,
+          "mentions_change": false
+        },
+        {
+          "category": "workload",
+          "sentiment": "negative",
+          "summary": "보고서 작성을 싫어하면 과제 부담이 크게 느껴질 수 있다는 의견",
+          "evidence": "보고서 쓰기 싫으면 로드가 꽤 크게 느껴질 듯합니다.",
+          "keywords": [
+            "보고서",
+            "과제 부담"
+          ],
+          "condition": "보고서 쓰기를 싫어하는 경우",
+          "mentions_change": false
+        }
+      ]
+    },
+    {
+      "id": "c01-2026-1-r01",
+      "status": "ok",
+      "items": [
+        {
+          "category": "workload",
+          "sentiment": "positive",
+          "summary": "과제가 격주로 바뀌어 부담이 줄었다는 의견",
+          "evidence": "과제 격주로 바뀜.. 이제 숨 좀 쉬겠음 ㅎㅎ",
+          "keywords": [
+            "과제 빈도"
+          ],
+          "condition": null,
+          "mentions_change": true
+        }
+      ]
+    },
+    {
+      "id": "c01-2026-1-r02",
+      "status": "ok",
+      "items": []
+    },
+    {
+      "id": "c01-2026-1-r03",
+      "status": "ok",
+      "items": [
+        {
+          "category": "professor",
+          "sentiment": "negative",
+          "summary": "질문 게시판을 확인하고 답변해 주었으면 한다는 의견",
+          "evidence": "질문 게시판 확인은 좀 해주셨으면.",
+          "keywords": [
+            "질문 게시판",
+            "질문 응대"
+          ],
+          "condition": null,
+          "mentions_change": false
+        }
+      ]
+    },
+    {
+      "id": "c01-2026-1-r04",
+      "status": "ok",
+      "items": [
+        {
+          "category": "delivery",
+          "sentiment": "positive",
+          "summary": "설명을 들을 때는 이해하기 쉽다는 의견",
+          "evidence": "설명듣고 할 땐 다 알겠는데",
+          "keywords": [
+            "설명"
+          ],
+          "condition": null,
+          "mentions_change": false
+        },
+        {
+          "category": "workload",
+          "sentiment": "negative",
+          "summary": "격주 제출이어도 보고서 분량이 많다는 의견",
+          "evidence": "격주 제출이어도 보고서 분량은 여전히 많음",
+          "keywords": [
+            "보고서 분량",
+            "격주 제출"
+          ],
+          "condition": null,
+          "mentions_change": false
+        },
+        {
+          "category": "workload",
+          "sentiment": "neutral",
+          "summary": "코딩 초보자는 과제 시간을 넉넉히 잡으라는 의견",
+          "evidence": "코딩 노베면 과제 시간 넉넉히 잡으세요",
+          "keywords": [
+            "과제 시간",
+            "코딩"
+          ],
+          "condition": "코딩 노베인 경우",
+          "mentions_change": false
+        }
+      ]
+    },
+    {
+      "id": "c01-2026-1-r05",
+      "status": "ok",
+      "items": [
+        {
+          "category": "grade",
+          "sentiment": "positive",
+          "summary": "과제와 출석을 모두 채운 뒤 B+를 받아 후하게 받은 편이라는 의견",
+          "evidence": "저는 이 정도면 후하게 받은 편이라고 생갇합니다.",
+          "keywords": [
+            "B+",
+            "성적"
+          ],
+          "condition": null,
+          "mentions_change": false
+        },
+        {
+          "category": "exam",
+          "sentiment": "neutral",
+          "summary": "중간고사와 기말고사를 치렀다는 의견",
+          "evidence": "중간기말 봤습니다.",
+          "keywords": [
+            "중간고사",
+            "기말고사"
+          ],
+          "condition": null,
+          "mentions_change": false
+        }
+      ]
+    },
+    {
+      "id": "c01-2026-1-r06",
+      "status": "ok",
+      "items": [
+        {
+          "category": "workload",
+          "sentiment": "positive",
+          "summary": "과제 빈도가 격주라 다른 전공과 병행하기 편하다는 의견",
+          "evidence": "이번엔 격주라 다른 전공이랑 같이 듣기 한결 편했어요",
+          "keywords": [
+            "과제 빈도"
+          ],
+          "condition": null,
+          "mentions_change": true
+        },
+        {
+          "category": "workload",
+          "sentiment": "neutral",
+          "summary": "과제마다 표를 정리하고 설명을 써야 한다는 의견 / 기초 통계가 없으면 첫 두 주에 용어를 찾아보고 오면 좋다는 의견",
+          "evidence": "없으면 첫 두 주는 용어를 조금 찾아보고 오면 좋을 듯합니다",
+          "keywords": [
+            "과제 분량",
+            "용어 예습"
+          ],
+          "condition": "기초 통계가 없으면",
+          "mentions_change": false
+        },
+        {
+          "category": "delivery",
+          "sentiment": "positive",
+          "summary": "그래프 예시가 기억에 남는다는 의견",
+          "evidence": "그 예시가 기억에 남아요",
+          "keywords": [
+            "그래프 예시"
+          ],
+          "condition": null,
+          "mentions_change": false
+        },
+        {
+          "category": "delivery",
+          "sentiment": "negative",
+          "summary": "강의실 마이크가 끊겨 뒷자리에서 숫자를 놓칠 수 있다는 의견",
+          "evidence": "강의실 마이크가 중간중간 끊겨 뒷자리에서는 숫자를 놓친 적이 있습니다",
+          "keywords": [
+            "마이크",
+            "강의 전달"
+          ],
+          "condition": "뒷자리에서",
+          "mentions_change": false
+        },
+        {
+          "category": "delivery",
+          "sentiment": "neutral",
+          "summary": "기초 통계가 있으면 수업이 어렵지 않다는 의견",
+          "evidence": "기초 통계가 있으면 수업 자체는 어렵지 않고",
+          "keywords": [
+            "기초 통계"
+          ],
+          "condition": "기초 통계가 있으면",
+          "mentions_change": false
+        }
+      ]
+    },
+    {
+      "id": "c01-2026-1-r07",
+      "status": "ok",
+      "items": [
+        {
+          "category": "learning",
+          "sentiment": "positive",
+          "summary": "결과를 의심하고 데이터의 누락을 확인하는 습관을 익혀 다른 수업에도 적용할 수 있었다는 의견",
+          "evidence": "다른 수업 보고서에도 그 방식을 써먹어서 배운 게 남는 수업이라고 느꼈어요.",
+          "keywords": [
+            "데이터 해석",
+            "결과 검증",
+            "배운 내용"
+          ],
+          "condition": null,
+          "mentions_change": false
+        },
+        {
+          "category": "workload",
+          "sentiment": "neutral",
+          "summary": "과제를 격주로 제출하며 한 번의 작업량은 이틀로 나누어 할 정도라는 의견 / 과제 제출이 매주에서 격주로 변경되었다는 의견",
+          "evidence": "과제는 예전 매주 제출에서 이번 학기 격주 제출로 바뀌었다고 첫 시간에 안내하셨습니다.",
+          "keywords": [
+            "과제 작업량",
+            "과제 빈도"
+          ],
+          "condition": null,
+          "mentions_change": true
+        },
+        {
+          "category": "workload",
+          "sentiment": "positive",
+          "summary": "과제를 미루지 않으면 감당할 만하고 시험 주간을 피해 제출일을 정해 준다는 의견",
+          "evidence": "미루지만 않으면 버틸 만했고 시험 주간에는 제출일을 피해서 잡아 주셔서 좋았습니다.",
+          "keywords": [
+            "과제 부담",
+            "제출일"
+          ],
+          "condition": "과제를 미루지 않는 경우",
+          "mentions_change": false
+        },
+        {
+          "category": "exam",
+          "sentiment": "neutral",
+          "summary": "시험은 작은 표의 결과를 해석하는 문제가 주로 출제된다는 의견",
+          "evidence": "시험은 작은 표를 주고 결과를 해석하는 문제 위주였어요.",
+          "keywords": [
+            "결과 해석"
+          ],
+          "condition": null,
+          "mentions_change": false
+        },
+        {
+          "category": "exam",
+          "sentiment": "positive",
+          "summary": "실습에서 사용한 설명을 자기 말로 정리해 둔 것이 시험에 도움이 되었다는 의견",
+          "evidence": "실습 때 쓴 설명을 자기 말로 정리해 둔 게 도움이 됐습니다.",
+          "keywords": [
+            "실습",
+            "시험 준비"
+          ],
+          "condition": null,
+          "mentions_change": false
+        },
+        {
+          "category": "exam",
+          "sentiment": "negative",
+          "summary": "시험 시간이 빠듯해 마지막 서술형 답안을 급하게 작성했다는 의견",
+          "evidence": "대신 시간은 빠듯했어요. 마지막 서술형을 급하게 써서 아쉬웠습니다.",
+          "keywords": [
+            "시험 시간",
+            "서술형"
+          ],
+          "condition": null,
+          "mentions_change": false
+        },
+        {
+          "category": "grade",
+          "sentiment": "negative",
+          "summary": "중간·기말 점수와 과제 제출에도 기대보다 낮은 B+를 받았다는 의견",
+          "evidence": "학점은 중간 81 기말 86에 과제 모두 제출하고 B+였습니다. 제 기대보다는 낮았지만",
+          "keywords": [
+            "B+",
+            "기대보다 낮은 성적"
+          ],
+          "condition": null,
+          "mentions_change": false
+        },
+        {
+          "category": "grade",
+          "sentiment": "positive",
+          "summary": "채점표가 공개되어 감점된 부분을 확인할 수 있었다는 의견",
+          "evidence": "채점표가 공개돼서 어디서 빠졌는지는 알 수 있었어요.",
+          "keywords": [
+            "채점표",
+            "감점 기준"
+          ],
+          "condition": null,
+          "mentions_change": false
+        },
+        {
+          "category": "general_impression",
+          "sentiment": "negative",
+          "summary": "에쁠을 기대하는 경우에는 실망할 수 있다는 의견",
+          "evidence": "무조건 에쁠을 기대하면 실망할 수 있고",
+          "keywords": [
+            "성적 기대"
+          ],
+          "condition": "무조건 에쁠을 기대하는 경우",
+          "mentions_change": false
+        },
+        {
+          "category": "general_impression",
+          "sentiment": "positive",
+          "summary": "데이터 읽기 연습을 목적으로 하는 학생에게 추천한다는 의견",
+          "evidence": "데이터 읽는 연습이 목적이면 추천합니다.",
+          "keywords": [
+            "데이터 읽기"
+          ],
+          "condition": "데이터 읽는 연습이 목적인 경우",
+          "mentions_change": false
+        }
+      ]
+    },
+    {
+      "id": "c01-2026-1-r08",
+      "status": "ok",
+      "items": [
+        {
+          "category": "workload",
+          "sentiment": "positive",
+          "summary": "과제가 격주 제출이라 감당할 만했다는 의견",
+          "evidence": "이번에는 격주 제출이라 저는 감당할 만했어요",
+          "keywords": [
+            "과제",
+            "격주 제출"
+          ],
+          "condition": null,
+          "mentions_change": false
+        },
+        {
+          "category": "delivery",
+          "sentiment": "positive",
+          "summary": "어려운 내용을 작은 표와 예시로 설명해 이해하기 쉽다는 의견",
+          "evidence": "문제를 어려운 말로 포장하지 않고 작은 표부터 보여 주시는 게 장점입니다.",
+          "keywords": [
+            "작은 표",
+            "예시"
+          ],
+          "condition": null,
+          "mentions_change": false
+        },
+        {
+          "category": "workload",
+          "sentiment": "negative",
+          "summary": "보고서 형식과 그래프를 다듬는 데 시간이 오래 걸린다는 의견",
+          "evidence": "그래프를 만든 뒤에도 글자 크기랑 축 이름을 계속 손봐야 해서 분석보다 꾸미는 데 오래 쓴 날이 있었거든요.",
+          "keywords": [
+            "보고서 형식",
+            "그래프"
+          ],
+          "condition": null,
+          "mentions_change": false
+        },
+        {
+          "category": "learning",
+          "sentiment": "positive",
+          "summary": "수업을 통해 숫자를 그대로 믿기보다 기준을 확인하게 됐다는 의견 / 명강이라고 평가한다는 의견",
+          "evidence": "수업 듣고 나니 숫자를 그냥 믿기보다 기준부터 확인하게 됐습니다.",
+          "keywords": [
+            "기준 확인",
+            "명강"
+          ],
+          "condition": null,
+          "mentions_change": false
+        },
+        {
+          "category": "general_impression",
+          "sentiment": "positive",
+          "summary": "바쁜 학기에는 과제 시간을 미리 확보하라고 추천한다는 의견",
+          "evidence": "바쁜 학기에는 과제 시간을 미리 비워두는 걸 추천해요",
+          "keywords": [
+            "과제 시간"
+          ],
+          "condition": "바쁜 학기",
+          "mentions_change": false
+        }
+      ]
+    },
+    {
+      "id": "c02-2025-2-r01",
+      "status": "ok",
+      "items": [
+        {
+          "category": "delivery",
+          "sentiment": "positive",
+          "summary": "실습이 재미있다는 의견",
+          "evidence": "파프 실습 재밌음",
+          "keywords": [
+            "실습"
+          ],
+          "condition": null,
+          "mentions_change": false
+        },
+        {
+          "category": "learning",
+          "sentiment": "positive",
+          "summary": "혼자 작은 도구를 만들 수 있게 된다는 의견",
+          "evidence": "혼자 작은 도구 만들게 됨!!!",
+          "keywords": [
+            "도구 제작"
+          ],
+          "condition": null,
+          "mentions_change": false
+        }
+      ]
+    },
+    {
+      "id": "c02-2025-2-r02",
+      "status": "ok",
+      "items": []
+    },
+    {
+      "id": "c02-2025-2-r03",
+      "status": "ok",
+      "items": [
+        {
+          "category": "exam",
+          "sentiment": "negative",
+          "summary": "시험 시간이 부족해 문제를 풀기 어렵다는 의견",
+          "evidence": "마지막 문제까지 읽기도 전에 종 쳐서 마음 편하게 빈칸 내고 나옴.. 문제 수를 좀 줄이던가 시간을 늘려주세요.",
+          "keywords": [
+            "시험 시간",
+            "문제 수"
+          ],
+          "condition": null,
+          "mentions_change": false
+        }
+      ]
+    },
+    {
+      "id": "c02-2025-2-r04",
+      "status": "ok",
+      "items": [
+        {
+          "category": "workload",
+          "sentiment": "negative",
+          "summary": "코딩 기초가 부족하면 실습 중 오류를 찾느라 다음 설명을 놓쳐 부담스럽다는 의견",
+          "evidence": "실습 한 줄 놓치면 오류 찾다가 다음 설명 다 놓쳐서 드럽게 힘듦ㅠㅠ",
+          "keywords": [
+            "코딩 기초",
+            "실습",
+            "오류"
+          ],
+          "condition": "코딩 노베인 경우",
+          "mentions_change": false
+        },
+        {
+          "category": "delivery",
+          "sentiment": "negative",
+          "summary": "실습 중 오류를 해결하느라 다음 설명을 놓치기 쉽다는 의견",
+          "evidence": "실습 한 줄 놓치면 오류 찾다가 다음 설명 다 놓쳐서 드럽게 힘듦ㅠㅠ",
+          "keywords": [
+            "실습",
+            "설명"
+          ],
+          "condition": "코딩 노베인 경우",
+          "mentions_change": false
+        },
+        {
+          "category": "professor",
+          "sentiment": "negative",
+          "summary": "질문하려 해도 따라오라는 답을 들을 때가 있다는 의견",
+          "evidence": "질문하려고 손들면 일단 따라오라 하실 때도 있엇음",
+          "keywords": [
+            "질문 응대"
+          ],
+          "condition": null,
+          "mentions_change": false
+        }
+      ]
+    },
+    {
+      "id": "c02-2025-2-r05",
+      "status": "ok",
+      "items": [
+        {
+          "category": "exam",
+          "sentiment": "negative",
+          "summary": "시험이 어렵다는 의견",
+          "evidence": "시험은 어렵지만",
+          "keywords": [
+            "시험 난이도"
+          ],
+          "condition": null,
+          "mentions_change": false
+        },
+        {
+          "category": "grade",
+          "sentiment": "positive",
+          "summary": "점수에 비해 학점이 괜찮게 나왔다는 의견",
+          "evidence": "점수에 비해 학점은 괜찮게 나왔어요",
+          "keywords": [
+            "학점"
+          ],
+          "condition": null,
+          "mentions_change": false
+        },
+        {
+          "category": "team_project",
+          "sentiment": "neutral",
+          "summary": "팀 과제 없이 개인 제출로 진행했다는 의견",
+          "evidence": "팀 과제 없이 개인 제출이었습니다",
+          "keywords": [
+            "개인 제출"
+          ],
+          "condition": null,
+          "mentions_change": false
+        }
+      ]
+    },
+    {
+      "id": "c02-2025-2-r06",
+      "status": "ok",
+      "items": [
+        {
+          "category": "learning",
+          "sentiment": "positive",
+          "summary": "실습을 통해 배운 내용이 실제로 활용되고 기억에 남는다는 의견 / 기초 문법을 아는 사람에게 배울 내용이 많다는 의견",
+          "evidence": "직접 파일 읽어서 정리하는 실습까지 하니 확실히 손에 남는 게 있네요. 수업시간에 만든 예제를 살짝 바꿔서 제 공부 기록 정리하는 데 써봤어요.",
+          "keywords": [
+            "파일 읽기 실습",
+            "예제 활용",
+            "기초 문법"
+          ],
+          "condition": "기초 문법을 한 번 본 사람",
+          "mentions_change": false
+        },
+        {
+          "category": "exam",
+          "sentiment": "negative",
+          "summary": "시험에서 생각할 시간이 부족해 실수가 난다는 의견",
+          "evidence": "다만 시험은 코드 빈칸 채우기랑 실행 결과 쓰기가 섞여서 생각할 시간이 부족했습니다. 연습 때는 되던 것도 시계 보면서 하니까 실수가 나요..",
+          "keywords": [
+            "코드 빈칸 채우기",
+            "시간 부족"
+          ],
+          "condition": null,
+          "mentions_change": false
+        },
+        {
+          "category": "workload",
+          "sentiment": "neutral",
+          "summary": "완전 처음인 학생은 초반 반복문을 예습할 필요가 있다는 의견",
+          "evidence": "완전 처음이면 초반 반복문 부분은 예습이 필요해 보입니다.",
+          "keywords": [
+            "예습",
+            "반복문"
+          ],
+          "condition": "완전 처음인 경우",
+          "mentions_change": false
+        },
+        {
+          "category": "professor",
+          "sentiment": "positive",
+          "summary": "질문할 때 진행 상황을 적어 가면 자세히 봐준다는 의견",
+          "evidence": "교수님은 질문할 때 어디까지 해 봤는지 적어 오면 자세히 봐주셨어요.",
+          "keywords": [
+            "질문 응대"
+          ],
+          "condition": null,
+          "mentions_change": false
+        }
+      ]
+    },
+    {
+      "id": "c02-2025-2-r07",
+      "status": "ok",
+      "items": [
+        {
+          "category": "delivery",
+          "sentiment": "positive",
+          "summary": "수업 중 직접 실행하고 오류를 확인하는 방식이 이해에 도움이 된다는 의견",
+          "evidence": "수업 중에 직접 실행하고 에러도 같이 보는 방식이라 문법 이름만 외우는 것보다 이해가 잘됐습니다.",
+          "keywords": [
+            "직접 실행",
+            "오류 확인"
+          ],
+          "condition": null,
+          "mentions_change": false
+        },
+        {
+          "category": "workload",
+          "sentiment": "negative",
+          "summary": "실습 과제에 결과 설명까지 작성해야 하고 다른 과제와 겹치면 시간이 많이 든다는 의견",
+          "evidence": "단순 복붙으로 끝내기 어려워서 배우는 데는 좋았지만 다른 과제랑 몰리는 주에는 시간이 많이 들었습니다.",
+          "keywords": [
+            "실습 과제",
+            "과제 부담"
+          ],
+          "condition": null,
+          "mentions_change": false
+        },
+        {
+          "category": "learning",
+          "sentiment": "positive",
+          "summary": "실습 과제를 통해 배우는 데 도움이 된다는 의견",
+          "evidence": "단순 복붙으로 끝내기 어려워서 배우는 데는 좋았지만 다른 과제랑 몰리는 주에는 시간이 많이 들었습니다.",
+          "keywords": [
+            "실습 과제"
+          ],
+          "condition": null,
+          "mentions_change": false
+        },
+        {
+          "category": "exam",
+          "sentiment": "negative",
+          "summary": "중간고사와 기말고사에서 문제가 많고 긴 문제를 풀 시간이 부족했다는 의견",
+          "evidence": "중간고사는 예상보다 문제가 많았어요. 쉬운 것부터 풀어도 뒤쪽 긴 문제 하나는 거의 손을 못 댔습니다.",
+          "keywords": [
+            "문제 수",
+            "시간 부족"
+          ],
+          "condition": null,
+          "mentions_change": false
+        },
+        {
+          "category": "professor",
+          "sentiment": "positive",
+          "summary": "코드와 오류를 함께 보여 주면 원인을 설명해 주어 질문 응대에 만족했다는 의견",
+          "evidence": "질문 응대는 저는 만족했습니다. 실행한 코드랑 에러 문구를 같이 보여 드리니까 어디서 자료형이 달라졌는지 설명해 주셨어요.",
+          "keywords": [
+            "질문 응대",
+            "오류 설명"
+          ],
+          "condition": null,
+          "mentions_change": false
+        },
+        {
+          "category": "delivery",
+          "sentiment": "negative",
+          "summary": "수업 진도가 계속 나가 수업 중 질문할 타이밍을 잡기 어렵다는 의견",
+          "evidence": "수업 중 바로 질문하려면 진도가 계속 나가서 타이밍 잡기 어렵긴 합니다.",
+          "keywords": [
+            "진도",
+            "질문 타이밍"
+          ],
+          "condition": null,
+          "mentions_change": false
+        },
+        {
+          "category": "attendance",
+          "sentiment": "neutral",
+          "summary": "출석은 전자출결로 확인한다는 의견",
+          "evidence": "출석은 전자출결로 했고",
+          "keywords": [
+            "전자출결"
+          ],
+          "condition": null,
+          "mentions_change": false
+        },
+        {
+          "category": "team_project",
+          "sentiment": "neutral",
+          "summary": "조별 발표가 없다는 의견",
+          "evidence": "조별 발표는 없었습니다.",
+          "keywords": [
+            "조별 발표"
+          ],
+          "condition": null,
+          "mentions_change": false
+        },
+        {
+          "category": "general_impression",
+          "sentiment": "positive",
+          "summary": "코드를 직접 많이 써 보고 싶은 사람에게 맞는 수업이라는 의견",
+          "evidence": "손으로 코드를 많이 써 보고 싶은 사람에게 맞는 듯해요.",
+          "keywords": [
+            "코딩 실습"
+          ],
+          "condition": "손으로 코드를 많이 써 보고 싶은 사람",
+          "mentions_change": false
+        }
+      ]
+    },
+    {
+      "id": "c02-2025-2-r08",
+      "status": "ok",
+      "items": [
+        {
+          "category": "learning",
+          "sentiment": "positive",
+          "summary": "오류를 스스로 구분하는 능력이 생겨 도움이 되었다는 의견",
+          "evidence": "파일 이름 잘못 적어서 안 돌아가는 거랑 코드 자체가 틀린 거를 구분하게 된 게 도움이 됬다",
+          "keywords": [
+            "오류 구분",
+            "코딩 경험"
+          ],
+          "condition": null,
+          "mentions_change": false
+        },
+        {
+          "category": "exam",
+          "sentiment": "negative",
+          "summary": "시험 시간이 촉박하고 답을 확인할 시간이 부족하다는 의견",
+          "evidence": "시험은 그거랑 별개로 너무 촉박함.. 실습에서 한 번씩 해본 내용이라도 종이에 결과를 적으려니 헷갈리고 확인할 시간도 없었음",
+          "keywords": [
+            "시험 시간",
+            "실습 내용"
+          ],
+          "condition": null,
+          "mentions_change": false
+        },
+        {
+          "category": "professor",
+          "sentiment": "negative",
+          "summary": "강의 중 질문에 대한 답변이 짧아 아쉽다는 의견",
+          "evidence": "강의 중 질문에는 답이 짧아서 아쉬웠다",
+          "keywords": [
+            "질문 응대"
+          ],
+          "condition": null,
+          "mentions_change": false
+        },
+        {
+          "category": "workload",
+          "sentiment": "neutral",
+          "summary": "초보자는 수업 외에 복습 시간을 따로 잡는 것이 좋다는 의견",
+          "evidence": "파프 노베면 수업시간만으로 해결하려고 하지 말고 따로 복습할 시간 잡는 게 좋을 듯",
+          "keywords": [
+            "복습 시간",
+            "초보자"
+          ],
+          "condition": "코딩 경험이 거의 없는 경우",
+          "mentions_change": false
+        },
+        {
+          "category": "general_impression",
+          "sentiment": "negative",
+          "summary": "배울 점은 있지만 수강이 편하지는 않다는 의견",
+          "evidence": "남는 건 있는데 편하진 않음",
+          "keywords": [
+            "수강 소감"
+          ],
+          "condition": null,
+          "mentions_change": false
+        }
+      ]
+    },
+    {
+      "id": "c02-2026-1-r01",
+      "status": "ok",
+      "items": [
+        {
+          "category": "learning",
+          "sentiment": "positive",
+          "summary": "반복 작업을 줄이는 데 도움이 되었다는 의견",
+          "evidence": "파프 듣고 반복작업 줄였음",
+          "keywords": [
+            "반복 작업"
+          ],
+          "condition": null,
+          "mentions_change": false
+        },
+        {
+          "category": "delivery",
+          "sentiment": "positive",
+          "summary": "실습 위주로 진행되어 좋다는 의견",
+          "evidence": "실습 위주라 좋다",
+          "keywords": [
+            "실습"
+          ],
+          "condition": null,
+          "mentions_change": false
+        }
+      ]
+    },
+    {
+      "id": "c02-2026-1-r02",
+      "status": "ok",
+      "items": []
+    },
+    {
+      "id": "c02-2026-1-r03",
+      "status": "ok",
+      "items": [
+        {
+          "category": "professor",
+          "sentiment": "negative",
+          "summary": "질문하면 이미 설명했다고 답해 질문하기 어려웠다는 의견 / 처음 배우는 사람을 기다려 주었으면 한다는 의견",
+          "evidence": "물어보면 이건 이미 설명했다고 하셔서 그 뒤로는 검색창한테만 물어봄",
+          "keywords": [
+            "질문 응대",
+            "초보자 배려"
+          ],
+          "condition": null,
+          "mentions_change": false
+        }
+      ]
+    },
+    {
+      "id": "c02-2026-1-r04",
+      "status": "ok",
+      "items": [
+        {
+          "category": "exam",
+          "sentiment": "negative",
+          "summary": "기말 시험 시간이 짧아 문제를 다 풀기 어렵다는 의견",
+          "evidence": "기말 시간 왜케 짧음.. 문제 읽다가 반은 간듯. 뒤에 파일 처리 문제는 시작도 못 해서 개빡쳤음",
+          "keywords": [
+            "기말 시험 시간",
+            "파일 처리 문제"
+          ],
+          "condition": null,
+          "mentions_change": false
+        }
+      ]
+    },
+    {
+      "id": "c02-2026-1-r05",
+      "status": "ok",
+      "items": [
+        {
+          "category": "exam",
+          "sentiment": "neutral",
+          "summary": "짧은 퀴즈 3회와 중간·기말 시험이 있다는 의견",
+          "evidence": "짧은 퀴즈 3번, 중간기말 있습니다",
+          "keywords": [
+            "퀴즈",
+            "중간·기말"
+          ],
+          "condition": null,
+          "mentions_change": false
+        },
+        {
+          "category": "grade",
+          "sentiment": "positive",
+          "summary": "받은 성적에 만족한다는 의견",
+          "evidence": "성적은 만족하고",
+          "keywords": [
+            "성적"
+          ],
+          "condition": null,
+          "mentions_change": false
+        },
+        {
+          "category": "learning",
+          "sentiment": "positive",
+          "summary": "실습 예제를 다시 풀어본 것이 도움이 됐다는 의견",
+          "evidence": "실습 예제를 다시 풀어본 게 도움됐습니다",
+          "keywords": [
+            "실습 예제"
+          ],
+          "condition": null,
+          "mentions_change": false
+        }
+      ]
+    },
+    {
+      "id": "c02-2026-1-r06",
+      "status": "ok",
+      "items": [
+        {
+          "category": "delivery",
+          "sentiment": "negative",
+          "summary": "실습 진도가 빨라 설명을 놓치는 경우가 많다는 의견",
+          "evidence": "실습 때 교수님 화면을 따라 치느라 설명을 놓치는 날이 많아서",
+          "keywords": [
+            "실습 진도",
+            "설명"
+          ],
+          "condition": null,
+          "mentions_change": false
+        },
+        {
+          "category": "workload",
+          "sentiment": "neutral",
+          "summary": "수업 전에 예제 코드를 읽어 준비할 시간이 필요하다는 의견",
+          "evidence": "수업 전에 예제 코드를 미리 받아 읽었습니다.",
+          "keywords": [
+            "예제 코드",
+            "수업 전 준비"
+          ],
+          "condition": "노베인 경우",
+          "mentions_change": false
+        },
+        {
+          "category": "delivery",
+          "sentiment": "positive",
+          "summary": "코드의 값을 바꾸며 결과를 확인하는 실습이 재미있다는 의견",
+          "evidence": "같은 코드에서 값을 바꿨을 때 결과가 달라지는 게 보여서 재미는 있었어요.",
+          "keywords": [
+            "실습",
+            "코드"
+          ],
+          "condition": null,
+          "mentions_change": false
+        },
+        {
+          "category": "exam",
+          "sentiment": "negative",
+          "summary": "시험이 시간 싸움이라 아쉽다는 의견",
+          "evidence": "시험은 여전히 시간 싸움이라 아쉬웠고요.",
+          "keywords": [
+            "시험 시간"
+          ],
+          "condition": null,
+          "mentions_change": false
+        },
+        {
+          "category": "professor",
+          "sentiment": "positive",
+          "summary": "에러를 함께 차분하게 찾아 주었다는 의견",
+          "evidence": "수업 끝나고 에러 화면을 보여 드렸을 때는 차분하게 같이 찾아 주셨습니다.",
+          "keywords": [
+            "질문 응대",
+            "에러"
+          ],
+          "condition": null,
+          "mentions_change": false
+        },
+        {
+          "category": "professor",
+          "sentiment": "neutral",
+          "summary": "구체적으로 질문할 때 더 잘 응대받는 것 같다는 의견",
+          "evidence": "혼자 막연하게 모르겠다고 할 때랑 구체적으로 물어볼 때 반응 차이가 있는 것 같아요..",
+          "keywords": [
+            "질문 응대"
+          ],
+          "condition": null,
+          "mentions_change": false
+        },
+        {
+          "category": "general_impression",
+          "sentiment": "positive",
+          "summary": "기본 문법이 있으면 실습 경험을 쌓기 괜찮다는 의견",
+          "evidence": "기본 문법이 있으면 실습 경험을 쌓기 괜찮은 과목입니다.",
+          "keywords": [
+            "기본 문법",
+            "실습 경험"
+          ],
+          "condition": "기본 문법이 있는 경우",
+          "mentions_change": false
+        }
+      ]
+    },
+    {
+      "id": "c02-2026-1-r07",
+      "status": "ok",
+      "items": [
+        {
+          "category": "workload",
+          "sentiment": "negative",
+          "summary": "실습이 많아 수업에 손이 많이 간다는 의견",
+          "evidence": "실습은 확실히 많음.",
+          "keywords": [
+            "실습"
+          ],
+          "condition": null,
+          "mentions_change": false
+        },
+        {
+          "category": "learning",
+          "sentiment": "positive",
+          "summary": "실습에서 배운 내용을 다른 과목 자료 정리에 활용했다는 의견 / 수업을 통해 코드를 보는 두려움이 줄었다는 의견",
+          "evidence": "파일 여러 개 읽고 원하는 줄만 남기는 작업을 직접 해 봐서 나중에 다른 과목 자료 정리할 때 써먹었습니다.",
+          "keywords": [
+            "실습",
+            "자료 정리",
+            "코드"
+          ],
+          "condition": null,
+          "mentions_change": false
+        },
+        {
+          "category": "delivery",
+          "sentiment": "positive",
+          "summary": "코드를 외우기만 하는 수업이 아니라는 점이 좋다는 의견",
+          "evidence": "그냥 코드 외우는 수업은 아니어서 그 부분은 좋았습니다.",
+          "keywords": [
+            "코드"
+          ],
+          "condition": null,
+          "mentions_change": false
+        },
+        {
+          "category": "exam",
+          "sentiment": "negative",
+          "summary": "시험이 어렵고 제한 시간 안에 문제를 풀기 어렵다는 의견",
+          "evidence": "실습을 이해하는 것과 제한 시간 안에 푸는 건 좀 달랐어요.",
+          "keywords": [
+            "시험 시간",
+            "문제 풀이"
+          ],
+          "condition": null,
+          "mentions_change": false
+        },
+        {
+          "category": "professor",
+          "sentiment": "positive",
+          "summary": "정리해서 가져간 질문에는 친절하게 답해 준다는 의견",
+          "evidence": "정리해서 가져간 질문에는 친절하게 답해 주셨는데",
+          "keywords": [
+            "질문 응대"
+          ],
+          "condition": null,
+          "mentions_change": false
+        },
+        {
+          "category": "delivery",
+          "sentiment": "negative",
+          "summary": "수업 중 흐름을 끊는 질문에는 급하게 넘어간다는 의견",
+          "evidence": "수업 중에 흐름을 끊는 질문에는 급하게 넘어가는 편입니다.",
+          "keywords": [
+            "수업 진행",
+            "질문"
+          ],
+          "condition": null,
+          "mentions_change": false
+        },
+        {
+          "category": "workload",
+          "sentiment": "neutral",
+          "summary": "기초가 없는 학생은 초반 몇 주 예습 시간을 확보할 필요가 있다는 의견",
+          "evidence": "노베라면 첫 몇 주 예습 시간을 꼭 잡고",
+          "keywords": [
+            "예습 시간",
+            "기초 지식"
+          ],
+          "condition": "기초가 없는 경우",
+          "mentions_change": false
+        },
+        {
+          "category": "general_impression",
+          "sentiment": "positive",
+          "summary": "배울 의지가 있는 학생에게 추천한다는 의견",
+          "evidence": "배울 의지가 있으면 추천.",
+          "keywords": [
+            "추천"
+          ],
+          "condition": "배울 의지가 있는 경우",
+          "mentions_change": false
+        },
+        {
+          "category": "general_impression",
+          "sentiment": "negative",
+          "summary": "출석만 채우며 학점을 따려는 학생에게는 다른 수업이 나을 수 있다는 의견",
+          "evidence": "그냥 출석만 채우면서 학점 따려는 거면 다른 수업을 알아보는 편이 나을 듯합니다.",
+          "keywords": [
+            "추천 대상"
+          ],
+          "condition": "출석만 채우며 학점을 따려는 경우",
+          "mentions_change": false
+        }
+      ]
+    },
+    {
+      "id": "c02-2026-1-r08",
+      "status": "ok",
+      "items": [
+        {
+          "category": "delivery",
+          "sentiment": "positive",
+          "summary": "실행 결과를 확인하며 배우는 방식이 잘 맞았다는 의견 / 두 가지 코드의 가독성을 비교하는 실습이 좋았다는 의견",
+          "evidence": "같은 기능을 두 가지 코드로 만들고 어떤 쪽이 읽기 쉬운지 비교하는 실습도 좋았어요",
+          "keywords": [
+            "실행 결과 확인",
+            "코드 비교",
+            "실습"
+          ],
+          "condition": null,
+          "mentions_change": false
+        },
+        {
+          "category": "workload",
+          "sentiment": "negative",
+          "summary": "과제에 막힌 이유까지 기록해야 해 처음에는 번거로웠다는 의견",
+          "evidence": "과제는 정답 파일만 올리는 게 아니라 중간에 막힌 이유도 적게 하셔서 처음에는 번거롭다고 느꼈습니다",
+          "keywords": [
+            "과제 기록"
+          ],
+          "condition": null,
+          "mentions_change": false
+        },
+        {
+          "category": "learning",
+          "sentiment": "positive",
+          "summary": "오류 기록을 다시 보며 비슷한 오류를 더 빨리 고칠 수 있었다는 의견",
+          "evidence": "나중에 제 기록을 다시 보니 비슷한 오류를 빨리 고칠 수 있더라고요",
+          "keywords": [
+            "오류 해결"
+          ],
+          "condition": null,
+          "mentions_change": false
+        },
+        {
+          "category": "exam",
+          "sentiment": "negative",
+          "summary": "시험 문제가 실습 예제보다 길어 읽을 시간이 부족했다는 의견",
+          "evidence": "시험 문제는 실습 예제보다 길어서 끝까지 읽을 여유가 부족했고",
+          "keywords": [
+            "시험 문제",
+            "시간 부족"
+          ],
+          "condition": null,
+          "mentions_change": false
+        },
+        {
+          "category": "general_impression",
+          "sentiment": "positive",
+          "summary": "과제를 성실히 하고 직접 만들어 보고 싶은 사람에게 추천한다는 의견",
+          "evidence": "과제는 성실히 할 자신이 있고 손으로 직접 만들어 보고 싶다면 추천해요",
+          "keywords": [
+            "추천"
+          ],
+          "condition": "과제를 성실히 할 자신이 있고 손으로 직접 만들어 보고 싶은 경우",
+          "mentions_change": false
+        },
+        {
+          "category": "general_impression",
+          "sentiment": "negative",
+          "summary": "시험 부담이 적은 수업을 찾는 사람에게는 맞지 않을 수 있다는 의견",
+          "evidence": "시험 부담까지 적은 수업을 찾는 거면 맞지 않을 수 있습니다",
+          "keywords": [
+            "시험 부담"
+          ],
+          "condition": "시험 부담이 적은 수업을 찾는 경우",
+          "mentions_change": false
+        }
+      ]
+    },
+    {
+      "id": "c03-2025-2-r01",
+      "status": "ok",
+      "items": [
+        {
+          "category": "attendance",
+          "sentiment": "negative",
+          "summary": "랜덤 호명으로 출석 관리가 부담스럽다는 의견",
+          "evidence": "출석 빡셈.. 랜덤 호명이라 출튀는 꿈도 꾸지마셈",
+          "keywords": [
+            "랜덤 호명",
+            "출석"
+          ],
+          "condition": null,
+          "mentions_change": false
+        }
+      ]
+    },
+    {
+      "id": "c03-2025-2-r02",
+      "status": "ok",
+      "items": []
+    },
+    {
+      "id": "c03-2025-2-r03",
+      "status": "ok",
+      "items": [
+        {
+          "category": "delivery",
+          "sentiment": "negative",
+          "summary": "수업 템포가 일정해 가끔 집중이 흐트러진다는 의견",
+          "evidence": "수업 템포가 일정해서 가끔 정신 놓게 됨",
+          "keywords": [
+            "수업 템포",
+            "집중"
+          ],
+          "condition": null,
+          "mentions_change": false
+        },
+        {
+          "category": "attendance",
+          "sentiment": "neutral",
+          "summary": "출석을 무작위로 호명해 결석 관리가 필요하다는 의견",
+          "evidence": "출석은 랜덤으로 이름 부르셔서 결석 관리 꼭 해야 함",
+          "keywords": [
+            "랜덤 호명",
+            "결석 관리"
+          ],
+          "condition": null,
+          "mentions_change": false
+        },
+        {
+          "category": "exam",
+          "sentiment": "positive",
+          "summary": "시험이 배운 범위에서 출제되어 억울한 문제가 적다는 의견",
+          "evidence": "시험은 배운 범위에서 나오는 편이라 억울한 문제는 별로 없었고",
+          "keywords": [
+            "시험 범위",
+            "출제"
+          ],
+          "condition": null,
+          "mentions_change": false
+        },
+        {
+          "category": "grade",
+          "sentiment": "positive",
+          "summary": "학점을 후하게 주는 편이라는 의견",
+          "evidence": "학점도 후하게 주시는 듯",
+          "keywords": [
+            "학점"
+          ],
+          "condition": null,
+          "mentions_change": false
+        }
+      ]
+    },
+    {
+      "id": "c03-2025-2-r04",
+      "status": "ok",
+      "items": [
+        {
+          "category": "delivery",
+          "sentiment": "positive",
+          "summary": "공식 설명과 예제를 푸는 흐름이 괜찮았다는 의견",
+          "evidence": "공식 설명하고 예제 푸는 흐름은 ㄱㅊ았어요",
+          "keywords": [
+            "공식 설명",
+            "수업 예제"
+          ],
+          "condition": null,
+          "mentions_change": false
+        },
+        {
+          "category": "delivery",
+          "sentiment": "negative",
+          "summary": "수업 패턴이 반복되어 식후에 졸음이 온다는 의견",
+          "evidence": "수업이 거의 같은 패턴으로 반복돼서 점심 먹고 들어가면 졸음이 미친듯이 옴",
+          "keywords": [
+            "수업 패턴",
+            "졸음"
+          ],
+          "condition": null,
+          "mentions_change": false
+        },
+        {
+          "category": "attendance",
+          "sentiment": "neutral",
+          "summary": "출석을 랜덤 호명으로 확인한다는 의견",
+          "evidence": "출석은 1번씩 랜덤 호명해서 대리출석 생각하지 마세요",
+          "keywords": [
+            "랜덤 호명"
+          ],
+          "condition": null,
+          "mentions_change": false
+        },
+        {
+          "category": "grade",
+          "sentiment": "positive",
+          "summary": "시험에서 몇 문제를 틀렸지만 A0를 받았다는 의견",
+          "evidence": "중간은 계산 실수 2개, 기말은 하나 틀렸는데 A0 받았습니다",
+          "keywords": [
+            "A0"
+          ],
+          "condition": null,
+          "mentions_change": false
+        },
+        {
+          "category": "exam",
+          "sentiment": "positive",
+          "summary": "시험이 공정하고 강의자료와 수업 예제를 복습하면 대비할 수 있다는 의견",
+          "evidence": "시험 자체는 공정한 편이고 강의자료랑 수업 예제 복습하면 충분히 대비 가능해요",
+          "keywords": [
+            "시험 공정성",
+            "시험 대비"
+          ],
+          "condition": null,
+          "mentions_change": false
+        }
+      ]
+    },
+    {
+      "id": "c03-2025-2-r05",
+      "status": "ok",
+      "items": [
+        {
+          "category": "delivery",
+          "sentiment": "negative",
+          "summary": "강의 톤이 매주 비슷해 졸릴 정도로 안정적이라는 의견",
+          "evidence": "강의력은 진짜 잠 오는 수준으로 안정적임.. 매주 비슷한 톤이라 ASMR인 줄.",
+          "keywords": [
+            "강의 톤"
+          ],
+          "condition": null,
+          "mentions_change": false
+        },
+        {
+          "category": "exam",
+          "sentiment": "positive",
+          "summary": "시험 범위와 문제 유형이 수업 내용에서 크게 벗어나지 않는다는 의견",
+          "evidence": "시험 범위랑 문제 스타일이 수업에서 다뤘던 거랑 크게 안 벗어나서 준비한 만큼 점수 나옴.",
+          "keywords": [
+            "시험 범위",
+            "문제 스타일"
+          ],
+          "condition": null,
+          "mentions_change": false
+        },
+        {
+          "category": "attendance",
+          "sentiment": "neutral",
+          "summary": "출석을 랜덤 호명하고 꼼꼼히 확인한다는 의견",
+          "evidence": "출석은 랜덤 호명에 체크도 꼼꼼해서 출튀러는 바로 걸릴 듯.",
+          "keywords": [
+            "랜덤 호명",
+            "출석 확인"
+          ],
+          "condition": null,
+          "mentions_change": false
+        },
+        {
+          "category": "exam",
+          "sentiment": "neutral",
+          "summary": "과제 4회, 퀴즈 2회와 중간·기말 시험으로 구성된다는 의견",
+          "evidence": "과제 4번, 퀴즈 2번, 중간기말 구성이고",
+          "keywords": [
+            "과제",
+            "퀴즈",
+            "중간·기말"
+          ],
+          "condition": null,
+          "mentions_change": false
+        },
+        {
+          "category": "workload",
+          "sentiment": "negative",
+          "summary": "과제가 어렵지는 않지만 미루면 번거롭다는 의견",
+          "evidence": "과제는 어렵진 않지만 미루면 귀찮아짐.",
+          "keywords": [
+            "과제"
+          ],
+          "condition": null,
+          "mentions_change": false
+        },
+        {
+          "category": "grade",
+          "sentiment": "positive",
+          "summary": "학점을 후하게 주고 시험에서 실수해도 만회할 여지가 있다는 의견",
+          "evidence": "학점은 후하다는 말이 맞는 것 같고, 시험에서 조금 실수해도 만회 여지가 있었음.",
+          "keywords": [
+            "학점",
+            "만회 여지"
+          ],
+          "condition": null,
+          "mentions_change": false
+        },
+        {
+          "category": "general_impression",
+          "sentiment": "positive",
+          "summary": "수업의 재미를 기대하지 않으면 나쁘지 않다는 의견",
+          "evidence": "수업 재미만 기대하지 않으면 나쁘지 않음.",
+          "keywords": [
+            "수업 재미"
+          ],
+          "condition": "수업의 재미를 기대하지 않는 경우",
+          "mentions_change": false
+        }
+      ]
+    },
+    {
+      "id": "c03-2025-2-r06",
+      "status": "ok",
+      "items": [
+        {
+          "category": "grade",
+          "sentiment": "positive",
+          "summary": "학점을 잘 받을 수 있다는 의견",
+          "evidence": "중간 계산문제에서 하나 틀리고 기말은 거의 다 맞았는데 A+ 받았어요.",
+          "keywords": [
+            "A+"
+          ],
+          "condition": null,
+          "mentions_change": false
+        },
+        {
+          "category": "delivery",
+          "sentiment": "negative",
+          "summary": "강의가 지루하고 목소리와 진행이 일정해 집중력을 유지하기 어렵다는 의견",
+          "evidence": "교수님이 설명을 대충 하시는 건 아닌데 목소리랑 진행이 일정해서 집중력 유지가 쉽지 않아요.",
+          "keywords": [
+            "강의 진행",
+            "집중력"
+          ],
+          "condition": null,
+          "mentions_change": false
+        },
+        {
+          "category": "exam",
+          "sentiment": "positive",
+          "summary": "시험이 납득 가능한 문제 위주이며 수업 예제를 직접 풀어보는 것이 도움이 된다는 의견",
+          "evidence": "그래도 시험은 납득 가능한 문제 위주라 족보만 찾기보다 수업 예제를 직접 풀어보는 게 낫습니다.",
+          "keywords": [
+            "시험 문제",
+            "수업 예제"
+          ],
+          "condition": null,
+          "mentions_change": false
+        },
+        {
+          "category": "attendance",
+          "sentiment": "negative",
+          "summary": "랜덤 호명 출석으로 결석하면 불이익을 감수해야 한다는 의견",
+          "evidence": "출석은 랜덤 호명이라 한 번이라도 빠질 생각이면 리스크 감수해야 함.",
+          "keywords": [
+            "랜덤 호명",
+            "결석"
+          ],
+          "condition": null,
+          "mentions_change": false
+        },
+        {
+          "category": "general_impression",
+          "sentiment": "positive",
+          "summary": "성실하게 출석하고 복습하는 사람에게 추천한다는 의견",
+          "evidence": "성실하게 출석하고 복습하는 사람한테는 추천.",
+          "keywords": [
+            "출석",
+            "복습"
+          ],
+          "condition": "성실하게 출석하고 복습하는 사람",
+          "mentions_change": false
+        }
+      ]
+    },
+    {
+      "id": "c03-2025-2-r07",
+      "status": "ok",
+      "items": [
+        {
+          "category": "delivery",
+          "sentiment": "negative",
+          "summary": "강의가 단조롭다는 의견",
+          "evidence": "강의: 단조롭지만 개념은 반복해서 설명함",
+          "keywords": [
+            "강의"
+          ],
+          "condition": null,
+          "mentions_change": false
+        },
+        {
+          "category": "delivery",
+          "sentiment": "positive",
+          "summary": "개념을 반복해서 설명한다는 의견 / 수업 시간에 집중하면 따라갈 만하다는 의견",
+          "evidence": "수업 시간에 졸지만 않으면 따라갈 만함",
+          "keywords": [
+            "개념 설명",
+            "수업 진도"
+          ],
+          "condition": null,
+          "mentions_change": false
+        },
+        {
+          "category": "exam",
+          "sentiment": "neutral",
+          "summary": "중간·기말 모두 수업 예제를 응용한다는 의견 / 시험 준비에는 공식 암기보다 적용 연습이 중요하다는 의견",
+          "evidence": "시험 준비는 공식 외우는 것보다 어떤 상황에 적용하는지 연습하는 게 중요했음",
+          "keywords": [
+            "중간",
+            "기말",
+            "수업 예제"
+          ],
+          "condition": null,
+          "mentions_change": false
+        },
+        {
+          "category": "attendance",
+          "sentiment": "neutral",
+          "summary": "출석을 랜덤 호명으로 엄격하게 확인한다는 의견",
+          "evidence": "출석: 랜덤 호명, 체크 엄격",
+          "keywords": [
+            "랜덤 호명",
+            "출석 확인"
+          ],
+          "condition": null,
+          "mentions_change": false
+        },
+        {
+          "category": "grade",
+          "sentiment": "positive",
+          "summary": "성적이 생각보다 후한 편이라는 의견",
+          "evidence": "성적: 생각보다 후한 편",
+          "keywords": [
+            "성적"
+          ],
+          "condition": null,
+          "mentions_change": false
+        },
+        {
+          "category": "workload",
+          "sentiment": "positive",
+          "summary": "과제와 퀴즈가 있어도 학업 부담이 크지 않다는 의견",
+          "evidence": "과제 4회에 퀴즈 2회라 로드는 크지 않았고",
+          "keywords": [
+            "과제",
+            "퀴즈",
+            "학업 부담"
+          ],
+          "condition": null,
+          "mentions_change": false
+        }
+      ]
+    },
+    {
+      "id": "c03-2025-2-r08",
+      "status": "ok",
+      "items": [
+        {
+          "category": "delivery",
+          "sentiment": "negative",
+          "summary": "재미있는 강의를 기대하면 실망할 수 있다는 의견 / 수업이 잔잔해 집중력이 약한 사람은 집중하기 어려울 수 있다는 의견",
+          "evidence": "다만 수업이 워낙 잔잔해서 집중력이 약한 사람은 녹음이나 필기를 활용하는 게 좋을 듯합니다.",
+          "keywords": [
+            "강의 흥미도",
+            "수업 분위기",
+            "집중력"
+          ],
+          "condition": "재미있는 강의를 기대하는 경우 / 집중력이 약한 사람",
+          "mentions_change": false
+        },
+        {
+          "category": "exam",
+          "sentiment": "positive",
+          "summary": "시험 기준이 비교적 명확하다는 의견",
+          "evidence": "시험 기준이 비교적 명확하고",
+          "keywords": [
+            "시험 기준"
+          ],
+          "condition": null,
+          "mentions_change": false
+        },
+        {
+          "category": "learning",
+          "sentiment": "positive",
+          "summary": "예제를 반복해서 풀면 다음 주 내용이 덜 낯설어진다는 의견 / 명강까지는 아니지만 배울 내용은 챙길 수 있다는 의견",
+          "evidence": "막 엄청난 명강은 아니지만 성적 기준이 납득되고 배울 내용은 챙길 수 있는 수업임.",
+          "keywords": [
+            "예제 연습",
+            "배울 내용"
+          ],
+          "condition": null,
+          "mentions_change": false
+        },
+        {
+          "category": "attendance",
+          "sentiment": "neutral",
+          "summary": "출석은 이름을 랜덤으로 부르고 응답 여부를 확인한다는 의견",
+          "evidence": "출석은 랜덤으로 이름을 부르는 방식이라 강의실에 앉아 있는지만 보는 게 아니라 실제로 응답하는지도 중요합니다.",
+          "keywords": [
+            "랜덤 호명",
+            "응답 확인"
+          ],
+          "condition": null,
+          "mentions_change": false
+        },
+        {
+          "category": "exam",
+          "sentiment": "neutral",
+          "summary": "과제와 퀴즈, 중간·기말로 평가한다는 의견",
+          "evidence": "과제 4번, 퀴즈 2번, 중간·기말로 평가했고",
+          "keywords": [
+            "과제",
+            "퀴즈",
+            "중간·기말"
+          ],
+          "condition": null,
+          "mentions_change": false
+        },
+        {
+          "category": "workload",
+          "sentiment": "positive",
+          "summary": "과제는 풀이 과정을 쓰면 무난하다는 의견",
+          "evidence": "과제는 풀이 과정을 쓰면 무난했습니다.",
+          "keywords": [
+            "과제"
+          ],
+          "condition": null,
+          "mentions_change": false
+        },
+        {
+          "category": "grade",
+          "sentiment": "positive",
+          "summary": "계산 실수와 만점이 아닌 시험 결과에도 A0를 받아 학점이 후한 편이라는 의견",
+          "evidence": "중간에 계산 실수를 꽤 했고 기말도 만점은 아니었는데 A0가 나와서 학점은 후한 편이라고 느꼈습니다.",
+          "keywords": [
+            "A0",
+            "학점"
+          ],
+          "condition": null,
+          "mentions_change": false
+        }
+      ]
+    },
+    {
+      "id": "c03-2026-1-r01",
+      "status": "ok",
+      "items": [
+        {
+          "category": "attendance",
+          "sentiment": "neutral",
+          "summary": "출석을 랜덤으로 호명한다는 의견",
+          "evidence": "출석 랜덤 호명함",
+          "keywords": [
+            "랜덤 호명"
+          ],
+          "condition": null,
+          "mentions_change": false
+        },
+        {
+          "category": "attendance",
+          "sentiment": "negative",
+          "summary": "잠깐 자리를 비우면 출석 관련 불이익을 받을 수 있다는 의견",
+          "evidence": "잠깐 나갔다가 의문사 가능",
+          "keywords": [
+            "출석"
+          ],
+          "condition": null,
+          "mentions_change": false
+        }
+      ]
+    },
+    {
+      "id": "c03-2026-1-r02",
+      "status": "ok",
+      "items": []
+    },
+    {
+      "id": "c03-2026-1-r03",
+      "status": "ok",
+      "items": [
+        {
+          "category": "delivery",
+          "sentiment": "negative",
+          "summary": "수업이 잔잔해 졸릴 수 있다는 의견",
+          "evidence": "수업은 잔잔 그 자체라 드럽게 졸릴 수 있음",
+          "keywords": [
+            "수업",
+            "졸림"
+          ],
+          "condition": null,
+          "mentions_change": false
+        },
+        {
+          "category": "exam",
+          "sentiment": "positive",
+          "summary": "시험이 배운 내용에서 출제되어 준비한 만큼 성적을 받는 편이라는 의견",
+          "evidence": "시험은 배운 데서 나와서 준비한 만큼 받는 편",
+          "keywords": [
+            "시험",
+            "배운 내용"
+          ],
+          "condition": null,
+          "mentions_change": false
+        }
+      ]
+    },
+    {
+      "id": "c03-2026-1-r04",
+      "status": "ok",
+      "items": [
+        {
+          "category": "delivery",
+          "sentiment": "positive",
+          "summary": "매주 예제를 풀어줘 수업을 따라갈 만하다는 의견",
+          "evidence": "매주 예제 풀어주고",
+          "keywords": [
+            "예제"
+          ],
+          "condition": null,
+          "mentions_change": false
+        },
+        {
+          "category": "exam",
+          "sentiment": "positive",
+          "summary": "시험이 수업 범위 안에서 출제된다는 의견",
+          "evidence": "시험도 수업 범위 안에서 나옵니다",
+          "keywords": [
+            "시험 범위"
+          ],
+          "condition": null,
+          "mentions_change": false
+        },
+        {
+          "category": "attendance",
+          "sentiment": "neutral",
+          "summary": "출석을 엄격하게 확인하고 랜덤 호명한다는 의견",
+          "evidence": "출석만큼은 진짜 엄격해서 랜덤 호명 때 없으면 끝",
+          "keywords": [
+            "출석",
+            "랜덤 호명"
+          ],
+          "condition": null,
+          "mentions_change": false
+        },
+        {
+          "category": "workload",
+          "sentiment": "neutral",
+          "summary": "과제 3회와 퀴즈 2회, 중간·기말 시험이 있다는 의견",
+          "evidence": "과제 3번, 퀴즈 2번, 중간기말이었고",
+          "keywords": [
+            "과제",
+            "퀴즈",
+            "시험"
+          ],
+          "condition": null,
+          "mentions_change": false
+        },
+        {
+          "category": "grade",
+          "sentiment": "positive",
+          "summary": "과제 점수를 잘 주고 최종 학점도 후하다는 의견",
+          "evidence": "과제 점수는 잘 주는 편입니다. 기말에서 계산 하나 틀렸는데 A+ 받아서 쁠몰 얘기가 왜 나오는지 알겠더라고요.",
+          "keywords": [
+            "과제 점수",
+            "A+",
+            "쁠몰"
+          ],
+          "condition": null,
+          "mentions_change": false
+        }
+      ]
+    },
+    {
+      "id": "c03-2026-1-r05",
+      "status": "ok",
+      "items": [
+        {
+          "category": "delivery",
+          "sentiment": "negative",
+          "summary": "수업이 잔잔해 흥미가 떨어진다는 의견",
+          "evidence": "수업이 너무 잔잔해서 가끔 이게 강의인지 수면 유도인지 헷갈림",
+          "keywords": [
+            "수업 흥미"
+          ],
+          "condition": null,
+          "mentions_change": false
+        },
+        {
+          "category": "delivery",
+          "sentiment": "positive",
+          "summary": "설명을 생략하거나 시험을 꼬아서 내지 않는다는 의견",
+          "evidence": "설명을 생략하거나 시험을 꼬아서 내는 스타일은 아니었음",
+          "keywords": [
+            "설명 방식"
+          ],
+          "condition": null,
+          "mentions_change": false
+        },
+        {
+          "category": "learning",
+          "sentiment": "positive",
+          "summary": "수업 예제를 복습하고 공식을 적용해 연습하면 점수가 따라온다는 의견",
+          "evidence": "수업 예제 복습하고 공식 적용 연습하면 점수는 따라오는 편",
+          "keywords": [
+            "예제 복습",
+            "공식 적용"
+          ],
+          "condition": null,
+          "mentions_change": false
+        },
+        {
+          "category": "attendance",
+          "sentiment": "neutral",
+          "summary": "출석이 랜덤 호명 방식이라는 의견 / 지각에 주의해야 한다는 의견",
+          "evidence": "지각도 조심하는 게 좋음",
+          "keywords": [
+            "랜덤 호명",
+            "지각"
+          ],
+          "condition": null,
+          "mentions_change": false
+        },
+        {
+          "category": "workload",
+          "sentiment": "positive",
+          "summary": "과제와 퀴즈, 시험 구성에도 학업 부담이 크지 않다는 의견",
+          "evidence": "과제 3번, 퀴즈 2번, 중간기말 구성이라 로드가 폭발하진 않았습니다",
+          "keywords": [
+            "과제",
+            "퀴즈",
+            "학업 부담"
+          ],
+          "condition": null,
+          "mentions_change": false
+        },
+        {
+          "category": "grade",
+          "sentiment": "positive",
+          "summary": "성적을 후하게 주지만 공부가 필요하다는 의견",
+          "evidence": "성적은 후하다는 의견에 동의하지만 실수해도 무조건 에쁠 주는 건 아니니 공부는 해야 함",
+          "keywords": [
+            "성적 후함"
+          ],
+          "condition": null,
+          "mentions_change": false
+        }
+      ]
+    },
+    {
+      "id": "c03-2026-1-r06",
+      "status": "ok",
+      "items": [
+        {
+          "category": "delivery",
+          "sentiment": "negative",
+          "summary": "매주 비슷한 흐름이라 한 번 놓치면 다음 주 수업도 따라가기 어렵다는 의견",
+          "evidence": "매주 비슷한 흐름이라 한 번 놓치면 다음 주도 놓치기 좋다는 점이 특히 인상적이었음. 농담이고",
+          "keywords": [
+            "수업 흐름"
+          ],
+          "condition": null,
+          "mentions_change": false
+        },
+        {
+          "category": "delivery",
+          "sentiment": "positive",
+          "summary": "반복 설명 덕분에 내용을 이해할 수 있다는 의견",
+          "evidence": "내용 자체는 반복 설명 덕분에 이해할 수 있습니다.",
+          "keywords": [
+            "반복 설명"
+          ],
+          "condition": null,
+          "mentions_change": false
+        },
+        {
+          "category": "exam",
+          "sentiment": "positive",
+          "summary": "시험이 수업에서 푼 유형 중심으로 출제되어 공정하다는 의견",
+          "evidence": "시험은 수업에서 푼 유형 중심이라 공정했고",
+          "keywords": [
+            "시험 유형"
+          ],
+          "condition": null,
+          "mentions_change": false
+        },
+        {
+          "category": "grade",
+          "sentiment": "neutral",
+          "summary": "중간과 기말 성적 결과로 A0를 받았다는 의견",
+          "evidence": "중간 q2에서 계산 하나 틀리고 기말 q3까지 맞혀서 A0 받음.",
+          "keywords": [
+            "A0"
+          ],
+          "condition": null,
+          "mentions_change": false
+        },
+        {
+          "category": "attendance",
+          "sentiment": "neutral",
+          "summary": "출석을 랜덤 호명으로 확인한다는 의견",
+          "evidence": "출석은 랜덤 호명으로 확인해서 강의실에 없으면 답이 없습니다.",
+          "keywords": [
+            "랜덤 호명"
+          ],
+          "condition": null,
+          "mentions_change": false
+        },
+        {
+          "category": "workload",
+          "sentiment": "positive",
+          "summary": "과제와 퀴즈 일정이 감당할 만하다는 의견",
+          "evidence": "과제 3번에 퀴즈 2번이라 일정은 manageable한 편",
+          "keywords": [
+            "과제",
+            "퀴즈"
+          ],
+          "condition": null,
+          "mentions_change": false
+        },
+        {
+          "category": "workload",
+          "sentiment": "neutral",
+          "summary": "통계가 처음인 경우 수업 후 예제를 다시 풀어보라는 조언",
+          "evidence": "통계가 처음이면 수업 끝나고 예제를 바로 다시 풀어보는 걸 추천.",
+          "keywords": [
+            "예습·복습"
+          ],
+          "condition": "통계가 처음인 경우",
+          "mentions_change": false
+        }
+      ]
+    },
+    {
+      "id": "c03-2026-1-r07",
+      "status": "ok",
+      "items": [
+        {
+          "category": "delivery",
+          "sentiment": "neutral",
+          "summary": "수업 분위기가 차분하다는 의견",
+          "evidence": "수업 - 차분함",
+          "keywords": [
+            "수업 분위기"
+          ],
+          "condition": null,
+          "mentions_change": false
+        },
+        {
+          "category": "exam",
+          "sentiment": "neutral",
+          "summary": "시험에 예제 응용 문제가 나온다는 의견",
+          "evidence": "시험 - 예제 응용",
+          "keywords": [
+            "예제 응용"
+          ],
+          "condition": null,
+          "mentions_change": false
+        },
+        {
+          "category": "attendance",
+          "sentiment": "neutral",
+          "summary": "출석 확인이 엄격하다는 의견",
+          "evidence": "출석 - 엄격",
+          "keywords": [
+            "출석"
+          ],
+          "condition": null,
+          "mentions_change": false
+        },
+        {
+          "category": "grade",
+          "sentiment": "positive",
+          "summary": "학점을 후하게 준다는 의견",
+          "evidence": "학점 - 후한 편",
+          "keywords": [
+            "학점"
+          ],
+          "condition": null,
+          "mentions_change": false
+        },
+        {
+          "category": "delivery",
+          "sentiment": "negative",
+          "summary": "강의 자체의 재미를 기대하기 어렵다는 의견",
+          "evidence": "강의 자체의 재미는 기대하지 않는 게 좋고",
+          "keywords": [
+            "강의 재미"
+          ],
+          "condition": null,
+          "mentions_change": false
+        },
+        {
+          "category": "exam",
+          "sentiment": "positive",
+          "summary": "평가 방식이 예측 가능해 시험 스트레스가 덜하다는 의견",
+          "evidence": "평가 방식이 예측 가능해서 시험 스트레스는 상대적으로 덜했음",
+          "keywords": [
+            "평가 방식",
+            "시험 스트레스"
+          ],
+          "condition": null,
+          "mentions_change": false
+        },
+        {
+          "category": "learning",
+          "sentiment": "neutral",
+          "summary": "계산 문제는 풀이 과정을 손으로 써보면 실수가 줄어든다는 의견",
+          "evidence": "계산 문제는 풀이 과정을 손으로 써보면 실수가 줄어듦",
+          "keywords": [
+            "계산 문제",
+            "풀이 과정"
+          ],
+          "condition": null,
+          "mentions_change": false
+        }
+      ]
+    },
+    {
+      "id": "c03-2026-1-r08",
+      "status": "ok",
+      "items": [
+        {
+          "category": "exam",
+          "sentiment": "positive",
+          "summary": "수업에서 다룬 개념과 예제가 시험에 연결된다는 의견 / 시험 난도가 비교적 공정하다는 의견",
+          "evidence": "수업에서 다룬 개념과 예제를 시험에 연결해 주기 때문에 갑자기 생소한 내용이 튀어나오는 느낌은 적었습니다.",
+          "keywords": [
+            "시험",
+            "수업 개념",
+            "예제"
+          ],
+          "condition": null,
+          "mentions_change": false
+        },
+        {
+          "category": "workload",
+          "sentiment": "neutral",
+          "summary": "수업 자료를 주말마다 다시 풀어보는 것이 도움이 된다는 의견",
+          "evidence": "수업 자료를 주말에 한 번씩 다시 풀어보니",
+          "keywords": [
+            "수업 자료",
+            "복습"
+          ],
+          "condition": null,
+          "mentions_change": false
+        },
+        {
+          "category": "learning",
+          "sentiment": "positive",
+          "summary": "복습을 통해 문제를 읽는 속도가 빨라졌다는 의견",
+          "evidence": "중간 이후에는 문제를 읽는 속도가 빨라졌습니다.",
+          "keywords": [
+            "문제 풀이 속도"
+          ],
+          "condition": null,
+          "mentions_change": false
+        },
+        {
+          "category": "exam",
+          "sentiment": "neutral",
+          "summary": "평가가 과제, 퀴즈, 중간·기말로 구성된다는 의견",
+          "evidence": "평가 구성은 과제 3회, 퀴즈 2회, 중간·기말이었고",
+          "keywords": [
+            "과제",
+            "퀴즈",
+            "중간·기말"
+          ],
+          "condition": null,
+          "mentions_change": false
+        },
+        {
+          "category": "workload",
+          "sentiment": "positive",
+          "summary": "과제 난도가 수업을 들으면 무리 없는 정도라는 의견",
+          "evidence": "과제 난도는 수업을 들었다면 무리 없는 정도였습니다.",
+          "keywords": [
+            "과제 난도"
+          ],
+          "condition": null,
+          "mentions_change": false
+        },
+        {
+          "category": "grade",
+          "sentiment": "positive",
+          "summary": "실수에도 A0를 받아 성적이 후하다는 평에 공감한다는 의견",
+          "evidence": "성적도 후하게 주신다는 평이 있는데, 저 역시 중간에서 실수를 몇 개 했음에도 A0를 받아서 어느 정도 공감합니다.",
+          "keywords": [
+            "성적",
+            "A0"
+          ],
+          "condition": null,
+          "mentions_change": false
+        },
+        {
+          "category": "attendance",
+          "sentiment": "negative",
+          "summary": "랜덤 호명으로 잠시 자리를 비우면 곤란하다는 의견",
+          "evidence": "랜덤 호명 방식이라 잠깐 나갔다가 이름 불리면 곤란하고",
+          "keywords": [
+            "랜덤 호명",
+            "출석"
+          ],
+          "condition": null,
+          "mentions_change": false
+        },
+        {
+          "category": "delivery",
+          "sentiment": "negative",
+          "summary": "강의가 단조롭고 설명 톤이 일정해 집중하기 어렵다는 의견",
+          "evidence": "강의는 다소 단조롭고 설명 톤이 일정해서 집중하기 힘든 날이 있지만",
+          "keywords": [
+            "강의",
+            "설명 톤",
+            "집중"
+          ],
+          "condition": null,
+          "mentions_change": false
+        },
+        {
+          "category": "general_impression",
+          "sentiment": "positive",
+          "summary": "통계 기초를 익히고 학점을 안정적으로 챙기려는 사람에게 맞는다는 의견",
+          "evidence": "통계 기초를 차근차근 익히고 학점도 안정적으로 챙기려는 사람에게 더 맞을 것 같음.",
+          "keywords": [
+            "통계 기초",
+            "학점"
+          ],
+          "condition": "통계 기초를 익히고 학점을 안정적으로 챙기려는 사람",
+          "mentions_change": false
+        }
+      ]
+    },
+    {
+      "id": "c04-2025-2-r01",
+      "status": "ok",
+      "items": [
+        {
+          "category": "team_project",
+          "sentiment": "negative",
+          "summary": "팀플에서 무임승차 팀원을 만나면 학기가 망할 정도로 부정적이라는 의견",
+          "evidence": "팀플 무임승차 한 명 만나면 학기 망함..",
+          "keywords": [
+            "팀플",
+            "무임승차"
+          ],
+          "condition": "무임승차 팀원을 만나는 경우",
+          "mentions_change": false
+        }
+      ]
+    },
+    {
+      "id": "c04-2025-2-r02",
+      "status": "ok",
+      "items": []
+    },
+    {
+      "id": "c04-2025-2-r03",
+      "status": "ok",
+      "items": [
+        {
+          "category": "delivery",
+          "sentiment": "positive",
+          "summary": "실무 사례가 많아 이론에만 치우치지 않는다는 의견 / 사례가 재미있다는 의견",
+          "evidence": "실무 사례가 많아서 이론만 듣는 느낌은 아니었음",
+          "keywords": [
+            "실무 사례",
+            "사례"
+          ],
+          "condition": null,
+          "mentions_change": false
+        },
+        {
+          "category": "team_project",
+          "sentiment": "negative",
+          "summary": "팀원 운이 좋지 않아 발표와 준비를 혼자 맡아 힘들었다는 의견 / 팀플 비중이 커 부담스럽다는 의견",
+          "evidence": "팀원 복도 넘쳐서 발표를 혼자 맡았음^^ 조원운 덕분에 준비는 드럽게 힘들엇다",
+          "keywords": [
+            "팀원 운",
+            "발표",
+            "준비"
+          ],
+          "condition": null,
+          "mentions_change": false
+        }
+      ]
+    },
+    {
+      "id": "c04-2025-2-r04",
+      "status": "ok",
+      "items": [
+        {
+          "category": "delivery",
+          "sentiment": "positive",
+          "summary": "실제 브랜드 사례를 들어 수업 내용이 기억에 남는다는 의견",
+          "evidence": "마원은 실제 브랜드 사례를 많이 들어줘서 수업 내용이 기억에 남아요",
+          "keywords": [
+            "실제 브랜드 사례"
+          ],
+          "condition": null,
+          "mentions_change": false
+        },
+        {
+          "category": "team_project",
+          "sentiment": "negative",
+          "summary": "팀플의 자료조사와 발표 준비에 일이 많고, 참여가 적은 조원의 몫까지 맡아야 했다는 의견 / 참여가 적은 조원의 몫을 나머지 팀원이 메워야 했다는 의견",
+          "evidence": "팀플이 생각보다 일이 많았습니다. 자료조사하고 발표자료 만들고 발표까지 하니",
+          "keywords": [
+            "팀플",
+            "자료조사",
+            "발표자료"
+          ],
+          "condition": null,
+          "mentions_change": false
+        },
+        {
+          "category": "workload",
+          "sentiment": "negative",
+          "summary": "팀플이 시험 기간과 겹치면 학업 부담이 크게 늘어난다는 의견",
+          "evidence": "시험 기간이랑 겹치면 로드가 확 늘어요",
+          "keywords": [
+            "시험 기간",
+            "로드"
+          ],
+          "condition": "팀플이 시험 기간과 겹칠 때",
+          "mentions_change": false
+        },
+        {
+          "category": "learning",
+          "sentiment": "positive",
+          "summary": "발표 준비를 통해 소비자 분석과 포지셔닝을 직접 적용해 본 것이 도움이 됐다는 의견",
+          "evidence": "발표 준비하면서 소비자 분석이나 포지셔닝을 직접 적용해 본 건 도움 됐어요",
+          "keywords": [
+            "소비자 분석",
+            "포지셔닝"
+          ],
+          "condition": null,
+          "mentions_change": false
+        }
+      ]
+    },
+    {
+      "id": "c04-2025-2-r05",
+      "status": "ok",
+      "items": [
+        {
+          "category": "delivery",
+          "sentiment": "positive",
+          "summary": "수업에서 다루는 사례가 현실적이고 토론할 거리가 있다는 의견 / 발표 피드백을 반영하면 결과물이 좋아진다는 의견",
+          "evidence": "수업에서 다루는 사례는 현실적이고 토론할 거리도 꽤 있습니다.",
+          "keywords": [
+            "현실적 사례",
+            "토론",
+            "발표 피드백"
+          ],
+          "condition": null,
+          "mentions_change": false
+        },
+        {
+          "category": "professor",
+          "sentiment": "neutral",
+          "summary": "교수자의 관점이 뚜렷하다는 의견",
+          "evidence": "교수님이 중요하다고 생각하는 관점이 분명해서",
+          "keywords": [
+            "교수자 관점"
+          ],
+          "condition": null,
+          "mentions_change": false
+        },
+        {
+          "category": "team_project",
+          "sentiment": "negative",
+          "summary": "팀원이 잠수하면 나머지 팀원의 부담이 커진다는 의견",
+          "evidence": "한 명이 잠수 타면 나머지 부담이 큽니다.",
+          "keywords": [
+            "팀원 잠수",
+            "역할 분담"
+          ],
+          "condition": null,
+          "mentions_change": false
+        },
+        {
+          "category": "exam",
+          "sentiment": "neutral",
+          "summary": "중간·기말 시험이 각각 25% 반영된다는 의견",
+          "evidence": "중간 25%, 기말 25%",
+          "keywords": [
+            "중간고사",
+            "기말고사",
+            "평가 비중"
+          ],
+          "condition": null,
+          "mentions_change": false
+        },
+        {
+          "category": "team_project",
+          "sentiment": "neutral",
+          "summary": "팀 프로젝트가 성적의 30%를 차지한다는 의견",
+          "evidence": "팀 프로젝트 30%",
+          "keywords": [
+            "팀 프로젝트",
+            "평가 비중"
+          ],
+          "condition": null,
+          "mentions_change": false
+        },
+        {
+          "category": "attendance",
+          "sentiment": "neutral",
+          "summary": "참여도가 성적의 20%를 차지한다는 의견",
+          "evidence": "참여도 20%",
+          "keywords": [
+            "참여도",
+            "평가 비중"
+          ],
+          "condition": null,
+          "mentions_change": false
+        },
+        {
+          "category": "learning",
+          "sentiment": "positive",
+          "summary": "실무 사례를 분석하는 과정이 유익했다는 의견",
+          "evidence": "실무 사례를 분석하는 과정은 유익했어요.",
+          "keywords": [
+            "실무 사례 분석"
+          ],
+          "condition": null,
+          "mentions_change": false
+        }
+      ]
+    },
+    {
+      "id": "c04-2025-2-r06",
+      "status": "ok",
+      "items": [
+        {
+          "category": "learning",
+          "sentiment": "positive",
+          "summary": "팀플이 없으면 배울 것이 많은 명강이라는 의견",
+          "evidence": "팀플만 아니면 명강이라고 할 수 있을 듯",
+          "keywords": [
+            "명강"
+          ],
+          "condition": "팀플이 없는 경우",
+          "mentions_change": false
+        },
+        {
+          "category": "delivery",
+          "sentiment": "positive",
+          "summary": "사례 설명이 흥미롭고 개념을 실제 시장 상황과 연결해준다는 의견",
+          "evidence": "사례 설명은 진짜 흥미롭고 개념을 실제 시장 상황에 연결해줘서 수업 듣는 맛이 있습니다.",
+          "keywords": [
+            "사례 설명",
+            "시장 상황"
+          ],
+          "condition": null,
+          "mentions_change": false
+        },
+        {
+          "category": "team_project",
+          "sentiment": "negative",
+          "summary": "자료조사와 중간·최종 발표가 학기 내내 이어져 팀플 부담이 크다는 의견",
+          "evidence": "문제는 팀플이 학기 내내 따라다닌다는 것.",
+          "keywords": [
+            "팀플",
+            "자료조사",
+            "발표"
+          ],
+          "condition": null,
+          "mentions_change": false
+        },
+        {
+          "category": "workload",
+          "sentiment": "negative",
+          "summary": "팀플 일정이 다른 과목 과제와 겹치면 일정 관리가 필요하다는 의견",
+          "evidence": "다른 과목 과제와 겹치면 일정 관리가 필수예요.",
+          "keywords": [
+            "일정 관리",
+            "과제"
+          ],
+          "condition": "팀플 일정이 다른 과목 과제와 겹치는 경우",
+          "mentions_change": false
+        },
+        {
+          "category": "team_project",
+          "sentiment": "neutral",
+          "summary": "조원끼리 초반에 역할과 마감일을 문서로 정해두라는 조언",
+          "evidence": "조원끼리 초반에 역할이랑 마감일을 문서로 정해두는 걸 추천합니다.",
+          "keywords": [
+            "역할 분담",
+            "마감일"
+          ],
+          "condition": null,
+          "mentions_change": false
+        },
+        {
+          "category": "professor",
+          "sentiment": "neutral",
+          "summary": "교수자의 마케팅 관점이 뚜렷하고 판단 근거를 사례로 설명한다는 의견",
+          "evidence": "교수님은 마케팅을 보는 관점이 뚜렷해서 호불호가 갈릴 수 있지만, 왜 그렇게 판단하는지 사례로 설명해주는 편입니다.",
+          "keywords": [
+            "마케팅 관점",
+            "사례 설명"
+          ],
+          "condition": null,
+          "mentions_change": false
+        },
+        {
+          "category": "exam",
+          "sentiment": "neutral",
+          "summary": "시험에서 수업 사례와 개념을 연결해 평가한다는 의견",
+          "evidence": "시험은 수업에서 나온 사례와 개념을 연결하는 식이라 단순 암기만 하면 애매할 수 있어요.",
+          "keywords": [
+            "사례",
+            "개념 연결"
+          ],
+          "condition": null,
+          "mentions_change": false
+        },
+        {
+          "category": "general_impression",
+          "sentiment": "positive",
+          "summary": "팀플 부담을 감당할 수 있고 실제 사례 분석을 좋아하는 사람에게 추천한다는 의견",
+          "evidence": "팀플 부담을 감당할 수 있고 실제 사례 분석을 좋아하는 사람에게는 얻어가는 게 있는 수업입니다.",
+          "keywords": [
+            "사례 분석"
+          ],
+          "condition": "팀플 부담을 감당할 수 있고 실제 사례 분석을 좋아하는 사람",
+          "mentions_change": false
+        }
+      ]
+    },
+    {
+      "id": "c04-2025-2-r07",
+      "status": "ok",
+      "items": [
+        {
+          "category": "delivery",
+          "sentiment": "positive",
+          "summary": "사례 중심 강의라 집중이 잘 된다는 의견",
+          "evidence": "사례 중심이라 집중 잘 됨",
+          "keywords": [
+            "사례 중심",
+            "집중"
+          ],
+          "condition": null,
+          "mentions_change": false
+        },
+        {
+          "category": "exam",
+          "sentiment": "neutral",
+          "summary": "시험에서 개념을 사례에 적용한다는 의견",
+          "evidence": "시험: 개념을 사례에 적용",
+          "keywords": [
+            "개념 적용",
+            "사례"
+          ],
+          "condition": null,
+          "mentions_change": false
+        },
+        {
+          "category": "team_project",
+          "sentiment": "negative",
+          "summary": "팀플 경험이 조원에 따라 매우 힘들 수 있다는 의견",
+          "evidence": "팀플: 조원에 따라 지옥",
+          "keywords": [
+            "팀플",
+            "조원"
+          ],
+          "condition": null,
+          "mentions_change": false
+        },
+        {
+          "category": "professor",
+          "sentiment": "neutral",
+          "summary": "교수자의 주관이 뚜렷하다는 의견",
+          "evidence": "교수님 스타일: 주관이 뚜렷함",
+          "keywords": [
+            "주관"
+          ],
+          "condition": null,
+          "mentions_change": false
+        },
+        {
+          "category": "workload",
+          "sentiment": "negative",
+          "summary": "팀 프로젝트와 시험 일정이 몰리는 주에는 바쁘다는 의견",
+          "evidence": "팀 프로젝트 1회에 중간·기말, 발표 2번이라 일정이 몰리는 주는 꽤 바빴음",
+          "keywords": [
+            "일정 집중",
+            "팀 프로젝트",
+            "시험"
+          ],
+          "condition": "일정이 몰리는 주",
+          "mentions_change": false
+        },
+        {
+          "category": "team_project",
+          "sentiment": "neutral",
+          "summary": "팀 프로젝트는 초반에 역할 분담을 확실히 하는 것이 좋다는 의견",
+          "evidence": "역할 분담을 초반에 확실히 하는 게 좋음",
+          "keywords": [
+            "역할 분담"
+          ],
+          "condition": null,
+          "mentions_change": false
+        }
+      ]
+    },
+    {
+      "id": "c04-2025-2-r08",
+      "status": "ok",
+      "items": [
+        {
+          "category": "delivery",
+          "sentiment": "positive",
+          "summary": "기업 사례를 수업 개념으로 해석하는 방식이 재미있고 기억에 남는다는 의견",
+          "evidence": "실제 기업 상황을 가정한 사례를 많이 접하면서 생각보다 재미를 느꼈습니다.",
+          "keywords": [
+            "기업 사례",
+            "수업 개념"
+          ],
+          "condition": null,
+          "mentions_change": false
+        },
+        {
+          "category": "learning",
+          "sentiment": "positive",
+          "summary": "실무 사례를 읽고 논리를 구성하는 연습이 된다는 의견",
+          "evidence": "실무 사례를 읽고 논리를 구성하는 연습은 됐습니다.",
+          "keywords": [
+            "실무 사례",
+            "논리 구성"
+          ],
+          "condition": null,
+          "mentions_change": false
+        },
+        {
+          "category": "professor",
+          "sentiment": "neutral",
+          "summary": "교수자가 선호하는 분석 방향이 뚜렷해 의견을 낼 때 근거를 준비해야 한다는 의견",
+          "evidence": "교수님이 선호하는 분석 방향이 확실한 편이라 자유롭게 의견을 내더라도 근거를 준비해야 합니다.",
+          "keywords": [
+            "분석 방향",
+            "근거"
+          ],
+          "condition": null,
+          "mentions_change": false
+        },
+        {
+          "category": "team_project",
+          "sentiment": "negative",
+          "summary": "조사부터 발표까지 직접 해야 하고 팀원의 불참으로 일정 조정이 어려웠다는 의견 / 발표 전 자료를 정리하느라 밤을 새울 뻔했다는 의견",
+          "evidence": "팀플은 조사부터 발표까지 직접 해야 해서 부담이 상당했고, 특히 조원 한 명이 회의에 거의 나오지 않아 일정 조정이 어려웠습니다.",
+          "keywords": [
+            "팀플 부담",
+            "팀원 불참",
+            "일정 조정"
+          ],
+          "condition": null,
+          "mentions_change": false
+        },
+        {
+          "category": "exam",
+          "sentiment": "negative",
+          "summary": "시험에서 개념을 사례에 적용해야 하며 강의자료 암기만으로는 부족하다는 의견",
+          "evidence": "시험도 개념을 사례에 적용하는 문제가 있어서 강의자료를 외우는 것만으로는 부족했고, 사례별로 왜 그런 전략을 썼는지 자기 말로 설명할 수 있어야 했습니다.",
+          "keywords": [
+            "사례 적용",
+            "시험"
+          ],
+          "condition": null,
+          "mentions_change": false
+        },
+        {
+          "category": "general_impression",
+          "sentiment": "negative",
+          "summary": "팀플을 싫어하는 학생에게는 추천하기 어렵다는 의견",
+          "evidence": "팀플을 싫어하면 추천하기 어렵지만",
+          "keywords": [
+            "팀플"
+          ],
+          "condition": "팀플을 싫어하는 경우",
+          "mentions_change": false
+        },
+        {
+          "category": "general_impression",
+          "sentiment": "positive",
+          "summary": "발표 경험이나 실무 감각을 얻고 싶은 학생에게 들어볼 만하다는 의견",
+          "evidence": "발표 경험이나 실무 감각을 얻고 싶다면 들어볼 만합니다.",
+          "keywords": [
+            "발표 경험",
+            "실무 감각"
+          ],
+          "condition": "발표 경험이나 실무 감각을 얻고 싶은 경우",
+          "mentions_change": false
+        }
+      ]
+    },
+    {
+      "id": "c04-2026-1-r01",
+      "status": "ok",
+      "items": [
+        {
+          "category": "team_project",
+          "sentiment": "neutral",
+          "summary": "팀 프로젝트에서 조원 운이 필요하다는 의견",
+          "evidence": "그래도 조원운은 필요함",
+          "keywords": [
+            "조원 운"
+          ],
+          "condition": null,
+          "mentions_change": false
+        }
+      ]
+    },
+    {
+      "id": "c04-2026-1-r02",
+      "status": "ok",
+      "items": []
+    },
+    {
+      "id": "c04-2026-1-r03",
+      "status": "ok",
+      "items": [
+        {
+          "category": "team_project",
+          "sentiment": "positive",
+          "summary": "팀 인원이 줄어 이전보다 나아졌다는 의견",
+          "evidence": "이번 학기 팀 인원이 줄어서 예전보단 낫다고 들었는데",
+          "keywords": [
+            "팀 인원"
+          ],
+          "condition": null,
+          "mentions_change": true
+        },
+        {
+          "category": "team_project",
+          "sentiment": "negative",
+          "summary": "팀 프로젝트에서 해야 할 일이 여전히 많다는 의견",
+          "evidence": "일은 여전히 많아요",
+          "keywords": [
+            "팀 프로젝트 업무량"
+          ],
+          "condition": null,
+          "mentions_change": false
+        },
+        {
+          "category": "delivery",
+          "sentiment": "positive",
+          "summary": "실무 사례 분석이 재미있다는 의견",
+          "evidence": "실무 사례 분석은 꽤 재밌음",
+          "keywords": [
+            "실무 사례 분석"
+          ],
+          "condition": null,
+          "mentions_change": false
+        }
+      ]
+    },
+    {
+      "id": "c04-2026-1-r04",
+      "status": "ok",
+      "items": [
+        {
+          "category": "team_project",
+          "sentiment": "positive",
+          "summary": "팀 인원이 줄어 소통이 조금 편해졌다는 의견",
+          "evidence": "팀 인원이 줄어서 소통은 조금 편해졌어요",
+          "keywords": [
+            "팀 인원",
+            "소통"
+          ],
+          "condition": null,
+          "mentions_change": true
+        },
+        {
+          "category": "team_project",
+          "sentiment": "negative",
+          "summary": "팀원이 참여하지 않으면 기여 차이가 크게 드러난다는 의견",
+          "evidence": "한 명이 안 하면 그만큼 티가 크게 납니다",
+          "keywords": [
+            "팀원 참여"
+          ],
+          "condition": null,
+          "mentions_change": false
+        },
+        {
+          "category": "delivery",
+          "sentiment": "positive",
+          "summary": "다양한 사례를 통해 마케팅 개념의 현실 적용을 이해하기 좋다는 의견",
+          "evidence": "사례는 다양해서 마케팅 개념이 현실에서 어떻게 쓰이는지 이해하기 좋고요",
+          "keywords": [
+            "사례",
+            "마케팅 개념"
+          ],
+          "condition": null,
+          "mentions_change": false
+        },
+        {
+          "category": "professor",
+          "sentiment": "neutral",
+          "summary": "교수자의 관점이 뚜렷해 발표 근거를 준비해야 한다는 의견",
+          "evidence": "교수님 관점이 강한 편이라 발표할 때 근거를 준비해야 합니다",
+          "keywords": [
+            "교수자 관점",
+            "발표 근거"
+          ],
+          "condition": null,
+          "mentions_change": false
+        },
+        {
+          "category": "exam",
+          "sentiment": "neutral",
+          "summary": "중간고사와 기말고사가 있다는 의견",
+          "evidence": "중간기말",
+          "keywords": [
+            "중간고사",
+            "기말고사"
+          ],
+          "condition": null,
+          "mentions_change": false
+        },
+        {
+          "category": "workload",
+          "sentiment": "negative",
+          "summary": "발표와 팀 프로젝트, 시험 일정이 한꺼번에 몰릴 때 부담된다는 의견",
+          "evidence": "발표 2번, 팀 프로젝트 1개, 중간기말이라 로드가 한꺼번에 몰릴 때가 있음",
+          "keywords": [
+            "발표",
+            "팀 프로젝트",
+            "로드"
+          ],
+          "condition": null,
+          "mentions_change": false
+        }
+      ]
+    },
+    {
+      "id": "c04-2026-1-r05",
+      "status": "ok",
+      "items": [
+        {
+          "category": "delivery",
+          "sentiment": "positive",
+          "summary": "실제 사례를 활용한 설명이 기억에 잘 남는다는 의견",
+          "evidence": "뉴스나 광고에서 보던 전략을 수업 개념으로 다시 보게 되니까 기억에 잘 남습니다.",
+          "keywords": [
+            "실제 사례",
+            "수업 개념"
+          ],
+          "condition": null,
+          "mentions_change": false
+        },
+        {
+          "category": "professor",
+          "sentiment": "negative",
+          "summary": "피드백이 단호해 의견이 다를 때 당황할 수 있다는 의견",
+          "evidence": "피드백이 꽤 단호해서 의견이 다르면 당황할 수 있음.",
+          "keywords": [
+            "피드백"
+          ],
+          "condition": null,
+          "mentions_change": false
+        },
+        {
+          "category": "team_project",
+          "sentiment": "negative",
+          "summary": "프로젝트 양이 크게 줄지 않았고 자료조사와 발표 준비를 각자 책임져야 한다는 의견 / 팀플 참여도가 낮은 조원이 있으면 초반에 직접 이야기해야 한다는 의견",
+          "evidence": "팀 인원은 줄었지만 프로젝트 양 자체가 확 줄어든 건 아니고, 자료조사와 발표 준비를 각자 책임지고 해야 합니다.",
+          "keywords": [
+            "프로젝트 양",
+            "자료조사",
+            "발표 준비"
+          ],
+          "condition": null,
+          "mentions_change": true
+        },
+        {
+          "category": "exam",
+          "sentiment": "neutral",
+          "summary": "시험에 개념을 사례에 적용하는 유형이 많다는 의견",
+          "evidence": "시험은 개념을 사례에 적용하는 유형이 많아서",
+          "keywords": [
+            "개념 적용",
+            "사례"
+          ],
+          "condition": null,
+          "mentions_change": false
+        },
+        {
+          "category": "exam",
+          "sentiment": "negative",
+          "summary": "암기만으로는 시험을 치르기 어렵다는 의견",
+          "evidence": "암기만 하면 힘들어요.",
+          "keywords": [
+            "암기"
+          ],
+          "condition": null,
+          "mentions_change": false
+        }
+      ]
+    },
+    {
+      "id": "c04-2026-1-r06",
+      "status": "ok",
+      "items": [
+        {
+          "category": "team_project",
+          "sentiment": "positive",
+          "summary": "조원 전원이 참여한다면 팀플이 쾌적하다는 의견 / 초반에 회의 일정을 정하고 자료 출처를 공유하면 결과물의 질이 좋아진다는 의견",
+          "evidence": "팀원끼리 초반에 회의 일정을 정하고 자료 출처를 공유하면 결과물 퀄리티는 좋아지는 편입니다.",
+          "keywords": [
+            "팀플",
+            "회의 일정",
+            "자료 출처"
+          ],
+          "condition": "조원 전원이 일을 하는 경우 / 팀원끼리 초반에 회의 일정을 정하고 자료 출처를 공유하는 경우",
+          "mentions_change": false
+        },
+        {
+          "category": "team_project",
+          "sentiment": "negative",
+          "summary": "무임승차 팀원이 있으면 맡은 파트가 커져 타격이 크다는 의견",
+          "evidence": "맡은 파트가 커져서 무임승차 한 명의 타격도 큽니다.",
+          "keywords": [
+            "무임승차",
+            "맡은 파트"
+          ],
+          "condition": null,
+          "mentions_change": false
+        },
+        {
+          "category": "learning",
+          "sentiment": "positive",
+          "summary": "수업에서 배운 개념을 실무 사례에 적용하는 연습을 할 수 있다는 의견",
+          "evidence": "수업에서 배운 STP나 포지셔닝을 사례에 적용하는 연습을 할 수 있어요.",
+          "keywords": [
+            "STP",
+            "포지셔닝",
+            "실무 사례"
+          ],
+          "condition": null,
+          "mentions_change": false
+        },
+        {
+          "category": "professor",
+          "sentiment": "neutral",
+          "summary": "교수자의 해석 기준이 뚜렷해 발표 논리를 탄탄히 만들어야 한다는 의견",
+          "evidence": "교수님은 본인만의 해석 기준이 뚜렷해서 발표 논리를 탄탄히 만들어야 합니다.",
+          "keywords": [
+            "해석 기준",
+            "발표 논리"
+          ],
+          "condition": null,
+          "mentions_change": false
+        },
+        {
+          "category": "workload",
+          "sentiment": "negative",
+          "summary": "중간·기말과 발표, 프로젝트가 겹쳐 마감 직전 부담이 크다는 의견",
+          "evidence": "중간·기말과 발표 2회, 프로젝트가 있어서 마감 직전에는 개빡셈.",
+          "keywords": [
+            "시험",
+            "발표",
+            "프로젝트"
+          ],
+          "condition": "마감 직전",
+          "mentions_change": false
+        }
+      ]
+    },
+    {
+      "id": "c04-2026-1-r07",
+      "status": "ok",
+      "items": [
+        {
+          "category": "delivery",
+          "sentiment": "positive",
+          "summary": "사례를 많이 다뤄 수업이 지루하지 않다는 의견",
+          "evidence": "사례를 많이 다뤄서 수업 시간은 지루하지 않은 편",
+          "keywords": [
+            "사례 토론",
+            "수업 흥미"
+          ],
+          "condition": null,
+          "mentions_change": false
+        },
+        {
+          "category": "exam",
+          "sentiment": "neutral",
+          "summary": "시험에 개념을 상황에 적용하는 문제가 나온다는 의견",
+          "evidence": "시험은 개념을 상황에 적용하는 문제가 나옴",
+          "keywords": [
+            "시험 유형",
+            "개념 적용"
+          ],
+          "condition": null,
+          "mentions_change": false
+        },
+        {
+          "category": "team_project",
+          "sentiment": "positive",
+          "summary": "팀 인원이 적은 점은 장점이라는 의견",
+          "evidence": "팀 인원 감소는 장점",
+          "keywords": [
+            "팀 인원"
+          ],
+          "condition": null,
+          "mentions_change": true
+        },
+        {
+          "category": "team_project",
+          "sentiment": "negative",
+          "summary": "팀원별 역할이 커 책임감이 필요하다는 의견",
+          "evidence": "역할이 커진 만큼 책임감 필요함",
+          "keywords": [
+            "역할 분담",
+            "책임감"
+          ],
+          "condition": null,
+          "mentions_change": false
+        }
+      ]
+    },
+    {
+      "id": "c04-2026-1-r08",
+      "status": "ok",
+      "items": [
+        {
+          "category": "delivery",
+          "sentiment": "positive",
+          "summary": "실무 사례를 개념과 연결해 설명해 광고를 보는 시선이 달라졌다는 의견",
+          "evidence": "제품이나 브랜드가 어떤 고객층을 노리는지, 경쟁 상황에서 어떤 메시지를 선택하는지 등을 개념과 연결해 설명해 주셔서 수업 이후에 광고를 보는 시선도 조금 달라졌습니다.",
+          "keywords": [
+            "실무 사례",
+            "개념 연결",
+            "광고 분석"
+          ],
+          "condition": null,
+          "mentions_change": false
+        },
+        {
+          "category": "professor",
+          "sentiment": "neutral",
+          "summary": "교수자의 분석 관점이 분명하고 피드백이 단호하다는 의견",
+          "evidence": "교수님이 중요하게 여기는 분석 관점이 분명하고 피드백도 단호한 편이라",
+          "keywords": [
+            "분석 관점",
+            "피드백"
+          ],
+          "condition": null,
+          "mentions_change": false
+        },
+        {
+          "category": "workload",
+          "sentiment": "neutral",
+          "summary": "토론이나 발표에서 의견을 말하려면 근거를 충분히 준비하는 것이 좋다는 의견 / 평가 일정이 몰리는 주를 미리 확인하는 것이 좋다는 의견",
+          "evidence": "토론이나 발표에서 본인의 생각을 말하려면 근거를 충분히 준비하는 게 좋습니다.",
+          "keywords": [
+            "근거 준비",
+            "토론",
+            "발표"
+          ],
+          "condition": null,
+          "mentions_change": false
+        },
+        {
+          "category": "team_project",
+          "sentiment": "positive",
+          "summary": "팀 인원이 줄어 회의 일정을 맞추기 전보다 편해졌다는 의견 / 초반에 역할과 중간 점검 날짜를 정해 팀 프로젝트를 무난하게 진행했다는 의견",
+          "evidence": "저희 팀은 초반에 역할을 나누고 중간 점검 날짜까지 정해서 그나마 무난하게 진행했는데",
+          "keywords": [
+            "팀 인원",
+            "회의 일정",
+            "역할 분담"
+          ],
+          "condition": "초반에 역할을 나누고 중간 점검 날짜를 정한 경우",
+          "mentions_change": true
+        },
+        {
+          "category": "team_project",
+          "sentiment": "negative",
+          "summary": "팀 인원이 줄어도 각자 맡는 분량이 크게 느껴질 수 있다는 의견 / 참여가 적은 조원 때문에 발표 직전에 고생할 수 있다는 의견 / 팀 인원 감소만으로 팀 프로젝트를 편하게 여겨서는 안 된다는 의견",
+          "evidence": "다른 팀은 참여가 적은 조원 때문에 발표 직전에 고생했다는 얘기도 들었습니다.",
+          "keywords": [
+            "팀 인원",
+            "개인 분량",
+            "조원 참여"
+          ],
+          "condition": "참여가 적은 조원이 있는 팀",
+          "mentions_change": false
+        },
+        {
+          "category": "exam",
+          "sentiment": "neutral",
+          "summary": "평가에 발표 2회, 팀 프로젝트, 중간·기말이 포함된다는 의견",
+          "evidence": "평가 구성은 발표 2회, 팀 프로젝트, 중간·기말이라",
+          "keywords": [
+            "발표",
+            "팀 프로젝트",
+            "중간·기말"
+          ],
+          "condition": null,
+          "mentions_change": false
+        },
+        {
+          "category": "exam",
+          "sentiment": "negative",
+          "summary": "용어 정의 암기만으로는 시험 준비가 부족하다는 의견",
+          "evidence": "시험은 용어 정의만 외우는 식으로 준비하면 부족하고",
+          "keywords": [
+            "용어 정의",
+            "시험 준비"
+          ],
+          "condition": null,
+          "mentions_change": false
+        },
+        {
+          "category": "exam",
+          "sentiment": "positive",
+          "summary": "수업 사례를 다른 상황에 적용해 설명하는 연습이 시험에 도움이 된다는 의견",
+          "evidence": "수업에서 본 사례를 다른 상황에 적용해 설명하는 연습이 도움이 됩니다.",
+          "keywords": [
+            "사례 적용",
+            "시험 준비"
+          ],
+          "condition": null,
+          "mentions_change": false
+        },
+        {
+          "category": "general_impression",
+          "sentiment": "negative",
+          "summary": "팀 프로젝트를 싫어하는 사람에게는 부담스러운 수업이라는 의견",
+          "evidence": "팀플이 싫은 사람에게는 부담스럽겠지만",
+          "keywords": [
+            "팀 프로젝트"
+          ],
+          "condition": "팀 프로젝트를 싫어하는 사람",
+          "mentions_change": false
+        },
+        {
+          "category": "learning",
+          "sentiment": "positive",
+          "summary": "실제 사례 분석과 발표 경험을 쌓고 싶은 사람에게 배울 점이 있다는 의견",
+          "evidence": "실제 사례를 분석하고 발표 경험을 쌓고 싶은 사람이라면 배울 점이 있는 수업입니다.",
+          "keywords": [
+            "사례 분석",
+            "발표 경험"
+          ],
+          "condition": "실제 사례를 분석하고 발표 경험을 쌓고 싶은 사람",
+          "mentions_change": false
+        }
+      ]
+    }
+  ],
+  "candidate45_v3": [
+    {
+      "id": "t01",
+      "status": "ok",
+      "items": [
+        {
+          "category": "exam",
+          "sentiment": "positive",
+          "summary": "시험 문제가 교재 연습문제와 유사해 대비하기 쉽다는 의견",
+          "evidence": "시험 교재 연습문제에서 숫자만 바꿔서 나옴.",
+          "keywords": [
+            "시험",
+            "교재 연습문제"
+          ],
+          "condition": null,
+          "mentions_change": false
+        },
+        {
+          "category": "workload",
+          "sentiment": "neutral",
+          "summary": "시험 대비를 위해 연습문제를 모두 풀면 된다는 의견",
+          "evidence": "연습문제만 다 풀면 됨",
+          "keywords": [
+            "연습문제"
+          ],
+          "condition": null,
+          "mentions_change": false
+        }
+      ]
+    },
+    {
+      "id": "t02",
+      "status": "ok",
+      "items": [
+        {
+          "category": "exam",
+          "sentiment": "neutral",
+          "summary": "중간·기말 시험과 퀴즈가 있다는 안내라는 의견",
+          "evidence": "중간 기말 퀴즈2번",
+          "keywords": [
+            "중간",
+            "기말",
+            "퀴즈"
+          ],
+          "condition": null,
+          "mentions_change": false
+        },
+        {
+          "category": "workload",
+          "sentiment": "neutral",
+          "summary": "과제가 격주로 있다는 안내라는 의견",
+          "evidence": "과제는 격주",
+          "keywords": [
+            "과제"
+          ],
+          "condition": null,
+          "mentions_change": false
+        },
+        {
+          "category": "etc",
+          "sentiment": "neutral",
+          "summary": "전자출결을 사용한다는 안내라는 의견",
+          "evidence": "출석은 전자출결",
+          "keywords": [
+            "전자출결"
+          ],
+          "condition": null,
+          "mentions_change": false
+        }
+      ]
+    },
+    {
+      "id": "t03",
+      "status": "ok",
+      "items": [
+        {
+          "category": "delivery",
+          "sentiment": "positive",
+          "summary": "판서가 깔끔하고 예시를 많이 들어 이해하기 쉽다는 의견",
+          "evidence": "교수님 판서가 깔끔하고 예시를 진짜 많이 들어주셔서 이해가 잘됨",
+          "keywords": [
+            "판서",
+            "예시"
+          ],
+          "condition": null,
+          "mentions_change": false
+        },
+        {
+          "category": "professor",
+          "sentiment": "positive",
+          "summary": "질문하러 가면 끝까지 설명해준다는 의견",
+          "evidence": "질문하러 가면 끝까지 붙잡고 설명해주심",
+          "keywords": [
+            "질문 응대"
+          ],
+          "condition": null,
+          "mentions_change": false
+        },
+        {
+          "category": "grade",
+          "sentiment": "positive",
+          "summary": "생각보다 학점을 잘 받았다는 의견",
+          "evidence": "학점도 생각보다 잘 받았어요",
+          "keywords": [
+            "학점"
+          ],
+          "condition": null,
+          "mentions_change": false
+        }
+      ]
+    },
+    {
+      "id": "t04",
+      "status": "ok",
+      "items": [
+        {
+          "category": "delivery",
+          "sentiment": "positive",
+          "summary": "교수자가 천천히 말해 영어 강의를 알아듣기 괜찮았다는 의견",
+          "evidence": "교수님이 천천히 말씀하셔서 알아듣는건 괜찮았음",
+          "keywords": [
+            "영어 강의",
+            "강의 속도"
+          ],
+          "condition": null,
+          "mentions_change": false
+        },
+        {
+          "category": "team_project",
+          "sentiment": "negative",
+          "summary": "팀원에 따라 팀플 결과가 크게 달라질 수 있다는 의견",
+          "evidence": "팀플 비중이 40퍼라 팀원 잘못 만나면 그냥 망함",
+          "keywords": [
+            "팀플 비중",
+            "팀원"
+          ],
+          "condition": null,
+          "mentions_change": false
+        },
+        {
+          "category": "exam",
+          "sentiment": "positive",
+          "summary": "기말 시험이 무난하다는 의견",
+          "evidence": "기말은 무난",
+          "keywords": [
+            "기말"
+          ],
+          "condition": null,
+          "mentions_change": false
+        }
+      ]
+    },
+    {
+      "id": "t05",
+      "status": "ok",
+      "items": [
+        {
+          "category": "workload",
+          "sentiment": "negative",
+          "summary": "매주 과제와 리딩 정리, 퀴즈로 학업 부담이 크다는 의견",
+          "evidence": "매주 문제풀이 과제 + 리딩 정리본 제출에 퀴즈까지 있어서 시험기간 아닌데도 시험기간같음ㅋㅋ",
+          "keywords": [
+            "문제풀이 과제",
+            "리딩 정리",
+            "퀴즈"
+          ],
+          "condition": null,
+          "mentions_change": false
+        },
+        {
+          "category": "exam",
+          "sentiment": "positive",
+          "summary": "과제가 시험과 유사해 과제를 성실히 하면 시험을 치르기 수월하다는 의견",
+          "evidence": "과제가 시험이랑 거의 똑같이 나와서 과제만 성실하게 하면 시험은 할만함",
+          "keywords": [
+            "시험 유형",
+            "과제"
+          ],
+          "condition": null,
+          "mentions_change": false
+        },
+        {
+          "category": "grade",
+          "sentiment": "positive",
+          "summary": "드랍을 포기하고 버티면 B 이상을 받을 수 있다는 의견",
+          "evidence": "성적은 드포라 버티면 b이상은 주시는듯?",
+          "keywords": [
+            "성적",
+            "B 이상"
+          ],
+          "condition": "드랍하지 않고 버티면",
+          "mentions_change": false
+        },
+        {
+          "category": "delivery",
+          "sentiment": "negative",
+          "summary": "수업이 졸리고 목소리가 작아 뒷자리에서는 잘 들리지 않는다는 의견",
+          "evidence": "교수님 수업은 솔직히 졸림.. 목소리가 작으셔서 뒷자리면 잘 안들림",
+          "keywords": [
+            "수업 흥미도",
+            "목소리"
+          ],
+          "condition": "뒷자리에 앉으면",
+          "mentions_change": false
+        }
+      ]
+    },
+    {
+      "id": "t06",
+      "status": "ok",
+      "items": [
+        {
+          "category": "professor",
+          "sentiment": "negative",
+          "summary": "학생 질문을 무시하고 한숨을 쉬며 면박을 주는 태도라는 의견",
+          "evidence": "학생 질문을 무시하는 태도 진짜 어이없음. 수업시간에 대놓고 한숨쉬고 그것도 모르냐는 식",
+          "keywords": [
+            "질문 응대",
+            "한숨",
+            "면박"
+          ],
+          "condition": null,
+          "mentions_change": false
+        },
+        {
+          "category": "learning",
+          "sentiment": "positive",
+          "summary": "수업 내용 자체는 유익했다는 의견",
+          "evidence": "내용 자체는 유익했는데",
+          "keywords": [
+            "수업 내용"
+          ],
+          "condition": null,
+          "mentions_change": false
+        },
+        {
+          "category": "general_impression",
+          "sentiment": "negative",
+          "summary": "다시는 수강하지 않겠다는 의견",
+          "evidence": "다시는 안들음",
+          "keywords": [
+            "재수강"
+          ],
+          "condition": null,
+          "mentions_change": false
+        }
+      ]
+    },
+    {
+      "id": "t07",
+      "status": "ok",
+      "items": [
+        {
+          "category": "general_impression",
+          "sentiment": "positive",
+          "summary": "필수 과목으로 수강했지만 생각보다 괜찮았다는 의견",
+          "evidence": "생각보다 괜찮았음",
+          "keywords": [],
+          "condition": null,
+          "mentions_change": false
+        },
+        {
+          "category": "workload",
+          "sentiment": "negative",
+          "summary": "코딩 기초가 없으면 초반에 따라가기 어렵다는 의견",
+          "evidence": "코딩 노베면 초반 3주는 진짜 헤맴",
+          "keywords": [
+            "코딩 기초",
+            "초반 3주"
+          ],
+          "condition": "코딩 기초가 없는 경우",
+          "mentions_change": false
+        },
+        {
+          "category": "etc",
+          "sentiment": "positive",
+          "summary": "조교가 실습 시간에 개별적으로 도와줘서 도움이 됐다는 의견",
+          "evidence": "조교님이 실습시간에 하나하나 봐주셔서 그나마 살았다",
+          "keywords": [
+            "조교",
+            "실습"
+          ],
+          "condition": null,
+          "mentions_change": false
+        }
+      ]
+    },
+    {
+      "id": "t08",
+      "status": "ok",
+      "items": [
+        {
+          "category": "exam",
+          "sentiment": "neutral",
+          "summary": "이번 학기부터 중간·기말 시험만 본다는 의견",
+          "evidence": "이번학기부터 퀴즈 없어지고 중간 기말만 봄",
+          "keywords": [
+            "퀴즈",
+            "중간·기말"
+          ],
+          "condition": null,
+          "mentions_change": true
+        },
+        {
+          "category": "workload",
+          "sentiment": "negative",
+          "summary": "시험 범위가 늘어 한 번에 공부해야 하는 점이 부담스럽다는 의견",
+          "evidence": "대신 시험 범위가 늘어서 한번에 몰아서 공부해야하는건 좀 부담",
+          "keywords": [
+            "시험 범위",
+            "공부 부담"
+          ],
+          "condition": null,
+          "mentions_change": false
+        },
+        {
+          "category": "exam",
+          "sentiment": "positive",
+          "summary": "평가 비중을 잘 공지해 준다는 의견",
+          "evidence": "평가 비중도 공지 잘해주셔서 깔끔했음",
+          "keywords": [
+            "평가 비중",
+            "공지"
+          ],
+          "condition": null,
+          "mentions_change": false
+        }
+      ]
+    },
+    {
+      "id": "t09",
+      "status": "ok",
+      "items": [
+        {
+          "category": "delivery",
+          "sentiment": "positive",
+          "summary": "수업의 설명 순서와 구조가 깔끔하다는 의견 / 과제 수행에 필요한 힌트를 수업에서 대부분 제공한다는 의견",
+          "evidence": "개념 설명→예제→응용 순서로 가서 구조는 깔끔함",
+          "keywords": [
+            "설명 순서",
+            "수업 구조",
+            "과제 힌트"
+          ],
+          "condition": null,
+          "mentions_change": false
+        },
+        {
+          "category": "delivery",
+          "sentiment": "negative",
+          "summary": "진도가 빨라 한 번 놓치면 따라가기 어렵다는 의견",
+          "evidence": "진도가 너무 빨라서 한번 놓치면 따라잡기 힘듦",
+          "keywords": [
+            "빠른 진도"
+          ],
+          "condition": null,
+          "mentions_change": false
+        },
+        {
+          "category": "workload",
+          "sentiment": "neutral",
+          "summary": "엑셀로 데이터를 처리하는 과제가 세 번 있다는 의견",
+          "evidence": "과제: 3번, 엑셀로 데이터 돌리는 과제",
+          "keywords": [
+            "과제",
+            "엑셀"
+          ],
+          "condition": null,
+          "mentions_change": false
+        },
+        {
+          "category": "exam",
+          "sentiment": "neutral",
+          "summary": "시험이 오픈북이라는 의견",
+          "evidence": "시험: 오픈북",
+          "keywords": [
+            "오픈북"
+          ],
+          "condition": null,
+          "mentions_change": false
+        },
+        {
+          "category": "exam",
+          "sentiment": "negative",
+          "summary": "오픈북 시험의 시간이 빠듯하다는 의견",
+          "evidence": "시간이 빠듯해서 정리 안해가면 책 펼칠 시간도 없음",
+          "keywords": [
+            "시간 부족"
+          ],
+          "condition": null,
+          "mentions_change": false
+        },
+        {
+          "category": "team_project",
+          "sentiment": "neutral",
+          "summary": "팀플이 없다는 의견",
+          "evidence": "팀플: 없음",
+          "keywords": [
+            "팀플"
+          ],
+          "condition": null,
+          "mentions_change": false
+        },
+        {
+          "category": "learning",
+          "sentiment": "positive",
+          "summary": "고생은 하지만 수업이 끝난 뒤 확실히 남는 것이 있다는 의견",
+          "evidence": "고생은 하는데 끝나고 나면 남는게 확실히 있는 수업",
+          "keywords": [
+            "배움"
+          ],
+          "condition": null,
+          "mentions_change": false
+        }
+      ]
+    },
+    {
+      "id": "t10",
+      "status": "ok",
+      "items": [
+        {
+          "category": "grade",
+          "sentiment": "negative",
+          "summary": "학점이 잘 나온다는 평가를 믿기 어렵다는 의견",
+          "evidence": "학점 잘준다는 강의평 쓴 사람들 다 A 받은 사람들임 속지마셈",
+          "keywords": [
+            "학점"
+          ],
+          "condition": null,
+          "mentions_change": false
+        },
+        {
+          "category": "general_impression",
+          "sentiment": "negative",
+          "summary": "수업에 대해 부정적인 평가가 있다는 의견",
+          "evidence": "나머지는 할많하않",
+          "keywords": [],
+          "condition": null,
+          "mentions_change": false
+        }
+      ]
+    },
+    {
+      "id": "g01",
+      "status": "ok",
+      "items": [
+        {
+          "category": "workload",
+          "sentiment": "negative",
+          "summary": "매주 과제가 있고 과제마다 두세 시간씩 걸려 시험 기간에도 부담이 컸다는 의견",
+          "evidence": "매주 과제가 나오는 건 그렇다 치는데 하나 할 때마다 기본 두세 시간은 잡아먹음. 시험기간에도 과제 안 쉬어서 진짜 빡셌다.",
+          "keywords": [
+            "과제 빈도",
+            "과제 소요 시간",
+            "시험 기간"
+          ],
+          "condition": null,
+          "mentions_change": false
+        }
+      ]
+    },
+    {
+      "id": "g02",
+      "status": "ok",
+      "items": [
+        {
+          "category": "delivery",
+          "sentiment": "positive",
+          "summary": "예시를 들어 설명해 이해하기 쉽다는 의견 / 전공을 처음 듣는 사람도 따라갈 수 있다는 의견",
+          "evidence": "전공 처음 듣는 사람도 따라갈 수 있는 수업이라 생각함",
+          "keywords": [
+            "예시 설명",
+            "전공 기초"
+          ],
+          "condition": null,
+          "mentions_change": false
+        }
+      ]
+    },
+    {
+      "id": "g03",
+      "status": "ok",
+      "items": [
+        {
+          "category": "delivery",
+          "sentiment": "positive",
+          "summary": "설명을 이해하기 쉽다는 의견",
+          "evidence": "교수님 설명도 이해 잘 되고",
+          "keywords": [
+            "설명"
+          ],
+          "condition": null,
+          "mentions_change": false
+        },
+        {
+          "category": "professor",
+          "sentiment": "positive",
+          "summary": "질문에 친절하게 답해준다는 의견",
+          "evidence": "질문하면 친절하게 답해주심",
+          "keywords": [
+            "질문 응대"
+          ],
+          "condition": null,
+          "mentions_change": false
+        },
+        {
+          "category": "exam",
+          "sentiment": "positive",
+          "summary": "시험이 수업에서 다룬 내용을 중심으로 출제된다는 의견",
+          "evidence": "시험도 수업에서 다룬 내용 위주로 나와서",
+          "keywords": [
+            "시험 범위"
+          ],
+          "condition": null,
+          "mentions_change": false
+        },
+        {
+          "category": "grade",
+          "sentiment": "positive",
+          "summary": "공부한 만큼 성적을 받을 수 있다는 의견",
+          "evidence": "공부한 만큼은 받을 수 있는 듯",
+          "keywords": [
+            "성적"
+          ],
+          "condition": null,
+          "mentions_change": false
+        },
+        {
+          "category": "general_impression",
+          "sentiment": "positive",
+          "summary": "전체적으로 만족스럽다는 의견",
+          "evidence": "전체적으로 만족",
+          "keywords": [],
+          "condition": null,
+          "mentions_change": false
+        }
+      ]
+    },
+    {
+      "id": "g04",
+      "status": "ok",
+      "items": [
+        {
+          "category": "workload",
+          "sentiment": "positive",
+          "summary": "과제가 많지 않아 부담이 적다는 의견",
+          "evidence": "과제 자체는 별로 없어서 편했는데",
+          "keywords": [
+            "과제"
+          ],
+          "condition": null,
+          "mentions_change": false
+        },
+        {
+          "category": "exam",
+          "sentiment": "negative",
+          "summary": "시험 범위가 넓고 지엽적인 내용도 출제되어 당황스럽다는 의견",
+          "evidence": "시험 범위가 너무 넓고 지엽적인 것도 나와서 당황스러웠음",
+          "keywords": [
+            "시험 범위",
+            "지엽적인 문제"
+          ],
+          "condition": null,
+          "mentions_change": false
+        }
+      ]
+    },
+    {
+      "id": "g05",
+      "status": "ok",
+      "items": [
+        {
+          "category": "exam",
+          "sentiment": "neutral",
+          "summary": "중간고사와 기말고사를 치른다는 의견",
+          "evidence": "중간고사랑 기말고사 두 번 보고",
+          "keywords": [
+            "중간고사",
+            "기말고사"
+          ],
+          "condition": null,
+          "mentions_change": false
+        },
+        {
+          "category": "team_project",
+          "sentiment": "neutral",
+          "summary": "팀 프로젝트를 한 번 진행하고 교수자가 팀을 정한다는 의견 / 팀 프로젝트 결과물을 발표하는 방식이라는 의견",
+          "evidence": "팀 프로젝트도 한 번 진행함. 팀은 교수님이 정해주셨고",
+          "keywords": [
+            "팀 프로젝트",
+            "팀 구성",
+            "결과물 발표"
+          ],
+          "condition": null,
+          "mentions_change": false
+        }
+      ]
+    },
+    {
+      "id": "g06",
+      "status": "ok",
+      "items": [
+        {
+          "category": "team_project",
+          "sentiment": "negative",
+          "summary": "팀원의 참여가 부족해 자료조사부터 발표까지 맡고, 팀플 점수를 함께 받는 것이 억울하다는 의견",
+          "evidence": "팀플에서 한 명이 거의 잠수 타서 결국 자료조사부터 PPT, 발표까지 다 떠맡음ㅋㅋ 팀플 점수는 다 같이 받으니까 진짜 억울했음.",
+          "keywords": [
+            "팀원 참여",
+            "역할 분담",
+            "팀플 점수"
+          ],
+          "condition": null,
+          "mentions_change": false
+        }
+      ]
+    },
+    {
+      "id": "g07",
+      "status": "ok",
+      "items": [
+        {
+          "category": "learning",
+          "sentiment": "negative",
+          "summary": "배울 내용이 없다는 의견",
+          "evidence": "배울 건 하나도 없고",
+          "keywords": [
+            "배울 내용"
+          ],
+          "condition": null,
+          "mentions_change": false
+        },
+        {
+          "category": "workload",
+          "sentiment": "negative",
+          "summary": "과제가 매우 많다는 의견",
+          "evidence": "과제는 산더미인",
+          "keywords": [
+            "과제"
+          ],
+          "condition": null,
+          "mentions_change": false
+        }
+      ]
+    },
+    {
+      "id": "g08",
+      "status": "ok",
+      "items": [
+        {
+          "category": "professor",
+          "sentiment": "positive",
+          "summary": "교수자가 친절하고 학생들의 질문을 잘 받아준다는 의견",
+          "evidence": "교수님은 진짜 친절하시고 학생들 질문도 잘 받아주심",
+          "keywords": [
+            "친절함",
+            "질문 응대"
+          ],
+          "condition": null,
+          "mentions_change": false
+        },
+        {
+          "category": "delivery",
+          "sentiment": "negative",
+          "summary": "강의가 PPT 문장을 읽고 넘어가는 방식이라는 의견",
+          "evidence": "강의는 PPT 문장 읽고 넘어가는 느낌",
+          "keywords": [
+            "PPT",
+            "강의 방식"
+          ],
+          "condition": null,
+          "mentions_change": false
+        },
+        {
+          "category": "learning",
+          "sentiment": "negative",
+          "summary": "수업만으로는 배운 내용이 잘 남지 않는다는 의견",
+          "evidence": "수업 듣고 따로 공부 안 하면 남는 게 별로 없음",
+          "keywords": [
+            "학습 성과"
+          ],
+          "condition": "따로 공부하지 않으면",
+          "mentions_change": false
+        }
+      ]
+    },
+    {
+      "id": "g09",
+      "status": "ok",
+      "items": [
+        {
+          "category": "workload",
+          "sentiment": "positive",
+          "summary": "과제 횟수가 줄어 부담이 크게 감소했다는 의견",
+          "evidence": "부담이 확 줄어서 좋긴 한데",
+          "keywords": [
+            "과제 횟수",
+            "부담"
+          ],
+          "condition": null,
+          "mentions_change": true
+        },
+        {
+          "category": "delivery",
+          "sentiment": "negative",
+          "summary": "수업에서 직접 해보는 활동이 줄어 아쉽다는 의견",
+          "evidence": "수업에서 직접 해보는 활동도 같이 줄어든 건 아쉬움",
+          "keywords": [
+            "수업 활동"
+          ],
+          "condition": null,
+          "mentions_change": true
+        }
+      ]
+    },
+    {
+      "id": "g10",
+      "status": "ok",
+      "items": []
+    },
+    {
+      "id": "m01",
+      "status": "ok",
+      "items": [
+        {
+          "category": "delivery",
+          "sentiment": "positive",
+          "summary": "설명이 깔끔하고 이해하기 쉽다는 의견",
+          "evidence": "설명이 너무 깔끔해서 이해가 잘 돼요.",
+          "keywords": [
+            "설명"
+          ],
+          "condition": null,
+          "mentions_change": false
+        }
+      ]
+    },
+    {
+      "id": "m02",
+      "status": "ok",
+      "items": [
+        {
+          "category": "delivery",
+          "sentiment": "negative",
+          "summary": "강의가 지루해 집중하기 어렵다는 의견",
+          "evidence": "강의가 지루해서 집중하기 힘들었습니다.",
+          "keywords": [
+            "강의 흥미도",
+            "집중"
+          ],
+          "condition": null,
+          "mentions_change": false
+        }
+      ]
+    },
+    {
+      "id": "m03",
+      "status": "ok",
+      "items": [
+        {
+          "category": "delivery",
+          "sentiment": "positive",
+          "summary": "과제 피드백이 꼼꼼해 도움이 된다는 의견",
+          "evidence": "과제 피드백도 엄청 꼼꼼해서 도움이 많이 됐습니다",
+          "keywords": [
+            "과제 피드백"
+          ],
+          "condition": null,
+          "mentions_change": false
+        },
+        {
+          "category": "learning",
+          "sentiment": "positive",
+          "summary": "커리큘럼이 알차다는 의견",
+          "evidence": "커리큘럼도 알차고",
+          "keywords": [
+            "커리큘럼"
+          ],
+          "condition": null,
+          "mentions_change": false
+        }
+      ]
+    },
+    {
+      "id": "m04",
+      "status": "ok",
+      "items": [
+        {
+          "category": "delivery",
+          "sentiment": "positive",
+          "summary": "강의 내용이 좋다는 의견",
+          "evidence": "강의 내용은 너무 좋은데",
+          "keywords": [
+            "강의 내용"
+          ],
+          "condition": null,
+          "mentions_change": false
+        },
+        {
+          "category": "delivery",
+          "sentiment": "negative",
+          "summary": "마이크 잡음과 울림 때문에 강의를 듣기 어렵다는 의견",
+          "evidence": "마이크 잡음이 심하고 소리가 울려서 듣기 힘들었어요.",
+          "keywords": [
+            "마이크 잡음",
+            "소리 울림"
+          ],
+          "condition": null,
+          "mentions_change": false
+        }
+      ]
+    },
+    {
+      "id": "m05",
+      "status": "ok",
+      "items": [
+        {
+          "category": "workload",
+          "sentiment": "negative",
+          "summary": "과제 양이 매우 많아 수면에 지장이 생길 정도라는 의견",
+          "evidence": "과제 양이 역대급이네요. 덕분에 잠을 못 자서 영혼이 탈곡되었습니다^^",
+          "keywords": [
+            "과제 양",
+            "수면 부족"
+          ],
+          "condition": null,
+          "mentions_change": false
+        }
+      ]
+    },
+    {
+      "id": "m06",
+      "status": "ok",
+      "items": [
+        {
+          "category": "grade",
+          "sentiment": "negative",
+          "summary": "학점으로 인해 심리적 부담을 느낀다는 의견",
+          "evidence": "학점을 테라피 받는 기분입니다...",
+          "keywords": [
+            "학점"
+          ],
+          "condition": null,
+          "mentions_change": false
+        },
+        {
+          "category": "learning",
+          "sentiment": "negative",
+          "summary": "강의가 명강은 아니라는 의견",
+          "evidence": "강의 자체는 명강은 아님.",
+          "keywords": [
+            "명강"
+          ],
+          "condition": null,
+          "mentions_change": false
+        }
+      ]
+    },
+    {
+      "id": "m07",
+      "status": "ok",
+      "items": [
+        {
+          "category": "general_impression",
+          "sentiment": "negative",
+          "summary": "수업에 돈과 시간을 들이는 것이 아깝고 전반적으로 엉망이라는 의견",
+          "evidence": "돈이랑 시간이 너무 아까움... 자기자랑만 엄청 하시고 엉망진창임.",
+          "keywords": [
+            "돈과 시간",
+            "전반적인 수업 평가"
+          ],
+          "condition": null,
+          "mentions_change": false
+        },
+        {
+          "category": "professor",
+          "sentiment": "negative",
+          "summary": "교수자가 자기 자랑을 지나치게 한다는 의견",
+          "evidence": "자기자랑만 엄청 하시고",
+          "keywords": [
+            "자기 자랑"
+          ],
+          "condition": null,
+          "mentions_change": false
+        }
+      ]
+    },
+    {
+      "id": "m08",
+      "status": "ok",
+      "items": [
+        {
+          "category": "professor",
+          "sentiment": "negative",
+          "summary": "교수자가 수업 중 학생들에게 화를 내는 태도가 불쾌했다는 의견",
+          "evidence": "수업 시간에 학생들한테 왜 화를 내시는지 모르겠네요.",
+          "keywords": [
+            "교수자 태도",
+            "화"
+          ],
+          "condition": null,
+          "mentions_change": false
+        },
+        {
+          "category": "general_impression",
+          "sentiment": "negative",
+          "summary": "수업으로 인해 기분이 상했다는 의견",
+          "evidence": "기분만 망쳤습니다.",
+          "keywords": [
+            "기분"
+          ],
+          "condition": null,
+          "mentions_change": false
+        }
+      ]
+    },
+    {
+      "id": "m09",
+      "status": "ok",
+      "items": [
+        {
+          "category": "attendance",
+          "sentiment": "neutral",
+          "summary": "매주 출석을 확인한다는 의견",
+          "evidence": "매주 출석 체크가 있고",
+          "keywords": [
+            "출석 체크"
+          ],
+          "condition": null,
+          "mentions_change": false
+        },
+        {
+          "category": "workload",
+          "sentiment": "neutral",
+          "summary": "과제를 총 4회 제출한다는 의견",
+          "evidence": "과제는 총 4번 제출하는 방식으로 진행됩니다.",
+          "keywords": [
+            "과제 제출"
+          ],
+          "condition": null,
+          "mentions_change": false
+        }
+      ]
+    },
+    {
+      "id": "m10",
+      "status": "ok",
+      "items": [
+        {
+          "category": "delivery",
+          "sentiment": "neutral",
+          "summary": "교재 중심으로 PPT 슬라이드를 넘기며 설명하는 방식이라는 의견",
+          "evidence": "교재 위주로 PPT 슬라이드를 넘기면서 설명하시는 스타일입니다.",
+          "keywords": [
+            "교재",
+            "PPT 슬라이드"
+          ],
+          "condition": null,
+          "mentions_change": false
+        }
+      ]
+    },
+    {
+      "id": "c01",
+      "status": "ok",
+      "items": [
+        {
+          "category": "workload",
+          "sentiment": "positive",
+          "summary": "과제가 한 학기에 두 번으로 부담이 적다는 의견",
+          "evidence": "과제 한학기에 두번이고",
+          "keywords": [
+            "과제"
+          ],
+          "condition": null,
+          "mentions_change": false
+        },
+        {
+          "category": "attendance",
+          "sentiment": "neutral",
+          "summary": "출석 후 이탈해도 제지하지 않는다는 의견",
+          "evidence": "출튀해도 안잡으심",
+          "keywords": [
+            "출튀"
+          ],
+          "condition": null,
+          "mentions_change": false
+        },
+        {
+          "category": "learning",
+          "sentiment": "negative",
+          "summary": "수업을 들어도 배운 것이 남지 않는다는 의견",
+          "evidence": "수업 들어도 남는게 1도 없음",
+          "keywords": [
+            "배운 것"
+          ],
+          "condition": null,
+          "mentions_change": false
+        },
+        {
+          "category": "general_impression",
+          "sentiment": "positive",
+          "summary": "부담이 적은 강의라는 의견",
+          "evidence": "꿀강인건 맞는데",
+          "keywords": [
+            "꿀강"
+          ],
+          "condition": null,
+          "mentions_change": false
+        },
+        {
+          "category": "general_impression",
+          "sentiment": "negative",
+          "summary": "학점 취득 외에는 강의의 장점이 없다는 의견",
+          "evidence": "걍 학점용",
+          "keywords": [
+            "학점용"
+          ],
+          "condition": null,
+          "mentions_change": false
+        }
+      ]
+    },
+    {
+      "id": "c02",
+      "status": "ok",
+      "items": [
+        {
+          "category": "workload",
+          "sentiment": "negative",
+          "summary": "매주 많은 분량의 레포트와 퀴즈로 수면이 부족할 정도로 부담스럽다는 의견",
+          "evidence": "매주 레포트 5장에 퀴즈까지, 덕분에 이번학기 잠을 거의 못잤네요 정말 감사합니다^^",
+          "keywords": [
+            "레포트",
+            "퀴즈",
+            "수면 부족"
+          ],
+          "condition": null,
+          "mentions_change": false
+        }
+      ]
+    },
+    {
+      "id": "c03",
+      "status": "ok",
+      "items": [
+        {
+          "category": "grade",
+          "sentiment": "negative",
+          "summary": "학점을 후하게 준다는 기대와 달리 성적이 낮았다는 의견",
+          "evidence": "학점 잘준다는 소문 듣고 왔는데 응 아니야~ 산타 교수님은 없었다.",
+          "keywords": [
+            "학점",
+            "산타"
+          ],
+          "condition": null,
+          "mentions_change": false
+        }
+      ]
+    },
+    {
+      "id": "c04",
+      "status": "ok",
+      "items": [
+        {
+          "category": "general_impression",
+          "sentiment": "positive",
+          "summary": "설명이 차근차근 잘 이루어진다는 의견",
+          "evidence": "설명은 진짜 차근차근 잘해주심",
+          "keywords": [
+            "설명"
+          ],
+          "condition": null,
+          "mentions_change": false
+        }
+      ]
+    },
+    {
+      "id": "c05",
+      "status": "ok",
+      "items": [
+        {
+          "category": "general_impression",
+          "sentiment": "positive",
+          "summary": "전공을 살릴 생각이라면 추천한다는 의견",
+          "evidence": "전공 살릴 생각이면 강추",
+          "keywords": [
+            "전공"
+          ],
+          "condition": "전공을 살릴 생각인 경우",
+          "mentions_change": false
+        },
+        {
+          "category": "general_impression",
+          "sentiment": "negative",
+          "summary": "졸업요건만 채우려는 경우 비추천한다는 의견",
+          "evidence": "그냥 졸업요건 채우려는 거면 비추",
+          "keywords": [
+            "졸업요건"
+          ],
+          "condition": "졸업요건만 채우려는 경우",
+          "mentions_change": false
+        },
+        {
+          "category": "exam",
+          "sentiment": "neutral",
+          "summary": "시험이 증명 위주로 출제된다는 의견",
+          "evidence": "시험이 증명 위주라",
+          "keywords": [
+            "시험",
+            "증명"
+          ],
+          "condition": null,
+          "mentions_change": false
+        },
+        {
+          "category": "workload",
+          "sentiment": "negative",
+          "summary": "미적분 기초가 없는 학생은 수업을 따라가는 데 고생한다는 의견",
+          "evidence": "미적 노베면 많이 고생함",
+          "keywords": [
+            "미적분 기초"
+          ],
+          "condition": "미적분 기초가 없는 경우",
+          "mentions_change": false
+        }
+      ]
+    },
+    {
+      "id": "c06",
+      "status": "ok",
+      "items": [
+        {
+          "category": "attendance",
+          "sentiment": "positive",
+          "summary": "참여점수가 없어져 수업 분위기가 덜 늘어졌다는 의견",
+          "evidence": "참여점수 없어지고",
+          "keywords": [
+            "참여점수"
+          ],
+          "condition": null,
+          "mentions_change": true
+        },
+        {
+          "category": "team_project",
+          "sentiment": "negative",
+          "summary": "팀원 운이 팀플 경험에 크게 작용한다는 의견",
+          "evidence": "팀원 운이 너무 크게 작용함",
+          "keywords": [
+            "팀원 운"
+          ],
+          "condition": null,
+          "mentions_change": false
+        }
+      ]
+    },
+    {
+      "id": "c07",
+      "status": "ok",
+      "items": [
+        {
+          "category": "professor",
+          "sentiment": "negative",
+          "summary": "질문에 무시하는 듯한 반응을 보인다는 의견",
+          "evidence": "질문하면 그것도 모르냐고 면박줌ㅋ",
+          "keywords": [
+            "질문 응대",
+            "면박"
+          ],
+          "condition": null,
+          "mentions_change": false
+        },
+        {
+          "category": "delivery",
+          "sentiment": "positive",
+          "summary": "강의자료가 깔끔하다는 의견",
+          "evidence": "강의자료는 깔끔한 편",
+          "keywords": [
+            "강의자료"
+          ],
+          "condition": null,
+          "mentions_change": false
+        }
+      ]
+    },
+    {
+      "id": "c08",
+      "status": "ok",
+      "items": [
+        {
+          "category": "professor",
+          "sentiment": "positive",
+          "summary": "교수자의 인상이 귀엽다는 의견",
+          "evidence": "귀여우심",
+          "keywords": [],
+          "condition": null,
+          "mentions_change": false
+        }
+      ]
+    },
+    {
+      "id": "c09",
+      "status": "ok",
+      "items": [
+        {
+          "category": "workload",
+          "sentiment": "negative",
+          "summary": "매주 리딩과 문제 세트로 학업 부담이 크다는 의견",
+          "evidence": "리딩 매주 30p정도+problem set 3번. 생각보다 빡셈",
+          "keywords": [
+            "리딩",
+            "problem set"
+          ],
+          "condition": null,
+          "mentions_change": false
+        },
+        {
+          "category": "exam",
+          "sentiment": "negative",
+          "summary": "개념 설명 위주의 수업과 계산 문제 위주의 시험 사이에 괴리가 크다는 의견",
+          "evidence": "수업은 개념설명 위주인데 시험은 계산문제가 대부분이라 괴리감 큼",
+          "keywords": [
+            "계산문제",
+            "수업과 시험의 괴리"
+          ],
+          "condition": null,
+          "mentions_change": false
+        },
+        {
+          "category": "grade",
+          "sentiment": "positive",
+          "summary": "성적을 생각보다 후하게 준다는 의견",
+          "evidence": "성적: 드포라 그런지 생각보다 후하게 주심",
+          "keywords": [
+            "성적"
+          ],
+          "condition": null,
+          "mentions_change": false
+        },
+        {
+          "category": "delivery",
+          "sentiment": "positive",
+          "summary": "설명을 잘하고 수업이 지루하지 않다는 의견",
+          "evidence": "설명은 진짜 잘하심 시간가는줄 모름",
+          "keywords": [
+            "설명"
+          ],
+          "condition": null,
+          "mentions_change": false
+        },
+        {
+          "category": "attendance",
+          "sentiment": "positive",
+          "summary": "전자출결 방식이 편리하다는 의견",
+          "evidence": "출석은 전자출결이라 편함",
+          "keywords": [
+            "전자출결"
+          ],
+          "condition": null,
+          "mentions_change": false
+        }
+      ]
+    },
+    {
+      "id": "c10",
+      "status": "ok",
+      "items": []
+    },
+    {
+      "id": "c11",
+      "status": "ok",
+      "items": [
+        {
+          "category": "delivery",
+          "sentiment": "positive",
+          "summary": "설명이 이해하기 쉽다는 의견",
+          "evidence": "설명은 귀에 쏙쏙 들어오는데",
+          "keywords": [
+            "설명"
+          ],
+          "condition": null,
+          "mentions_change": false
+        },
+        {
+          "category": "workload",
+          "sentiment": "negative",
+          "summary": "학업 부담이 많다는 의견 / 매주 퀴즈를 보는 것이 압박된다는 의견",
+          "evidence": "매주 퀴즈 보는것도 은근 압박",
+          "keywords": [
+            "학업 부담",
+            "퀴즈"
+          ],
+          "condition": null,
+          "mentions_change": false
+        }
+      ]
+    },
+    {
+      "id": "c12",
+      "status": "ok",
+      "items": [
+        {
+          "category": "workload",
+          "sentiment": "negative",
+          "summary": "한 학기 동안 학업 부담이 컸다는 의견",
+          "evidence": "한학기 갈려나갔지만",
+          "keywords": [
+            "학업 부담"
+          ],
+          "condition": null,
+          "mentions_change": false
+        },
+        {
+          "category": "delivery",
+          "sentiment": "positive",
+          "summary": "수업이 매우 재미있다는 의견",
+          "evidence": "개꿀잼임",
+          "keywords": [
+            "흥미도"
+          ],
+          "condition": null,
+          "mentions_change": false
+        },
+        {
+          "category": "learning",
+          "sentiment": "positive",
+          "summary": "이 과목에서 가장 많이 배웠다는 의견",
+          "evidence": "이 과목에서 제일 많이 배움",
+          "keywords": [
+            "배운 것"
+          ],
+          "condition": null,
+          "mentions_change": false
+        }
+      ]
+    },
+    {
+      "id": "c13",
+      "status": "ok",
+      "items": [
+        {
+          "category": "grade",
+          "sentiment": "negative",
+          "summary": "성적이 기대보다 좋지 않았다는 의견 / 평가 기준이 공지되지 않았다는 의견",
+          "evidence": "후하게 준다는 말만 믿고 들었다가 성적 뜬 날 할말을 잃음",
+          "keywords": [
+            "성적",
+            "평가 기준"
+          ],
+          "condition": null,
+          "mentions_change": false
+        }
+      ]
+    },
+    {
+      "id": "c14",
+      "status": "ok",
+      "items": [
+        {
+          "category": "grade",
+          "sentiment": "negative",
+          "summary": "성적을 후하게 준다는 기대와 달리 그렇지 않다는 의견",
+          "evidence": "후기 보고 산타 찾아왔는데 산타는 이미 퇴근하셨다고 합니다^^",
+          "keywords": [
+            "학점"
+          ],
+          "condition": null,
+          "mentions_change": false
+        }
+      ]
+    },
+    {
+      "id": "c15",
+      "status": "ok",
+      "items": [
+        {
+          "category": "grade",
+          "sentiment": "negative",
+          "summary": "성적을 후하게 준다는 기대와 달리 그렇지 않다는 의견",
+          "evidence": "이 수업에 산타는 없어",
+          "keywords": [
+            "성적"
+          ],
+          "condition": null,
+          "mentions_change": false
+        }
+      ]
+    }
+  ],
+  "challenge_baseline": [
+    {
+      "id": "z01",
+      "status": "ok",
+      "items": [
+        {
+          "category": "attendance",
+          "sentiment": "neutral",
+          "summary": "출결을 무작위로 확인한다는 의견",
+          "evidence": "출결은 무작위 이름 확인",
+          "keywords": [
+            "출결 확인"
+          ],
+          "condition": null,
+          "mentions_change": false
+        },
+        {
+          "category": "attendance",
+          "sentiment": "negative",
+          "summary": "지각 규정이 엄격하다는 의견",
+          "evidence": "지각 규정은 엄격한 편임",
+          "keywords": [
+            "지각 규정"
+          ],
+          "condition": null,
+          "mentions_change": false
+        }
+      ]
+    },
+    {
+      "id": "z02",
+      "status": "ok",
+      "items": [
+        {
+          "category": "attendance",
+          "sentiment": "negative",
+          "summary": "무작위 이름 확인 중 잠시 자리를 비우면 감점되어 불편하다는 의견",
+          "evidence": "출결은 무작위 이름 확인인데 잠깐 나갔다가 감점돼서 너무 불편했음.",
+          "keywords": [
+            "무작위 이름 확인",
+            "감점"
+          ],
+          "condition": null,
+          "mentions_change": false
+        }
+      ]
+    },
+    {
+      "id": "z03",
+      "status": "ok",
+      "items": [
+        {
+          "category": "exam",
+          "sentiment": "negative",
+          "summary": "증명 문제의 난도가 높다는 의견",
+          "evidence": "평가는 증명 문제라 난도가 높습니다.",
+          "keywords": [
+            "증명 문제",
+            "난도"
+          ],
+          "condition": null,
+          "mentions_change": false
+        }
+      ]
+    },
+    {
+      "id": "z04",
+      "status": "ok",
+      "items": [
+        {
+          "category": "exam",
+          "sentiment": "negative",
+          "summary": "평가 문제를 다 풀기에 시간이 부족했다는 의견",
+          "evidence": "평가 문제가 길어서 절반도 못 썼다. 시간이 모자란 게 제일 아쉬움.",
+          "keywords": [
+            "평가 문제",
+            "시간 부족"
+          ],
+          "condition": null,
+          "mentions_change": false
+        }
+      ]
+    },
+    {
+      "id": "z05",
+      "status": "ok",
+      "items": [
+        {
+          "category": "delivery",
+          "sentiment": "neutral",
+          "summary": "기초가 없는 수강생은 첫 주에 용어를 미리 읽어 오면 된다는 의견",
+          "evidence": "기초가 없는 수강생은 첫 주에 용어를 미리 읽어 오면 됩니다.",
+          "keywords": [
+            "기초",
+            "용어"
+          ],
+          "condition": "기초가 없는 수강생",
+          "mentions_change": false
+        }
+      ]
+    },
+    {
+      "id": "z06",
+      "status": "ok",
+      "items": [
+        {
+          "category": "workload",
+          "sentiment": "negative",
+          "summary": "기초가 없어 용어 예습에 시간이 많이 들고 부담스러웠다는 의견",
+          "evidence": "용어 예습만 세 시간 걸려서 너무 부담스러웠다.",
+          "keywords": [
+            "용어 예습"
+          ],
+          "condition": "기초가 없는 경우",
+          "mentions_change": false
+        }
+      ]
+    },
+    {
+      "id": "z07",
+      "status": "ok",
+      "items": [
+        {
+          "category": "delivery",
+          "sentiment": "negative",
+          "summary": "진도가 빨라 설명을 놓치므로 수업을 천천히 진행했으면 한다는 의견",
+          "evidence": "진도가 순식간에 넘어가서 받아 적는 동안 설명을 놓침.. 좀 천천히 했으면.",
+          "keywords": [
+            "빠른 진도"
+          ],
+          "condition": null,
+          "mentions_change": false
+        }
+      ]
+    },
+    {
+      "id": "z08",
+      "status": "ok",
+      "items": [
+        {
+          "category": "etc",
+          "sentiment": "negative",
+          "summary": "스피커 잡음 때문에 맨 끝 줄에서 설명을 알아듣기 어려웠다는 의견",
+          "evidence": "스피커가 계속 지직대서 맨 끝 줄에서는 설명을 알아듣기 힘들엇음.",
+          "keywords": [
+            "스피커 잡음",
+            "강의실 음향"
+          ],
+          "condition": null,
+          "mentions_change": false
+        }
+      ]
+    },
+    {
+      "id": "z09",
+      "status": "ok",
+      "items": [
+        {
+          "category": "etc",
+          "sentiment": "negative",
+          "summary": "강의실 책상이 흔들리고 시설이 좋지 않다는 의견",
+          "evidence": "책상이 덜컹거려서 필기할 때 팔이 흔들림. 강의실 시설이 별로임.",
+          "keywords": [
+            "책상",
+            "강의실 시설"
+          ],
+          "condition": null,
+          "mentions_change": false
+        }
+      ]
+    },
+    {
+      "id": "z10",
+      "status": "ok",
+      "items": [
+        {
+          "category": "delivery",
+          "sentiment": "negative",
+          "summary": "제출물 피드백이 늦어 같은 실수를 고치기 어렵다는 의견",
+          "evidence": "제출물 채점 코멘트가 한 달 뒤에 와서 같은 실수를 고칠 수 없었어요.",
+          "keywords": [
+            "채점 코멘트",
+            "피드백 지연"
+          ],
+          "condition": null,
+          "mentions_change": false
+        }
+      ]
+    },
+    {
+      "id": "z11",
+      "status": "ok",
+      "items": [
+        {
+          "category": "professor",
+          "sentiment": "negative",
+          "summary": "질문 게시판의 글에 답변하지 않아 소통이 답답했다는 의견",
+          "evidence": "질문 게시판에 올린 글을 끝내 답해 주지 않아서 소통이 답답했어요.",
+          "keywords": [
+            "질문 게시판",
+            "소통"
+          ],
+          "condition": null,
+          "mentions_change": false
+        }
+      ]
+    },
+    {
+      "id": "z12",
+      "status": "ok",
+      "items": [
+        {
+          "category": "team_project",
+          "sentiment": "neutral",
+          "summary": "조별 결과물을 보고서로 제출하고 팀 발표는 하지 않는다는 의견",
+          "evidence": "조별 결과물은 보고서로만 내고 팀 발표는 따로 하지 않음.",
+          "keywords": [
+            "조별 결과물",
+            "보고서",
+            "팀 발표"
+          ],
+          "condition": null,
+          "mentions_change": false
+        }
+      ]
+    },
+    {
+      "id": "z13",
+      "status": "ok",
+      "items": [
+        {
+          "category": "attendance",
+          "sentiment": "neutral",
+          "summary": "개인 발표를 세 차례 진행하고 발표마다 참여 점수가 부여된다는 의견",
+          "evidence": "개인 발표는 세 차례 진행하고 발표마다 참여 점수가 붙어요.",
+          "keywords": [
+            "개인 발표",
+            "참여 점수"
+          ],
+          "condition": null,
+          "mentions_change": false
+        }
+      ]
+    },
+    {
+      "id": "z14",
+      "status": "ok",
+      "items": []
+    },
+    {
+      "id": "z15",
+      "status": "ok",
+      "items": [
+        {
+          "category": "grade",
+          "sentiment": "positive",
+          "summary": "학점을 넉넉히 준다는 의견",
+          "evidence": "학점을 넉넉히 주셔서 만족함.",
+          "keywords": [
+            "학점"
+          ],
+          "condition": null,
+          "mentions_change": false
+        }
+      ]
+    },
+    {
+      "id": "z16",
+      "status": "ok",
+      "items": [
+        {
+          "category": "grade",
+          "sentiment": "neutral",
+          "summary": "성적이 아직 공개되지 않아 공지를 기다리고 있다는 의견",
+          "evidence": "성적이 아직 공개되지 않아서 불안함. 낮게 준다는 얘기는 아니고 공지만 기다림.",
+          "keywords": [
+            "성적 공개",
+            "공지"
+          ],
+          "condition": null,
+          "mentions_change": false
+        }
+      ]
+    },
+    {
+      "id": "z17",
+      "status": "ok",
+      "items": [
+        {
+          "category": "workload",
+          "sentiment": "positive",
+          "summary": "보고서 제출 빈도가 줄어 부담이 덜하다는 의견",
+          "evidence": "세 주마다 내도록 바꿔서 한결 편해요",
+          "keywords": [
+            "보고서 제출 빈도"
+          ],
+          "condition": null,
+          "mentions_change": true
+        }
+      ]
+    },
+    {
+      "id": "z18",
+      "status": "ok",
+      "items": [
+        {
+          "category": "workload",
+          "sentiment": "positive",
+          "summary": "보고서 분량이 부담스럽지 않다는 의견",
+          "evidence": "이 정도 양이면 부담 없어서 좋음",
+          "keywords": [
+            "보고서"
+          ],
+          "condition": null,
+          "mentions_change": false
+        }
+      ]
+    },
+    {
+      "id": "z19",
+      "status": "ok",
+      "items": [
+        {
+          "category": "general_impression",
+          "sentiment": "positive",
+          "summary": "현업을 준비하는 사람에게 추천한다는 의견",
+          "evidence": "현업 준비하는 사람에겐 추천하고",
+          "keywords": [
+            "현업 준비"
+          ],
+          "condition": "현업을 준비하는 사람",
+          "mentions_change": false
+        },
+        {
+          "category": "general_impression",
+          "sentiment": "negative",
+          "summary": "학점만 필요한 사람에게 비추천한다는 의견",
+          "evidence": "학점만 필요한 사람에겐 비추천함.",
+          "keywords": [
+            "학점"
+          ],
+          "condition": "학점만 필요한 사람",
+          "mentions_change": false
+        }
+      ]
+    },
+    {
+      "id": "z20",
+      "status": "ok",
+      "items": []
+    },
+    {
+      "id": "z21",
+      "status": "ok",
+      "items": [
+        {
+          "category": "exam",
+          "sentiment": "neutral",
+          "summary": "시험이 표를 읽고 빈칸을 채우는 형식이라는 의견",
+          "evidence": "시험은 표를 읽고 빈칸을 채우는 형식입니다.",
+          "keywords": [
+            "시험 형식"
+          ],
+          "condition": null,
+          "mentions_change": false
+        },
+        {
+          "category": "exam",
+          "sentiment": "positive",
+          "summary": "수업에서 보던 표와 비슷해 문제를 읽기 쉬웠다는 의견",
+          "evidence": "수업에서 보던 표와 비슷한 모양이라 어떻게 읽는지는 알 수 있었습니다.",
+          "keywords": [
+            "문제 형식"
+          ],
+          "condition": null,
+          "mentions_change": false
+        },
+        {
+          "category": "exam",
+          "sentiment": "negative",
+          "summary": "답안 작성 분량에 비해 시험 시간이 부족했다는 의견",
+          "evidence": "다만 답안지에 적어야 하는 칸이 지나치게 많아 끝까지 작성할 시간이 없었습니다.",
+          "keywords": [
+            "답안 분량",
+            "시간 부족"
+          ],
+          "condition": null,
+          "mentions_change": false
+        }
+      ]
+    },
+    {
+      "id": "z22",
+      "status": "ok",
+      "items": [
+        {
+          "category": "delivery",
+          "sentiment": "positive",
+          "summary": "모의 상점 사례가 흥미롭고 설명이 이해하기 쉬웠다는 의견",
+          "evidence": "수업 중 보여 준 모의 상점 사례는 흥미로웠고 설명도 이해하기 쉬웠습니다.",
+          "keywords": [
+            "모의 상점 사례",
+            "설명"
+          ],
+          "condition": null,
+          "mentions_change": false
+        },
+        {
+          "category": "team_project",
+          "sentiment": "negative",
+          "summary": "팀원이 자료를 제때 보내지 않아 다른 인원이 다시 맡고 연락 조율에도 시간이 들었다는 의견",
+          "evidence": "조별 작업에서는 한 사람이 조사 자료를 약속한 날에 안 보내서 나머지 인원이 다시 맡아야 했어요.",
+          "keywords": [
+            "조별 작업",
+            "자료 전달"
+          ],
+          "condition": null,
+          "mentions_change": false
+        },
+        {
+          "category": "workload",
+          "sentiment": "negative",
+          "summary": "팀원 간 연락에 시간을 써야 해 부담이 컸다는 의견 / 개인 보고서와 다른 시험 준비가 겹친 마지막 주 일정이 감당하기 어려웠다는 의견",
+          "evidence": "개인 보고서와 다른 시험 준비까지 겹친 마지막 주는 전체 일정도 감당하기 어려웠어요.",
+          "keywords": [
+            "연락 조율",
+            "부담",
+            "개인 보고서"
+          ],
+          "condition": null,
+          "mentions_change": false
+        },
+        {
+          "category": "learning",
+          "sentiment": "positive",
+          "summary": "고객 유형을 직접 나누는 연습을 하고 개인 공부에도 활용해 배운 것이 남았다는 의견",
+          "evidence": "그래도 조사한 자료로 고객 유형을 직접 나누는 연습을 했고, 이후 개인 공부에서도 같은 방법을 써서 배운 것은 남았습니다.",
+          "keywords": [
+            "고객 유형",
+            "개인 공부"
+          ],
+          "condition": null,
+          "mentions_change": false
+        }
+      ]
+    },
+    {
+      "id": "z23",
+      "status": "ok",
+      "items": [
+        {
+          "category": "delivery",
+          "sentiment": "negative",
+          "summary": "과제 코멘트가 늦게 공개되어 수정 기회를 놓쳤다는 의견",
+          "evidence": "그런데 그 코멘트가 다음 제출일보다 한참 늦게 공개돼서 실제로 고칠 기회를 놓쳤고 이 점은 아쉬웠어요.",
+          "keywords": [
+            "과제 코멘트",
+            "공개 시점"
+          ],
+          "condition": null,
+          "mentions_change": false
+        },
+        {
+          "category": "professor",
+          "sentiment": "positive",
+          "summary": "질문 시간에 막힌 부분을 함께 확인하며 친절하게 안내했다는 의견",
+          "evidence": "제가 막힌 화면을 보여 드리면 바로 답을 말하기보다 어디까지 실행했는지 함께 확인하면서 친절하게 알려 주셨어요.",
+          "keywords": [
+            "질문 응대",
+            "친절"
+          ],
+          "condition": null,
+          "mentions_change": false
+        },
+        {
+          "category": "grade",
+          "sentiment": "neutral",
+          "summary": "중간·기말 점수와 최종 학점 결과를 제시했다는 의견",
+          "evidence": "학점은 중간 72 기말 78에 최종 B+였고, 이 문장에서는 성적 결과만 적습니다.",
+          "keywords": [
+            "중간 점수",
+            "기말 점수",
+            "최종 학점"
+          ],
+          "condition": null,
+          "mentions_change": false
+        }
+      ]
+    },
+    {
+      "id": "z24",
+      "status": "ok",
+      "items": [
+        {
+          "category": "workload",
+          "sentiment": "positive",
+          "summary": "과제 빈도와 분량이 감당할 만하다는 의견",
+          "evidence": "과제는 이번 학기에 한 달 간격으로 내고 분량도 제 일정에서는 감당할 만했습니다.",
+          "keywords": [
+            "과제 빈도",
+            "과제 분량"
+          ],
+          "condition": null,
+          "mentions_change": false
+        },
+        {
+          "category": "delivery",
+          "sentiment": "positive",
+          "summary": "작은 그림부터 차례로 보여 주는 설명이 이해하기 쉽다는 의견",
+          "evidence": "설명은 작은 그림부터 차례로 보여 주는 방식이라 이해하기 쉬웠고 저는 그 점이 좋았어요.",
+          "keywords": [
+            "설명 방식"
+          ],
+          "condition": null,
+          "mentions_change": false
+        },
+        {
+          "category": "learning",
+          "sentiment": "positive",
+          "summary": "배운 분류 방법을 실제 기록 정리에 활용할 수 있어 만족스럽다는 의견",
+          "evidence": "수업에서 배운 분류 방법으로 제가 모아 둔 기록을 직접 정리할 수 있게 된 것도 만족스럽습니다.",
+          "keywords": [
+            "분류 방법",
+            "실제 활용"
+          ],
+          "condition": null,
+          "mentions_change": false
+        },
+        {
+          "category": "general_impression",
+          "sentiment": "positive",
+          "summary": "직접 자료를 다뤄 보고 싶은 사람에게 추천한다는 의견",
+          "evidence": "직접 자료를 다뤄 보고 싶은 사람에게는 이 수업을 추천합니다.",
+          "keywords": [
+            "추천"
+          ],
+          "condition": "직접 자료를 다뤄 보고 싶은 사람",
+          "mentions_change": false
+        }
+      ]
+    }
+  ],
+  "challenge_candidate": [
+    {
+      "id": "z01",
+      "status": "ok",
+      "items": [
+        {
+          "category": "attendance",
+          "sentiment": "neutral",
+          "summary": "출석을 무작위로 확인하고 지각 규정이 엄격하다는 의견",
+          "evidence": "출결은 무작위 이름 확인이고 지각 규정은 엄격한 편임",
+          "keywords": [
+            "무작위 출석 확인",
+            "지각 규정"
+          ],
+          "condition": null,
+          "mentions_change": false
+        }
+      ]
+    },
+    {
+      "id": "z02",
+      "status": "ok",
+      "items": [
+        {
+          "category": "attendance",
+          "sentiment": "negative",
+          "summary": "잠깐 자리를 비웠다가 감점되어 불편했다는 의견",
+          "evidence": "잠깐 나갔다가 감점돼서 너무 불편했음",
+          "keywords": [
+            "출결",
+            "감점"
+          ],
+          "condition": null,
+          "mentions_change": false
+        }
+      ]
+    },
+    {
+      "id": "z03",
+      "status": "ok",
+      "items": [
+        {
+          "category": "exam",
+          "sentiment": "neutral",
+          "summary": "증명 문제의 난도가 높다는 의견",
+          "evidence": "평가는 증명 문제라 난도가 높습니다.",
+          "keywords": [
+            "증명 문제",
+            "난도"
+          ],
+          "condition": null,
+          "mentions_change": false
+        }
+      ]
+    },
+    {
+      "id": "z04",
+      "status": "ok",
+      "items": [
+        {
+          "category": "exam",
+          "sentiment": "negative",
+          "summary": "평가 문제를 다 풀기에 시간이 부족했다는 의견",
+          "evidence": "평가 문제가 길어서 절반도 못 썼다. 시간이 모자란 게 제일 아쉬움.",
+          "keywords": [
+            "평가 문제",
+            "시간 부족"
+          ],
+          "condition": null,
+          "mentions_change": false
+        }
+      ]
+    },
+    {
+      "id": "z05",
+      "status": "ok",
+      "items": [
+        {
+          "category": "workload",
+          "sentiment": "neutral",
+          "summary": "기초가 없는 수강생은 첫 주에 용어를 미리 읽어 오면 된다는 의견",
+          "evidence": "기초가 없는 수강생은 첫 주에 용어를 미리 읽어 오면 됩니다.",
+          "keywords": [
+            "용어 예습"
+          ],
+          "condition": "기초가 없는 수강생",
+          "mentions_change": false
+        }
+      ]
+    },
+    {
+      "id": "z06",
+      "status": "ok",
+      "items": [
+        {
+          "category": "workload",
+          "sentiment": "negative",
+          "summary": "기초가 없어 용어 예습에 시간이 많이 들고 부담스러웠다는 의견",
+          "evidence": "용어 예습만 세 시간 걸려서 너무 부담스러웠다",
+          "keywords": [
+            "용어 예습"
+          ],
+          "condition": null,
+          "mentions_change": false
+        }
+      ]
+    },
+    {
+      "id": "z07",
+      "status": "ok",
+      "items": [
+        {
+          "category": "delivery",
+          "sentiment": "negative",
+          "summary": "진도가 빨라 설명을 놓치므로 수업 속도를 늦췄으면 한다는 의견",
+          "evidence": "진도가 순식간에 넘어가서 받아 적는 동안 설명을 놓침.. 좀 천천히 했으면.",
+          "keywords": [
+            "빠른 진도"
+          ],
+          "condition": null,
+          "mentions_change": false
+        }
+      ]
+    },
+    {
+      "id": "z08",
+      "status": "ok",
+      "items": [
+        {
+          "category": "delivery",
+          "sentiment": "negative",
+          "summary": "스피커 잡음 때문에 맨 끝 줄에서 설명을 알아듣기 어렵다는 의견",
+          "evidence": "스피커가 계속 지직대서 맨 끝 줄에서는 설명을 알아듣기 힘들엇음",
+          "keywords": [
+            "스피커 잡음",
+            "설명"
+          ],
+          "condition": null,
+          "mentions_change": false
+        }
+      ]
+    },
+    {
+      "id": "z09",
+      "status": "ok",
+      "items": [
+        {
+          "category": "etc",
+          "sentiment": "negative",
+          "summary": "강의실 책상이 흔들려 필기하기 불편하고 시설이 좋지 않다는 의견",
+          "evidence": "책상이 덜컹거려서 필기할 때 팔이 흔들림. 강의실 시설이 별로임.",
+          "keywords": [
+            "책상",
+            "강의실 시설"
+          ],
+          "condition": null,
+          "mentions_change": false
+        }
+      ]
+    },
+    {
+      "id": "z10",
+      "status": "ok",
+      "items": [
+        {
+          "category": "delivery",
+          "sentiment": "negative",
+          "summary": "제출물 채점 코멘트가 늦게 와서 실수를 바로잡기 어렵다는 의견",
+          "evidence": "제출물 채점 코멘트가 한 달 뒤에 와서 같은 실수를 고칠 수 없었어요.",
+          "keywords": [
+            "채점 코멘트",
+            "피드백 지연"
+          ],
+          "condition": null,
+          "mentions_change": false
+        }
+      ]
+    },
+    {
+      "id": "z11",
+      "status": "ok",
+      "items": [
+        {
+          "category": "professor",
+          "sentiment": "negative",
+          "summary": "질문 게시판에 올린 글에 답변을 받지 못해 소통이 답답했다는 의견",
+          "evidence": "질문 게시판에 올린 글을 끝내 답해 주지 않아서 소통이 답답했어요.",
+          "keywords": [
+            "질문 게시판",
+            "답변",
+            "소통"
+          ],
+          "condition": null,
+          "mentions_change": false
+        }
+      ]
+    },
+    {
+      "id": "z12",
+      "status": "ok",
+      "items": [
+        {
+          "category": "team_project",
+          "sentiment": "neutral",
+          "summary": "조별 결과물을 보고서로 제출한다는 의견",
+          "evidence": "조별 결과물은 보고서로만 내고",
+          "keywords": [
+            "조별 결과물",
+            "보고서"
+          ],
+          "condition": null,
+          "mentions_change": false
+        }
+      ]
+    },
+    {
+      "id": "z13",
+      "status": "ok",
+      "items": [
+        {
+          "category": "attendance",
+          "sentiment": "neutral",
+          "summary": "개인 발표를 세 차례 진행하고 참여 점수가 부여된다는 의견",
+          "evidence": "개인 발표는 세 차례 진행하고 발표마다 참여 점수가 붙어요.",
+          "keywords": [
+            "개인 발표",
+            "참여 점수"
+          ],
+          "condition": null,
+          "mentions_change": false
+        }
+      ]
+    },
+    {
+      "id": "z14",
+      "status": "ok",
+      "items": []
+    },
+    {
+      "id": "z15",
+      "status": "ok",
+      "items": [
+        {
+          "category": "grade",
+          "sentiment": "positive",
+          "summary": "학점을 넉넉하게 주어 만족스럽다는 의견",
+          "evidence": "학점을 넉넉히 주셔서 만족함.",
+          "keywords": [
+            "학점"
+          ],
+          "condition": null,
+          "mentions_change": false
+        }
+      ]
+    },
+    {
+      "id": "z16",
+      "status": "ok",
+      "items": []
+    },
+    {
+      "id": "z17",
+      "status": "ok",
+      "items": [
+        {
+          "category": "workload",
+          "sentiment": "positive",
+          "summary": "보고서 제출 빈도가 줄어 부담이 덜하다는 의견",
+          "evidence": "이번에는 세 주마다 내도록 바꿔서 한결 편해요",
+          "keywords": [
+            "보고서",
+            "제출 빈도"
+          ],
+          "condition": null,
+          "mentions_change": true
+        }
+      ]
+    },
+    {
+      "id": "z18",
+      "status": "ok",
+      "items": [
+        {
+          "category": "workload",
+          "sentiment": "positive",
+          "summary": "보고서 제출 분량이 부담스럽지 않다는 의견",
+          "evidence": "이 정도 양이면 부담 없어서 좋음",
+          "keywords": [
+            "보고서 분량"
+          ],
+          "condition": null,
+          "mentions_change": false
+        }
+      ]
+    },
+    {
+      "id": "z19",
+      "status": "ok",
+      "items": [
+        {
+          "category": "general_impression",
+          "sentiment": "positive",
+          "summary": "현업을 준비하는 사람에게 추천한다는 의견",
+          "evidence": "현업 준비하는 사람에겐 추천하고",
+          "keywords": [
+            "현업 준비"
+          ],
+          "condition": "현업을 준비하는 사람",
+          "mentions_change": false
+        },
+        {
+          "category": "general_impression",
+          "sentiment": "negative",
+          "summary": "학점만 필요한 사람에게는 비추천한다는 의견",
+          "evidence": "학점만 필요한 사람에겐 비추천함.",
+          "keywords": [
+            "학점"
+          ],
+          "condition": "학점만 필요한 사람",
+          "mentions_change": false
+        }
+      ]
+    },
+    {
+      "id": "z20",
+      "status": "ok",
+      "items": []
+    },
+    {
+      "id": "z21",
+      "status": "ok",
+      "items": [
+        {
+          "category": "exam",
+          "sentiment": "neutral",
+          "summary": "표를 읽고 빈칸을 채우는 형식이라는 의견",
+          "evidence": "시험은 표를 읽고 빈칸을 채우는 형식입니다.",
+          "keywords": [
+            "표 읽기",
+            "빈칸 채우기"
+          ],
+          "condition": null,
+          "mentions_change": false
+        },
+        {
+          "category": "exam",
+          "sentiment": "negative",
+          "summary": "답안 작성 분량에 비해 시험 시간이 부족하다는 의견",
+          "evidence": "다만 답안지에 적어야 하는 칸이 지나치게 많아 끝까지 작성할 시간이 없었습니다.",
+          "keywords": [
+            "답안 분량",
+            "시간 부족"
+          ],
+          "condition": null,
+          "mentions_change": false
+        }
+      ]
+    },
+    {
+      "id": "z22",
+      "status": "ok",
+      "items": [
+        {
+          "category": "delivery",
+          "sentiment": "positive",
+          "summary": "모의 상점 사례가 흥미롭고 설명이 이해하기 쉬웠다는 의견",
+          "evidence": "수업 중 보여 준 모의 상점 사례는 흥미로웠고 설명도 이해하기 쉬웠습니다.",
+          "keywords": [
+            "모의 상점 사례",
+            "설명"
+          ],
+          "condition": null,
+          "mentions_change": false
+        },
+        {
+          "category": "team_project",
+          "sentiment": "negative",
+          "summary": "팀원이 자료를 제때 보내지 않아 다른 인원이 다시 맡고 연락에 시간을 써야 했다는 의견 / 팀원 간 연락에 드는 시간이 부담스러웠다는 의견",
+          "evidence": "조별 작업에서는 한 사람이 조사 자료를 약속한 날에 안 보내서 나머지 인원이 다시 맡아야 했어요.",
+          "keywords": [
+            "조별 작업",
+            "자료 조사",
+            "팀원"
+          ],
+          "condition": null,
+          "mentions_change": false
+        },
+        {
+          "category": "workload",
+          "sentiment": "negative",
+          "summary": "개인 보고서와 다른 시험 준비가 겹친 마지막 주의 일정이 감당하기 어려웠다는 의견",
+          "evidence": "개인 보고서와 다른 시험 준비까지 겹친 마지막 주는 전체 일정도 감당하기 어려웠어요.",
+          "keywords": [
+            "개인 보고서",
+            "시험 준비",
+            "일정"
+          ],
+          "condition": null,
+          "mentions_change": false
+        },
+        {
+          "category": "learning",
+          "sentiment": "positive",
+          "summary": "고객 유형을 직접 나누는 연습을 하고 개인 공부에도 활용해 배운 것이 남았다는 의견",
+          "evidence": "그래도 조사한 자료로 고객 유형을 직접 나누는 연습을 했고, 이후 개인 공부에서도 같은 방법을 써서 배운 것은 남았습니다.",
+          "keywords": [
+            "고객 유형",
+            "개인 공부",
+            "배운 것"
+          ],
+          "condition": null,
+          "mentions_change": false
+        }
+      ]
+    },
+    {
+      "id": "z23",
+      "status": "ok",
+      "items": [
+        {
+          "category": "delivery",
+          "sentiment": "negative",
+          "summary": "과제 코멘트가 늦게 공개되어 수정 기회를 놓친 점이 아쉽다는 의견",
+          "evidence": "그 코멘트가 다음 제출일보다 한참 늦게 공개돼서 실제로 고칠 기회를 놓쳤고 이 점은 아쉬웠어요",
+          "keywords": [
+            "과제 코멘트",
+            "공개 시점"
+          ],
+          "condition": null,
+          "mentions_change": false
+        },
+        {
+          "category": "professor",
+          "sentiment": "positive",
+          "summary": "질문에 친절하게 응대하고 실행 과정을 함께 확인해 준다는 의견",
+          "evidence": "질문 시간의 응대는 별개로 좋았습니다. 제가 막힌 화면을 보여 드리면 바로 답을 말하기보다 어디까지 실행했는지 함께 확인하면서 친절하게 알려 주셨어요.",
+          "keywords": [
+            "질문 응대",
+            "친절함"
+          ],
+          "condition": null,
+          "mentions_change": false
+        }
+      ]
+    },
+    {
+      "id": "z24",
+      "status": "ok",
+      "items": [
+        {
+          "category": "workload",
+          "sentiment": "positive",
+          "summary": "과제 빈도와 분량이 감당할 만하다는 의견",
+          "evidence": "과제는 이번 학기에 한 달 간격으로 내고 분량도 제 일정에서는 감당할 만했습니다.",
+          "keywords": [
+            "과제 빈도",
+            "과제 분량"
+          ],
+          "condition": null,
+          "mentions_change": false
+        },
+        {
+          "category": "delivery",
+          "sentiment": "positive",
+          "summary": "작은 그림부터 차례로 보여 주는 설명이 이해하기 쉽다는 의견",
+          "evidence": "설명은 작은 그림부터 차례로 보여 주는 방식이라 이해하기 쉬웠고 저는 그 점이 좋았어요.",
+          "keywords": [
+            "설명 방식"
+          ],
+          "condition": null,
+          "mentions_change": false
+        },
+        {
+          "category": "learning",
+          "sentiment": "positive",
+          "summary": "배운 분류 방법을 실제 기록 정리에 활용할 수 있었다는 의견",
+          "evidence": "수업에서 배운 분류 방법으로 제가 모아 둔 기록을 직접 정리할 수 있게 된 것도 만족스럽습니다.",
+          "keywords": [
+            "분류 방법",
+            "실제 활용"
+          ],
+          "condition": null,
+          "mentions_change": false
+        },
+        {
+          "category": "general_impression",
+          "sentiment": "positive",
+          "summary": "직접 자료를 다뤄 보고 싶은 사람에게 추천한다는 의견",
+          "evidence": "직접 자료를 다뤄 보고 싶은 사람에게는 이 수업을 추천합니다.",
+          "keywords": [
+            "추천"
+          ],
+          "condition": "직접 자료를 다뤄 보고 싶은 사람",
+          "mentions_change": false
+        }
+      ]
+    }
+  ],
+  "baseline45": [
+    {
+      "id": "t01",
+      "status": "ok",
+      "items": [
+        {
+          "category": "exam",
+          "sentiment": "neutral",
+          "summary": "시험 문제가 교재 연습문제의 숫자만 바뀌어 출제된다는 의견",
+          "evidence": "시험 교재 연습문제에서 숫자만 바꿔서 나옴",
+          "keywords": [
+            "교재 연습문제",
+            "시험"
+          ],
+          "condition": null,
+          "mentions_change": false
+        },
+        {
+          "category": "workload",
+          "sentiment": "positive",
+          "summary": "연습문제를 모두 풀면 시험 준비가 충분하다는 의견",
+          "evidence": "연습문제만 다 풀면 됨",
+          "keywords": [
+            "연습문제"
+          ],
+          "condition": null,
+          "mentions_change": false
+        }
+      ]
+    },
+    {
+      "id": "t02",
+      "status": "ok",
+      "items": [
+        {
+          "category": "exam",
+          "sentiment": "neutral",
+          "summary": "중간·기말 시험과 퀴즈가 있다는 의견",
+          "evidence": "중간 기말 퀴즈2번",
+          "keywords": [
+            "중간",
+            "기말",
+            "퀴즈"
+          ],
+          "condition": null,
+          "mentions_change": false
+        },
+        {
+          "category": "workload",
+          "sentiment": "neutral",
+          "summary": "과제가 격주로 있다는 의견",
+          "evidence": "과제는 격주",
+          "keywords": [
+            "과제"
+          ],
+          "condition": null,
+          "mentions_change": false
+        },
+        {
+          "category": "attendance",
+          "sentiment": "neutral",
+          "summary": "전자출결로 출석을 확인한다는 의견",
+          "evidence": "출석은 전자출결",
+          "keywords": [
+            "전자출결"
+          ],
+          "condition": null,
+          "mentions_change": false
+        }
+      ]
+    },
+    {
+      "id": "t03",
+      "status": "ok",
+      "items": [
+        {
+          "category": "delivery",
+          "sentiment": "positive",
+          "summary": "판서가 깔끔하고 예시를 많이 들어 이해하기 쉽다는 의견",
+          "evidence": "교수님 판서가 깔끔하고 예시를 진짜 많이 들어주셔서 이해가 잘됨",
+          "keywords": [
+            "판서",
+            "예시"
+          ],
+          "condition": null,
+          "mentions_change": false
+        },
+        {
+          "category": "professor",
+          "sentiment": "positive",
+          "summary": "질문하러 가면 끝까지 설명해준다는 의견",
+          "evidence": "질문하러 가면 끝까지 붙잡고 설명해주심",
+          "keywords": [
+            "질문 응대"
+          ],
+          "condition": null,
+          "mentions_change": false
+        },
+        {
+          "category": "grade",
+          "sentiment": "positive",
+          "summary": "생각보다 학점을 잘 받았다는 의견",
+          "evidence": "학점도 생각보다 잘 받았어요",
+          "keywords": [
+            "학점"
+          ],
+          "condition": null,
+          "mentions_change": false
+        }
+      ]
+    },
+    {
+      "id": "t04",
+      "status": "ok",
+      "items": [
+        {
+          "category": "delivery",
+          "sentiment": "positive",
+          "summary": "교수자가 천천히 설명해 이해하기 괜찮았다는 의견",
+          "evidence": "교수님이 천천히 말씀하셔서 알아듣는건 괜찮았음",
+          "keywords": [
+            "강의 속도",
+            "이해도"
+          ],
+          "condition": null,
+          "mentions_change": false
+        },
+        {
+          "category": "team_project",
+          "sentiment": "negative",
+          "summary": "팀원에 따라 팀 프로젝트 결과가 크게 달라질 수 있다는 의견",
+          "evidence": "팀플 비중이 40퍼라 팀원 잘못 만나면 그냥 망함",
+          "keywords": [
+            "팀플 비중",
+            "팀원"
+          ],
+          "condition": null,
+          "mentions_change": false
+        },
+        {
+          "category": "exam",
+          "sentiment": "positive",
+          "summary": "기말 시험이 무난하다는 의견",
+          "evidence": "기말은 무난",
+          "keywords": [
+            "기말"
+          ],
+          "condition": null,
+          "mentions_change": false
+        }
+      ]
+    },
+    {
+      "id": "t05",
+      "status": "ok",
+      "items": [
+        {
+          "category": "workload",
+          "sentiment": "negative",
+          "summary": "과제와 리딩, 퀴즈가 많아 학업 부담이 크다는 의견",
+          "evidence": "로드 체감상 전공 두개 듣는 느낌임. 매주 문제풀이 과제 + 리딩 정리본 제출에 퀴즈까지 있어서 시험기간 아닌데도 시험기간같음ㅋㅋ",
+          "keywords": [
+            "문제풀이 과제",
+            "리딩",
+            "퀴즈"
+          ],
+          "condition": null,
+          "mentions_change": false
+        },
+        {
+          "category": "exam",
+          "sentiment": "positive",
+          "summary": "과제가 시험과 비슷해 과제를 성실히 하면 시험을 치를 만하다는 의견",
+          "evidence": "과제가 시험이랑 거의 똑같이 나와서 과제만 성실하게 하면 시험은 할만함.",
+          "keywords": [
+            "시험",
+            "과제"
+          ],
+          "condition": null,
+          "mentions_change": false
+        },
+        {
+          "category": "grade",
+          "sentiment": "positive",
+          "summary": "드포라 버티면 B 이상을 받을 수 있다는 의견",
+          "evidence": "성적은 드포라 버티면 b이상은 주시는듯?",
+          "keywords": [
+            "드포",
+            "성적"
+          ],
+          "condition": "버티면",
+          "mentions_change": false
+        },
+        {
+          "category": "delivery",
+          "sentiment": "negative",
+          "summary": "수업이 졸리고 목소리가 작아 뒷자리에서는 잘 들리지 않는다는 의견",
+          "evidence": "교수님 수업은 솔직히 졸림.. 목소리가 작으셔서 뒷자리면 잘 안들림",
+          "keywords": [
+            "수업",
+            "목소리"
+          ],
+          "condition": "뒷자리에 앉으면",
+          "mentions_change": false
+        }
+      ]
+    },
+    {
+      "id": "t06",
+      "status": "ok",
+      "items": [
+        {
+          "category": "professor",
+          "sentiment": "negative",
+          "summary": "학생 질문을 무시하고 한숨을 쉬며 면박을 주는 태도라는 의견",
+          "evidence": "학생 질문을 무시하는 태도 진짜 어이없음. 수업시간에 대놓고 한숨쉬고 그것도 모르냐는 식",
+          "keywords": [
+            "학생 질문",
+            "한숨",
+            "면박"
+          ],
+          "condition": null,
+          "mentions_change": false
+        },
+        {
+          "category": "learning",
+          "sentiment": "positive",
+          "summary": "수업 내용 자체는 유익했다는 의견",
+          "evidence": "내용 자체는 유익했는데",
+          "keywords": [
+            "수업 내용"
+          ],
+          "condition": null,
+          "mentions_change": false
+        },
+        {
+          "category": "general_impression",
+          "sentiment": "negative",
+          "summary": "다시 수강할 의사가 없다는 의견",
+          "evidence": "다시는 안들음",
+          "keywords": [
+            "재수강"
+          ],
+          "condition": null,
+          "mentions_change": false
+        }
+      ]
+    },
+    {
+      "id": "t07",
+      "status": "ok",
+      "items": [
+        {
+          "category": "general_impression",
+          "sentiment": "positive",
+          "summary": "필수 과목으로 수강했지만 생각보다 괜찮았다는 의견",
+          "evidence": "전필이라 어쩔수없이 들었는데 생각보다 괜찮았음",
+          "keywords": [],
+          "condition": null,
+          "mentions_change": false
+        },
+        {
+          "category": "delivery",
+          "sentiment": "negative",
+          "summary": "코딩 기초가 없으면 초반 수업을 따라가기 어렵다는 의견",
+          "evidence": "코딩 노베면 초반 3주는 진짜 헤맴",
+          "keywords": [
+            "코딩 기초",
+            "초반 수업"
+          ],
+          "condition": "코딩 기초가 없는 경우",
+          "mentions_change": false
+        },
+        {
+          "category": "etc",
+          "sentiment": "positive",
+          "summary": "조교가 실습 시간에 개별적으로 도와준다는 의견",
+          "evidence": "조교님이 실습시간에 하나하나 봐주셔서 그나마 살았다",
+          "keywords": [
+            "조교",
+            "실습"
+          ],
+          "condition": null,
+          "mentions_change": false
+        }
+      ]
+    },
+    {
+      "id": "t08",
+      "status": "ok",
+      "items": [
+        {
+          "category": "exam",
+          "sentiment": "neutral",
+          "summary": "이번 학기에는 중간고사와 기말고사만 본다는 의견",
+          "evidence": "이번학기부터 퀴즈 없어지고 중간 기말만 봄",
+          "keywords": [
+            "퀴즈",
+            "중간고사",
+            "기말고사"
+          ],
+          "condition": null,
+          "mentions_change": true
+        },
+        {
+          "category": "workload",
+          "sentiment": "negative",
+          "summary": "시험 범위가 늘어 한 번에 몰아서 공부하는 것이 부담스럽다는 의견",
+          "evidence": "시험 범위가 늘어서 한번에 몰아서 공부해야하는건 좀 부담",
+          "keywords": [
+            "시험 범위",
+            "공부 부담"
+          ],
+          "condition": null,
+          "mentions_change": false
+        },
+        {
+          "category": "exam",
+          "sentiment": "positive",
+          "summary": "평가 비중을 잘 공지해 준다는 의견",
+          "evidence": "평가 비중도 공지 잘해주셔서 깔끔했음",
+          "keywords": [
+            "평가 비중",
+            "공지"
+          ],
+          "condition": null,
+          "mentions_change": false
+        }
+      ]
+    },
+    {
+      "id": "t09",
+      "status": "ok",
+      "items": [
+        {
+          "category": "delivery",
+          "sentiment": "positive",
+          "summary": "수업이 개념 설명, 예제, 응용 순서로 진행되어 구조가 깔끔하다는 의견 / 과제 수행에 필요한 힌트를 수업에서 대부분 제공한다는 의견",
+          "evidence": "개념 설명→예제→응용 순서로 가서 구조는 깔끔함",
+          "keywords": [
+            "수업 구조",
+            "과제 힌트"
+          ],
+          "condition": null,
+          "mentions_change": false
+        },
+        {
+          "category": "delivery",
+          "sentiment": "negative",
+          "summary": "진도가 빨라 한 번 놓치면 따라가기 어렵다는 의견",
+          "evidence": "진도가 너무 빨라서 한번 놓치면 따라잡기 힘듦",
+          "keywords": [
+            "빠른 진도"
+          ],
+          "condition": null,
+          "mentions_change": false
+        },
+        {
+          "category": "workload",
+          "sentiment": "neutral",
+          "summary": "과제가 세 번 있다는 의견",
+          "evidence": "과제: 3번",
+          "keywords": [
+            "과제"
+          ],
+          "condition": null,
+          "mentions_change": false
+        },
+        {
+          "category": "workload",
+          "sentiment": "negative",
+          "summary": "엑셀로 데이터를 처리하는 과제가 처음에는 막막하다는 의견",
+          "evidence": "엑셀로 데이터 돌리는 과제라 처음엔 막막한데",
+          "keywords": [
+            "엑셀 과제"
+          ],
+          "condition": "처음에는",
+          "mentions_change": false
+        },
+        {
+          "category": "exam",
+          "sentiment": "neutral",
+          "summary": "시험이 오픈북이라는 의견",
+          "evidence": "시험: 오픈북인데",
+          "keywords": [
+            "오픈북"
+          ],
+          "condition": null,
+          "mentions_change": false
+        },
+        {
+          "category": "exam",
+          "sentiment": "negative",
+          "summary": "오픈북 시험의 시간이 빠듯하다는 의견",
+          "evidence": "시간이 빠듯해서 정리 안해가면 책 펼칠 시간도 없음",
+          "keywords": [
+            "시험 시간"
+          ],
+          "condition": null,
+          "mentions_change": false
+        },
+        {
+          "category": "team_project",
+          "sentiment": "neutral",
+          "summary": "팀플이 없다는 의견",
+          "evidence": "팀플: 없음",
+          "keywords": [
+            "팀플"
+          ],
+          "condition": null,
+          "mentions_change": false
+        },
+        {
+          "category": "learning",
+          "sentiment": "positive",
+          "summary": "수업이 고생스럽지만 끝나고 나면 확실히 남는 것이 있다는 의견",
+          "evidence": "고생은 하는데 끝나고 나면 남는게 확실히 있는 수업",
+          "keywords": [
+            "배운 것"
+          ],
+          "condition": null,
+          "mentions_change": false
+        }
+      ]
+    },
+    {
+      "id": "t10",
+      "status": "ok",
+      "items": [
+        {
+          "category": "grade",
+          "sentiment": "negative",
+          "summary": "학점이 잘 나온다는 평가와 달리 성적 결과가 좋지 않았다는 의견",
+          "evidence": "학점 잘준다는 강의평 쓴 사람들 다 A 받은 사람들임 속지마셈.",
+          "keywords": [
+            "학점"
+          ],
+          "condition": null,
+          "mentions_change": false
+        },
+        {
+          "category": "general_impression",
+          "sentiment": "negative",
+          "summary": "그 밖의 수업 경험에 불만이 있다는 의견",
+          "evidence": "나머지는 할많하않.",
+          "keywords": [],
+          "condition": null,
+          "mentions_change": false
+        }
+      ]
+    },
+    {
+      "id": "g01",
+      "status": "ok",
+      "items": [
+        {
+          "category": "workload",
+          "sentiment": "negative",
+          "summary": "과제에 매번 두세 시간이 걸리고 시험 기간에도 과제가 이어져 부담스럽다는 의견",
+          "evidence": "매주 과제가 나오는 건 그렇다 치는데 하나 할 때마다 기본 두세 시간은 잡아먹음. 시험기간에도 과제 안 쉬어서 진짜 빡셌다.",
+          "keywords": [
+            "과제 분량",
+            "과제 소요 시간",
+            "시험 기간"
+          ],
+          "condition": null,
+          "mentions_change": false
+        }
+      ]
+    },
+    {
+      "id": "g02",
+      "status": "ok",
+      "items": [
+        {
+          "category": "delivery",
+          "sentiment": "positive",
+          "summary": "예시를 들어 설명해 이해하기 쉽다는 의견 / 전공을 처음 듣는 사람도 따라갈 수 있다는 의견",
+          "evidence": "전공 처음 듣는 사람도 따라갈 수 있는 수업이라 생각함.",
+          "keywords": [
+            "예시 설명",
+            "전공 입문자"
+          ],
+          "condition": null,
+          "mentions_change": false
+        }
+      ]
+    },
+    {
+      "id": "g03",
+      "status": "ok",
+      "items": [
+        {
+          "category": "delivery",
+          "sentiment": "positive",
+          "summary": "교수님의 설명이 이해하기 쉽다는 의견",
+          "evidence": "교수님 설명도 이해 잘 되고",
+          "keywords": [
+            "설명"
+          ],
+          "condition": null,
+          "mentions_change": false
+        },
+        {
+          "category": "professor",
+          "sentiment": "positive",
+          "summary": "질문에 친절하게 답해준다는 의견",
+          "evidence": "질문하면 친절하게 답해주심",
+          "keywords": [
+            "질문 응대"
+          ],
+          "condition": null,
+          "mentions_change": false
+        },
+        {
+          "category": "exam",
+          "sentiment": "positive",
+          "summary": "시험이 수업에서 다룬 내용을 중심으로 출제된다는 의견",
+          "evidence": "시험도 수업에서 다룬 내용 위주로 나와서",
+          "keywords": [
+            "시험 범위"
+          ],
+          "condition": null,
+          "mentions_change": false
+        },
+        {
+          "category": "grade",
+          "sentiment": "positive",
+          "summary": "공부한 만큼 성적을 받을 수 있다는 의견",
+          "evidence": "공부한 만큼은 받을 수 있는 듯",
+          "keywords": [
+            "성적"
+          ],
+          "condition": null,
+          "mentions_change": false
+        },
+        {
+          "category": "general_impression",
+          "sentiment": "positive",
+          "summary": "전체적으로 만족스럽다는 의견",
+          "evidence": "전체적으로 만족.",
+          "keywords": [],
+          "condition": null,
+          "mentions_change": false
+        }
+      ]
+    },
+    {
+      "id": "g04",
+      "status": "ok",
+      "items": [
+        {
+          "category": "workload",
+          "sentiment": "positive",
+          "summary": "과제가 많지 않아 부담이 적다는 의견",
+          "evidence": "과제 자체는 별로 없어서 편했는데",
+          "keywords": [
+            "과제"
+          ],
+          "condition": null,
+          "mentions_change": false
+        },
+        {
+          "category": "exam",
+          "sentiment": "negative",
+          "summary": "시험 범위가 넓고 지엽적인 내용도 출제된다는 의견",
+          "evidence": "시험 범위가 너무 넓고 지엽적인 것도 나와서 당황스러웠음",
+          "keywords": [
+            "시험 범위",
+            "지엽적 출제"
+          ],
+          "condition": null,
+          "mentions_change": false
+        }
+      ]
+    },
+    {
+      "id": "g05",
+      "status": "ok",
+      "items": [
+        {
+          "category": "exam",
+          "sentiment": "neutral",
+          "summary": "중간고사와 기말고사를 두 번 본다는 의견",
+          "evidence": "중간고사랑 기말고사 두 번 보고",
+          "keywords": [
+            "중간고사",
+            "기말고사"
+          ],
+          "condition": null,
+          "mentions_change": false
+        },
+        {
+          "category": "team_project",
+          "sentiment": "neutral",
+          "summary": "교수님이 팀을 정해주고 결과물을 발표하는 팀 프로젝트를 진행한다는 의견",
+          "evidence": "팀은 교수님이 정해주셨고 결과물 발표까지 하는 방식",
+          "keywords": [
+            "팀 프로젝트",
+            "팀 구성",
+            "결과물 발표"
+          ],
+          "condition": null,
+          "mentions_change": false
+        }
+      ]
+    },
+    {
+      "id": "g06",
+      "status": "ok",
+      "items": [
+        {
+          "category": "team_project",
+          "sentiment": "negative",
+          "summary": "팀원의 참여가 부족해 자료조사부터 발표까지 맡았고 팀플 점수를 함께 받아 억울했다는 의견",
+          "evidence": "팀플에서 한 명이 거의 잠수 타서 결국 자료조사부터 PPT, 발표까지 다 떠맡음ㅋㅋ 팀플 점수는 다 같이 받으니까 진짜 억울했음.",
+          "keywords": [
+            "팀원 참여",
+            "역할 분담",
+            "팀플 점수"
+          ],
+          "condition": null,
+          "mentions_change": false
+        }
+      ]
+    },
+    {
+      "id": "g07",
+      "status": "ok",
+      "items": [
+        {
+          "category": "learning",
+          "sentiment": "negative",
+          "summary": "배울 것이 없다는 의견",
+          "evidence": "배울 건 하나도 없고",
+          "keywords": [],
+          "condition": null,
+          "mentions_change": false
+        },
+        {
+          "category": "workload",
+          "sentiment": "negative",
+          "summary": "과제가 매우 많아 부담스럽다는 의견",
+          "evidence": "과제는 산더미인",
+          "keywords": [
+            "과제"
+          ],
+          "condition": null,
+          "mentions_change": false
+        }
+      ]
+    },
+    {
+      "id": "g08",
+      "status": "ok",
+      "items": [
+        {
+          "category": "professor",
+          "sentiment": "positive",
+          "summary": "교수자가 친절하고 학생들의 질문을 잘 받아준다는 의견",
+          "evidence": "교수님은 진짜 친절하시고 학생들 질문도 잘 받아주심",
+          "keywords": [
+            "친절함",
+            "질문 응대"
+          ],
+          "condition": null,
+          "mentions_change": false
+        },
+        {
+          "category": "delivery",
+          "sentiment": "negative",
+          "summary": "강의가 PPT 문장을 읽고 넘어가는 방식이라는 의견",
+          "evidence": "정작 강의는 PPT 문장 읽고 넘어가는 느낌",
+          "keywords": [
+            "PPT",
+            "강의 방식"
+          ],
+          "condition": null,
+          "mentions_change": false
+        },
+        {
+          "category": "learning",
+          "sentiment": "negative",
+          "summary": "수업 외에 따로 공부하지 않으면 배운 것이 별로 남지 않는다는 의견",
+          "evidence": "수업 듣고 따로 공부 안 하면 남는 게 별로 없음",
+          "keywords": [
+            "학습 성과",
+            "자기 공부"
+          ],
+          "condition": "수업 외에 따로 공부하지 않는 경우",
+          "mentions_change": false
+        }
+      ]
+    },
+    {
+      "id": "g09",
+      "status": "ok",
+      "items": [
+        {
+          "category": "workload",
+          "sentiment": "positive",
+          "summary": "과제 횟수가 줄어 부담이 감소했다는 의견",
+          "evidence": "부담이 확 줄어서 좋긴 한데",
+          "keywords": [
+            "과제 횟수",
+            "부담"
+          ],
+          "condition": null,
+          "mentions_change": true
+        },
+        {
+          "category": "delivery",
+          "sentiment": "negative",
+          "summary": "수업에서 직접 해보는 활동이 줄어 아쉽다는 의견",
+          "evidence": "수업에서 직접 해보는 활동도 같이 줄어든 건 아쉬움",
+          "keywords": [
+            "수업 활동"
+          ],
+          "condition": null,
+          "mentions_change": true
+        }
+      ]
+    },
+    {
+      "id": "g10",
+      "status": "ok",
+      "items": []
+    },
+    {
+      "id": "m01",
+      "status": "ok",
+      "items": [
+        {
+          "category": "delivery",
+          "sentiment": "positive",
+          "summary": "설명이 이해하기 쉽다는 의견",
+          "evidence": "설명이 너무 깔끔해서 이해가 잘 돼요.",
+          "keywords": [
+            "설명"
+          ],
+          "condition": null,
+          "mentions_change": false
+        }
+      ]
+    },
+    {
+      "id": "m02",
+      "status": "ok",
+      "items": [
+        {
+          "category": "delivery",
+          "sentiment": "negative",
+          "summary": "강의가 지루해 집중하기 어렵다는 의견",
+          "evidence": "강의가 지루해서 집중하기 힘들었습니다.",
+          "keywords": [
+            "강의 흥미도",
+            "집중"
+          ],
+          "condition": null,
+          "mentions_change": false
+        }
+      ]
+    },
+    {
+      "id": "m03",
+      "status": "ok",
+      "items": [
+        {
+          "category": "delivery",
+          "sentiment": "positive",
+          "summary": "과제 피드백이 꼼꼼하다는 의견",
+          "evidence": "과제 피드백도 엄청 꼼꼼해서",
+          "keywords": [
+            "과제 피드백"
+          ],
+          "condition": null,
+          "mentions_change": false
+        },
+        {
+          "category": "learning",
+          "sentiment": "positive",
+          "summary": "커리큘럼이 알차고 도움이 많이 됐다는 의견",
+          "evidence": "커리큘럼도 알차고 과제 피드백도 엄청 꼼꼼해서 도움이 많이 됐습니다.",
+          "keywords": [
+            "커리큘럼"
+          ],
+          "condition": null,
+          "mentions_change": false
+        }
+      ]
+    },
+    {
+      "id": "m04",
+      "status": "ok",
+      "items": [
+        {
+          "category": "delivery",
+          "sentiment": "positive",
+          "summary": "강의 내용이 좋다는 의견",
+          "evidence": "강의 내용은 너무 좋은데",
+          "keywords": [
+            "강의 내용"
+          ],
+          "condition": null,
+          "mentions_change": false
+        },
+        {
+          "category": "etc",
+          "sentiment": "negative",
+          "summary": "마이크 잡음과 울림 때문에 강의를 듣기 어렵다는 의견",
+          "evidence": "마이크 잡음이 심하고 소리가 울려서 듣기 힘들었어요.",
+          "keywords": [
+            "마이크 잡음",
+            "소리 울림"
+          ],
+          "condition": null,
+          "mentions_change": false
+        }
+      ]
+    },
+    {
+      "id": "m05",
+      "status": "ok",
+      "items": [
+        {
+          "category": "workload",
+          "sentiment": "negative",
+          "summary": "과제 양이 매우 많아 수면에 지장이 생겼다는 의견",
+          "evidence": "과제 양이 역대급이네요. 덕분에 잠을 못 자서 영혼이 탈곡되었습니다^^",
+          "keywords": [
+            "과제 양",
+            "수면 부족"
+          ],
+          "condition": null,
+          "mentions_change": false
+        }
+      ]
+    },
+    {
+      "id": "m06",
+      "status": "ok",
+      "items": [
+        {
+          "category": "grade",
+          "sentiment": "negative",
+          "summary": "학점으로 인해 심리적 부담을 느낀다는 의견",
+          "evidence": "학점을 테라피 받는 기분입니다...",
+          "keywords": [
+            "학점"
+          ],
+          "condition": null,
+          "mentions_change": false
+        },
+        {
+          "category": "learning",
+          "sentiment": "negative",
+          "summary": "강의에서 배울 점이 많다고 느끼기 어렵다는 의견",
+          "evidence": "솔직히 강의 자체는 명강은 아님.",
+          "keywords": [
+            "강의"
+          ],
+          "condition": null,
+          "mentions_change": false
+        }
+      ]
+    },
+    {
+      "id": "m07",
+      "status": "ok",
+      "items": [
+        {
+          "category": "general_impression",
+          "sentiment": "negative",
+          "summary": "수업에 들인 돈과 시간이 아깝고 전반적으로 엉망이라는 의견",
+          "evidence": "돈이랑 시간이 너무 아까움...",
+          "keywords": [
+            "돈과 시간"
+          ],
+          "condition": null,
+          "mentions_change": false
+        },
+        {
+          "category": "professor",
+          "sentiment": "negative",
+          "summary": "교수자가 자기자랑을 많이 한다는 의견",
+          "evidence": "자기자랑만 엄청 하시고",
+          "keywords": [
+            "자기자랑"
+          ],
+          "condition": null,
+          "mentions_change": false
+        }
+      ]
+    },
+    {
+      "id": "m08",
+      "status": "ok",
+      "items": [
+        {
+          "category": "professor",
+          "sentiment": "negative",
+          "summary": "수업 중 학생들에게 화를 내는 태도가 불쾌했다는 의견",
+          "evidence": "수업 시간에 학생들한테 왜 화를 내시는지 모르겠네요.",
+          "keywords": [
+            "교수자 태도",
+            "화"
+          ],
+          "condition": null,
+          "mentions_change": false
+        },
+        {
+          "category": "general_impression",
+          "sentiment": "negative",
+          "summary": "수업으로 인해 기분이 상했다는 의견",
+          "evidence": "기분만 망쳤습니다.",
+          "keywords": [
+            "기분"
+          ],
+          "condition": null,
+          "mentions_change": false
+        }
+      ]
+    },
+    {
+      "id": "m09",
+      "status": "ok",
+      "items": [
+        {
+          "category": "attendance",
+          "sentiment": "neutral",
+          "summary": "매주 출석을 확인한다는 의견",
+          "evidence": "매주 출석 체크가 있고",
+          "keywords": [
+            "출석 체크"
+          ],
+          "condition": null,
+          "mentions_change": false
+        },
+        {
+          "category": "workload",
+          "sentiment": "neutral",
+          "summary": "과제를 총 4번 제출한다는 의견",
+          "evidence": "과제는 총 4번 제출하는 방식으로 진행됩니다.",
+          "keywords": [
+            "과제 제출"
+          ],
+          "condition": null,
+          "mentions_change": false
+        }
+      ]
+    },
+    {
+      "id": "m10",
+      "status": "ok",
+      "items": [
+        {
+          "category": "delivery",
+          "sentiment": "neutral",
+          "summary": "교재 위주로 PPT 슬라이드를 넘기며 설명하는 방식이라는 의견",
+          "evidence": "교재 위주로 PPT 슬라이드를 넘기면서 설명하시는 스타일입니다.",
+          "keywords": [
+            "교재",
+            "PPT 슬라이드"
+          ],
+          "condition": null,
+          "mentions_change": false
+        }
+      ]
+    },
+    {
+      "id": "c01",
+      "status": "ok",
+      "items": [
+        {
+          "category": "general_impression",
+          "sentiment": "positive",
+          "summary": "부담이 적은 강의라는 의견",
+          "evidence": "꿀강인건 맞는데",
+          "keywords": [
+            "꿀강"
+          ],
+          "condition": null,
+          "mentions_change": false
+        },
+        {
+          "category": "learning",
+          "sentiment": "negative",
+          "summary": "수업을 들어도 배운 것이 남지 않는다는 의견",
+          "evidence": "수업 들어도 남는게 1도 없음",
+          "keywords": [
+            "배운 것"
+          ],
+          "condition": null,
+          "mentions_change": false
+        },
+        {
+          "category": "general_impression",
+          "sentiment": "negative",
+          "summary": "학점 취득을 위한 강의라는 의견",
+          "evidence": "걍 학점용",
+          "keywords": [
+            "학점용"
+          ],
+          "condition": null,
+          "mentions_change": false
+        },
+        {
+          "category": "workload",
+          "sentiment": "positive",
+          "summary": "과제가 한 학기에 두 번으로 적다는 의견",
+          "evidence": "과제 한학기에 두번이고",
+          "keywords": [
+            "과제 빈도"
+          ],
+          "condition": null,
+          "mentions_change": false
+        },
+        {
+          "category": "attendance",
+          "sentiment": "positive",
+          "summary": "출석 후 이탈해도 제지하지 않는다는 의견",
+          "evidence": "출튀해도 안잡으심",
+          "keywords": [
+            "출튀"
+          ],
+          "condition": null,
+          "mentions_change": false
+        }
+      ]
+    },
+    {
+      "id": "c02",
+      "status": "ok",
+      "items": [
+        {
+          "category": "workload",
+          "sentiment": "negative",
+          "summary": "매주 많은 분량의 레포트와 퀴즈로 부담이 크다는 의견",
+          "evidence": "매주 레포트 5장에 퀴즈까지, 덕분에 이번학기 잠을 거의 못잤네요",
+          "keywords": [
+            "레포트",
+            "퀴즈"
+          ],
+          "condition": null,
+          "mentions_change": false
+        }
+      ]
+    },
+    {
+      "id": "c03",
+      "status": "ok",
+      "items": [
+        {
+          "category": "grade",
+          "sentiment": "negative",
+          "summary": "학점을 후하게 준다는 기대와 달리 성적이 낮았다는 의견",
+          "evidence": "학점 잘준다는 소문 듣고 왔는데 응 아니야~ 산타 교수님은 없었다. 중간 q3 기말 q3인데 B+ 실화냐",
+          "keywords": [
+            "학점",
+            "B+"
+          ],
+          "condition": null,
+          "mentions_change": false
+        }
+      ]
+    },
+    {
+      "id": "c04",
+      "status": "ok",
+      "items": [
+        {
+          "category": "delivery",
+          "sentiment": "positive",
+          "summary": "설명을 차근차근 잘해준다는 의견",
+          "evidence": "설명은 진짜 차근차근 잘해주심",
+          "keywords": [
+            "설명"
+          ],
+          "condition": null,
+          "mentions_change": false
+        }
+      ]
+    },
+    {
+      "id": "c05",
+      "status": "ok",
+      "items": [
+        {
+          "category": "general_impression",
+          "sentiment": "positive",
+          "summary": "전공을 살릴 생각이라면 추천한다는 의견",
+          "evidence": "전공 살릴 생각이면 강추",
+          "keywords": [
+            "전공"
+          ],
+          "condition": "전공을 살릴 생각인 경우",
+          "mentions_change": false
+        },
+        {
+          "category": "general_impression",
+          "sentiment": "negative",
+          "summary": "졸업요건만 채우려는 경우 비추천한다는 의견",
+          "evidence": "그냥 졸업요건 채우려는 거면 비추",
+          "keywords": [
+            "졸업요건"
+          ],
+          "condition": "졸업요건을 채우려는 경우",
+          "mentions_change": false
+        },
+        {
+          "category": "exam",
+          "sentiment": "neutral",
+          "summary": "시험이 증명 위주로 출제된다는 의견",
+          "evidence": "시험이 증명 위주라",
+          "keywords": [
+            "증명"
+          ],
+          "condition": null,
+          "mentions_change": false
+        },
+        {
+          "category": "delivery",
+          "sentiment": "negative",
+          "summary": "미적분 기초가 없으면 수업을 따라가기 어렵다는 의견",
+          "evidence": "미적 노베면 많이 고생함",
+          "keywords": [
+            "미적분 기초"
+          ],
+          "condition": "미적분 기초가 없는 경우",
+          "mentions_change": false
+        }
+      ]
+    },
+    {
+      "id": "c06",
+      "status": "ok",
+      "items": [
+        {
+          "category": "attendance",
+          "sentiment": "positive",
+          "summary": "참여점수가 없어져 수업 분위기가 덜 늘어진다는 의견",
+          "evidence": "참여점수 없어지고",
+          "keywords": [
+            "참여점수"
+          ],
+          "condition": "25-2부터",
+          "mentions_change": true
+        },
+        {
+          "category": "team_project",
+          "sentiment": "neutral",
+          "summary": "팀플만 남았다는 의견",
+          "evidence": "팀플만 남았다고 함",
+          "keywords": [
+            "팀플"
+          ],
+          "condition": "25-2부터",
+          "mentions_change": true
+        },
+        {
+          "category": "delivery",
+          "sentiment": "positive",
+          "summary": "수업 분위기가 덜 늘어지고 좋아졌다는 의견",
+          "evidence": "확실히 수업 분위기 덜 늘어지고 좋아진듯",
+          "keywords": [
+            "수업 분위기"
+          ],
+          "condition": null,
+          "mentions_change": false
+        },
+        {
+          "category": "team_project",
+          "sentiment": "negative",
+          "summary": "팀원 운이 팀플 경험에 큰 영향을 준다는 의견",
+          "evidence": "팀원 운이 너무 크게 작용함",
+          "keywords": [
+            "팀원 운"
+          ],
+          "condition": null,
+          "mentions_change": false
+        }
+      ]
+    },
+    {
+      "id": "c07",
+      "status": "ok",
+      "items": [
+        {
+          "category": "professor",
+          "sentiment": "negative",
+          "summary": "질문에 면박을 주는 태도가 부정적이라는 의견",
+          "evidence": "질문하면 그것도 모르냐고 면박줌ㅋ",
+          "keywords": [
+            "질문 응대",
+            "면박"
+          ],
+          "condition": null,
+          "mentions_change": false
+        },
+        {
+          "category": "delivery",
+          "sentiment": "positive",
+          "summary": "강의자료가 깔끔하다는 의견",
+          "evidence": "강의자료는 깔끔한 편",
+          "keywords": [
+            "강의자료"
+          ],
+          "condition": null,
+          "mentions_change": false
+        }
+      ]
+    },
+    {
+      "id": "c08",
+      "status": "ok",
+      "items": []
+    },
+    {
+      "id": "c09",
+      "status": "ok",
+      "items": [
+        {
+          "category": "workload",
+          "sentiment": "negative",
+          "summary": "매주 리딩과 문제 세트로 학업 부담이 크다는 의견",
+          "evidence": "리딩 매주 30p정도+problem set 3번. 생각보다 빡셈",
+          "keywords": [
+            "리딩",
+            "problem set"
+          ],
+          "condition": null,
+          "mentions_change": false
+        },
+        {
+          "category": "exam",
+          "sentiment": "negative",
+          "summary": "개념 설명 위주의 수업과 계산 문제 위주의 시험 사이에 괴리가 크다는 의견",
+          "evidence": "수업은 개념설명 위주인데 시험은 계산문제가 대부분이라 괴리감 큼",
+          "keywords": [
+            "계산문제",
+            "수업과 시험의 괴리"
+          ],
+          "condition": null,
+          "mentions_change": false
+        },
+        {
+          "category": "grade",
+          "sentiment": "positive",
+          "summary": "드포라서 성적을 생각보다 후하게 준다는 의견",
+          "evidence": "드포라 그런지 생각보다 후하게 주심",
+          "keywords": [
+            "성적"
+          ],
+          "condition": "드포라서",
+          "mentions_change": false
+        },
+        {
+          "category": "delivery",
+          "sentiment": "positive",
+          "summary": "설명이 매우 좋고 수업에 몰입하게 된다는 의견",
+          "evidence": "설명은 진짜 잘하심 시간가는줄 모름",
+          "keywords": [
+            "설명"
+          ],
+          "condition": null,
+          "mentions_change": false
+        },
+        {
+          "category": "attendance",
+          "sentiment": "positive",
+          "summary": "전자출결 방식이 편리하다는 의견",
+          "evidence": "출석은 전자출결이라 편함",
+          "keywords": [
+            "전자출결"
+          ],
+          "condition": null,
+          "mentions_change": false
+        }
+      ]
+    },
+    {
+      "id": "c10",
+      "status": "ok",
+      "items": []
+    },
+    {
+      "id": "c11",
+      "status": "ok",
+      "items": [
+        {
+          "category": "delivery",
+          "sentiment": "positive",
+          "summary": "설명이 이해하기 쉽다는 의견",
+          "evidence": "설명은 귀에 쏙쏙 들어오는데",
+          "keywords": [
+            "설명"
+          ],
+          "condition": null,
+          "mentions_change": false
+        },
+        {
+          "category": "workload",
+          "sentiment": "negative",
+          "summary": "학업 부담이 많고 매주 퀴즈를 보는 것이 압박스럽다는 의견",
+          "evidence": "ㅗ드가 넘 많아여ㅠ 매주 퀴즈 보는것도 은근 압박",
+          "keywords": [
+            "학업 부담",
+            "퀴즈"
+          ],
+          "condition": null,
+          "mentions_change": false
+        }
+      ]
+    },
+    {
+      "id": "c12",
+      "status": "ok",
+      "items": [
+        {
+          "category": "workload",
+          "sentiment": "negative",
+          "summary": "학업 부담이 매우 크다는 의견 / 한 학기 동안 학업 부담이 컸다는 의견",
+          "evidence": "한학기 갈려나갔지만",
+          "keywords": [
+            "학업 부담"
+          ],
+          "condition": null,
+          "mentions_change": false
+        },
+        {
+          "category": "delivery",
+          "sentiment": "positive",
+          "summary": "수업이 매우 재미있다는 의견",
+          "evidence": "개꿀잼임",
+          "keywords": [
+            "흥미도"
+          ],
+          "condition": null,
+          "mentions_change": false
+        },
+        {
+          "category": "learning",
+          "sentiment": "positive",
+          "summary": "이 과목에서 가장 많이 배웠다는 의견",
+          "evidence": "이 과목에서 제일 많이 배움",
+          "keywords": [
+            "배운 것"
+          ],
+          "condition": null,
+          "mentions_change": false
+        }
+      ]
+    },
+    {
+      "id": "c13",
+      "status": "ok",
+      "items": [
+        {
+          "category": "grade",
+          "sentiment": "negative",
+          "summary": "성적이 기대보다 낮고 평가 기준도 공지되지 않았다는 의견",
+          "evidence": "후하게 준다는 말만 믿고 들었다가 성적 뜬 날 할말을 잃음.. 평가기준 공지도 따로 없었음",
+          "keywords": [
+            "성적",
+            "평가기준"
+          ],
+          "condition": null,
+          "mentions_change": false
+        }
+      ]
+    },
+    {
+      "id": "c14",
+      "status": "ok",
+      "items": []
+    },
+    {
+      "id": "c15",
+      "status": "ok",
+      "items": [
+        {
+          "category": "grade",
+          "sentiment": "negative",
+          "summary": "학점을 후하게 준다는 기대와 달리 성적이 관대하지 않다는 의견",
+          "evidence": "이 수업에 산타는 없어",
+          "keywords": [
+            "학점"
+          ],
+          "condition": null,
+          "mentions_change": false
+        }
+      ]
+    }
+  ]
+}
