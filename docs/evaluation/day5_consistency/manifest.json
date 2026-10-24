@@ -1,0 +1,557 @@
+{
+  "label_status": "AI-adjudicated; human_review=pending; team_approved=false",
+  "baseline64_source": "frontend/public/reference/*_202*.json (8 semester files only; merged files excluded)",
+  "model_settings": {
+    "model": "gpt-6-luna",
+    "reasoning_effort": "none",
+    "temperature": 0,
+    "timeout_seconds": 30,
+    "max_retries": 0,
+    "max_output_tokens": 4000
+  },
+  "selection": {
+    "candidate": "v3",
+    "development_gate": {
+      "pair_f1_min_2pp": true,
+      "category_f1": true,
+      "sentiment_accuracy": true,
+      "exact_reviews": true,
+      "overall": true,
+      "evidence_exact": true,
+      "failed": true
+    },
+    "regression45_raw_gate": {
+      "category_f1": true,
+      "sentiment_accuracy": true,
+      "evidence_exact": true,
+      "failed": true
+    },
+    "regression45_guarded_gate": {
+      "category_f1": true,
+      "sentiment_accuracy": true,
+      "evidence_exact": true,
+      "failed": true
+    },
+    "challenge24_gate": {
+      "pair_f1": true,
+      "category_f1": true,
+      "evidence_exact": true,
+      "failed": true
+    },
+    "all_gates_pass": true,
+    "guard_required_for_gate": false,
+    "production_files_unchanged": true,
+    "old_v1_gold_and_saved_responses_unchanged": true,
+    "new_review_calls": 221,
+    "usage_total": {
+      "input_tokens": 819384,
+      "output_tokens": 58332,
+      "total_tokens": 877716
+    },
+    "adopted_locally_as_reviewable_candidate": true,
+    "deployed_or_merged": false,
+    "human_review": "pending",
+    "team_approved": false,
+    "note": "AI-adjudicated reference and synthetic checks; not independent human ground truth or generalization claim."
+  },
+  "gold_v2": {
+    "frozen_at_utc": "2026-10-24T12:49:35.753880+00:00",
+    "parent_gold_sha256": "e3cf014cfb4bf1d1a354175b280f0312304f0f4d2c038be2f9e1c8c09a427d3c",
+    "gold_sha256": "e466881b22b6622b2c3c4fba481d954b9aa413c55f949358cd395fae0934b4df",
+    "policy_sha256": "26ebf1f476cf138eedb5a1d1a4301720e50728f44f3308d5552ca511255d23ea",
+    "review_count": 64,
+    "gold_items": 237,
+    "edit_operations": 20,
+    "changed_reviews": 16,
+    "human_review": "pending",
+    "team_approved": false,
+    "local_agent_adjudication": true,
+    "new_api_calls_before_freeze": 0,
+    "prior_prediction_exposure": true,
+    "score_optimization_not_used_to_select_labels": true
+  },
+  "challenge": {
+    "frozen_at_utc": "2026-10-24T12:55:27.466540+00:00",
+    "reviews": 24,
+    "gold_items": 33,
+    "sha256": "3db665a64803e83dce380b34dce0195e84e6c5ac508e652f1f57b951f4d835c8",
+    "created_after_prompt_freeze": true,
+    "created_before_challenge_model_calls": true,
+    "human_independent": false,
+    "team_approved": false,
+    "source": "New AI-authored synthetic boundary checks; not existing holdout data"
+  },
+  "failed_first_trial": {
+    "checks": {
+      "pair_f1_min_2pp": true,
+      "category_f1": true,
+      "sentiment_accuracy": false,
+      "exact_reviews": false,
+      "overall": true,
+      "evidence_exact": true,
+      "failed": true
+    },
+    "passes": false,
+    "overall_correct": 60,
+    "summary": {
+      "tp": 198,
+      "fp": 14,
+      "fn": 8,
+      "sentiment_correct": 220,
+      "sentiment_total": 264,
+      "pair_correct": 220,
+      "gold_items": 237,
+      "predicted_items": 276,
+      "evidence_exact": 276,
+      "failed": 0,
+      "pair_exact": 25,
+      "review_count": 64,
+      "category_precision": 0.9339622641509434,
+      "category_recall": 0.9611650485436893,
+      "category_f1": 0.9473684210526315,
+      "sentiment_accuracy": 0.8333333333333334,
+      "evidence_exact_rate": 1.0,
+      "failure_rate": 0.0,
+      "mean_latency_ms": 4842.421875,
+      "timed_review_count": 64,
+      "merged_item_distribution": {
+        "0": 43,
+        "2": 9,
+        "1": 10,
+        "3": 1,
+        "5": 1
+      },
+      "merged_review_ids": [
+        "c01-2025-2-r04",
+        "c01-2025-2-r06",
+        "c01-2025-2-r07",
+        "c01-2026-1-r06",
+        "c01-2026-1-r07",
+        "c02-2026-1-r03",
+        "c02-2026-1-r04",
+        "c02-2026-1-r06",
+        "c02-2026-1-r07",
+        "c02-2026-1-r08",
+        "c03-2025-2-r07",
+        "c03-2025-2-r08",
+        "c03-2026-1-r04",
+        "c03-2026-1-r05",
+        "c03-2026-1-r08",
+        "c04-2025-2-r03",
+        "c04-2025-2-r04",
+        "c04-2025-2-r05",
+        "c04-2026-1-r05",
+        "c04-2026-1-r06",
+        "c04-2026-1-r08"
+      ],
+      "merged_review_rate": 0.328125,
+      "fields": {
+        "condition": {
+          "annotated_count": 237,
+          "missing_gold_count": 0,
+          "matched_item_count": 220,
+          "presence_accuracy": 0.8227848101265823,
+          "literal_accuracy": 0.6877637130801688
+        },
+        "mentions_change": {
+          "annotated_count": 237,
+          "missing_gold_count": 0,
+          "matched_item_count": 220,
+          "presence_accuracy": 0.9113924050632911,
+          "literal_accuracy": 0.9113924050632911
+        }
+      },
+      "pair_precision": 0.7971014492753623,
+      "pair_recall": 0.9282700421940928,
+      "pair_f1": 0.8576998050682261,
+      "review_pair_exact_rate": 0.390625
+    }
+  },
+  "source_response_sha256": {
+    "candidate64_v3": "535af36e3da6e74f614bd99e5fe4b4df58511245f85babf4e27e725cb999db80",
+    "candidate45_v3": "14db09d1b25684b40ca0c4f653f3a7213a2581f7658136d4826133b8f2ec850a",
+    "challenge_baseline": "abe138608cc2d0f1617028375c7504b13d4138f64ea15b1fe4d3ff664138f96d",
+    "challenge_candidate": "5c108ea91c3e655b2b67cb881e63d689a35090b0bce468d889be094cb0c9b242",
+    "baseline45": "c97ac358c4c42be7823acb169e62a1a9ae2183954fff0ee131e822c964143c64"
+  },
+  "expected_summaries": {
+    "baseline64_v1": {
+      "tp": 192,
+      "fp": 17,
+      "fn": 17,
+      "sentiment_correct": 198,
+      "sentiment_total": 232,
+      "pair_correct": 198,
+      "gold_items": 232,
+      "predicted_items": 248,
+      "evidence_exact": 248,
+      "failed": 0,
+      "pair_exact": 26,
+      "review_count": 64,
+      "category_precision": 0.9186602870813397,
+      "category_recall": 0.9186602870813397,
+      "category_f1": 0.9186602870813397,
+      "sentiment_accuracy": 0.853448275862069,
+      "evidence_exact_rate": 1.0,
+      "failure_rate": 0.0,
+      "mean_latency_ms": null,
+      "timed_review_count": 0,
+      "merged_item_distribution": {},
+      "merged_review_ids": [],
+      "merged_review_rate": null,
+      "fields": {
+        "condition": {
+          "annotated_count": 232,
+          "missing_gold_count": 0,
+          "matched_item_count": 198,
+          "presence_accuracy": 0.7456896551724138,
+          "literal_accuracy": 0.6724137931034483
+        },
+        "mentions_change": {
+          "annotated_count": 232,
+          "missing_gold_count": 0,
+          "matched_item_count": 198,
+          "presence_accuracy": 0.8146551724137931,
+          "literal_accuracy": 0.8146551724137931
+        }
+      },
+      "pair_precision": 0.7983870967741935,
+      "pair_recall": 0.853448275862069,
+      "pair_f1": 0.825,
+      "review_pair_exact_rate": 0.40625
+    },
+    "baseline64_v2": {
+      "tp": 191,
+      "fp": 18,
+      "fn": 15,
+      "sentiment_correct": 202,
+      "sentiment_total": 233,
+      "pair_correct": 202,
+      "gold_items": 237,
+      "predicted_items": 248,
+      "evidence_exact": 248,
+      "failed": 0,
+      "pair_exact": 27,
+      "review_count": 64,
+      "category_precision": 0.9138755980861244,
+      "category_recall": 0.9271844660194175,
+      "category_f1": 0.9204819277108434,
+      "sentiment_accuracy": 0.8669527896995708,
+      "evidence_exact_rate": 1.0,
+      "failure_rate": 0.0,
+      "mean_latency_ms": null,
+      "timed_review_count": 0,
+      "merged_item_distribution": {},
+      "merged_review_ids": [],
+      "merged_review_rate": null,
+      "fields": {
+        "condition": {
+          "annotated_count": 237,
+          "missing_gold_count": 0,
+          "matched_item_count": 202,
+          "presence_accuracy": 0.7383966244725738,
+          "literal_accuracy": 0.6666666666666666
+        },
+        "mentions_change": {
+          "annotated_count": 237,
+          "missing_gold_count": 0,
+          "matched_item_count": 202,
+          "presence_accuracy": 0.8185654008438819,
+          "literal_accuracy": 0.8185654008438819
+        }
+      },
+      "pair_precision": 0.8145161290322581,
+      "pair_recall": 0.8523206751054853,
+      "pair_f1": 0.8329896907216495,
+      "review_pair_exact_rate": 0.421875
+    },
+    "candidate64_v3": {
+      "tp": 200,
+      "fp": 10,
+      "fn": 6,
+      "sentiment_correct": 221,
+      "sentiment_total": 246,
+      "pair_correct": 221,
+      "gold_items": 237,
+      "predicted_items": 253,
+      "evidence_exact": 253,
+      "failed": 0,
+      "pair_exact": 36,
+      "review_count": 64,
+      "category_precision": 0.9523809523809523,
+      "category_recall": 0.970873786407767,
+      "category_f1": 0.9615384615384616,
+      "sentiment_accuracy": 0.8983739837398373,
+      "evidence_exact_rate": 1.0,
+      "failure_rate": 0.0,
+      "mean_latency_ms": 4207.140625,
+      "timed_review_count": 64,
+      "merged_item_distribution": {
+        "0": 43,
+        "1": 16,
+        "2": 4,
+        "4": 1
+      },
+      "merged_review_ids": [
+        "c01-2025-2-r06",
+        "c01-2025-2-r07",
+        "c01-2025-2-r08",
+        "c01-2026-1-r06",
+        "c01-2026-1-r07",
+        "c01-2026-1-r08",
+        "c02-2025-2-r06",
+        "c02-2026-1-r03",
+        "c02-2026-1-r07",
+        "c02-2026-1-r08",
+        "c03-2025-2-r07",
+        "c03-2025-2-r08",
+        "c03-2026-1-r05",
+        "c03-2026-1-r08",
+        "c04-2025-2-r03",
+        "c04-2025-2-r04",
+        "c04-2025-2-r05",
+        "c04-2025-2-r08",
+        "c04-2026-1-r05",
+        "c04-2026-1-r06",
+        "c04-2026-1-r08"
+      ],
+      "merged_review_rate": 0.328125,
+      "fields": {
+        "condition": {
+          "annotated_count": 237,
+          "missing_gold_count": 0,
+          "matched_item_count": 221,
+          "presence_accuracy": 0.8481012658227848,
+          "literal_accuracy": 0.7679324894514767
+        },
+        "mentions_change": {
+          "annotated_count": 237,
+          "missing_gold_count": 0,
+          "matched_item_count": 221,
+          "presence_accuracy": 0.9113924050632911,
+          "literal_accuracy": 0.9113924050632911
+        }
+      },
+      "pair_precision": 0.8735177865612648,
+      "pair_recall": 0.9324894514767933,
+      "pair_f1": 0.9020408163265307,
+      "review_pair_exact_rate": 0.5625
+    },
+    "baseline45": {
+      "tp": 85,
+      "fp": 7,
+      "fn": 6,
+      "sentiment_correct": 87,
+      "sentiment_total": 94,
+      "pair_correct": 87,
+      "gold_items": 98,
+      "predicted_items": 99,
+      "evidence_exact": 98,
+      "failed": 0,
+      "pair_exact": 31,
+      "review_count": 45,
+      "category_precision": 0.9239130434782609,
+      "category_recall": 0.9340659340659341,
+      "category_f1": 0.9289617486338798,
+      "sentiment_accuracy": 0.925531914893617,
+      "evidence_exact_rate": 0.98989898989899,
+      "failure_rate": 0.0,
+      "mean_latency_ms": 3318.311111111111,
+      "timed_review_count": 45,
+      "merged_item_distribution": {
+        "0": 42,
+        "1": 3
+      },
+      "merged_review_ids": [
+        "t09",
+        "g02",
+        "c12"
+      ],
+      "merged_review_rate": 0.06666666666666667,
+      "fields": {
+        "condition": {
+          "annotated_count": 9,
+          "missing_gold_count": 89,
+          "matched_item_count": 7,
+          "presence_accuracy": 0.5555555555555556,
+          "literal_accuracy": 0.1111111111111111
+        },
+        "mentions_change": {
+          "annotated_count": 5,
+          "missing_gold_count": 93,
+          "matched_item_count": 4,
+          "presence_accuracy": 0.6,
+          "literal_accuracy": 0.6
+        }
+      },
+      "pair_precision": 0.8787878787878788,
+      "pair_recall": 0.8877551020408163,
+      "pair_f1": 0.883248730964467,
+      "review_pair_exact_rate": 0.6888888888888889
+    },
+    "candidate45_v3": {
+      "tp": 85,
+      "fp": 7,
+      "fn": 6,
+      "sentiment_correct": 87,
+      "sentiment_total": 93,
+      "pair_correct": 87,
+      "gold_items": 98,
+      "predicted_items": 98,
+      "evidence_exact": 98,
+      "failed": 0,
+      "pair_exact": 31,
+      "review_count": 45,
+      "category_precision": 0.9239130434782609,
+      "category_recall": 0.9340659340659341,
+      "category_f1": 0.9289617486338798,
+      "sentiment_accuracy": 0.9354838709677419,
+      "evidence_exact_rate": 1.0,
+      "failure_rate": 0.0,
+      "mean_latency_ms": 4115.266666666666,
+      "timed_review_count": 45,
+      "merged_item_distribution": {
+        "0": 40,
+        "1": 5
+      },
+      "merged_review_ids": [
+        "t09",
+        "g02",
+        "g05",
+        "c11",
+        "c13"
+      ],
+      "merged_review_rate": 0.1111111111111111,
+      "fields": {
+        "condition": {
+          "annotated_count": 9,
+          "missing_gold_count": 89,
+          "matched_item_count": 9,
+          "presence_accuracy": 0.7777777777777778,
+          "literal_accuracy": 0.0
+        },
+        "mentions_change": {
+          "annotated_count": 5,
+          "missing_gold_count": 93,
+          "matched_item_count": 3,
+          "presence_accuracy": 0.6,
+          "literal_accuracy": 0.6
+        }
+      },
+      "pair_precision": 0.8877551020408163,
+      "pair_recall": 0.8877551020408163,
+      "pair_f1": 0.8877551020408163,
+      "review_pair_exact_rate": 0.6888888888888889
+    },
+    "challenge_baseline": {
+      "tp": 28,
+      "fp": 2,
+      "fn": 3,
+      "sentiment_correct": 29,
+      "sentiment_total": 32,
+      "pair_correct": 29,
+      "gold_items": 33,
+      "predicted_items": 34,
+      "evidence_exact": 34,
+      "failed": 0,
+      "pair_exact": 18,
+      "review_count": 24,
+      "category_precision": 0.9333333333333333,
+      "category_recall": 0.9032258064516129,
+      "category_f1": 0.9180327868852459,
+      "sentiment_accuracy": 0.90625,
+      "evidence_exact_rate": 1.0,
+      "failure_rate": 0.0,
+      "mean_latency_ms": 3233.1666666666665,
+      "timed_review_count": 24,
+      "merged_item_distribution": {
+        "0": 23,
+        "1": 1
+      },
+      "merged_review_ids": [
+        "z22"
+      ],
+      "merged_review_rate": 0.041666666666666664,
+      "fields": {
+        "condition": {
+          "annotated_count": 33,
+          "missing_gold_count": 0,
+          "matched_item_count": 29,
+          "presence_accuracy": 0.8787878787878788,
+          "literal_accuracy": 0.7878787878787878
+        },
+        "mentions_change": {
+          "annotated_count": 33,
+          "missing_gold_count": 0,
+          "matched_item_count": 29,
+          "presence_accuracy": 0.8787878787878788,
+          "literal_accuracy": 0.8787878787878788
+        }
+      },
+      "pair_precision": 0.8529411764705882,
+      "pair_recall": 0.8787878787878788,
+      "pair_f1": 0.8656716417910447,
+      "review_pair_exact_rate": 0.75
+    },
+    "challenge_candidate": {
+      "tp": 28,
+      "fp": 0,
+      "fn": 3,
+      "sentiment_correct": 30,
+      "sentiment_total": 30,
+      "pair_correct": 30,
+      "gold_items": 33,
+      "predicted_items": 30,
+      "evidence_exact": 30,
+      "failed": 0,
+      "pair_exact": 21,
+      "review_count": 24,
+      "category_precision": 1.0,
+      "category_recall": 0.9032258064516129,
+      "category_f1": 0.9491525423728814,
+      "sentiment_accuracy": 1.0,
+      "evidence_exact_rate": 1.0,
+      "failure_rate": 0.0,
+      "mean_latency_ms": 4375.083333333333,
+      "timed_review_count": 24,
+      "merged_item_distribution": {
+        "0": 23,
+        "1": 1
+      },
+      "merged_review_ids": [
+        "z22"
+      ],
+      "merged_review_rate": 0.041666666666666664,
+      "fields": {
+        "condition": {
+          "annotated_count": 33,
+          "missing_gold_count": 0,
+          "matched_item_count": 30,
+          "presence_accuracy": 0.8787878787878788,
+          "literal_accuracy": 0.7575757575757576
+        },
+        "mentions_change": {
+          "annotated_count": 33,
+          "missing_gold_count": 0,
+          "matched_item_count": 30,
+          "presence_accuracy": 0.9090909090909091,
+          "literal_accuracy": 0.9090909090909091
+        }
+      },
+      "pair_precision": 1.0,
+      "pair_recall": 0.9090909090909091,
+      "pair_f1": 0.9523809523809523,
+      "review_pair_exact_rate": 0.875
+    }
+  },
+  "packaged_file_sha256": {
+    "analysis/prompt.py": "1f7892b4d3063eafe0017a4f8e90d63c8431d7154243d8e39c441fff38cface1",
+    "docs/labeling_boundary_v2.md": "07bb1778a1fcb04c3db9c6b9d25f6dfd3122d5e633e10486b1a0ab448e0516d2",
+    "data/test_reviews.jsonl": "1b4508fbcf8e404c3c276a6bea5837cc54ade896a1fed8f4e7cdf5feac871681",
+    "data/reference_gold64_v1.jsonl": "e3cf014cfb4bf1d1a354175b280f0312304f0f4d2c038be2f9e1c8c09a427d3c",
+    "data/reference_gold64_v2.jsonl": "e466881b22b6622b2c3c4fba481d954b9aa413c55f949358cd395fae0934b4df",
+    "data/consistency_challenge24.jsonl": "3db665a64803e83dce380b34dce0195e84e6c5ac508e652f1f57b951f4d835c8",
+    "docs/evaluation/day5_consistency/label_changes.json": "c71f47c8652854a28a1a388184f468b7c00011ad4382669bc1633f0f572219d9",
+    "docs/evaluation/day5_consistency/saved_predictions.json": "f5c82fc23102585cd18012570e7fccba7cf5026a6b21089e35b91cabe0a266a4"
+  }
+}

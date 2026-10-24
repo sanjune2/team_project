@@ -1,0 +1,296 @@
+[
+  {
+    "id": "c01-2026-1-r03",
+    "before": {
+      "category": "delivery",
+      "sentiment": "negative",
+      "evidence": "피드백 진짜 번개처럼 오네요^^ 첫 과제 질문 남겨 둔 걸 마지막 과제 낼 때 다시 읽고 혼자 해결함.. 질문 게시판 확인은 좀 해주셨으면.",
+      "condition": null,
+      "mentions_change": false
+    },
+    "after": {
+      "category": "professor",
+      "sentiment": "negative",
+      "evidence": "피드백 진짜 번개처럼 오네요^^ 첫 과제 질문 남겨 둔 걸 마지막 과제 낼 때 다시 읽고 혼자 해결함.. 질문 게시판 확인은 좀 해주셨으면.",
+      "condition": null,
+      "mentions_change": false
+    },
+    "rule_reason": "과제 채점 피드백이 아니라 질문 게시판의 답변 지연. 질문 응대 규칙을 일관 적용."
+  },
+  {
+    "id": "c01-2026-1-r04",
+    "before": null,
+    "after": {
+      "category": "workload",
+      "sentiment": "neutral",
+      "evidence": "코딩 노베면 과제 시간 넉넉히 잡으세요.",
+      "condition": "코딩 기초가 없는 경우",
+      "mentions_change": false
+    },
+    "rule_reason": "기존 보고서 분량 불만과 독립적인 초보 준비 시간 조언. 같은 조언을 workload/neutral로 통일."
+  },
+  {
+    "id": "c01-2026-1-r06",
+    "before": {
+      "category": "workload",
+      "sentiment": "neutral",
+      "evidence": "과제 하나당 표 정리하고 설명 쓰는 건 그대로라 날먹할 수준은 아닙니다.",
+      "condition": null,
+      "mentions_change": false
+    },
+    "after": {
+      "category": "workload",
+      "sentiment": "neutral",
+      "evidence": "없으면 첫 두 주는 용어를 조금 찾아보고 오면 좋을 듯합니다.",
+      "condition": "기초 통계가 없는 경우",
+      "mentions_change": false
+    },
+    "rule_reason": "평가성이 불명확한 날먹 부정 대신 직접적인 선수지식 준비 조언을 대표 근거로 선택. 과제 작업 사실은 같은 중립 pair에 통합."
+  },
+  {
+    "id": "c01-2026-1-r07",
+    "before": {
+      "category": "workload",
+      "sentiment": "positive",
+      "evidence": "과제는 예전 매주 제출에서 이번 학기 격주 제출로 바뀌었다고 첫 시간에 안내하셨습니다.",
+      "condition": null,
+      "mentions_change": true
+    },
+    "after": {
+      "category": "workload",
+      "sentiment": "positive",
+      "evidence": "과제는 예전 매주 제출에서 이번 학기 격주 제출로 바뀌었다고 첫 시간에 안내하셨습니다. 한 번 낼 때 작업량은 조금 있어서 저는 이틀로 나눠 했어요. 미루지만 않으면 버틸 만했고 시험 주간에는 제출일을 피해서 잡아 주셔서 좋았습니다.",
+      "condition": "과제를 미루지 않는 경우",
+      "mentions_change": true
+    },
+    "rule_reason": "기존 근거는 변경 사실만 지지. 변경과 긍정 평가가 함께 있는 연속 구간으로 보강."
+  },
+  {
+    "id": "c01-2026-1-r07",
+    "before": null,
+    "after": {
+      "category": "exam",
+      "sentiment": "neutral",
+      "evidence": "시험은 작은 표를 주고 결과를 해석하는 문제 위주였어요.",
+      "condition": null,
+      "mentions_change": false
+    },
+    "rule_reason": "유형 정보와 별도 문장의 시간 부족 평가는 독립된 명제. 같은 항목의 서로 다른 감성을 보존."
+  },
+  {
+    "id": "c01-2026-1-r07",
+    "before": null,
+    "after": {
+      "category": "exam",
+      "sentiment": "positive",
+      "evidence": "공식만 외우는 것보다 실습 때 쓴 설명을 자기 말로 정리해 둔 게 도움이 됐습니다.",
+      "condition": null,
+      "mentions_change": false
+    },
+    "rule_reason": "시험 문맥에서 실제 도움이 됐다는 별도의 긍정 경험. 시간 불만 때문에 삭제하지 않음."
+  },
+  {
+    "id": "c01-2026-1-r08",
+    "before": {
+      "category": "workload",
+      "sentiment": "positive",
+      "evidence": "이전 학기 들은 친구가 과제 때문에 고생했다고 해서 망설였는데 이번에는 격주 제출이라 저는 감당할 만했어요.",
+      "condition": null,
+      "mentions_change": true
+    },
+    "after": {
+      "category": "workload",
+      "sentiment": "positive",
+      "evidence": "이전 학기 들은 친구가 과제 때문에 고생했다고 해서 망설였는데 이번에는 격주 제출이라 저는 감당할 만했어요.",
+      "condition": null,
+      "mentions_change": false
+    },
+    "rule_reason": "이전 친구가 고생했다는 이야기와 현재 격주 상태만 있음. 이전 과제 빈도나 변경을 직접 말하지 않아 변경 추론 제거."
+  },
+  {
+    "id": "c02-2026-1-r07",
+    "before": null,
+    "after": {
+      "category": "workload",
+      "sentiment": "neutral",
+      "evidence": "노베라면 첫 몇 주 예습 시간을 꼭 잡고",
+      "condition": "코딩 기초가 없는 경우",
+      "mentions_change": false
+    },
+    "rule_reason": "전체 작업량 불만과 독립적인 초보 예습 조언을 다른 초보 사례와 동일하게 보존."
+  },
+  {
+    "id": "c03-2025-2-r05",
+    "before": null,
+    "after": {
+      "category": "exam",
+      "sentiment": "neutral",
+      "evidence": "중간기말 구성이고",
+      "condition": null,
+      "mentions_change": false
+    },
+    "rule_reason": "시험 일정 사실과 별도 공정성 평가는 독립된 명제. 단순 안내를 중립으로 일관 보존."
+  },
+  {
+    "id": "c03-2025-2-r07",
+    "before": {
+      "category": "attendance",
+      "sentiment": "negative",
+      "evidence": "출석: 랜덤 호명, 체크 엄격",
+      "condition": null,
+      "mentions_change": false
+    },
+    "after": {
+      "category": "attendance",
+      "sentiment": "neutral",
+      "evidence": "출석: 랜덤 호명, 체크 엄격",
+      "condition": null,
+      "mentions_change": false
+    },
+    "rule_reason": "엄격함과 랜덤 호명만 명시. 별도의 불편·곤란·부담 감정이 없어 중립으로 통일."
+  },
+  {
+    "id": "c03-2025-2-r08",
+    "before": {
+      "category": "general_impression",
+      "sentiment": "positive",
+      "evidence": "막 엄청난 명강은 아니지만 성적 기준이 납득되고 배울 내용은 챙길 수 있는 수업임.",
+      "condition": null,
+      "mentions_change": false
+    },
+    "after": null,
+    "rule_reason": "마지막 문장은 평가 기준과 배울 내용의 재진술. 독립 추천이 없어 exam/learning에 통합하고 총평 중복 제거."
+  },
+  {
+    "id": "c03-2025-2-r08",
+    "before": null,
+    "after": {
+      "category": "exam",
+      "sentiment": "neutral",
+      "evidence": "중간·기말로 평가했고",
+      "condition": null,
+      "mentions_change": false
+    },
+    "rule_reason": "시험 일정 정보는 공정성 평가와 다른 독립 명제."
+  },
+  {
+    "id": "c03-2026-1-r04",
+    "before": {
+      "category": "attendance",
+      "sentiment": "negative",
+      "evidence": "출석만큼은 진짜 엄격해서 랜덤 호명 때 없으면 끝…",
+      "condition": null,
+      "mentions_change": false
+    },
+    "after": {
+      "category": "attendance",
+      "sentiment": "neutral",
+      "evidence": "출석만큼은 진짜 엄격해서 랜덤 호명 때 없으면 끝…",
+      "condition": null,
+      "mentions_change": false
+    },
+    "rule_reason": "엄격한 호명과 부재 처리의 강조만 있음. 위험에 대한 불편 평가가 명시된 다른 사례와 구분."
+  },
+  {
+    "id": "c03-2026-1-r07",
+    "before": {
+      "category": "attendance",
+      "sentiment": "negative",
+      "evidence": "출석 - 엄격",
+      "condition": null,
+      "mentions_change": false
+    },
+    "after": {
+      "category": "attendance",
+      "sentiment": "neutral",
+      "evidence": "출석 - 엄격",
+      "condition": null,
+      "mentions_change": false
+    },
+    "rule_reason": "출석-엄격은 정책 특성의 사실. 단독 엄격함에 부정 감성 추론 금지."
+  },
+  {
+    "id": "c03-2026-1-r07",
+    "before": null,
+    "after": {
+      "category": "exam",
+      "sentiment": "neutral",
+      "evidence": "시험 - 예제 응용",
+      "condition": null,
+      "mentions_change": false
+    },
+    "rule_reason": "시험 유형과 평가 예측 가능성의 긍정은 별도 명제로 보존."
+  },
+  {
+    "id": "c03-2026-1-r08",
+    "before": null,
+    "after": {
+      "category": "exam",
+      "sentiment": "neutral",
+      "evidence": "중간·기말이었고",
+      "condition": null,
+      "mentions_change": false
+    },
+    "rule_reason": "평가 구성 중 시험 일정은 공정성 평가와 별도 정보."
+  },
+  {
+    "id": "c04-2026-1-r04",
+    "before": {
+      "category": "attendance",
+      "sentiment": "neutral",
+      "evidence": "발표 2번",
+      "condition": null,
+      "mentions_change": false
+    },
+    "after": null,
+    "rule_reason": "팀 프로젝트의 발표 문맥이며 별도 개인 발표 근거 없음. 같은 팀플 정보를 attendance로 중복시키지 않음."
+  },
+  {
+    "id": "c04-2026-1-r06",
+    "before": {
+      "category": "team_project",
+      "sentiment": "positive",
+      "evidence": "팀플이 이렇게 쾌적할 수가… 물론 조원 전원이 일을 한다는 가정하에요.",
+      "condition": "조원 전원이 참여하는 경우",
+      "mentions_change": true
+    },
+    "after": {
+      "category": "team_project",
+      "sentiment": "positive",
+      "evidence": "팀플이 이렇게 쾌적할 수가… 물론 조원 전원이 일을 한다는 가정하에요. 팀 인원이 줄어서 일정 맞추기는 조금 수월해졌지만",
+      "condition": "조원 전원이 참여하는 경우",
+      "mentions_change": true
+    },
+    "rule_reason": "긍정 조건과 변경이 모두 담긴 연속 근거로 보강. 첫 문장만으로 변경을 지지할 수 없던 문제 수정."
+  },
+  {
+    "id": "c04-2026-1-r07",
+    "before": {
+      "category": "attendance",
+      "sentiment": "neutral",
+      "evidence": "발표 2회",
+      "condition": null,
+      "mentions_change": false
+    },
+    "after": null,
+    "rule_reason": "팀 프로젝트 중심 과목의 발표 정보로 판정. 같은 문맥의 다른 학기와 동일하게 team_project에 통합."
+  },
+  {
+    "id": "c04-2026-1-r08",
+    "before": {
+      "category": "team_project",
+      "sentiment": "negative",
+      "evidence": "각자 맡는 분량은 오히려 크게 느껴질 수 있습니다.",
+      "condition": null,
+      "mentions_change": true
+    },
+    "after": {
+      "category": "team_project",
+      "sentiment": "negative",
+      "evidence": "2026-1학기에는 팀 인원이 줄어서 회의 일정을 맞추는 건 전보다 편해졌지만, 각자 맡는 분량은 오히려 크게 느껴질 수 있습니다.",
+      "condition": null,
+      "mentions_change": true
+    },
+    "rule_reason": "분량 증가의 변경 맥락까지 대표 근거에 포함."
+  }
+]
