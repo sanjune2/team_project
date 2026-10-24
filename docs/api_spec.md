@@ -12,6 +12,7 @@ FastAPI 기반의 `/api/analyze` 엔드포인트를 통해 리뷰 텍스트를 �
 - **Content-Type**: `application/json`
 - **인증 (고객사 식별)**: Request Body가 아닌 **HTTP Request Header의 API Key**를 통해 고객사를 식별 및 검증합니다.
   - Header 예시: `X-API-Key: YOUR_CUSTOMER_API_KEY`
+  - **참고**: X-API-Key 인증은 향후 고객사 연동 시 적용 예정 (현재 미구현)
 
 ---
 
@@ -21,7 +22,7 @@ FastAPI 기반의 `/api/analyze` 엔드포인트를 통해 리뷰 텍스트를 �
 | Field | Type | Required | Description |
 |---|---|---|---|
 | `reviews` | Array[Object] | **필수** | 분석할 리뷰 객체 리스트 (1회 요청당 최대 50개) |
-| `reviews[].id` | Integer / String | **필수** | 리뷰 고유 식별자 (`review_id` 호환) |
+| `reviews[].id` | String | **필수** | 리뷰 고유 식별자 |
 | `reviews[].text` | String | **필수** | 리뷰 원문 (최대 3,000자, 원문 수정 없이 그대로 입력) |
 | `reviews[].semester` | String | 선택 | 수강 학기 (예: `"2026-2"`, `"2025-2"`) |
 | `reviews[].question` | String | 선택 (확장) | 문항 유형 (예: `"좋았던 점"`, `"개선할 점"`) |
@@ -30,7 +31,8 @@ FastAPI 기반의 `/api/analyze` 엔드포인트를 통해 리뷰 텍스트를 �
 | `reviews[].source` | String | 선택 (확장) | 데이터 출처 (예: `"official_evaluation"`, `"community"`) |
 | `reviews[].visibility` | String | 선택 (확장) | 공개 범위 (`"instructor_only"`, `"student_public"`) |
 
-> 💡 `source` 및 `visibility` 필드는 AI 분석 로직에 직접 사용되지 않으며, 고객사 측에서 결과 반환 후 권한 제어 및 화면 노출 범위를 관리할 때 활용됩니다.
+> 💡 **확장 필드 안내**: `question`, `course_id`, `section_id`, `source`, `visibility` 필드는 **현재 API는 받아도 분석에 사용하지 않음(확장 예정)**.  
+> 특히 `source` 및 `visibility` 필드는 AI 분석 로직에 직접 사용되지 않으며, 고객사 측에서 결과 반환 후 권한 제어 및 화면 노출 범위를 관리할 때 활용됩니다.
 
 ### 2) Request Example
 ```json
