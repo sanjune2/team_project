@@ -1,0 +1,577 @@
+{
+  "reviews": [
+    {
+      "review_id": "c01-2026-1-r01",
+      "semester": "2026-1",
+      "status": "ok",
+      "overall_sentiment": "positive",
+      "items": [
+        {
+          "category": "workload",
+          "sentiment": "positive",
+          "summary": "과제 빈도가 줄어 부담이 덜해졌다는 의견",
+          "evidence": "과제 격주로 바뀜.. 이제 숨 좀 쉬겠음 ㅎㅎ",
+          "keywords": [
+            "과제 빈도"
+          ],
+          "condition": null,
+          "mentions_change": true,
+          "evidence_match": "exact",
+          "evidence_verified": true
+        }
+      ],
+      "error": null,
+      "text": "과제 격주로 바뀜.. 이제 숨 좀 쉬겠음 ㅎㅎ"
+    },
+    {
+      "review_id": "c01-2026-1-r02",
+      "semester": "2026-1",
+      "status": "ok",
+      "overall_sentiment": null,
+      "items": [],
+      "error": null,
+      "text": "오늘 구름이 감자 모양이었음. 감자 감자."
+    },
+    {
+      "review_id": "c01-2026-1-r03",
+      "semester": "2026-1",
+      "status": "ok",
+      "overall_sentiment": "negative",
+      "items": [
+        {
+          "category": "delivery",
+          "sentiment": "negative",
+          "summary": "질문 게시판을 확인하고 피드백을 제때 제공해 주었으면 한다는 의견",
+          "evidence": "피드백 진짜 번개처럼 오네요^^",
+          "keywords": [
+            "피드백"
+          ],
+          "condition": null,
+          "mentions_change": false,
+          "evidence_match": "exact",
+          "evidence_verified": true
+        }
+      ],
+      "error": null,
+      "text": "피드백 진짜 번개처럼 오네요^^ 첫 과제 질문 남겨 둔 걸 마지막 과제 낼 때 다시 읽고 혼자 해결함.. 질문 게시판 확인은 좀 해주셨으면."
+    },
+    {
+      "review_id": "c01-2026-1-r04",
+      "semester": "2026-1",
+      "status": "ok",
+      "overall_sentiment": "mixed",
+      "items": [
+        {
+          "category": "delivery",
+          "sentiment": "positive",
+          "summary": "설명을 들을 때는 내용을 이해하기 쉽다는 의견",
+          "evidence": "설명듣고 할 땐 다 알겠는데",
+          "keywords": [
+            "설명"
+          ],
+          "condition": null,
+          "mentions_change": false,
+          "evidence_match": "exact",
+          "evidence_verified": true
+        },
+        {
+          "category": "workload",
+          "sentiment": "negative",
+          "summary": "격주 제출이어도 보고서 분량이 많다는 의견 / 코딩 초보자는 과제에 충분한 시간을 들여야 한다는 의견",
+          "evidence": "격주 제출이어도 보고서 분량은 여전히 많음",
+          "keywords": [
+            "보고서 분량",
+            "격주 제출",
+            "코딩 초보"
+          ],
+          "condition": "코딩 초보인 경우",
+          "mentions_change": false,
+          "evidence_match": "exact",
+          "evidence_verified": true
+        }
+      ],
+      "error": null,
+      "text": "설명듣고 할 땐 다 알겠는데 집에 오면 코드가 안 돌아가서 개빡침. 격주 제출이어도 보고서 분량은 여전히 많음. 코딩 노베면 과제 시간 넉넉히 잡으세요."
+    },
+    {
+      "review_id": "c01-2026-1-r05",
+      "semester": "2026-1",
+      "status": "ok",
+      "overall_sentiment": "positive",
+      "items": [
+        {
+          "category": "workload",
+          "sentiment": "neutral",
+          "summary": "과제와 퀴즈 횟수를 언급했다는 의견",
+          "evidence": "과제 6번, 퀴즈 2번",
+          "keywords": [
+            "과제",
+            "퀴즈"
+          ],
+          "condition": null,
+          "mentions_change": false,
+          "evidence_match": "exact",
+          "evidence_verified": true
+        },
+        {
+          "category": "exam",
+          "sentiment": "neutral",
+          "summary": "중간고사와 기말고사를 봤다는 의견",
+          "evidence": "중간기말 봤습니다.",
+          "keywords": [
+            "중간고사",
+            "기말고사"
+          ],
+          "condition": null,
+          "mentions_change": false,
+          "evidence_match": "exact",
+          "evidence_verified": true
+        },
+        {
+          "category": "grade",
+          "sentiment": "positive",
+          "summary": "시험 점수와 과제·출석을 고려하면 학점을 후하게 받았다는 의견",
+          "evidence": "중간 75 기말 84에 과제랑 출석 다 채우고 B+ 나왔어요. 저는 이 정도면 후하게 받은 편이라고 생갇합니다.",
+          "keywords": [
+            "B+",
+            "학점"
+          ],
+          "condition": null,
+          "mentions_change": false,
+          "evidence_match": "exact",
+          "evidence_verified": true
+        }
+      ],
+      "error": null,
+      "text": "과제 6번, 퀴즈 2번, 중간기말 봤습니다. 중간 75 기말 84에 과제랑 출석 다 채우고 B+ 나왔어요. 저는 이 정도면 후하게 받은 편이라고 생갇합니다."
+    },
+    {
+      "review_id": "c01-2026-1-r06",
+      "semester": "2026-1",
+      "status": "ok",
+      "overall_sentiment": "mixed",
+      "items": [
+        {
+          "category": "workload",
+          "sentiment": "positive",
+          "summary": "과제가 격주라 다른 전공과 병행하기 편하다는 의견",
+          "evidence": "이번엔 격주라 다른 전공이랑 같이 듣기 한결 편했어요.",
+          "keywords": [
+            "과제 빈도"
+          ],
+          "condition": null,
+          "mentions_change": false,
+          "evidence_match": "exact",
+          "evidence_verified": true
+        },
+        {
+          "category": "workload",
+          "sentiment": "neutral",
+          "summary": "과제마다 표를 정리하고 설명을 써야 한다는 의견",
+          "evidence": "과제 하나당 표 정리하고 설명 쓰는 건 그대로라",
+          "keywords": [
+            "과제 분량"
+          ],
+          "condition": null,
+          "mentions_change": false,
+          "evidence_match": "exact",
+          "evidence_verified": true
+        },
+        {
+          "category": "delivery",
+          "sentiment": "positive",
+          "summary": "그래프의 축에 따라 인상이 달라지는 예시가 기억에 남았다는 의견",
+          "evidence": "교수님은 같은 그래프를 축만 바꿔서 보여주고 왜 인상이 달라지는지 물어보시는데 그 예시가 기억에 남아요.",
+          "keywords": [
+            "그래프 예시"
+          ],
+          "condition": null,
+          "mentions_change": false,
+          "evidence_match": "exact",
+          "evidence_verified": true
+        },
+        {
+          "category": "etc",
+          "sentiment": "negative",
+          "summary": "강의실 마이크가 끊겨 뒷자리에서 숫자를 놓칠 수 있다는 의견",
+          "evidence": "강의실 마이크가 중간중간 끊겨 뒷자리에서는 숫자를 놓친 적이 있습니다.",
+          "keywords": [
+            "마이크",
+            "강의실"
+          ],
+          "condition": null,
+          "mentions_change": false,
+          "evidence_match": "exact",
+          "evidence_verified": true
+        },
+        {
+          "category": "etc",
+          "sentiment": "positive",
+          "summary": "앞자리에서는 마이크 문제가 괜찮았다는 의견",
+          "evidence": "앞자리에서는 ㄱㅊ았음..",
+          "keywords": [
+            "강의실"
+          ],
+          "condition": "앞자리에 앉으면",
+          "mentions_change": false,
+          "evidence_match": "exact",
+          "evidence_verified": true
+        },
+        {
+          "category": "delivery",
+          "sentiment": "neutral",
+          "summary": "기초 통계가 있으면 수업이 어렵지 않다는 의견 / 기초 통계가 없으면 첫 두 주에 용어를 찾아보는 것이 좋다는 의견",
+          "evidence": "없으면 첫 두 주는 용어를 조금 찾아보고 오면 좋을 듯합니다.",
+          "keywords": [
+            "기초 통계",
+            "용어"
+          ],
+          "condition": "기초 통계 지식이 있으면 / 기초 통계 지식이 없으면",
+          "mentions_change": false,
+          "evidence_match": "exact",
+          "evidence_verified": true
+        }
+      ],
+      "error": null,
+      "text": "지난 학기 후기에는 매주 과제라고 해서 겁먹고 신청했는데 이번엔 격주라 다른 전공이랑 같이 듣기 한결 편했어요. 과제 하나당 표 정리하고 설명 쓰는 건 그대로라 날먹할 수준은 아닙니다. 교수님은 같은 그래프를 축만 바꿔서 보여주고 왜 인상이 달라지는지 물어보시는데 그 예시가 기억에 남아요. 다만 강의실 마이크가 중간중간 끊겨 뒷자리에서는 숫자를 놓친 적이 있습니다. 앞자리에서는 ㄱㅊ았음.. 기초 통계가 있으면 수업 자체는 어렵지 않고, 없으면 첫 두 주는 용어를 조금 찾아보고 오면 좋을 듯합니다."
+    },
+    {
+      "review_id": "c01-2026-1-r07",
+      "semester": "2026-1",
+      "status": "ok",
+      "overall_sentiment": "mixed",
+      "items": [
+        {
+          "category": "learning",
+          "sentiment": "positive",
+          "summary": "결과를 의심하고 확인하는 습관을 다른 수업에도 활용해 배운 것이 남는다는 의견",
+          "evidence": "다른 수업 보고서에도 그 방식을 써먹어서 배운 게 남는 수업이라고 느꼈어요.",
+          "keywords": [
+            "결과 해석",
+            "데이터 읽기"
+          ],
+          "condition": null,
+          "mentions_change": false,
+          "evidence_match": "exact",
+          "evidence_verified": true
+        },
+        {
+          "category": "workload",
+          "sentiment": "positive",
+          "summary": "과제가 격주 제출이고 미루지 않으면 감당할 만하다는 의견",
+          "evidence": "미루지만 않으면 버틸 만했고 시험 주간에는 제출일을 피해서 잡아 주셔서 좋았습니다.",
+          "keywords": [
+            "격주 과제",
+            "제출일"
+          ],
+          "condition": null,
+          "mentions_change": true,
+          "evidence_match": "exact",
+          "evidence_verified": true
+        },
+        {
+          "category": "exam",
+          "sentiment": "neutral",
+          "summary": "시험이 작은 표의 결과를 해석하는 문제 위주라는 의견",
+          "evidence": "시험은 작은 표를 주고 결과를 해석하는 문제 위주였어요.",
+          "keywords": [
+            "결과 해석"
+          ],
+          "condition": null,
+          "mentions_change": false,
+          "evidence_match": "exact",
+          "evidence_verified": true
+        },
+        {
+          "category": "exam",
+          "sentiment": "positive",
+          "summary": "실습 때 쓴 설명을 자기 말로 정리한 것이 시험에 도움이 됐다는 의견",
+          "evidence": "공식만 외우는 것보다 실습 때 쓴 설명을 자기 말로 정리해 둔 게 도움이 됐습니다.",
+          "keywords": [
+            "실습 설명",
+            "시험 준비"
+          ],
+          "condition": null,
+          "mentions_change": false,
+          "evidence_match": "exact",
+          "evidence_verified": true
+        },
+        {
+          "category": "exam",
+          "sentiment": "negative",
+          "summary": "시험 시간이 빠듯해 마지막 서술형을 급하게 작성했다는 의견",
+          "evidence": "대신 시간은 빠듯했어요. 마지막 서술형을 급하게 써서 아쉬웠습니다.",
+          "keywords": [
+            "시험 시간",
+            "서술형"
+          ],
+          "condition": null,
+          "mentions_change": false,
+          "evidence_match": "exact",
+          "evidence_verified": true
+        },
+        {
+          "category": "grade",
+          "sentiment": "negative",
+          "summary": "기대보다 낮은 B+를 받아 성적 결과에 아쉬움이 있다는 의견",
+          "evidence": "제 기대보다는 낮았지만",
+          "keywords": [
+            "B+",
+            "성적 결과"
+          ],
+          "condition": null,
+          "mentions_change": false,
+          "evidence_match": "exact",
+          "evidence_verified": true
+        },
+        {
+          "category": "grade",
+          "sentiment": "positive",
+          "summary": "채점표가 공개되어 감점된 부분을 확인할 수 있다는 의견",
+          "evidence": "채점표가 공개돼서 어디서 빠졌는지는 알 수 있었어요.",
+          "keywords": [
+            "채점표",
+            "감점 기준"
+          ],
+          "condition": null,
+          "mentions_change": false,
+          "evidence_match": "exact",
+          "evidence_verified": true
+        },
+        {
+          "category": "general_impression",
+          "sentiment": "positive",
+          "summary": "데이터 읽기 연습이 목적이라면 추천한다는 의견",
+          "evidence": "데이터 읽는 연습이 목적이면 추천합니다.",
+          "keywords": [
+            "데이터 읽기 연습"
+          ],
+          "condition": "데이터 읽기 연습이 목적이라면",
+          "mentions_change": false,
+          "evidence_match": "exact",
+          "evidence_verified": true
+        }
+      ],
+      "error": null,
+      "text": "데분기 정리해 둡니다. 제일 좋았던 건 결과를 의심하는 습관이 생긴 거예요. 숫자가 크게 나왔다고 무조건 의미 있다고 하지 않고, 어떤 행이 빠졌는지부터 확인하게 됐습니다. 다른 수업 보고서에도 그 방식을 써먹어서 배운 게 남는 수업이라고 느꼈어요.\n과제는 예전 매주 제출에서 이번 학기 격주 제출로 바뀌었다고 첫 시간에 안내하셨습니다. 한 번 낼 때 작업량은 조금 있어서 저는 이틀로 나눠 했어요. 미루지만 않으면 버틸 만했고 시험 주간에는 제출일을 피해서 잡아 주셔서 좋았습니다.\n시험은 작은 표를 주고 결과를 해석하는 문제 위주였어요. 공식만 외우는 것보다 실습 때 쓴 설명을 자기 말로 정리해 둔 게 도움이 됐습니다. 대신 시간은 빠듯했어요. 마지막 서술형을 급하게 써서 아쉬웠습니다.\n학점은 중간 81 기말 86에 과제 모두 제출하고 B+였습니다. 제 기대보다는 낮았지만 채점표가 공개돼서 어디서 빠졌는지는 알 수 있었어요.. 무조건 에쁠을 기대하면 실망할 수 있고, 데이터 읽는 연습이 목적이면 추천합니다."
+    },
+    {
+      "review_id": "c01-2026-1-r08",
+      "semester": "2026-1",
+      "status": "ok",
+      "overall_sentiment": "mixed",
+      "items": [
+        {
+          "category": "workload",
+          "sentiment": "positive",
+          "summary": "과제가 격주 제출이라 감당할 만했다는 의견",
+          "evidence": "이번에는 격주 제출이라 저는 감당할 만했어요.",
+          "keywords": [
+            "과제 빈도"
+          ],
+          "condition": null,
+          "mentions_change": false,
+          "evidence_match": "exact",
+          "evidence_verified": true
+        },
+        {
+          "category": "delivery",
+          "sentiment": "positive",
+          "summary": "어려운 내용을 표와 예시로 설명해 이해를 돕는다는 의견",
+          "evidence": "문제를 어려운 말로 포장하지 않고 작은 표부터 보여 주시는 게 장점입니다.",
+          "keywords": [
+            "표 설명",
+            "예시"
+          ],
+          "condition": null,
+          "mentions_change": false,
+          "evidence_match": "exact",
+          "evidence_verified": true
+        },
+        {
+          "category": "workload",
+          "sentiment": "negative",
+          "summary": "보고서 형식과 그래프를 다듬는 데 시간이 오래 걸린다는 의견 / 바쁜 학기에는 과제 시간을 미리 확보해야 한다는 의견",
+          "evidence": "그래프를 만든 뒤에도 글자 크기랑 축 이름을 계속 손봐야 해서 분석보다 꾸미는 데 오래 쓴 날이 있었거든요.",
+          "keywords": [
+            "보고서 형식",
+            "그래프",
+            "과제 시간"
+          ],
+          "condition": "바쁜 학기에는",
+          "mentions_change": false,
+          "evidence_match": "exact",
+          "evidence_verified": true
+        },
+        {
+          "category": "learning",
+          "sentiment": "positive",
+          "summary": "수업을 통해 숫자를 판단하기 전에 기준을 확인하게 됐다는 의견 / 수업이 배울 점이 많은 명강이라는 의견",
+          "evidence": "그래도 수업 듣고 나니 숫자를 그냥 믿기보다 기준부터 확인하게 됐습니다.",
+          "keywords": [
+            "기준 확인",
+            "명강"
+          ],
+          "condition": null,
+          "mentions_change": false,
+          "evidence_match": "exact",
+          "evidence_verified": true
+        }
+      ],
+      "error": null,
+      "text": "이전 학기 들은 친구가 과제 때문에 고생했다고 해서 망설였는데 이번에는 격주 제출이라 저는 감당할 만했어요. 문제를 어려운 말로 포장하지 않고 작은 표부터 보여 주시는 게 장점입니다. 처음 보는 용어도 예시랑 같이 적어두니까 뒤에서 다시 나왔을 때 이해가 됐습니다. 아쉬운 건 보고서 형식에 맞추는 시간이었어요. 그래프를 만든 뒤에도 글자 크기랑 축 이름을 계속 손봐야 해서 분석보다 꾸미는 데 오래 쓴 날이 있었거든요. 그래도 수업 듣고 나니 숫자를 그냥 믿기보다 기준부터 확인하게 됐습니다. 제 기준 명강 쪽이지만 바쁜 학기에는 과제 시간을 미리 비워두는 걸 추천해요.."
+    }
+  ],
+  "summary_by_category": [
+    {
+      "category": "workload",
+      "mentioned": 6,
+      "counts": {
+        "positive": 4,
+        "negative": 2,
+        "neutral": 2
+      },
+      "ratios": {
+        "positive": 50.0,
+        "negative": 25.0,
+        "neutral": 25.0
+      },
+      "top_pros": [
+        "과제가 격주 제출이고 미루지 않으면 감당할 만하다는 의견",
+        "과제 빈도가 줄어 부담이 덜해졌다는 의견",
+        "과제가 격주라 다른 전공과 병행하기 편하다는 의견"
+      ],
+      "top_cons": [
+        "격주 제출이어도 보고서 분량이 많다는 의견 / 코딩 초보자는 과제에 충분한 시간을 들여야 한다는 의견",
+        "보고서 형식과 그래프를 다듬는 데 시간이 오래 걸린다는 의견 / 바쁜 학기에는 과제 시간을 미리 확보해야 한다는 의견"
+      ]
+    },
+    {
+      "category": "exam",
+      "mentioned": 2,
+      "counts": {
+        "positive": 1,
+        "negative": 1,
+        "neutral": 2
+      },
+      "ratios": {
+        "positive": 25.0,
+        "negative": 25.0,
+        "neutral": 50.0
+      },
+      "top_pros": [
+        "실습 때 쓴 설명을 자기 말로 정리한 것이 시험에 도움이 됐다는 의견"
+      ],
+      "top_cons": [
+        "시험 시간이 빠듯해 마지막 서술형을 급하게 작성했다는 의견"
+      ]
+    },
+    {
+      "category": "delivery",
+      "mentioned": 4,
+      "counts": {
+        "positive": 3,
+        "negative": 1,
+        "neutral": 1
+      },
+      "ratios": {
+        "positive": 60.0,
+        "negative": 20.0,
+        "neutral": 20.0
+      },
+      "top_pros": [
+        "어려운 내용을 표와 예시로 설명해 이해를 돕는다는 의견",
+        "설명을 들을 때는 내용을 이해하기 쉽다는 의견",
+        "그래프의 축에 따라 인상이 달라지는 예시가 기억에 남았다는 의견"
+      ],
+      "top_cons": [
+        "질문 게시판을 확인하고 피드백을 제때 제공해 주었으면 한다는 의견"
+      ]
+    },
+    {
+      "category": "grade",
+      "mentioned": 2,
+      "counts": {
+        "positive": 2,
+        "negative": 1,
+        "neutral": 0
+      },
+      "ratios": {
+        "positive": 66.7,
+        "negative": 33.3,
+        "neutral": 0.0
+      },
+      "top_pros": [
+        "시험 점수와 과제·출석을 고려하면 학점을 후하게 받았다는 의견",
+        "채점표가 공개되어 감점된 부분을 확인할 수 있다는 의견"
+      ],
+      "top_cons": [
+        "기대보다 낮은 B+를 받아 성적 결과에 아쉬움이 있다는 의견"
+      ]
+    },
+    {
+      "category": "learning",
+      "mentioned": 2,
+      "counts": {
+        "positive": 2,
+        "negative": 0,
+        "neutral": 0
+      },
+      "ratios": {
+        "positive": 100.0,
+        "negative": 0.0,
+        "neutral": 0.0
+      },
+      "top_pros": [
+        "결과를 의심하고 확인하는 습관을 다른 수업에도 활용해 배운 것이 남는다는 의견",
+        "수업을 통해 숫자를 판단하기 전에 기준을 확인하게 됐다는 의견 / 수업이 배울 점이 많은 명강이라는 의견"
+      ],
+      "top_cons": []
+    },
+    {
+      "category": "general_impression",
+      "mentioned": 1,
+      "counts": {
+        "positive": 1,
+        "negative": 0,
+        "neutral": 0
+      },
+      "ratios": {
+        "positive": 100.0,
+        "negative": 0.0,
+        "neutral": 0.0
+      },
+      "top_pros": [
+        "데이터 읽기 연습이 목적이라면 추천한다는 의견"
+      ],
+      "top_cons": []
+    },
+    {
+      "category": "etc",
+      "mentioned": 1,
+      "counts": {
+        "positive": 1,
+        "negative": 1,
+        "neutral": 0
+      },
+      "ratios": {
+        "positive": 50.0,
+        "negative": 50.0,
+        "neutral": 0.0
+      },
+      "top_pros": [
+        "앞자리에서는 마이크 문제가 괜찮았다는 의견"
+      ],
+      "top_cons": [
+        "강의실 마이크가 끊겨 뒷자리에서 숫자를 놓칠 수 있다는 의견"
+      ]
+    }
+  ],
+  "meta": {
+    "total_reviews": 8,
+    "succeeded": 8,
+    "failed": 0,
+    "model": "gpt-6-luna",
+    "processed_at": "2026-10-24T10:47:26.536395Z"
+  }
+}

@@ -1,0 +1,127 @@
+{
+  "school": "가나대학교 (가상)",
+  "professors": [
+    {
+      "id": "p01",
+      "name": "김가나",
+      "courses": [
+        {
+          "course_id": "c01",
+          "course_name": "데이터분석 기초",
+          "section_id": "01",
+          "semester": "2025-2",
+          "review_count": 8,
+          "file": "c01_2025-2.json"
+        },
+        {
+          "course_id": "c01",
+          "course_name": "데이터분석 기초",
+          "section_id": "01",
+          "semester": "2026-1",
+          "review_count": 8,
+          "file": "c01_2026-1.json"
+        },
+        {
+          "course_id": "c02",
+          "course_name": "파이썬 프로그래밍",
+          "section_id": "01",
+          "semester": "2025-2",
+          "review_count": 8,
+          "file": "c02_2025-2.json"
+        },
+        {
+          "course_id": "c02",
+          "course_name": "파이썬 프로그래밍",
+          "section_id": "01",
+          "semester": "2026-1",
+          "review_count": 8,
+          "file": "c02_2026-1.json"
+        }
+      ]
+    },
+    {
+      "id": "p02",
+      "name": "이다라",
+      "courses": [
+        {
+          "course_id": "c03",
+          "course_name": "경영통계",
+          "section_id": "01",
+          "semester": "2025-2",
+          "review_count": 8,
+          "file": "c03_2025-2.json"
+        },
+        {
+          "course_id": "c03",
+          "course_name": "경영통계",
+          "section_id": "01",
+          "semester": "2026-1",
+          "review_count": 8,
+          "file": "c03_2026-1.json"
+        },
+        {
+          "course_id": "c04",
+          "course_name": "마케팅원론",
+          "section_id": "01",
+          "semester": "2025-2",
+          "review_count": 8,
+          "file": "c04_2025-2.json"
+        },
+        {
+          "course_id": "c04",
+          "course_name": "마케팅원론",
+          "section_id": "01",
+          "semester": "2026-1",
+          "review_count": 8,
+          "file": "c04_2026-1.json"
+        }
+      ]
+    }
+  ],
+  "courses": [
+    {
+      "course_id": "c01",
+      "course_name": "데이터분석 기초",
+      "professor_name": "김가나",
+      "semesters": [
+        "2025-2",
+        "2026-1"
+      ],
+      "review_count": 16,
+      "file": "c01_all.json"
+    },
+    {
+      "course_id": "c02",
+      "course_name": "파이썬 프로그래밍",
+      "professor_name": "김가나",
+      "semesters": [
+        "2025-2",
+        "2026-1"
+      ],
+      "review_count": 16,
+      "file": "c02_all.json"
+    },
+    {
+      "course_id": "c03",
+      "course_name": "경영통계",
+      "professor_name": "이다라",
+      "semesters": [
+        "2025-2",
+        "2026-1"
+      ],
+      "review_count": 16,
+      "file": "c03_all.json"
+    },
+    {
+      "course_id": "c04",
+      "course_name": "마케팅원론",
+      "professor_name": "이다라",
+      "semesters": [
+        "2025-2",
+        "2026-1"
+      ],
+      "review_count": 16,
+      "file": "c04_all.json"
+    }
+  ]
+}
