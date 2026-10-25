@@ -10,7 +10,8 @@ export default function LearnerHome({ courses, query, onQuery, onSelect }) {
   return (
     <section>
       <div className="pt-title">
-        <h1>강의평 분석</h1>
+        <h1>과목 찾기</h1>
+        <p className="pt-sub">과목명이나 교수명으로 강의평 분석을 찾아보세요.</p>
       </div>
 
       <input

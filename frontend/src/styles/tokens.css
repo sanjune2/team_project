@@ -4,57 +4,96 @@
  * Radix 단계 용도: 1~2 배경 / 3~5 요소 배경 / 6~8 선 / 9~10 진한 색 / 11~12 글자
  */
 @import "@radix-ui/colors/gray.css";
-@import "@radix-ui/colors/green.css";
+@import "@radix-ui/colors/sand.css";
+@import "@radix-ui/colors/indigo.css";
 @import "@radix-ui/colors/red.css";
 
 :root {
-  /* 색: 기본 */
-  --bg: var(--gray-1);
-  --bg-subtle: var(--gray-2);
-  --bg-hover: var(--gray-3);
-  --bg-active: var(--gray-4);
-  --line: var(--gray-6);
-  --line-strong: var(--gray-7);
-  --text: var(--gray-12);
-  --text-sub: var(--gray-11);
+  /* 색: 종이(sand) + 먹색 글자 + 반전 블록. 카드 대신 선, 면, 여백으로 구분 */
+  --bg: var(--sand-1);           /* 페이지 바탕 */
+  --panel: var(--sand-1);
+  --band: var(--sand-3);         /* 톤 면: 결과 머리, 방향 제안 */
+  --bg-subtle: var(--sand-3);    /* 펼친 내용, 근거 묶음 */
+  --field: var(--sand-1);        /* 입력창, 셀렉트, 펼친 메뉴 바탕 */
+  --bg-hover: var(--sand-2);
+  --bg-active: var(--sand-4);    /* 막대 빈 칸 */
+  --line: var(--sand-6);         /* 항목 사이 선 */
+  --line-strong: var(--sand-8);  /* 입력창, 보조 버튼 테두리 */
+  --text: var(--sand-12);        /* 종이 15.5:1, 면 14.3:1 */
+  --text-sub: var(--sand-11);    /* 종이 5.7:1, 면 5.3:1 */
+  --ink: var(--sand-12);         /* 반전 블록 바탕 */
+  --on-ink: var(--sand-1);       /* 반전 블록 글자 16:1 */
+  --on-ink-sub: var(--sand-7);   /* 반전 블록 보조 글자 10.4:1 */
 
-  /* 색: 의미 (만족 / 불만족 / 중립) */
-  --pos: var(--green-11);        /* 글자 */
-  --pos-solid: var(--green-9);   /* 비율 막대 */
-  --pos-bg: var(--green-3);      /* 선택된 행 배경 */
+  /* 색: 의미 (만족 / 불만족 / 중립). 신호등(초록·빨강) 대신 남색·빨강, 색약에도 구분됨
+     글자 명암비: 종이 위 만족 5.7 / 불만족 4.9, 면(sand-3) 위 5.3 / 4.6 */
+  --pos: var(--indigo-11);
+  --pos-solid: var(--indigo-9);
+  --pos-bg: var(--indigo-3);
   --neg: var(--red-11);
   --neg-solid: var(--red-9);
   --neg-bg: var(--red-3);
-  --neu: var(--gray-11);
-  --neu-solid: var(--gray-8);
+  --neu: var(--sand-11);
+  --neu-solid: var(--sand-7);
 
-  /* 글자: 크기 3종 (최대 4종, 최소 12px) */
-  --fs-title: 20px;   /* 페이지·과목 제목 */
-  --fs-body: 15px;    /* 항목명·본문 */
-  --fs-small: 13px;   /* 수치·보조 정보 */
+  /* 글자 크기: 12 / 14 / 16 / 18 / 20 / 24 / 28 / 32 / 40 (최소 12, 최대 48) */
+  --fs-caption: 12px;  /* 캡션 */
+  --fs-small: 14px;    /* 보조 정보, 수치, 작은 버튼 */
+  --fs-body: 16px;     /* 본문 */
+  --fs-lead: 18px;     /* 강조 문단 (종합 의견 첫 문단) */
+  --fs-section: 20px;  /* 섹션, 항목 제목 */
+  --fs-h2: 24px;       /* 섹션 제목 */
+  --fs-title: 28px;    /* 큰 숫자 (모바일 제목) */
+  --fs-num: 32px;      /* 순위, 지표 숫자 */
+  --fs-display: 40px;  /* 목록 화면 제목 */
+  --fs-hero: 48px;     /* 결과 화면 과목명 (최대 크기) */
   --fw-regular: 400;
+  --fw-medium: 500;
   --fw-strong: 600;
-  --lh-tight: 1.35;
-  --lh-body: 1.6;
-  --font: "Pretendard", system-ui, -apple-system, "Apple SD Gothic Neo", "Malgun Gothic", sans-serif;
+  --fw-bold: 700;
+  /* 행간: 18px 이하 140%, 20px 이상 120% */
+  --lh-body: 1.4;
+  --lh-small: 1.4;
+  --lh-tight: 1.2;
+  --ls-title: -0.02em;
+  --ls-display: -0.03em;
+  --ls-kicker: 0.08em;
+  --font: "Pretendard Variable", "Pretendard", system-ui, -apple-system, "Apple SD Gothic Neo", "Malgun Gothic", sans-serif;
 
-  /* 간격 (4의 배수) */
+  /* 간격 */
   --sp-1: 4px;
   --sp-2: 8px;
   --sp-3: 12px;
   --sp-4: 16px;
+  --sp-4h: 20px;
   --sp-5: 24px;
   --sp-6: 32px;
   --sp-7: 48px;
+  --sp-8: 64px;
+  --sp-9: 96px;            /* 큰 섹션 사이 */
+  --gutter: 24px;          /* 화면 좌우 여백 (좁은 화면 16px) */
 
-  /* 선·모서리 */
-  --border: 0.5px solid var(--line);
+  /* 버튼, 셀렉트, 입력창 높이: 52 / 48 / 40 / 36 / 24 */
+  --h-xl: 52px;
+  --h-lg: 48px;   /* 주요 버튼, 탭, 모바일 컨트롤 */
+  --h-md: 40px;   /* 셀렉트, 보조 버튼 */
+  --h-sm: 36px;
+  --h-xs: 24px;
+  --tap: 40px;    /* 누르는 영역 최소 (모바일은 48) */
+
+  /* 선, 모서리 */
+  --border: 1px solid var(--line);
+  --rule: 1px solid var(--line);  /* 굵은 선은 쓰지 않음. 구분은 여백과 톤 면으로 */
   --radius: 0;
-  --radius-control: 2px;   /* 버튼·입력창만 */
+  --radius-control: 4px;
 
-  /* 움직임: 기본은 없음. 꼭 필요할 때만 */
+  /* 고객사 테마 색: 주요 버튼, 선택된 탭, 체크, 포커스에만 씀. 고객사가 이 값 하나만 바꾸면 됨 */
+  --accent: var(--sand-12);
+  --on-accent: var(--sand-1);
+
+  /* 움직임 */
   --ease: ease-out;
-  --dur: 250ms;
+  --dur: 200ms;
 }
 
 body {
@@ -65,6 +104,7 @@ body {
   color: var(--text);
   background: var(--bg);
   -webkit-font-smoothing: antialiased;
+  word-break: keep-all;
 }
 
 /* 숫자는 폭 고정 */
@@ -76,5 +116,16 @@ body {
 @media (prefers-reduced-motion: reduce) {
   :root {
     --dur: 0ms;
+  }
+}
+
+@media (max-width: 640px) {
+  :root {
+    --gutter: 16px;
+    --tap: 48px;
+    --fs-display: 28px;
+    --fs-hero: 32px;
+    --fs-num: 28px;
+    --fs-h2: 20px;
   }
 }

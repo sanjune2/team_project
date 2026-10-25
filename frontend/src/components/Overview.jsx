@@ -30,21 +30,26 @@ export default function Overview({ result, mode, labels }) {
   const right = { ...o.right, items: ovList(ov, "right") ?? o.right.items };
   const suggestion = mode === "instructor" ? ovSuggestion(ov) : null;
   return (
-    <section className="ov">
-      <h2>종합 의견</h2>
-      <p>
-        {o.lead} {o.tail}
-      </p>
-      <div className="ov-cols">
-        <List block={left} cls="pos" />
-        <List block={right} cls="neg" />
-      </div>
-      {suggestion && (
-        <div className="ov-suggest">
-          <h3>방향 제안</h3>
-          <p>{suggestion}</p>
+    <section className="rv-sec ov">
+      <header className="sec-head">
+        <h2>종합 의견</h2>
+        <p className="sec-desc">{mode === "instructor" ? "유지할 점과 개선할 점, 다음 학기 방향" : "추천하는 점과 미리 알아 둘 점"}</p>
+      </header>
+      <div className="sec-body">
+        <p className="ov-lead">
+          {o.lead} {o.tail}
+        </p>
+        <div className="ov-cols">
+          <List block={left} cls="pos" />
+          <List block={right} cls="neg" />
         </div>
-      )}
+        {suggestion && (
+          <div className="ov-suggest">
+            <h3>방향 제안</h3>
+            <p>{suggestion}</p>
+          </div>
+        )}
+      </div>
     </section>
   );
 }

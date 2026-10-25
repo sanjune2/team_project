@@ -99,14 +99,23 @@ export default function ReferencePage({ labels, mode, onModeChange }) {
         )}
         {!result && !resultError && <p className="hint">불러오는 중</p>}
         {result && (
-          <ResultView result={result} labels={labels} mode={mode} title={selected.title} meta={selected.meta} />
+          <ResultView
+            result={result}
+            labels={labels}
+            mode={mode}
+            title={selected.title}
+            meta={selected.meta}
+            onBack={() => setSelected(null)}
+          />
         )}
-        {/* 결과를 다 본 뒤 누르도록 맨 아래 오른쪽에 둠 */}
+        {/* 결과가 없을 때(불러오는 중, 오류)만 따로 표시. 결과가 있으면 결과 화면 맨 아래 탐색 줄에 있음 */}
+        {!result && (
         <div className="pt-foot">
           <button type="button" className="pt-back" onClick={() => setSelected(null)}>
             목록으로
           </button>
         </div>
+        )}
       </>
     );
   } else if (mode === "learner") {

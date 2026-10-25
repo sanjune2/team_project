@@ -70,22 +70,31 @@ function Block({ row, entries, labels, result, showSemester }) {
 
   return (
     <section className="da-block">
-      <div className="da-head">
+      <div className="da-aside">
         <h2>{name}</h2>
-        <span className="da-count num">언급 리뷰 {row.mentioned}개</span>
-      </div>
-
-      <div className="sb-ratio num">
+        <p className="da-count num">언급 리뷰 {row.mentioned}개</p>
         <div className="sb-bar" aria-hidden="true">
           <span className="p" style={{ width: `${r.positive ?? 0}%` }} />
           <span className="n" style={{ width: `${r.negative ?? 0}%` }} />
           <span className="u" style={{ width: `${r.neutral ?? 0}%` }} />
         </div>
-        <span>만족 {row.counts.positive}</span>
-        <span>불만족 {row.counts.negative}</span>
-        <span>중립 {row.counts.neutral}</span>
+        <dl className="da-nums num">
+          <div className="pos">
+            <dt>만족</dt>
+            <dd>{row.counts.positive}</dd>
+          </div>
+          <div className="neg">
+            <dt>불만족</dt>
+            <dd>{row.counts.negative}</dd>
+          </div>
+          <div>
+            <dt>중립</dt>
+            <dd>{row.counts.neutral}</dd>
+          </div>
+        </dl>
       </div>
 
+      <div className="da-body">
       <ul className="da-text">
         {units.map((t) => (
           <li key={t}>{t}</li>
@@ -104,6 +113,7 @@ function Block({ row, entries, labels, result, showSemester }) {
           ))}
         </ul>
       )}
+      </div>
     </section>
   );
 }
@@ -177,6 +187,7 @@ export default function DetailAnalysis({ result, labels, filter, onFilter, showS
   return (
     <div className="da">
       <div className="da-controls">
+        <span className="da-selwrap">
         <select className="da-select" aria-label="정렬" value={sort} onChange={(e) => setSort(e.target.value)}>
           {SORTS.map((s) => (
             <option key={s.key} value={s.key}>
@@ -184,6 +195,7 @@ export default function DetailAnalysis({ result, labels, filter, onFilter, showS
             </option>
           ))}
         </select>
+        </span>
         <FilterMenu options={options} selected={filter} onChange={onFilter} labels={labels} />
         {filter.length > 0 && (
           <>
