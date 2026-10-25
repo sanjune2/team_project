@@ -21,5 +21,14 @@ export default function App() {
   const hash = useHash();
 
   if (hash === "#analyze") return <AnalyzePage labels={labels} />;
-  return <ReferencePage labels={labels} mode={hash === "#learner" ? "learner" : "instructor"} />;
+
+  // 포털 상단 예시 로그인 전환 = 주소 끝 # 바꾸기 (교직원: 없음 / 학생: #learner)
+  const mode = hash === "#learner" ? "learner" : "instructor";
+  const changeMode = (next) => {
+    if (next === mode) return;
+    if (next === "learner") window.location.hash = "learner";
+    else history.pushState(null, "", window.location.pathname + window.location.search);
+    window.dispatchEvent(new HashChangeEvent("hashchange"));
+  };
+  return <ReferencePage labels={labels} mode={mode} onModeChange={changeMode} />;
 }

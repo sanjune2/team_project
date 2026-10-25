@@ -1,7 +1,12 @@
 import { useEffect, useState } from "react";
 import ResultView from "../components/ResultView.jsx";
+import PortalHeader from "../components/portal/PortalHeader.jsx";
+import InstructorHome from "../components/portal/InstructorHome.jsx";
+import LearnerHome from "../components/portal/LearnerHome.jsx";
+import "../styles/portal.css";
 
-// 고객사가 보관 중인 결과 파일을 불러와 그리는 화면 (서버 호출 없음)
+// 가나대학교 포털 (고객사 연동을 보여 주는 레퍼런스 예시, 서버 호출 없음)
+// index.json으로 과목과 결과 파일을 찾고, 고른 과목의 결과 파일을 읽어 결과 화면을 그림
 // 실제 레퍼런스 데이터(reference/)가 있으면 그것을, 없으면 샘플(reference_sample/)을 씀
 const BASE = import.meta.env.BASE_URL;
 const DIRS = ["reference", "reference_sample"];
@@ -23,38 +28,93 @@ async function loadIndex() {
   throw new Error("index");
 }
 
-// mode: "instructor" → 교수 1명의 한 학기 과목 / "learner" → 과목의 전체 학기
-export default function ReferencePage({ labels, mode }) {
-  const [view, setView] = useState(null);
-  const [error, setError] = useState("");
+// mode: "instructor" 교직원 로그인 / "learner" 학생 로그인
+export default function ReferencePage({ labels, mode, onModeChange }) {
+  const [data, setData] = useState(null); // { dir, index }
+  const [indexError, setIndexError] = useState(false);
+  const [selected, setSelected] = useState(null); // { file, title, meta }
+  const [result, setResult] = useState(null);
+  const [resultError, setResultError] = useState(false);
+  // 목록으로 돌아왔을 때 고른 학기와 검색어를 유지
+  const [semester, setSemester] = useState(null);
+  const [query, setQuery] = useState("");
 
   useEffect(() => {
+    loadIndex()
+      .then(setData)
+      .catch(() => setIndexError(true));
+  }, []);
+
+  // 로그인을 바꾸면 목록으로
+  useEffect(() => {
+    setSelected(null);
+  }, [mode]);
+
+  useEffect(() => {
+    if (!selected || !data) return;
     let active = true;
-    setView(null);
-    (async () => {
-      const { dir, index } = await loadIndex();
-      let target, meta;
-      if (mode === "learner") {
-        target = index.courses[0];
-        meta = [target.professor_name, "전체 학기"];
-      } else {
-        const prof = index.professors[0];
-        target = prof.courses[0];
-        meta = [`${target.semester}학기`];
-      }
-      const result = await loadJson(`${BASE}${dir}/${target.file}`);
-      if (active) setView({ result, title: target.course_name, meta });
-    })().catch(() => active && setError("분석 결과를 불러오지 못했어요."));
+    setResult(null);
+    setResultError(false);
+    loadJson(`${BASE}${data.dir}/${selected.file}`)
+      .then((r) => {
+        if (!Array.isArray(r?.summary_by_category) || !Array.isArray(r?.reviews) || !r?.meta) throw new Error("shape");
+        if (active) setResult(r);
+      })
+      .catch(() => active && setResultError(true));
     return () => {
       active = false;
     };
-  }, [mode]);
+  }, [selected, data]);
+
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, [selected]);
+
+  const school = data?.index.school?.replace(/\s*\(.*\)\s*$/, "") ?? "";
+
+  let body;
+  if (indexError) {
+    body = (
+      <p className="error" role="alert">
+        과목 목록을 불러오지 못했어요.
+      </p>
+    );
+  } else if (!data) {
+    body = <p className="hint">불러오는 중</p>;
+  } else if (selected) {
+    body = (
+      <>
+        <button type="button" className="pt-back" onClick={() => setSelected(null)}>
+          목록으로
+        </button>
+        {resultError && (
+          <p className="error" role="alert">
+            분석 결과를 불러오지 못했어요.
+          </p>
+        )}
+        {!result && !resultError && <p className="hint">불러오는 중</p>}
+        {result && (
+          <ResultView result={result} labels={labels} mode={mode} title={selected.title} meta={selected.meta} />
+        )}
+      </>
+    );
+  } else if (mode === "learner") {
+    body = <LearnerHome courses={data.index.courses ?? []} query={query} onQuery={setQuery} onSelect={setSelected} />;
+  } else {
+    body = (
+      <InstructorHome
+        professor={data.index.professors?.[0]}
+        semester={semester}
+        onSemester={setSemester}
+        onSelect={setSelected}
+      />
+    );
+  }
 
   return (
-    <main>
-      {!view && !error && <p className="hint">불러오는 중</p>}
-      {error && <p className="error" role="alert">{error}</p>}
-      {view && <ResultView result={view.result} labels={labels} mode={mode} title={view.title} meta={view.meta} />}
-    </main>
+    <>
+      <PortalHeader school={school} mode={mode} onModeChange={onModeChange} />
+      <main className="pt-main">{body}</main>
+    </>
   );
 }
