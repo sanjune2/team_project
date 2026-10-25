@@ -1,15 +1,9 @@
-# AI
+# Analysis
 
-담당: 분석. 사전학습 모델 또는 LLM으로 항목별 감성을 분석합니다.
+항목별 감성 분석 프롬프트, LLM 호출, 평가 함수입니다.
 
-1. 항목 정의와 라벨 기준을 개발자 2명과 확정합니다.
-2. 사람이 라벨을 붙인 소규모 평가 예시를 준비합니다.
-3. 모델 또는 프롬프트의 품질, 지연, 비용을 비교합니다.
-4. [JSON 계약](../docs/api-contract.md)에 맞춰 결과를 반환합니다.
-5. 모델 이름, 프롬프트 버전, 평가 방법과 제한을 기록합니다.
-
-MVP 완성 후 여유가 있으면 AI-Hub 데이터를 검토합니다.
-데이터의 사용 조건과 강의평 도메인 적합성을 먼저 확인합니다.
-원본 데이터와 모델 가중치는 Git에 올리지 않습니다.
-
-현재는 협업용 폴더입니다. 모델 실행 코드는 아직 없습니다.
+- 프롬프트: `prompt.py` (v3). 규칙 원본은 [docs/labeling_guide.md](../docs/labeling_guide.md), 경계 기준은 [docs/labeling_boundary_v2.md](../docs/labeling_boundary_v2.md)
+- LLM 호출: `llm.py` (백엔드가 `USE_MOCK=false`일 때 사용)
+- 평가: `evaluate.py`, 재현은 `python scripts/rescore_consistency.py --output consistency_eval.local.json`
+- 평가 기록: [docs/day5_consistency_improvement.md](../docs/day5_consistency_improvement.md)
+- 원본 데이터, 실제 학생 강의평, 모델 가중치는 Git에 올리지 않습니다.
