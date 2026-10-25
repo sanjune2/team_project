@@ -1,0 +1,20 @@
+{
+  "review_count": 20,
+  "gold_items": 22,
+  "data_sha256_lf": "1692bb1d079b2373e33a25df0dc9f3e224edcbcd676b2665008511a03212511f",
+  "model": "gpt-6-luna",
+  "reasoning_effort": "none",
+  "temperature": 0,
+  "timeout_seconds": 30,
+  "max_retries": 0,
+  "max_output_tokens": 4000,
+  "prompt_version": "v3",
+  "prompt_sha256": "c8c3e833d35cc3258f6ebb7f33be7787c0848561627ebc59266ae259cf8da85f",
+  "glossary_sha256_lf": "782eac61092b3590ac0395cb9ce2147f96b46f386cd65036ef8bbe4e1fa366b6",
+  "schema_sha256_lf": "6c8f57abe915b196e496c0f9aa5dcd3e19fe7ea98a4846b8ec80099549470017",
+  "label_status": "AI 지원 합성 초안 라벨 대비 잠정 평가. 독립 사람 라벨 검수 미완료.",
+  "original_protocol_target": "v2 (역사적 계획)",
+  "this_run_target": "현재 main의 v3",
+  "original_manifest_preserved": true,
+  "new_api_calls_attempted": 20
+}

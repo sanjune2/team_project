@@ -1,0 +1,1454 @@
+{
+  "summary": {
+    "tp": 22,
+    "fp": 0,
+    "fn": 0,
+    "sentiment_correct": 22,
+    "sentiment_total": 22,
+    "pair_correct": 22,
+    "gold_items": 22,
+    "predicted_items": 22,
+    "evidence_exact": 22,
+    "failed": 0,
+    "pair_exact": 20,
+    "review_count": 20,
+    "category_precision": 1.0,
+    "category_recall": 1.0,
+    "category_f1": 1.0,
+    "sentiment_accuracy": 1.0,
+    "evidence_exact_rate": 1.0,
+    "failure_rate": 0.0,
+    "mean_latency_ms": 2559.65,
+    "timed_review_count": 20,
+    "merged_item_distribution": {
+      "0": 20
+    },
+    "merged_review_ids": [],
+    "merged_review_rate": 0.0,
+    "fields": {
+      "condition": {
+        "annotated_count": 22,
+        "missing_gold_count": 0,
+        "matched_item_count": 22,
+        "presence_accuracy": 0.9545454545454546,
+        "literal_accuracy": 0.9545454545454546
+      },
+      "mentions_change": {
+        "annotated_count": 22,
+        "missing_gold_count": 0,
+        "matched_item_count": 22,
+        "presence_accuracy": 1.0,
+        "literal_accuracy": 1.0
+      }
+    },
+    "pair_precision": 1.0,
+    "pair_recall": 1.0,
+    "pair_f1": 1.0,
+    "review_pair_exact_rate": 1.0
+  },
+  "reviews": [
+    {
+      "id": "h001",
+      "status": "ok",
+      "tp": 1,
+      "fp": 0,
+      "fn": 0,
+      "sentiment_correct": 1,
+      "sentiment_total": 1,
+      "pair_correct": 1,
+      "gold_items": 1,
+      "predicted_items": 1,
+      "evidence_exact": 1,
+      "failed": 0,
+      "latency_ms": 4773,
+      "merged_item_count": 0,
+      "pair_exact": 1,
+      "gold_labels": [
+        {
+          "category": "workload",
+          "sentiment": "negative",
+          "evidence": "월요일마다 읽어야 할 논문 세 편을 소화하기가 너무 벅찹니다",
+          "condition": "주말에 일하는 경우",
+          "mentions_change": false
+        }
+      ],
+      "predicted_items_detail": [
+        {
+          "category": "workload",
+          "sentiment": "negative",
+          "summary": "매주 읽어야 하는 논문 분량이 벅차다는 의견",
+          "evidence": "월요일마다 읽어야 할 논문 세 편을 소화하기가 너무 벅찹니다.",
+          "keywords": [
+            "논문 읽기",
+            "주간 리딩"
+          ],
+          "condition": "주말에 일하는 경우",
+          "mentions_change": false
+        }
+      ],
+      "missing_categories": [],
+      "extra_categories": []
+    },
+    {
+      "id": "h002",
+      "status": "ok",
+      "tp": 1,
+      "fp": 0,
+      "fn": 0,
+      "sentiment_correct": 1,
+      "sentiment_total": 1,
+      "pair_correct": 1,
+      "gold_items": 1,
+      "predicted_items": 1,
+      "evidence_exact": 1,
+      "failed": 0,
+      "latency_ms": 3078,
+      "merged_item_count": 0,
+      "pair_exact": 1,
+      "gold_labels": [
+        {
+          "category": "exam",
+          "sentiment": "positive",
+          "evidence": "강의 때 연습한 풀이 순서를 적용할 수 있어서 공정하게 느껴졌습니다",
+          "condition": null,
+          "mentions_change": false
+        }
+      ],
+      "predicted_items_detail": [
+        {
+          "category": "exam",
+          "sentiment": "positive",
+          "summary": "강의에서 연습한 풀이 순서를 적용할 수 있어 시험이 공정하다는 의견",
+          "evidence": "평가 문제에서 처음 보는 설정이 나와도 강의 때 연습한 풀이 순서를 적용할 수 있어서 공정하게 느껴졌습니다.",
+          "keywords": [
+            "평가 문제",
+            "풀이 순서",
+            "공정성"
+          ],
+          "condition": null,
+          "mentions_change": false
+        }
+      ],
+      "missing_categories": [],
+      "extra_categories": []
+    },
+    {
+      "id": "h003",
+      "status": "ok",
+      "tp": 1,
+      "fp": 0,
+      "fn": 0,
+      "sentiment_correct": 1,
+      "sentiment_total": 1,
+      "pair_correct": 1,
+      "gold_items": 1,
+      "predicted_items": 1,
+      "evidence_exact": 1,
+      "failed": 0,
+      "latency_ms": 3363,
+      "merged_item_count": 0,
+      "pair_exact": 1,
+      "gold_labels": [
+        {
+          "category": "team_project",
+          "sentiment": "negative",
+          "evidence": "연락 없는 구성원을 바꿀 방법이 없어서 나머지 사람이 일을 떠안았어요",
+          "condition": null,
+          "mentions_change": false
+        }
+      ],
+      "predicted_items_detail": [
+        {
+          "category": "team_project",
+          "sentiment": "negative",
+          "summary": "연락이 없는 팀원을 바꿀 수 없어 나머지 팀원이 일을 떠안았다는 의견",
+          "evidence": "연락 없는 구성원을 바꿀 방법이 없어서 나머지 사람이 일을 떠안았어요.",
+          "keywords": [
+            "팀원 연락 두절",
+            "역할 분담"
+          ],
+          "condition": null,
+          "mentions_change": false
+        }
+      ],
+      "missing_categories": [],
+      "extra_categories": []
+    },
+    {
+      "id": "h004",
+      "status": "ok",
+      "tp": 1,
+      "fp": 0,
+      "fn": 0,
+      "sentiment_correct": 1,
+      "sentiment_total": 1,
+      "pair_correct": 1,
+      "gold_items": 1,
+      "predicted_items": 1,
+      "evidence_exact": 1,
+      "failed": 0,
+      "latency_ms": 2277,
+      "merged_item_count": 0,
+      "pair_exact": 1,
+      "gold_labels": [
+        {
+          "category": "delivery",
+          "sentiment": "positive",
+          "evidence": "서로 다른 색의 도식으로 나눠 보여 주니 관계가 눈에 들어와 설명을 따라가기 수월했어요",
+          "condition": null,
+          "mentions_change": false
+        }
+      ],
+      "predicted_items_detail": [
+        {
+          "category": "delivery",
+          "sentiment": "positive",
+          "summary": "개념 간 관계가 잘 드러나 설명을 따라가기 수월하다는 의견",
+          "evidence": "복잡한 개념을 서로 다른 색의 도식으로 나눠 보여 주니 관계가 눈에 들어와 설명을 따라가기 수월했어요.",
+          "keywords": [
+            "도식",
+            "개념 간 관계"
+          ],
+          "condition": null,
+          "mentions_change": false
+        }
+      ],
+      "missing_categories": [],
+      "extra_categories": []
+    },
+    {
+      "id": "h005",
+      "status": "ok",
+      "tp": 1,
+      "fp": 0,
+      "fn": 0,
+      "sentiment_correct": 1,
+      "sentiment_total": 1,
+      "pair_correct": 1,
+      "gold_items": 1,
+      "predicted_items": 1,
+      "evidence_exact": 1,
+      "failed": 0,
+      "latency_ms": 2472,
+      "merged_item_count": 0,
+      "pair_exact": 1,
+      "gold_labels": [
+        {
+          "category": "attendance",
+          "sentiment": "positive",
+          "evidence": "병원 방문으로 빠진 날을 출석으로 인정해 줘서 마음이 놓였습니다",
+          "condition": "진료 확인서를 제출한 경우",
+          "mentions_change": false
+        }
+      ],
+      "predicted_items_detail": [
+        {
+          "category": "attendance",
+          "sentiment": "positive",
+          "summary": "진료 확인서를 제출하면 병원 방문으로 결석한 날을 출석으로 인정받을 수 있어 안심된다는 의견",
+          "evidence": "진료 확인서를 제출하면 병원 방문으로 빠진 날을 출석으로 인정해 줘서 마음이 놓였습니다.",
+          "keywords": [
+            "진료 확인서",
+            "출석 인정"
+          ],
+          "condition": null,
+          "mentions_change": false
+        }
+      ],
+      "missing_categories": [],
+      "extra_categories": []
+    },
+    {
+      "id": "h006",
+      "status": "ok",
+      "tp": 1,
+      "fp": 0,
+      "fn": 0,
+      "sentiment_correct": 1,
+      "sentiment_total": 1,
+      "pair_correct": 1,
+      "gold_items": 1,
+      "predicted_items": 1,
+      "evidence_exact": 1,
+      "failed": 0,
+      "latency_ms": 2456,
+      "merged_item_count": 0,
+      "pair_exact": 1,
+      "gold_labels": [
+        {
+          "category": "grade",
+          "sentiment": "positive",
+          "evidence": "학점 처리 과정이 믿음직했어요",
+          "condition": null,
+          "mentions_change": false
+        }
+      ],
+      "predicted_items_detail": [
+        {
+          "category": "grade",
+          "sentiment": "positive",
+          "summary": "성적 이의 신청 후 누락된 점수를 정정해 주어 학점 처리 과정이 믿음직했다는 의견",
+          "evidence": "성적 이의 신청을 내자 채점표를 다시 대조해 누락된 점수를 정정해 줬습니다. 학점 처리 과정이 믿음직했어요.",
+          "keywords": [
+            "성적 이의 신청",
+            "누락 점수 정정"
+          ],
+          "condition": null,
+          "mentions_change": false
+        }
+      ],
+      "missing_categories": [],
+      "extra_categories": []
+    },
+    {
+      "id": "h007",
+      "status": "ok",
+      "tp": 1,
+      "fp": 0,
+      "fn": 0,
+      "sentiment_correct": 1,
+      "sentiment_total": 1,
+      "pair_correct": 1,
+      "gold_items": 1,
+      "predicted_items": 1,
+      "evidence_exact": 1,
+      "failed": 0,
+      "latency_ms": 2548,
+      "merged_item_count": 0,
+      "pair_exact": 1,
+      "gold_labels": [
+        {
+          "category": "learning",
+          "sentiment": "positive",
+          "evidence": "분석의 허점을 스스로 찾을 수 있게 됐어요. 사고하는 힘이 늘었습니다",
+          "condition": null,
+          "mentions_change": false
+        }
+      ],
+      "predicted_items_detail": [
+        {
+          "category": "learning",
+          "sentiment": "positive",
+          "summary": "분석의 허점을 찾는 사고력이 향상됐다는 의견",
+          "evidence": "다른 과목의 연구 결과를 읽을 때도 분석의 허점을 스스로 찾을 수 있게 됐어요. 사고하는 힘이 늘었습니다.",
+          "keywords": [
+            "사고력 향상",
+            "분석의 허점"
+          ],
+          "condition": null,
+          "mentions_change": false
+        }
+      ],
+      "missing_categories": [],
+      "extra_categories": []
+    },
+    {
+      "id": "h008",
+      "status": "ok",
+      "tp": 1,
+      "fp": 0,
+      "fn": 0,
+      "sentiment_correct": 1,
+      "sentiment_total": 1,
+      "pair_correct": 1,
+      "gold_items": 1,
+      "predicted_items": 1,
+      "evidence_exact": 1,
+      "failed": 0,
+      "latency_ms": 2461,
+      "merged_item_count": 0,
+      "pair_exact": 1,
+      "gold_labels": [
+        {
+          "category": "professor",
+          "sentiment": "negative",
+          "evidence": "교수님이 말을 끊고 핀잔부터 주셔서 더는 물어보고 싶지 않았습니다",
+          "condition": null,
+          "mentions_change": false
+        }
+      ],
+      "predicted_items_detail": [
+        {
+          "category": "professor",
+          "sentiment": "negative",
+          "summary": "질문할 때 말을 끊고 핀잔을 주는 태도 때문에 질문하기 싫어졌다는 의견",
+          "evidence": "교수님이 말을 끊고 핀잔부터 주셔서 더는 물어보고 싶지 않았습니다",
+          "keywords": [
+            "질문 응대",
+            "핀잔"
+          ],
+          "condition": null,
+          "mentions_change": false
+        }
+      ],
+      "missing_categories": [],
+      "extra_categories": []
+    },
+    {
+      "id": "h009",
+      "status": "ok",
+      "tp": 1,
+      "fp": 0,
+      "fn": 0,
+      "sentiment_correct": 1,
+      "sentiment_total": 1,
+      "pair_correct": 1,
+      "gold_items": 1,
+      "predicted_items": 1,
+      "evidence_exact": 1,
+      "failed": 0,
+      "latency_ms": 2217,
+      "merged_item_count": 0,
+      "pair_exact": 1,
+      "gold_labels": [
+        {
+          "category": "general_impression",
+          "sentiment": "positive",
+          "evidence": "다음에 개설되면 친구에게도 권하고 싶어요",
+          "condition": null,
+          "mentions_change": false
+        }
+      ],
+      "predicted_items_detail": [
+        {
+          "category": "general_impression",
+          "sentiment": "positive",
+          "summary": "수강 선택을 잘했다고 느끼며 친구에게 추천하고 싶다는 의견",
+          "evidence": "학기가 끝나고 돌아봐도 선택을 잘했다는 생각입니다. 다음에 개설되면 친구에게도 권하고 싶어요.",
+          "keywords": [
+            "수강 추천"
+          ],
+          "condition": null,
+          "mentions_change": false
+        }
+      ],
+      "missing_categories": [],
+      "extra_categories": []
+    },
+    {
+      "id": "h010",
+      "status": "ok",
+      "tp": 1,
+      "fp": 0,
+      "fn": 0,
+      "sentiment_correct": 1,
+      "sentiment_total": 1,
+      "pair_correct": 1,
+      "gold_items": 1,
+      "predicted_items": 1,
+      "evidence_exact": 1,
+      "failed": 0,
+      "latency_ms": 2452,
+      "merged_item_count": 0,
+      "pair_exact": 1,
+      "gold_labels": [
+        {
+          "category": "etc",
+          "sentiment": "negative",
+          "evidence": "강의실 화면에 반사돼 글자가 지워져 보이는데 가릴 블라인드도 없어서 불편했어요",
+          "condition": null,
+          "mentions_change": false
+        }
+      ],
+      "predicted_items_detail": [
+        {
+          "category": "etc",
+          "sentiment": "negative",
+          "summary": "강의실 화면에 햇빛이 반사되고 블라인드가 없어 불편하다는 의견",
+          "evidence": "오후 햇빛이 강의실 화면에 반사돼 글자가 지워져 보이는데 가릴 블라인드도 없어서 불편했어요.",
+          "keywords": [
+            "강의실 화면",
+            "햇빛 반사",
+            "블라인드"
+          ],
+          "condition": null,
+          "mentions_change": false
+        }
+      ],
+      "missing_categories": [],
+      "extra_categories": []
+    },
+    {
+      "id": "h011",
+      "status": "ok",
+      "tp": 1,
+      "fp": 0,
+      "fn": 0,
+      "sentiment_correct": 1,
+      "sentiment_total": 1,
+      "pair_correct": 1,
+      "gold_items": 1,
+      "predicted_items": 1,
+      "evidence_exact": 1,
+      "failed": 0,
+      "latency_ms": 2206,
+      "merged_item_count": 0,
+      "pair_exact": 1,
+      "gold_labels": [
+        {
+          "category": "workload",
+          "sentiment": "neutral",
+          "evidence": "독서 기록은 학기 중 세 차례 온라인으로 제출하고, 각 기록의 분량은 두 쪽입니다",
+          "condition": null,
+          "mentions_change": false
+        }
+      ],
+      "predicted_items_detail": [
+        {
+          "category": "workload",
+          "sentiment": "neutral",
+          "summary": "독서 기록을 학기 중 세 차례 제출하며 분량은 각 두 쪽이라는 의견",
+          "evidence": "독서 기록은 학기 중 세 차례 온라인으로 제출하고, 각 기록의 분량은 두 쪽입니다.",
+          "keywords": [
+            "독서 기록",
+            "제출 횟수",
+            "분량"
+          ],
+          "condition": null,
+          "mentions_change": false
+        }
+      ],
+      "missing_categories": [],
+      "extra_categories": []
+    },
+    {
+      "id": "h012",
+      "status": "ok",
+      "tp": 2,
+      "fp": 0,
+      "fn": 0,
+      "sentiment_correct": 2,
+      "sentiment_total": 2,
+      "pair_correct": 2,
+      "gold_items": 2,
+      "predicted_items": 2,
+      "evidence_exact": 2,
+      "failed": 0,
+      "latency_ms": 2734,
+      "merged_item_count": 0,
+      "pair_exact": 1,
+      "gold_labels": [
+        {
+          "category": "exam",
+          "sentiment": "neutral",
+          "evidence": "최종 평가는 구술 문답 방식이고",
+          "condition": null,
+          "mentions_change": false
+        },
+        {
+          "category": "team_project",
+          "sentiment": "neutral",
+          "evidence": "조별 프로젝트는 네 명이 한 팀으로 진행합니다",
+          "condition": null,
+          "mentions_change": false
+        }
+      ],
+      "predicted_items_detail": [
+        {
+          "category": "exam",
+          "sentiment": "neutral",
+          "summary": "최종 평가가 구술 문답 방식이라는 의견",
+          "evidence": "최종 평가는 구술 문답 방식",
+          "keywords": [
+            "최종 평가",
+            "구술 문답"
+          ],
+          "condition": null,
+          "mentions_change": false
+        },
+        {
+          "category": "team_project",
+          "sentiment": "neutral",
+          "summary": "조별 프로젝트를 네 명이 한 팀으로 진행한다는 의견",
+          "evidence": "조별 프로젝트는 네 명이 한 팀으로 진행합니다",
+          "keywords": [
+            "조별 프로젝트",
+            "네 명"
+          ],
+          "condition": null,
+          "mentions_change": false
+        }
+      ],
+      "missing_categories": [],
+      "extra_categories": []
+    },
+    {
+      "id": "h013",
+      "status": "ok",
+      "tp": 1,
+      "fp": 0,
+      "fn": 0,
+      "sentiment_correct": 1,
+      "sentiment_total": 1,
+      "pair_correct": 1,
+      "gold_items": 1,
+      "predicted_items": 1,
+      "evidence_exact": 1,
+      "failed": 0,
+      "latency_ms": 2592,
+      "merged_item_count": 0,
+      "pair_exact": 1,
+      "gold_labels": [
+        {
+          "category": "attendance",
+          "sentiment": "neutral",
+          "evidence": "이번 학기부터 입실할 때 학생증을 단말기에 대는 방식으로 바뀌었습니다",
+          "condition": null,
+          "mentions_change": true
+        }
+      ],
+      "predicted_items_detail": [
+        {
+          "category": "attendance",
+          "sentiment": "neutral",
+          "summary": "출석 확인 방식이 명단 서명에서 학생증 단말기 태그 방식으로 변경되었다는 의견",
+          "evidence": "이전에는 명단에 서명했는데 이번 학기부터 입실할 때 학생증을 단말기에 대는 방식으로 바뀌었습니다.",
+          "keywords": [
+            "출석 확인 방식",
+            "학생증 단말기"
+          ],
+          "condition": null,
+          "mentions_change": true
+        }
+      ],
+      "missing_categories": [],
+      "extra_categories": []
+    },
+    {
+      "id": "h014",
+      "status": "ok",
+      "tp": 2,
+      "fp": 0,
+      "fn": 0,
+      "sentiment_correct": 2,
+      "sentiment_total": 2,
+      "pair_correct": 2,
+      "gold_items": 2,
+      "predicted_items": 2,
+      "evidence_exact": 2,
+      "failed": 0,
+      "latency_ms": 2645,
+      "merged_item_count": 0,
+      "pair_exact": 1,
+      "gold_labels": [
+        {
+          "category": "delivery",
+          "sentiment": "positive",
+          "evidence": "이번 학기부터 실습 화면을 확대해서 보여 주니 조작 과정을 보기 쉬워졌어요",
+          "condition": null,
+          "mentions_change": true
+        },
+        {
+          "category": "workload",
+          "sentiment": "negative",
+          "evidence": "매일 내는 개인 보고서는 여전히 부담스럽습니다",
+          "condition": null,
+          "mentions_change": false
+        }
+      ],
+      "predicted_items_detail": [
+        {
+          "category": "delivery",
+          "sentiment": "positive",
+          "summary": "실습 화면을 확대해 조작 과정을 보기 쉬워졌다는 의견",
+          "evidence": "이번 학기부터 실습 화면을 확대해서 보여 주니 조작 과정을 보기 쉬워졌어요",
+          "keywords": [
+            "실습 화면",
+            "조작 과정"
+          ],
+          "condition": null,
+          "mentions_change": true
+        },
+        {
+          "category": "workload",
+          "sentiment": "negative",
+          "summary": "매일 제출하는 개인 보고서가 부담스럽다는 의견",
+          "evidence": "매일 내는 개인 보고서는 여전히 부담스럽습니다",
+          "keywords": [
+            "개인 보고서"
+          ],
+          "condition": null,
+          "mentions_change": false
+        }
+      ],
+      "missing_categories": [],
+      "extra_categories": []
+    },
+    {
+      "id": "h015",
+      "status": "ok",
+      "tp": 2,
+      "fp": 0,
+      "fn": 0,
+      "sentiment_correct": 2,
+      "sentiment_total": 2,
+      "pair_correct": 2,
+      "gold_items": 2,
+      "predicted_items": 2,
+      "evidence_exact": 2,
+      "failed": 0,
+      "latency_ms": 2734,
+      "merged_item_count": 0,
+      "pair_exact": 1,
+      "gold_labels": [
+        {
+          "category": "grade",
+          "sentiment": "positive",
+          "evidence": "이번에는 성적 산출 내역을 개인별로 공개해 줘서 납득하기 좋았어요",
+          "condition": null,
+          "mentions_change": true
+        },
+        {
+          "category": "professor",
+          "sentiment": "negative",
+          "evidence": "교수님이 상담 약속을 설명 없이 취소한 태도는 아쉬웠습니다",
+          "condition": null,
+          "mentions_change": false
+        }
+      ],
+      "predicted_items_detail": [
+        {
+          "category": "grade",
+          "sentiment": "positive",
+          "summary": "성적 산출 내역을 개인별로 공개해 성적을 납득하기 좋았다는 의견",
+          "evidence": "이번에는 성적 산출 내역을 개인별로 공개해 줘서 납득하기 좋았어요",
+          "keywords": [
+            "성적 산출 내역"
+          ],
+          "condition": null,
+          "mentions_change": true
+        },
+        {
+          "category": "professor",
+          "sentiment": "negative",
+          "summary": "상담 약속을 설명 없이 취소한 태도가 아쉽다는 의견",
+          "evidence": "교수님이 상담 약속을 설명 없이 취소한 태도는 아쉬웠습니다",
+          "keywords": [
+            "상담 약속"
+          ],
+          "condition": null,
+          "mentions_change": false
+        }
+      ],
+      "missing_categories": [],
+      "extra_categories": []
+    },
+    {
+      "id": "h016",
+      "status": "ok",
+      "tp": 2,
+      "fp": 0,
+      "fn": 0,
+      "sentiment_correct": 2,
+      "sentiment_total": 2,
+      "pair_correct": 2,
+      "gold_items": 2,
+      "predicted_items": 2,
+      "evidence_exact": 2,
+      "failed": 0,
+      "latency_ms": 2529,
+      "merged_item_count": 0,
+      "pair_exact": 1,
+      "gold_labels": [
+        {
+          "category": "team_project",
+          "sentiment": "positive",
+          "evidence": "각자 맡은 기여를 따로 확인해 줘서 협업이 공평했어요",
+          "condition": null,
+          "mentions_change": false
+        },
+        {
+          "category": "etc",
+          "sentiment": "negative",
+          "evidence": "이번 학기 강의실을 옮긴 뒤에는 콘센트가 모자라 노트북을 쓰기 불편합니다",
+          "condition": null,
+          "mentions_change": true
+        }
+      ],
+      "predicted_items_detail": [
+        {
+          "category": "team_project",
+          "sentiment": "positive",
+          "summary": "각자의 기여를 따로 확인해 협업이 공평했다는 의견",
+          "evidence": "각자 맡은 기여를 따로 확인해 줘서 협업이 공평했어요",
+          "keywords": [
+            "기여 확인",
+            "공평한 협업"
+          ],
+          "condition": null,
+          "mentions_change": false
+        },
+        {
+          "category": "etc",
+          "sentiment": "negative",
+          "summary": "강의실 콘센트가 부족해 노트북 사용이 불편하다는 의견",
+          "evidence": "콘센트가 모자라 노트북을 쓰기 불편합니다",
+          "keywords": [
+            "강의실",
+            "콘센트"
+          ],
+          "condition": null,
+          "mentions_change": true
+        }
+      ],
+      "missing_categories": [],
+      "extra_categories": []
+    },
+    {
+      "id": "h017",
+      "status": "ok",
+      "tp": 1,
+      "fp": 0,
+      "fn": 0,
+      "sentiment_correct": 1,
+      "sentiment_total": 1,
+      "pair_correct": 1,
+      "gold_items": 1,
+      "predicted_items": 1,
+      "evidence_exact": 1,
+      "failed": 0,
+      "latency_ms": 2173,
+      "merged_item_count": 0,
+      "pair_exact": 1,
+      "gold_labels": [
+        {
+          "category": "attendance",
+          "sentiment": "negative",
+          "evidence": "출석이 정말 자유롭네요^^ 전철 고장 확인서를 내도 오 분 늦었다고 결석으로 적으시니 말이죠",
+          "condition": null,
+          "mentions_change": false
+        }
+      ],
+      "predicted_items_detail": [
+        {
+          "category": "attendance",
+          "sentiment": "negative",
+          "summary": "지각 처리 기준이 엄격해 불편하다는 의견",
+          "evidence": "전철 고장 확인서를 내도 오 분 늦었다고 결석으로 적으시니 말이죠.",
+          "keywords": [
+            "지각 처리",
+            "결석"
+          ],
+          "condition": null,
+          "mentions_change": false
+        }
+      ],
+      "missing_categories": [],
+      "extra_categories": []
+    },
+    {
+      "id": "h018",
+      "status": "ok",
+      "tp": 1,
+      "fp": 0,
+      "fn": 0,
+      "sentiment_correct": 1,
+      "sentiment_total": 1,
+      "pair_correct": 1,
+      "gold_items": 1,
+      "predicted_items": 1,
+      "evidence_exact": 1,
+      "failed": 0,
+      "latency_ms": 2169,
+      "merged_item_count": 0,
+      "pair_exact": 1,
+      "gold_labels": [
+        {
+          "category": "grade",
+          "sentiment": "negative",
+          "evidence": "정작 받은 학점을 보니 웃음만 나오네요^^ 다시는 그 소문 안 믿어요",
+          "condition": null,
+          "mentions_change": false
+        }
+      ],
+      "predicted_items_detail": [
+        {
+          "category": "grade",
+          "sentiment": "negative",
+          "summary": "성적이 기대보다 낮아 후하게 준다는 소문을 믿기 어렵다는 의견",
+          "evidence": "정작 받은 학점을 보니 웃음만 나오네요^^ 다시는 그 소문 안 믿어요.",
+          "keywords": [
+            "학점",
+            "성적 소문"
+          ],
+          "condition": null,
+          "mentions_change": false
+        }
+      ],
+      "missing_categories": [],
+      "extra_categories": []
+    },
+    {
+      "id": "h019",
+      "status": "ok",
+      "tp": 0,
+      "fp": 0,
+      "fn": 0,
+      "sentiment_correct": 0,
+      "sentiment_total": 0,
+      "pair_correct": 0,
+      "gold_items": 0,
+      "predicted_items": 0,
+      "evidence_exact": 0,
+      "failed": 0,
+      "latency_ms": 1505,
+      "merged_item_count": 0,
+      "pair_exact": 1,
+      "gold_labels": [],
+      "predicted_items_detail": [],
+      "missing_categories": [],
+      "extra_categories": []
+    },
+    {
+      "id": "h020",
+      "status": "ok",
+      "tp": 0,
+      "fp": 0,
+      "fn": 0,
+      "sentiment_correct": 0,
+      "sentiment_total": 0,
+      "pair_correct": 0,
+      "gold_items": 0,
+      "predicted_items": 0,
+      "evidence_exact": 0,
+      "failed": 0,
+      "latency_ms": 1809,
+      "merged_item_count": 0,
+      "pair_exact": 1,
+      "gold_labels": [],
+      "predicted_items_detail": [],
+      "missing_categories": [],
+      "extra_categories": []
+    }
+  ],
+  "field_review": [
+    {
+      "id": "h001",
+      "category": "workload",
+      "sentiment": "negative",
+      "field": "condition",
+      "expected": "주말에 일하는 경우",
+      "predicted": "주말에 일하는 경우",
+      "matched_item": true,
+      "presence_correct": true,
+      "literal_correct": true,
+      "semantic_review": "pending"
+    },
+    {
+      "id": "h001",
+      "category": "workload",
+      "sentiment": "negative",
+      "field": "mentions_change",
+      "expected": false,
+      "predicted": false,
+      "matched_item": true,
+      "presence_correct": true,
+      "literal_correct": true,
+      "semantic_review": null
+    },
+    {
+      "id": "h002",
+      "category": "exam",
+      "sentiment": "positive",
+      "field": "condition",
+      "expected": null,
+      "predicted": null,
+      "matched_item": true,
+      "presence_correct": true,
+      "literal_correct": true,
+      "semantic_review": "pending"
+    },
+    {
+      "id": "h002",
+      "category": "exam",
+      "sentiment": "positive",
+      "field": "mentions_change",
+      "expected": false,
+      "predicted": false,
+      "matched_item": true,
+      "presence_correct": true,
+      "literal_correct": true,
+      "semantic_review": null
+    },
+    {
+      "id": "h003",
+      "category": "team_project",
+      "sentiment": "negative",
+      "field": "condition",
+      "expected": null,
+      "predicted": null,
+      "matched_item": true,
+      "presence_correct": true,
+      "literal_correct": true,
+      "semantic_review": "pending"
+    },
+    {
+      "id": "h003",
+      "category": "team_project",
+      "sentiment": "negative",
+      "field": "mentions_change",
+      "expected": false,
+      "predicted": false,
+      "matched_item": true,
+      "presence_correct": true,
+      "literal_correct": true,
+      "semantic_review": null
+    },
+    {
+      "id": "h004",
+      "category": "delivery",
+      "sentiment": "positive",
+      "field": "condition",
+      "expected": null,
+      "predicted": null,
+      "matched_item": true,
+      "presence_correct": true,
+      "literal_correct": true,
+      "semantic_review": "pending"
+    },
+    {
+      "id": "h004",
+      "category": "delivery",
+      "sentiment": "positive",
+      "field": "mentions_change",
+      "expected": false,
+      "predicted": false,
+      "matched_item": true,
+      "presence_correct": true,
+      "literal_correct": true,
+      "semantic_review": null
+    },
+    {
+      "id": "h005",
+      "category": "attendance",
+      "sentiment": "positive",
+      "field": "condition",
+      "expected": "진료 확인서를 제출한 경우",
+      "predicted": null,
+      "matched_item": true,
+      "presence_correct": false,
+      "literal_correct": false,
+      "semantic_review": "pending"
+    },
+    {
+      "id": "h005",
+      "category": "attendance",
+      "sentiment": "positive",
+      "field": "mentions_change",
+      "expected": false,
+      "predicted": false,
+      "matched_item": true,
+      "presence_correct": true,
+      "literal_correct": true,
+      "semantic_review": null
+    },
+    {
+      "id": "h006",
+      "category": "grade",
+      "sentiment": "positive",
+      "field": "condition",
+      "expected": null,
+      "predicted": null,
+      "matched_item": true,
+      "presence_correct": true,
+      "literal_correct": true,
+      "semantic_review": "pending"
+    },
+    {
+      "id": "h006",
+      "category": "grade",
+      "sentiment": "positive",
+      "field": "mentions_change",
+      "expected": false,
+      "predicted": false,
+      "matched_item": true,
+      "presence_correct": true,
+      "literal_correct": true,
+      "semantic_review": null
+    },
+    {
+      "id": "h007",
+      "category": "learning",
+      "sentiment": "positive",
+      "field": "condition",
+      "expected": null,
+      "predicted": null,
+      "matched_item": true,
+      "presence_correct": true,
+      "literal_correct": true,
+      "semantic_review": "pending"
+    },
+    {
+      "id": "h007",
+      "category": "learning",
+      "sentiment": "positive",
+      "field": "mentions_change",
+      "expected": false,
+      "predicted": false,
+      "matched_item": true,
+      "presence_correct": true,
+      "literal_correct": true,
+      "semantic_review": null
+    },
+    {
+      "id": "h008",
+      "category": "professor",
+      "sentiment": "negative",
+      "field": "condition",
+      "expected": null,
+      "predicted": null,
+      "matched_item": true,
+      "presence_correct": true,
+      "literal_correct": true,
+      "semantic_review": "pending"
+    },
+    {
+      "id": "h008",
+      "category": "professor",
+      "sentiment": "negative",
+      "field": "mentions_change",
+      "expected": false,
+      "predicted": false,
+      "matched_item": true,
+      "presence_correct": true,
+      "literal_correct": true,
+      "semantic_review": null
+    },
+    {
+      "id": "h009",
+      "category": "general_impression",
+      "sentiment": "positive",
+      "field": "condition",
+      "expected": null,
+      "predicted": null,
+      "matched_item": true,
+      "presence_correct": true,
+      "literal_correct": true,
+      "semantic_review": "pending"
+    },
+    {
+      "id": "h009",
+      "category": "general_impression",
+      "sentiment": "positive",
+      "field": "mentions_change",
+      "expected": false,
+      "predicted": false,
+      "matched_item": true,
+      "presence_correct": true,
+      "literal_correct": true,
+      "semantic_review": null
+    },
+    {
+      "id": "h010",
+      "category": "etc",
+      "sentiment": "negative",
+      "field": "condition",
+      "expected": null,
+      "predicted": null,
+      "matched_item": true,
+      "presence_correct": true,
+      "literal_correct": true,
+      "semantic_review": "pending"
+    },
+    {
+      "id": "h010",
+      "category": "etc",
+      "sentiment": "negative",
+      "field": "mentions_change",
+      "expected": false,
+      "predicted": false,
+      "matched_item": true,
+      "presence_correct": true,
+      "literal_correct": true,
+      "semantic_review": null
+    },
+    {
+      "id": "h011",
+      "category": "workload",
+      "sentiment": "neutral",
+      "field": "condition",
+      "expected": null,
+      "predicted": null,
+      "matched_item": true,
+      "presence_correct": true,
+      "literal_correct": true,
+      "semantic_review": "pending"
+    },
+    {
+      "id": "h011",
+      "category": "workload",
+      "sentiment": "neutral",
+      "field": "mentions_change",
+      "expected": false,
+      "predicted": false,
+      "matched_item": true,
+      "presence_correct": true,
+      "literal_correct": true,
+      "semantic_review": null
+    },
+    {
+      "id": "h012",
+      "category": "exam",
+      "sentiment": "neutral",
+      "field": "condition",
+      "expected": null,
+      "predicted": null,
+      "matched_item": true,
+      "presence_correct": true,
+      "literal_correct": true,
+      "semantic_review": "pending"
+    },
+    {
+      "id": "h012",
+      "category": "exam",
+      "sentiment": "neutral",
+      "field": "mentions_change",
+      "expected": false,
+      "predicted": false,
+      "matched_item": true,
+      "presence_correct": true,
+      "literal_correct": true,
+      "semantic_review": null
+    },
+    {
+      "id": "h012",
+      "category": "team_project",
+      "sentiment": "neutral",
+      "field": "condition",
+      "expected": null,
+      "predicted": null,
+      "matched_item": true,
+      "presence_correct": true,
+      "literal_correct": true,
+      "semantic_review": "pending"
+    },
+    {
+      "id": "h012",
+      "category": "team_project",
+      "sentiment": "neutral",
+      "field": "mentions_change",
+      "expected": false,
+      "predicted": false,
+      "matched_item": true,
+      "presence_correct": true,
+      "literal_correct": true,
+      "semantic_review": null
+    },
+    {
+      "id": "h013",
+      "category": "attendance",
+      "sentiment": "neutral",
+      "field": "condition",
+      "expected": null,
+      "predicted": null,
+      "matched_item": true,
+      "presence_correct": true,
+      "literal_correct": true,
+      "semantic_review": "pending"
+    },
+    {
+      "id": "h013",
+      "category": "attendance",
+      "sentiment": "neutral",
+      "field": "mentions_change",
+      "expected": true,
+      "predicted": true,
+      "matched_item": true,
+      "presence_correct": true,
+      "literal_correct": true,
+      "semantic_review": null
+    },
+    {
+      "id": "h014",
+      "category": "delivery",
+      "sentiment": "positive",
+      "field": "condition",
+      "expected": null,
+      "predicted": null,
+      "matched_item": true,
+      "presence_correct": true,
+      "literal_correct": true,
+      "semantic_review": "pending"
+    },
+    {
+      "id": "h014",
+      "category": "delivery",
+      "sentiment": "positive",
+      "field": "mentions_change",
+      "expected": true,
+      "predicted": true,
+      "matched_item": true,
+      "presence_correct": true,
+      "literal_correct": true,
+      "semantic_review": null
+    },
+    {
+      "id": "h014",
+      "category": "workload",
+      "sentiment": "negative",
+      "field": "condition",
+      "expected": null,
+      "predicted": null,
+      "matched_item": true,
+      "presence_correct": true,
+      "literal_correct": true,
+      "semantic_review": "pending"
+    },
+    {
+      "id": "h014",
+      "category": "workload",
+      "sentiment": "negative",
+      "field": "mentions_change",
+      "expected": false,
+      "predicted": false,
+      "matched_item": true,
+      "presence_correct": true,
+      "literal_correct": true,
+      "semantic_review": null
+    },
+    {
+      "id": "h015",
+      "category": "grade",
+      "sentiment": "positive",
+      "field": "condition",
+      "expected": null,
+      "predicted": null,
+      "matched_item": true,
+      "presence_correct": true,
+      "literal_correct": true,
+      "semantic_review": "pending"
+    },
+    {
+      "id": "h015",
+      "category": "grade",
+      "sentiment": "positive",
+      "field": "mentions_change",
+      "expected": true,
+      "predicted": true,
+      "matched_item": true,
+      "presence_correct": true,
+      "literal_correct": true,
+      "semantic_review": null
+    },
+    {
+      "id": "h015",
+      "category": "professor",
+      "sentiment": "negative",
+      "field": "condition",
+      "expected": null,
+      "predicted": null,
+      "matched_item": true,
+      "presence_correct": true,
+      "literal_correct": true,
+      "semantic_review": "pending"
+    },
+    {
+      "id": "h015",
+      "category": "professor",
+      "sentiment": "negative",
+      "field": "mentions_change",
+      "expected": false,
+      "predicted": false,
+      "matched_item": true,
+      "presence_correct": true,
+      "literal_correct": true,
+      "semantic_review": null
+    },
+    {
+      "id": "h016",
+      "category": "team_project",
+      "sentiment": "positive",
+      "field": "condition",
+      "expected": null,
+      "predicted": null,
+      "matched_item": true,
+      "presence_correct": true,
+      "literal_correct": true,
+      "semantic_review": "pending"
+    },
+    {
+      "id": "h016",
+      "category": "team_project",
+      "sentiment": "positive",
+      "field": "mentions_change",
+      "expected": false,
+      "predicted": false,
+      "matched_item": true,
+      "presence_correct": true,
+      "literal_correct": true,
+      "semantic_review": null
+    },
+    {
+      "id": "h016",
+      "category": "etc",
+      "sentiment": "negative",
+      "field": "condition",
+      "expected": null,
+      "predicted": null,
+      "matched_item": true,
+      "presence_correct": true,
+      "literal_correct": true,
+      "semantic_review": "pending"
+    },
+    {
+      "id": "h016",
+      "category": "etc",
+      "sentiment": "negative",
+      "field": "mentions_change",
+      "expected": true,
+      "predicted": true,
+      "matched_item": true,
+      "presence_correct": true,
+      "literal_correct": true,
+      "semantic_review": null
+    },
+    {
+      "id": "h017",
+      "category": "attendance",
+      "sentiment": "negative",
+      "field": "condition",
+      "expected": null,
+      "predicted": null,
+      "matched_item": true,
+      "presence_correct": true,
+      "literal_correct": true,
+      "semantic_review": "pending"
+    },
+    {
+      "id": "h017",
+      "category": "attendance",
+      "sentiment": "negative",
+      "field": "mentions_change",
+      "expected": false,
+      "predicted": false,
+      "matched_item": true,
+      "presence_correct": true,
+      "literal_correct": true,
+      "semantic_review": null
+    },
+    {
+      "id": "h018",
+      "category": "grade",
+      "sentiment": "negative",
+      "field": "condition",
+      "expected": null,
+      "predicted": null,
+      "matched_item": true,
+      "presence_correct": true,
+      "literal_correct": true,
+      "semantic_review": "pending"
+    },
+    {
+      "id": "h018",
+      "category": "grade",
+      "sentiment": "negative",
+      "field": "mentions_change",
+      "expected": false,
+      "predicted": false,
+      "matched_item": true,
+      "presence_correct": true,
+      "literal_correct": true,
+      "semantic_review": null
+    }
+  ]
+}
