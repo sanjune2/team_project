@@ -75,10 +75,12 @@ python scripts/evaluate_holdout.py --out-dir staging/holdout20 --run --allow-ai-
 ## 운영체제 검증과 담당 범위
 
 Windows Python 3.14에서 오프라인 테스트 66개 통과.
-`.github/workflows/analysis-portability.yml`에 Ubuntu/macOS/Windows Python 3.11 검증을 준비했다.
+`.github/workflows/analysis-portability.yml`에서 Ubuntu/macOS/Windows Python 3.11 검증을 실행했다.
 워크플로는 API 키 없이 오프라인 테스트와 저장 평가 재현을 실행한다.
-이 PC에는 사용 가능한 WSL이 없어 실제 Linux 실행은 하지 못했다. Mac 실행 환경도 없다.
-따라서 워크플로 생성과 실제 Mac/Linux 통과를 구분한다. GitHub 반영 후 실제 Actions 결과를 확인해야 한다.
+이 PC에는 사용 가능한 WSL과 Mac 실행 환경이 없어 GitHub 호스팅 러너를 사용했다.
+세 환경 모두 의존성 설치, 테스트 66개, 저장 평가 재현을 통과했다.
+실제 결과: https://github.com/sanjune2/team_project/actions/runs/40206977157
+검증한 구현 커밋은 `aa4746f`다. 이 결과는 서버 분석 모듈·도구의 이식성 검증이며 Mac/Linux 브라우저 UI 검증은 아니다.
 
 fallback 첫 문장, 같은 항목의 긍정·부정 반복, 좁은 두 단 양쪽 정렬은 화면 담당 후속 작업으로 남겼다.
 프론트 소스와 기존 화면 결과 JSON, 리뷰 분석 프롬프트는 변경하지 않았다.
