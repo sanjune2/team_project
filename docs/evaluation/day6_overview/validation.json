@@ -1,0 +1,191 @@
+{
+  "base_commit": "5b8bf5825994f9a832ab6202f7e2042cb1580614",
+  "files": 12,
+  "instructor_files": 8,
+  "learner_files": 4,
+  "new_overview_api_calls": 12,
+  "review_reanalysis_calls": 0,
+  "generation_failed_files": 0,
+  "schema_ids_counts_sorting_policy_findings_remaining": 0,
+  "invalid_id_locations_reviewed": 4,
+  "invalid_id_links_removed": 6,
+  "source_analysis_preserved": true,
+  "independent_human_review": false,
+  "final_team_screen_review": "pending",
+  "files_checked": [
+    {
+      "file": "c01_2025-2.json",
+      "audience": "instructor",
+      "reviews": 8,
+      "categories": 9,
+      "groups": 14,
+      "source_analysis_and_meta_unchanged": true,
+      "counts_ratios_and_top_notes_unchanged": true,
+      "id_basis_sorting_valid": true,
+      "hyerin_five_rules_valid": true,
+      "sha256": "d1d9f2b2dcb9e3266b68f5b2d2d8bb9d1dddf84dd0e47c3d63d1b54f2c90abfd"
+    },
+    {
+      "file": "c01_2026-1.json",
+      "audience": "instructor",
+      "reviews": 8,
+      "categories": 7,
+      "groups": 16,
+      "source_analysis_and_meta_unchanged": true,
+      "counts_ratios_and_top_notes_unchanged": true,
+      "id_basis_sorting_valid": true,
+      "hyerin_five_rules_valid": true,
+      "sha256": "90382c94930115fb453db6c4d35271ba4307629c994b34423be13786d625e21a"
+    },
+    {
+      "file": "c01_all.json",
+      "audience": "learner",
+      "reviews": 16,
+      "categories": 9,
+      "groups": 21,
+      "source_analysis_and_meta_unchanged": true,
+      "counts_ratios_and_top_notes_unchanged": true,
+      "id_basis_sorting_valid": true,
+      "hyerin_five_rules_valid": true,
+      "sha256": "a5d4cd250c4835b0e92557d659dac275c58f6c5d4c1a46ccce117b5b468bbe46"
+    },
+    {
+      "file": "c02_2025-2.json",
+      "audience": "instructor",
+      "reviews": 8,
+      "categories": 9,
+      "groups": 13,
+      "source_analysis_and_meta_unchanged": true,
+      "counts_ratios_and_top_notes_unchanged": true,
+      "id_basis_sorting_valid": true,
+      "hyerin_five_rules_valid": true,
+      "sha256": "d1270e56dc3db01cfeda67dd0d5bf92c96b0f78d9aa10a2c82bb6f3dd84b65de"
+    },
+    {
+      "file": "c02_2026-1.json",
+      "audience": "instructor",
+      "reviews": 8,
+      "categories": 7,
+      "groups": 14,
+      "source_analysis_and_meta_unchanged": true,
+      "counts_ratios_and_top_notes_unchanged": true,
+      "id_basis_sorting_valid": true,
+      "hyerin_five_rules_valid": true,
+      "sha256": "7b8e877a44de51230d299e133a8627956be69d00983ed7928800664b322d3f75"
+    },
+    {
+      "file": "c02_all.json",
+      "audience": "learner",
+      "reviews": 16,
+      "categories": 10,
+      "groups": 19,
+      "source_analysis_and_meta_unchanged": true,
+      "counts_ratios_and_top_notes_unchanged": true,
+      "id_basis_sorting_valid": true,
+      "hyerin_five_rules_valid": true,
+      "sha256": "9d31b6f748e999a300b009362fcf1f942208e074e3917d61ed73517c6270393a"
+    },
+    {
+      "file": "c03_2025-2.json",
+      "audience": "instructor",
+      "reviews": 8,
+      "categories": 7,
+      "groups": 18,
+      "source_analysis_and_meta_unchanged": true,
+      "counts_ratios_and_top_notes_unchanged": true,
+      "id_basis_sorting_valid": true,
+      "hyerin_five_rules_valid": true,
+      "sha256": "a0ab5957a6c2b239b96854a2df3646319cafb5d617c23e7b6e70d79f878df302"
+    },
+    {
+      "file": "c03_2026-1.json",
+      "audience": "instructor",
+      "reviews": 8,
+      "categories": 7,
+      "groups": 13,
+      "source_analysis_and_meta_unchanged": true,
+      "counts_ratios_and_top_notes_unchanged": true,
+      "id_basis_sorting_valid": true,
+      "hyerin_five_rules_valid": true,
+      "sha256": "d959f702d6146aa0d1f925e84912e6eb19aa9fe47b156a3a94fbe09fbc7459b5"
+    },
+    {
+      "file": "c03_all.json",
+      "audience": "learner",
+      "reviews": 16,
+      "categories": 7,
+      "groups": 17,
+      "source_analysis_and_meta_unchanged": true,
+      "counts_ratios_and_top_notes_unchanged": true,
+      "id_basis_sorting_valid": true,
+      "hyerin_five_rules_valid": true,
+      "sha256": "7a0030ea0849eaa5c156825f70028c85b8dc792da06b4927a410a12ec93e551f"
+    },
+    {
+      "file": "c04_2025-2.json",
+      "audience": "instructor",
+      "reviews": 8,
+      "categories": 8,
+      "groups": 11,
+      "source_analysis_and_meta_unchanged": true,
+      "counts_ratios_and_top_notes_unchanged": true,
+      "id_basis_sorting_valid": true,
+      "hyerin_five_rules_valid": true,
+      "sha256": "d754378da3d000877a046e274a90738425c5ad123620fb9451d49d667a918828"
+    },
+    {
+      "file": "c04_2026-1.json",
+      "audience": "instructor",
+      "reviews": 8,
+      "categories": 7,
+      "groups": 14,
+      "source_analysis_and_meta_unchanged": true,
+      "counts_ratios_and_top_notes_unchanged": true,
+      "id_basis_sorting_valid": true,
+      "hyerin_five_rules_valid": true,
+      "sha256": "5401b22275e6a47344f7c95807cf1451abc3c5d227063059df557cdd4c29307b"
+    },
+    {
+      "file": "c04_all.json",
+      "audience": "learner",
+      "reviews": 16,
+      "categories": 8,
+      "groups": 16,
+      "source_analysis_and_meta_unchanged": true,
+      "counts_ratios_and_top_notes_unchanged": true,
+      "id_basis_sorting_valid": true,
+      "hyerin_five_rules_valid": true,
+      "sha256": "d3cb04a7bb7db7b030ab625b198199c0a4a026f208bcb8fcf7a0eb43ebc80163"
+    }
+  ],
+  "model": "gpt-6-luna",
+  "review_type": "AI-assisted full review, mechanical validation, and recorded editorial corrections",
+  "python_tests_passed": 54,
+  "frontend_readers_passed": true,
+  "frontend_build": "passed locally",
+  "ui_validation": {
+    "default_production_path": true,
+    "instructor_passed": true,
+    "learner_passed": true,
+    "details_passed": true,
+    "mobile": {
+      "width": 390,
+      "scrollWidth": 390
+    },
+    "new_api_calls": 0
+  },
+  "quality_issues": {
+    "recommendation_form_fixed": 12,
+    "unsupported_advice_or_prediction_fixed": 2,
+    "grouping_scope_and_readability_fixed": 10,
+    "id_locations_reviewed": 4,
+    "id_links_removed": 6,
+    "separator_expressions_normalized": 13
+  },
+  "known_remaining": {
+    "independent_human_content_audit": "not performed",
+    "full_12_file_team_screen_review": "pending",
+    "rule_based_lead_repeated_categories": "Hyerin will adjust in her finishing PR",
+    "two_column_justification_spacing": "Hyerin will adjust in her finishing PR"
+  }
+}
