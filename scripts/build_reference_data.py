@@ -100,10 +100,28 @@ def save(path: Path, data: dict) -> None:
 
 def main():
     p = argparse.ArgumentParser(description=__doc__, formatter_class=argparse.RawDescriptionHelpFormatter)
-    p.add_argument("--input", nargs="+", required=True, help="리뷰 JSONL 파일 (여러 개 가능)")
+    p.add_argument("--input", nargs="+", help="리뷰 JSONL 파일 (여러 개 가능)")
     p.add_argument("--out", default="frontend/public/reference")
     p.add_argument("--server", default="http://localhost:8000")
+    mode = p.add_mutually_exclusive_group()
+    mode.add_argument('--overview-only', action='store_true', help='기존 --out 결과만 읽어 overview 생성, 리뷰 재분석 없음')
+    mode.add_argument('--with-overview', action='store_true', help='기존 분석 완료 후 공용 overview 생성 단계 실행')
+    p.add_argument('--overview-out', help='검토용 overview 결과 폴더 (기존 결과와 분리)')
+    p.add_argument('--overview-audit', help='overview 호출·검증 기록 폴더')
+    p.add_argument('--overview-workers', type=int, default=2, choices=range(1, 4))
     args = p.parse_args()
+    if (args.overview_only or args.with_overview) and (not args.overview_out or not args.overview_audit):
+        p.error('--overview-out 및 --overview-audit이 필요합니다.')
+    if args.overview_only or args.with_overview:
+        from analysis.overview_runner import validate_directories
+        validate_directories(ROOT / args.out, ROOT / args.overview_out,
+                             ROOT / args.overview_audit, args.overview_workers)
+    if args.overview_only:
+        from analysis.overview_runner import run_batch
+        return run_batch(ROOT / args.out, ROOT / args.overview_out,
+                         ROOT / args.overview_audit, args.overview_workers)
+    if not args.input:
+        p.error('--input이 필요합니다. 기존 결과만 사용할 때는 --overview-only를 쓰세요.')
 
     rows = [row for f in args.input for row in load_rows(ROOT / f)]
     ids = [r["id"] for r in rows]
@@ -172,7 +190,11 @@ def main():
         "courses": courses,
     })
     print(f"완료: {out.relative_to(ROOT)} 에 {len(bundles)}개 학기 묶음 + {len(courses)}개 과목 합산 + index.json")
+    if args.with_overview:
+        from analysis.overview_runner import run_batch
+        return run_batch(out, ROOT / args.overview_out, ROOT / args.overview_audit, args.overview_workers)
+    return 0
 
 
 if __name__ == "__main__":
-    main()
+    raise SystemExit(main())
