@@ -10,6 +10,8 @@ import "../styles/portal.css";
 // 실제 레퍼런스 데이터(reference/)가 있으면 그것을, 없으면 샘플(reference_sample/)을 씀
 const BASE = import.meta.env.BASE_URL;
 const DIRS = ["reference", "reference_sample"];
+// 주소에 ?ov=sample 을 붙이면 overview_sample/의 예시 overview를 덮어씌워 화면 확인 (개발용)
+const OV_SAMPLE = new URLSearchParams(window.location.search).get("ov") === "sample";
 
 async function loadJson(path) {
   const res = await fetch(path);
@@ -58,6 +60,12 @@ export default function ReferencePage({ labels, mode, onModeChange }) {
     loadJson(`${BASE}${data.dir}/${selected.file}`)
       .then((r) => {
         if (!Array.isArray(r?.summary_by_category) || !Array.isArray(r?.reviews) || !r?.meta) throw new Error("shape");
+        if (!OV_SAMPLE) return r;
+        return loadJson(`${BASE}overview_sample/${selected.file}`)
+          .then((s) => ({ ...r, overview: s.overview }))
+          .catch(() => r);
+      })
+      .then((r) => {
         if (active) setResult(r);
       })
       .catch(() => active && setResultError(true));

@@ -49,7 +49,9 @@
 .ov-cols li { margin: var(--sp-1) 0; overflow-wrap: anywhere; }
 .ov-cols .ov-none { padding: 0; }
 .ov-sub { color: var(--text-sub); }
-.ov-extra { display: block; color: var(--text-sub); font-size: var(--fs-small); }
+.ov-suggest { margin-top: var(--sp-5); }
+.ov-suggest h3 { margin-bottom: var(--sp-1); }
+.ov-suggest p { margin: 0; }
 
 .rv-evidence { margin-top: var(--sp-6); padding-top: var(--sp-5); border-top: var(--border); }
 .rv-evidence-head { display: flex; align-items: baseline; justify-content: space-between; margin-bottom: var(--sp-3); }
@@ -61,6 +63,7 @@
 /* 여러 줄 문장은 양쪽 맞춤 (마지막 줄은 왼쪽) */
 .ov > p,
 .ov-cols li,
+.ov-suggest p,
 .sb-detail li,
 .rv-evidence .original {
   text-align: justify;

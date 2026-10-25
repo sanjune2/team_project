@@ -1,5 +1,6 @@
 import { Fragment, useState } from "react";
 import useMediaQuery from "../hooks/useMediaQuery.js";
+import { ovHeadline, ovShort } from "../utils/overview.js";
 import { splitNotes, topItems } from "../utils/summary.js";
 
 const SIDES = [
@@ -8,9 +9,11 @@ const SIDES = [
 ];
 
 // 항목 한 칸: 접힌 상태는 대표 요약 한 줄, 펼치면 비율 + 그쪽 의견 최대 3개
-function Cell({ row, rank, side, open, onToggle, onDetail, labels, last }) {
+// overview(LLM 정리본)가 있으면 그 문장, 없으면 집계의 대표 요약
+function Cell({ row, rank, side, open, onToggle, onDetail, labels, last, ov }) {
   if (!row) return <div className={`sb-cell empty${last ? " last" : ""}`} />;
-  const notes = splitNotes(row[side.notes]).slice(0, 3);
+  const notes = ovShort(ov, row.category, side.key) ?? splitNotes(row[side.notes]).slice(0, 3);
+  const headline = ovHeadline(ov, row.category, side.key) ?? notes[0];
   const r = row.ratios ?? {};
   return (
     <div className={`sb-cell${open ? " open" : ""}${last ? " last" : ""}`}>
@@ -19,7 +22,7 @@ function Cell({ row, rank, side, open, onToggle, onDetail, labels, last }) {
         <span className="sb-name">{labels[row.category] ?? row.category}</span>
         <span className="sb-count num">리뷰 {row.counts[side.key]}개</span>
       </button>
-      {!open && notes[0] && <p className="sb-note">{notes[0]}</p>}
+      {!open && headline && <p className="sb-note">{headline}</p>}
       {open && (
         <div className="sb-detail">
           <div className="sb-ratio num">
@@ -47,7 +50,7 @@ function Cell({ row, rank, side, open, onToggle, onDetail, labels, last }) {
 }
 
 // 만족 TOP 3 │ 불만족 TOP 3. 데스크톱은 같은 순위끼리 한 줄로 묶어 높이를 맞춤
-export default function SummaryBoard({ summary, labels, onDetail }) {
+export default function SummaryBoard({ summary, labels, onDetail, ov }) {
   const [open, setOpen] = useState(null); // { side, category }
   const stacked = useMediaQuery("(max-width: 640px)");
   const lists = SIDES.map((s) => topItems(summary, s.key));
@@ -67,6 +70,7 @@ export default function SummaryBoard({ summary, labels, onDetail }) {
         open={isOpen}
         onToggle={toggle}
         onDetail={onDetail}
+        ov={ov}
         labels={labels}
         last={last}
       />

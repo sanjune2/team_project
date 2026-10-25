@@ -1,23 +1,6 @@
-// 상세 분석의 항목별 진단 문단
-// 1순위: 결과 파일의 overview.details (LLM 정리본, 있을 때만)
-// 2순위: 집계 숫자 + 리뷰별 요약 + 조건으로 만든 규칙 기반 문단 (없는 내용 생성 X)
+// 상세 분석의 항목별 진단 (규칙 기반 대체 문장)
+// overview(LLM 정리본)의 groups[].detail이 없을 때만 씀. 집계 숫자 + 리뷰별 요약으로만 만듦 (없는 내용 생성 X)
 import { josa, splitNotes } from "./summary.js";
-
-// LLM 정리본: overview.details = [{ category, points: ["의미 단위 문장", ...] } 또는 { category, text }]
-// 화면에는 의미 단위 3~4줄 목록으로 보여 줌
-export function llmDetail(result, category) {
-  const list = result?.overview?.details;
-  if (!Array.isArray(list)) return null;
-  const hit = list.find((d) => d?.category === category);
-  if (Array.isArray(hit?.points)) {
-    const points = hit.points.filter((t) => typeof t === "string" && t.trim()).map((t) => t.trim());
-    return points.length ? points.slice(0, 4) : null;
-  }
-  if (typeof hit?.text === "string" && hit.text.trim()) {
-    return hit.text.split(/\n+/).map((t) => t.trim()).filter(Boolean).slice(0, 4);
-  }
-  return null;
-}
 
 // "~다는 의견" → "~다는 점" (문장 안에 넣기 위해)
 function toPoint(summary) {

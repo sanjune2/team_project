@@ -1,6 +1,7 @@
 import { useEffect, useRef, useState } from "react";
 import { SENTIMENT_LABEL } from "../constants.js";
-import { llmDetail, ruleDetail } from "../utils/detailText.js";
+import { ruleDetail } from "../utils/detailText.js";
+import { ovDetail, readOverview } from "../utils/overview.js";
 
 const SORTS = [
   { key: "mentioned", label: "리뷰순" },
@@ -65,7 +66,7 @@ function Block({ row, entries, labels, result, showSemester }) {
   const [open, setOpen] = useState(false);
   const r = row.ratios ?? {};
   const name = labels[row.category] ?? row.category;
-  const units = llmDetail(result, row.category) ?? ruleDetail(row, entries, name);
+  const units = ovDetail(readOverview(result), row.category) ?? ruleDetail(row, entries, name);
 
   return (
     <section className="da-block">

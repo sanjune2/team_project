@@ -4,6 +4,7 @@ import "../styles/detail.css";
 import DetailAnalysis from "./DetailAnalysis.jsx";
 import Overview from "./Overview.jsx";
 import SummaryBoard from "./SummaryBoard.jsx";
+import { readOverview } from "../utils/overview.js";
 
 const TABS = [
   { key: "summary", label: "요약" },
@@ -17,6 +18,7 @@ export default function ResultView({ result, labels, mode = "instructor", title,
   const [tab, setTab] = useState("summary");
   const [filter, setFilter] = useState([]); // 상세 분석에서 고른 항목 ([] = 전체)
   const failed = result.meta.failed;
+  const ov = readOverview(result);
 
   // 요약의 "상세 분석 보기" → 상세 분석 탭에서 그 항목만
   const openDetail = (category) => {
@@ -55,7 +57,7 @@ export default function ResultView({ result, labels, mode = "instructor", title,
 
       {tab === "summary" ? (
         <>
-          <SummaryBoard summary={result.summary_by_category} labels={labels} onDetail={openDetail} />
+          <SummaryBoard summary={result.summary_by_category} labels={labels} onDetail={openDetail} ov={ov} />
           <Overview result={result} mode={mode} labels={labels} />
         </>
       ) : (
