@@ -1,11 +1,8 @@
 # Backend
 
-담당: 개발 B. 강의평 수신, AI 호출, 결과 검증과 집계를 구현합니다.
+FastAPI 서버입니다. 강의평 묶음을 받아 분석하고, 근거 문장을 검사하고, 항목별로 집계합니다.
 
-- POST /api/v1/analyze: [JSON 계약](../docs/api-contract.md)을 따릅니다.
-- 빈 입력, 길이 초과, AI 지연과 응답 형식 오류를 처리합니다.
-- API 키는 서버 환경변수로만 읽습니다.
-- mock 결과는 실제 추론 결과와 구분합니다.
-- 언급된 항목만 감성 집계에 포함합니다.
-
-현재는 협업용 폴더입니다. 실행 서버는 아직 없습니다.
+- 실행: 저장소 루트에서 `uvicorn backend.main:app --port 8000` (자세한 방법은 [루트 README](../README.md))
+- API 명세: [docs/api_spec.md](../docs/api_spec.md)
+- `USE_MOCK=true`이면 LLM을 부르지 않고 예시 응답을 돌려줍니다.
+- API 키는 서버 환경변수(`.env`)로만 읽습니다.
