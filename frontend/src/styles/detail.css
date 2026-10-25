@@ -1,0 +1,63 @@
+/* 결과 화면 탭 + 상세 분석. 값은 tokens.css 변수만 사용 */
+
+.rv-tab, .da-link { all: unset; box-sizing: border-box; cursor: pointer; }
+.rv-tab:focus-visible, .da-link:focus-visible { outline: 0.5px solid var(--line-strong); outline-offset: 2px; }
+
+/* 요약 │ 상세 분석 탭 */
+.rv-tabs { display: flex; gap: var(--sp-5); border-bottom: var(--border); }
+.rv-tab { padding: var(--sp-3) 0 var(--sp-2); color: var(--text-sub); border-bottom: 1px solid transparent; margin-bottom: -0.5px; }
+.rv-tab:hover { color: var(--text); }
+.rv-tab[aria-selected="true"] { color: var(--text); font-weight: var(--fw-strong); border-bottom-color: var(--text); }
+.result .rv-head { border-bottom: 0; padding-bottom: var(--sp-3); }
+
+/* 정렬, 항목 필터 (드롭다운, 오른쪽 정렬) */
+.da-controls { display: flex; flex-wrap: wrap; align-items: center; justify-content: flex-end; gap: var(--sp-2) var(--sp-3); padding: var(--sp-4) 0; border-bottom: var(--border); font-size: var(--fs-small); }
+.da-select { all: unset; box-sizing: border-box; cursor: pointer; padding: var(--sp-1) var(--sp-6) var(--sp-1) var(--sp-3); color: var(--text); background-color: var(--bg); background-image: linear-gradient(45deg, transparent 50%, var(--text-sub) 50%), linear-gradient(135deg, var(--text-sub) 50%, transparent 50%); background-position: calc(100% - 15px) 55%, calc(100% - 10px) 55%; background-size: 5px 5px; background-repeat: no-repeat; border: var(--border); border-radius: var(--radius-control); font-size: var(--fs-small); line-height: var(--lh-body); }
+.da-select:focus-visible { outline: 0.5px solid var(--line-strong); outline-offset: 2px; }
+.da-menu { position: relative; }
+.da-pop { position: absolute; z-index: 10; top: calc(100% + var(--sp-1)); right: 0; min-width: 160px; padding: var(--sp-2) 0; background: var(--bg); border: var(--border); border-radius: var(--radius-control); }
+.da-check { display: flex; align-items: center; gap: var(--sp-2); padding: var(--sp-1) var(--sp-3); cursor: pointer; white-space: nowrap; }
+.da-check:hover { background: var(--bg-hover); }
+.da-check input { margin: 0; accent-color: var(--text); }
+.da-active { color: var(--text); font-weight: var(--fw-strong); }
+
+/* 항목 블록: 비율 → 진단 목록 → 근거 문장 */
+.da-block { padding: var(--sp-5) var(--sp-3); border-bottom: var(--border); }
+.da-head { display: flex; align-items: baseline; justify-content: space-between; gap: var(--sp-3); margin-bottom: var(--sp-2); }
+.da-count { color: var(--text-sub); font-size: var(--fs-small); }
+.da-text { margin: var(--sp-4) 0 0; padding-left: 18px; }
+.da-text li { margin: var(--sp-2) 0; overflow-wrap: anywhere; }
+
+/* 여러 줄 문장은 양쪽 맞춤 (마지막 줄은 왼쪽, result.css와 같은 방식) */
+.da-text li,
+.da-quote,
+.da-original {
+  text-align: justify;
+  word-break: normal;
+}
+
+/* 근거 문장 (펼치기) */
+.da-link { color: var(--text-sub); font-size: var(--fs-small); }
+.da-link:hover { color: var(--text); }
+.da-more { margin-top: var(--sp-4); }
+.da-evs { list-style: none; margin: var(--sp-3) 0 0; padding: 0; background: var(--bg-subtle); }
+.da-ev { padding: var(--sp-3); border-top: var(--border); }
+.da-ev:first-child { border-top: 0; }
+.da-ev-line { display: flex; gap: var(--sp-3); align-items: baseline; margin: 0 0 var(--sp-1); }
+.da-sent { flex: none; width: 44px; font-size: var(--fs-small); font-weight: var(--fw-strong); color: var(--neu); }
+.da-sent.positive { color: var(--pos); }
+.da-sent.negative { color: var(--neg); }
+.da-quote { min-width: 0; overflow-wrap: anywhere; }
+.da-ev-foot { display: flex; gap: var(--sp-4); margin-left: calc(44px + var(--sp-3)); color: var(--text-sub); font-size: var(--fs-small); }
+
+/* 원문: 줄바꿈 그대로, 긴 단어도 줄바꿈 */
+.da-original { margin: var(--sp-2) 0 0 calc(44px + var(--sp-3)); padding: var(--sp-3); background: var(--bg); border: var(--border); white-space: pre-wrap; overflow-wrap: anywhere; word-break: normal; }
+.da-hl { color: inherit; padding: 1px 0; }
+.da-hl.positive { background: var(--pos-bg); }
+.da-hl.negative { background: var(--neg-bg); }
+.da-hl.neutral { background: var(--bg-active); }
+
+@media (max-width: 640px) {
+  .da-ev-line { flex-direction: column; gap: 0; }
+  .da-ev-foot, .da-original { margin-left: 0; }
+}

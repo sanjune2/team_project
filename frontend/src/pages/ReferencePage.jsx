@@ -84,9 +84,6 @@ export default function ReferencePage({ labels, mode, onModeChange }) {
   } else if (selected) {
     body = (
       <>
-        <button type="button" className="pt-back" onClick={() => setSelected(null)}>
-          목록으로
-        </button>
         {resultError && (
           <p className="error" role="alert">
             분석 결과를 불러오지 못했어요.
@@ -96,6 +93,12 @@ export default function ReferencePage({ labels, mode, onModeChange }) {
         {result && (
           <ResultView result={result} labels={labels} mode={mode} title={selected.title} meta={selected.meta} />
         )}
+        {/* 결과를 다 본 뒤 누르도록 맨 아래 오른쪽에 둠 */}
+        <div className="pt-foot">
+          <button type="button" className="pt-back" onClick={() => setSelected(null)}>
+            목록으로
+          </button>
+        </div>
       </>
     );
   } else if (mode === "learner") {

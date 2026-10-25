@@ -8,7 +8,7 @@ const SIDES = [
 ];
 
 // 항목 한 칸: 접힌 상태는 대표 요약 한 줄, 펼치면 비율 + 그쪽 의견 최대 3개
-function Cell({ row, rank, side, open, onToggle, onEvidence, labels, last }) {
+function Cell({ row, rank, side, open, onToggle, onDetail, labels, last }) {
   if (!row) return <div className={`sb-cell empty${last ? " last" : ""}`} />;
   const notes = splitNotes(row[side.notes]).slice(0, 3);
   const r = row.ratios ?? {};
@@ -37,8 +37,8 @@ function Cell({ row, rank, side, open, onToggle, onEvidence, labels, last }) {
               <li key={t}>{t}</li>
             ))}
           </ul>
-          <button type="button" className="sb-more" onClick={() => onEvidence(row.category)}>
-            근거 문장 보기
+          <button type="button" className="sb-more" onClick={() => onDetail(row.category)}>
+            상세 분석 보기
           </button>
         </div>
       )}
@@ -47,7 +47,7 @@ function Cell({ row, rank, side, open, onToggle, onEvidence, labels, last }) {
 }
 
 // 만족 TOP 3 │ 불만족 TOP 3. 데스크톱은 같은 순위끼리 한 줄로 묶어 높이를 맞춤
-export default function SummaryBoard({ summary, labels, onEvidence }) {
+export default function SummaryBoard({ summary, labels, onDetail }) {
   const [open, setOpen] = useState(null); // { side, category }
   const stacked = useMediaQuery("(max-width: 640px)");
   const lists = SIDES.map((s) => topItems(summary, s.key));
@@ -66,7 +66,7 @@ export default function SummaryBoard({ summary, labels, onEvidence }) {
         side={side}
         open={isOpen}
         onToggle={toggle}
-        onEvidence={onEvidence}
+        onDetail={onDetail}
         labels={labels}
         last={last}
       />

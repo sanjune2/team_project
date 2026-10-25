@@ -44,9 +44,10 @@
 .pt-row-count { color: var(--text-sub); font-size: var(--fs-small); white-space: nowrap; }
 .pt-empty { margin: var(--sp-4) 0 0; color: var(--text-sub); }
 
-/* 결과 화면 위 목록으로 */
-.pt-back { display: inline-block; margin-bottom: var(--sp-4); color: var(--text-sub); font-size: var(--fs-small); }
-.pt-back:hover { color: var(--text); }
+/* 결과 화면 맨 아래 오른쪽 목록으로 */
+.pt-foot { display: flex; justify-content: flex-end; margin-top: var(--sp-6); }
+.pt-back { padding: var(--sp-2) var(--sp-3); color: var(--text); font-size: var(--fs-small); border: var(--border); border-radius: var(--radius-control); }
+.pt-back:hover { background: var(--bg-hover); }
 
 @media (max-width: 640px) {
   .pt-header-inner { flex-wrap: wrap; gap: var(--sp-2); }

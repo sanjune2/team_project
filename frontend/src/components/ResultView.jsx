@@ -1,17 +1,29 @@
 import { useState } from "react";
 import "../styles/result.css";
+import "../styles/detail.css";
+import DetailAnalysis from "./DetailAnalysis.jsx";
 import Overview from "./Overview.jsx";
-import ReviewCard from "./ReviewCard.jsx";
 import SummaryBoard from "./SummaryBoard.jsx";
+
+const TABS = [
+  { key: "summary", label: "요약" },
+  { key: "detail", label: "상세 분석" },
+];
 
 // 결과 화면: /api/analyze 응답 형식의 JSON만 받으면 그려짐 (reviews[*].text에 원문)
 // mode: "instructor" 교수자 / "learner" 학습자 (종합 의견 문구만 다름)
+// 탭: 요약 (TOP 3 + 종합 의견, 근거 문장 없음) │ 상세 분석 (모든 항목 + 근거 문장 펼치기)
 export default function ResultView({ result, labels, mode = "instructor", title, meta = [] }) {
-  const [evidence, setEvidence] = useState(null); // 근거 문장을 볼 항목 코드
+  const [tab, setTab] = useState("summary");
+  const [filter, setFilter] = useState([]); // 상세 분석에서 고른 항목 ([] = 전체)
   const failed = result.meta.failed;
-  const evidenceReviews = evidence
-    ? result.reviews.filter((r) => r.items.some((i) => i.category === evidence))
-    : [];
+
+  // 요약의 "상세 분석 보기" → 상세 분석 탭에서 그 항목만
+  const openDetail = (category) => {
+    setFilter([category]);
+    setTab("detail");
+    window.scrollTo(0, 0);
+  };
 
   return (
     <article className="result">
@@ -26,21 +38,34 @@ export default function ResultView({ result, labels, mode = "instructor", title,
         </p>
       </header>
 
-      <SummaryBoard summary={result.summary_by_category} labels={labels} onEvidence={setEvidence} />
-      <Overview result={result} mode={mode} labels={labels} />
+      <div className="rv-tabs" role="tablist">
+        {TABS.map((t) => (
+          <button
+            key={t.key}
+            type="button"
+            role="tab"
+            className="rv-tab"
+            aria-selected={tab === t.key}
+            onClick={() => setTab(t.key)}
+          >
+            {t.label}
+          </button>
+        ))}
+      </div>
 
-      {evidence && (
-        <section className="rv-evidence">
-          <div className="rv-evidence-head">
-            <h2>{labels[evidence] ?? evidence} 근거 문장</h2>
-            <button type="button" className="sb-more" onClick={() => setEvidence(null)}>
-              닫기
-            </button>
-          </div>
-          {evidenceReviews.map((review) => (
-            <ReviewCard key={review.review_id} review={review} text={review.text ?? ""} labels={labels} />
-          ))}
-        </section>
+      {tab === "summary" ? (
+        <>
+          <SummaryBoard summary={result.summary_by_category} labels={labels} onDetail={openDetail} />
+          <Overview result={result} mode={mode} labels={labels} />
+        </>
+      ) : (
+        <DetailAnalysis
+          result={result}
+          labels={labels}
+          filter={filter}
+          onFilter={setFilter}
+          showSemester={mode === "learner"}
+        />
       )}
     </article>
   );

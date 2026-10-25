@@ -12,7 +12,6 @@ function List({ block, cls }) {
             <li key={i}>
               {it.name && <strong>{it.name} </strong>}
               <span className={it.name ? "ov-sub" : undefined}>{it.text}</span>
-              {it.extra && <span className="ov-extra">{it.extra}</span>}
             </li>
           ))}
         </ul>
