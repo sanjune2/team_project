@@ -9,7 +9,7 @@
         {
           "category": "team_project",
           "sentiment": "negative",
-          "summary": "팀플에서 무임승차 팀원을 만나면 학기가 힘들어진다는 의견",
+          "summary": "팀플에서 무임승차 팀원을 만나면 학기가 망할 정도로 힘들다는 의견",
           "evidence": "팀플 무임승차 한 명 만나면 학기 망함..",
           "keywords": [
             "팀플",
@@ -43,7 +43,7 @@
           "category": "delivery",
           "sentiment": "positive",
           "summary": "실무 사례가 많아 이론에만 치우치지 않는다는 의견 / 사례가 재미있다는 의견",
-          "evidence": "실무 사례가 많아서 이론만 듣는 느낌은 아니었음",
+          "evidence": "실무 사례가 많아서 이론만 듣는 느낌은 아니었음.",
           "keywords": [
             "실무 사례",
             "사례"
@@ -56,12 +56,12 @@
         {
           "category": "team_project",
           "sentiment": "negative",
-          "summary": "팀원 구성과 역할 분담으로 발표 및 준비 부담이 컸다는 의견 / 팀플 비중이 커 부담스럽다는 의견",
+          "summary": "팀원 운이 좋지 않아 발표를 혼자 맡고 준비가 힘들었다는 의견 / 팀플 비중이 커 부담스럽다는 의견",
           "evidence": "팀원 복도 넘쳐서 발표를 혼자 맡았음^^ 조원운 덕분에 준비는 드럽게 힘들엇다..",
           "keywords": [
+            "팀원 운",
             "발표",
-            "준비 부담",
-            "팀플 비중"
+            "준비"
           ],
           "condition": null,
           "mentions_change": false,
@@ -81,7 +81,7 @@
         {
           "category": "delivery",
           "sentiment": "positive",
-          "summary": "실제 브랜드 사례를 많이 들어 수업 내용이 기억에 남는다는 의견",
+          "summary": "실제 브랜드 사례를 들어 수업 내용이 기억에 남는다는 의견",
           "evidence": "마원은 실제 브랜드 사례를 많이 들어줘서 수업 내용이 기억에 남아요.",
           "keywords": [
             "실제 브랜드 사례"
@@ -92,30 +92,30 @@
           "evidence_verified": true
         },
         {
-          "category": "workload",
+          "category": "team_project",
           "sentiment": "negative",
-          "summary": "팀플의 자료조사와 발표 준비가 시험 기간과 겹치면 부담이 커진다는 의견",
-          "evidence": "자료조사하고 발표자료 만들고 발표까지 하니 시험 기간이랑 겹치면 로드가 확 늘어요.",
+          "summary": "팀플의 자료 조사와 발표 준비에 일이 많고, 조원의 참여 부족으로 나머지가 부담을 떠안았다는 의견 / 조원의 참여가 부족해 나머지 팀원이 일을 메워야 했다는 의견",
+          "evidence": "팀플이 생각보다 일이 많았습니다. 자료조사하고 발표자료 만들고 발표까지 하니",
           "keywords": [
+            "팀플",
             "자료조사",
-            "발표자료",
-            "시험 기간"
+            "조원 참여"
           ],
-          "condition": "시험 기간과 겹칠 때",
+          "condition": null,
           "mentions_change": false,
           "evidence_match": "exact",
           "evidence_verified": true
         },
         {
-          "category": "team_project",
+          "category": "workload",
           "sentiment": "negative",
-          "summary": "팀원의 참여가 부족해 나머지 팀원이 일을 메워야 했다는 의견",
-          "evidence": "조원 한 명이 거의 참여 안 해서 결국 나머지가 메꿨고 좀 빡쳤음.",
+          "summary": "팀플이 시험 기간과 겹치면 학업 부담이 크게 늘어난다는 의견",
+          "evidence": "시험 기간이랑 겹치면 로드가 확 늘어요.",
           "keywords": [
-            "팀원 참여",
-            "역할 분담"
+            "시험 기간",
+            "로드"
           ],
-          "condition": null,
+          "condition": "팀플이 시험 기간과 겹칠 때",
           "mentions_change": false,
           "evidence_match": "exact",
           "evidence_verified": true
@@ -161,11 +161,10 @@
         },
         {
           "category": "professor",
-          "sentiment": "negative",
-          "summary": "교수자의 관점과 다른 의견을 냈을 때 피드백이 강하게 느껴질 수 있다는 의견",
-          "evidence": "내 의견을 냈을 때 그 방향과 다르면 피드백이 강하게 느껴질 수 있어요.",
+          "sentiment": "neutral",
+          "summary": "교수자의 관점이 뚜렷하다는 의견",
+          "evidence": "교수님이 중요하다고 생각하는 관점이 분명해서",
           "keywords": [
-            "피드백",
             "교수자 관점"
           ],
           "condition": null,
@@ -176,14 +175,14 @@
         {
           "category": "team_project",
           "sentiment": "negative",
-          "summary": "팀원이 잠수하면 나머지 팀원의 부담이 커진다는 의견 / 팀 프로젝트로 고생했다는 의견",
+          "summary": "팀원이 잠수하면 나머지 팀원의 부담이 커진다는 의견 / 팀 프로젝트 때문에 고생했다는 의견",
           "evidence": "한 명이 잠수 타면 나머지 부담이 큽니다.",
           "keywords": [
+            "팀원 잠수",
             "역할 분담",
-            "팀원 부담",
             "팀플"
           ],
-          "condition": "팀원 한 명이 잠수 타는 경우",
+          "condition": null,
           "mentions_change": false,
           "evidence_match": "exact",
           "evidence_verified": true
@@ -191,11 +190,12 @@
         {
           "category": "exam",
           "sentiment": "neutral",
-          "summary": "중간과 기말이 각각 성적의 25%를 차지한다는 의견",
+          "summary": "중간·기말 시험의 평가 비중이 각각 25%라는 의견",
           "evidence": "중간 25%, 기말 25%",
           "keywords": [
-            "중간",
-            "기말"
+            "중간고사",
+            "기말고사",
+            "평가 비중"
           ],
           "condition": null,
           "mentions_change": false,
@@ -205,10 +205,11 @@
         {
           "category": "team_project",
           "sentiment": "neutral",
-          "summary": "팀 프로젝트가 성적의 30%를 차지한다는 의견",
+          "summary": "팀 프로젝트의 평가 비중이 30%라는 의견",
           "evidence": "팀 프로젝트 30%",
           "keywords": [
-            "팀 프로젝트"
+            "팀 프로젝트",
+            "평가 비중"
           ],
           "condition": null,
           "mentions_change": false,
@@ -218,10 +219,11 @@
         {
           "category": "attendance",
           "sentiment": "neutral",
-          "summary": "참여도가 성적의 20%를 차지한다는 의견",
+          "summary": "참여도의 평가 비중이 20%라는 의견",
           "evidence": "참여도 20%",
           "keywords": [
-            "참여도"
+            "참여도",
+            "평가 비중"
           ],
           "condition": null,
           "mentions_change": false,
@@ -254,13 +256,12 @@
         {
           "category": "learning",
           "sentiment": "positive",
-          "summary": "사례와 개념을 연결해 실제 시장 상황을 이해하고 배울 점이 있다는 의견",
-          "evidence": "개념을 실제 시장 상황에 연결해줘서 수업 듣는 맛이 있습니다.",
+          "summary": "팀플이 없다는 조건에서는 배울 것이 많은 수업이라는 의견",
+          "evidence": "팀플만 아니면 명강이라고 할 수 있을 듯",
           "keywords": [
-            "실제 시장 상황",
-            "사례 분석"
+            "명강"
           ],
-          "condition": null,
+          "condition": "팀플이 없는 경우",
           "mentions_change": false,
           "evidence_match": "exact",
           "evidence_verified": true
@@ -272,7 +273,7 @@
           "evidence": "사례 설명은 진짜 흥미롭고 개념을 실제 시장 상황에 연결해줘서 수업 듣는 맛이 있습니다.",
           "keywords": [
             "사례 설명",
-            "개념 연결"
+            "시장 상황"
           ],
           "condition": null,
           "mentions_change": false,
@@ -282,7 +283,7 @@
         {
           "category": "team_project",
           "sentiment": "negative",
-          "summary": "자료조사와 발표가 학기 내내 이어져 팀플 부담이 크다는 의견",
+          "summary": "자료조사와 중간·최종 발표가 학기 내내 이어져 팀플 부담이 크다는 의견",
           "evidence": "문제는 팀플이 학기 내내 따라다닌다는 것.",
           "keywords": [
             "팀플",
@@ -297,11 +298,25 @@
         {
           "category": "workload",
           "sentiment": "negative",
-          "summary": "팀플 일정이 다른 과목 과제와 겹칠 수 있어 일정 관리가 필요하다는 의견",
-          "evidence": "자료조사, 중간 발표, 최종 발표까지 있어서 다른 과목 과제와 겹치면 일정 관리가 필수예요.",
+          "summary": "팀플이 다른 과목 과제와 겹치면 일정 관리가 필요하다는 의견",
+          "evidence": "다른 과목 과제와 겹치면 일정 관리가 필수예요.",
           "keywords": [
-            "팀플 일정",
+            "과제 일정",
             "일정 관리"
+          ],
+          "condition": "팀플이 다른 과목 과제와 겹치는 경우",
+          "mentions_change": false,
+          "evidence_match": "exact",
+          "evidence_verified": true
+        },
+        {
+          "category": "team_project",
+          "sentiment": "neutral",
+          "summary": "조원끼리 초반에 역할과 마감일을 문서로 정해두라는 의견",
+          "evidence": "조원끼리 초반에 역할이랑 마감일을 문서로 정해두는 걸 추천합니다.",
+          "keywords": [
+            "역할 분담",
+            "마감일"
           ],
           "condition": null,
           "mentions_change": false,
@@ -325,11 +340,11 @@
         {
           "category": "exam",
           "sentiment": "neutral",
-          "summary": "시험에서 수업 사례와 개념을 연결해야 하며 단순 암기만으로는 애매할 수 있다는 의견",
+          "summary": "시험에서 수업 사례와 개념을 연결해 평가한다는 의견",
           "evidence": "시험은 수업에서 나온 사례와 개념을 연결하는 식이라 단순 암기만 하면 애매할 수 있어요.",
           "keywords": [
-            "사례와 개념 연결",
-            "암기"
+            "사례",
+            "개념 적용"
           ],
           "condition": null,
           "mentions_change": false,
@@ -339,10 +354,11 @@
         {
           "category": "general_impression",
           "sentiment": "positive",
-          "summary": "팀플 부담을 감당하고 실제 사례 분석을 좋아하는 학생에게 얻어가는 것이 있는 수업이라는 의견",
+          "summary": "팀플 부담을 감당할 수 있고 실제 사례 분석을 좋아하는 사람에게 추천한다는 의견",
           "evidence": "팀플 부담을 감당할 수 있고 실제 사례 분석을 좋아하는 사람에게는 얻어가는 게 있는 수업입니다.",
           "keywords": [
-            "실제 사례 분석"
+            "팀플 부담",
+            "사례 분석"
           ],
           "condition": "팀플 부담을 감당할 수 있고 실제 사례 분석을 좋아하는 사람",
           "mentions_change": false,
@@ -362,11 +378,10 @@
         {
           "category": "delivery",
           "sentiment": "positive",
-          "summary": "사례 중심 강의라 집중이 잘 된다는 의견",
+          "summary": "사례 중심 수업이라 집중이 잘 된다는 의견",
           "evidence": "사례 중심이라 집중 잘 됨",
           "keywords": [
-            "사례 중심",
-            "집중"
+            "사례 중심"
           ],
           "condition": null,
           "mentions_change": false,
@@ -390,7 +405,7 @@
         {
           "category": "team_project",
           "sentiment": "negative",
-          "summary": "팀플 경험이 조원에 따라 힘들 수 있다는 의견",
+          "summary": "팀 프로젝트 경험이 조원에 따라 힘들 수 있다는 의견",
           "evidence": "팀플: 조원에 따라 지옥",
           "keywords": [
             "조원"
@@ -416,12 +431,12 @@
         {
           "category": "workload",
           "sentiment": "negative",
-          "summary": "팀 프로젝트와 시험, 발표 일정이 몰리는 주에는 바쁘다는 의견",
-          "evidence": "팀 프로젝트 1회에 중간·기말, 발표 2번이라 일정이 몰리는 주는 꽤 바빴음.",
+          "summary": "팀 프로젝트와 시험 일정이 몰리는 주에는 바쁘다는 의견",
+          "evidence": "팀 프로젝트 1회에 중간·기말, 발표 2번이라 일정이 몰리는 주는 꽤 바빴음",
           "keywords": [
+            "일정 집중",
             "팀 프로젝트",
-            "시험",
-            "발표"
+            "시험"
           ],
           "condition": "일정이 몰리는 주",
           "mentions_change": false,
@@ -432,7 +447,7 @@
           "category": "team_project",
           "sentiment": "neutral",
           "summary": "팀 프로젝트는 초반에 역할 분담을 확실히 하는 것이 좋다는 의견",
-          "evidence": "역할 분담을 초반에 확실히 하는 게 좋음.",
+          "evidence": "역할 분담을 초반에 확실히 하는 게 좋음",
           "keywords": [
             "역할 분담"
           ],
@@ -452,14 +467,13 @@
       "overall_sentiment": "mixed",
       "items": [
         {
-          "category": "learning",
+          "category": "delivery",
           "sentiment": "positive",
-          "summary": "실무 사례를 개념으로 해석하며 마케팅에 흥미를 느끼고 논리 구성 연습을 했다는 의견 / 소비자 선택과 브랜드 이미지를 수업 개념으로 해석해 기억에 오래 남았다는 의견 / 실무 사례를 읽고 논리를 구성하는 연습이 되었다는 의견",
-          "evidence": "소비자가 왜 특정 제품을 고르는지, 브랜드가 어떤 이미지를 만들려는지 등을 수업 개념으로 해석하는 방식이라 기억에 오래 남았습니다.",
+          "summary": "실제 기업 사례를 수업 개념으로 해석하는 방식이 재미있고 기억에 남는다는 의견",
+          "evidence": "실제 기업 상황을 가정한 사례를 많이 접하면서 생각보다 재미를 느꼈습니다.",
           "keywords": [
-            "실무 사례",
-            "마케팅 개념",
-            "소비자 선택"
+            "기업 사례",
+            "수업 개념"
           ],
           "condition": null,
           "mentions_change": false,
@@ -483,12 +497,12 @@
         {
           "category": "team_project",
           "sentiment": "negative",
-          "summary": "조사부터 발표까지 직접 수행하는 팀 프로젝트의 부담이 크다는 의견 / 회의에 거의 참여하지 않는 조원 때문에 일정 조정이 어려웠다는 의견 / 팀 프로젝트 평가 비중이 커 조원과 초반부터 소통하고 역할을 기록할 필요가 있다는 의견",
-          "evidence": "평가가 팀 프로젝트에 크게 걸려 있으니 조원과 초반부터 소통하고, 회의 기록과 역할을 남겨두면 나중에 덜 억울할 듯합니다.",
+          "summary": "팀플에서 조원의 회의 불참으로 일정 조정이 어렵고 준비 부담이 크다는 의견 / 발표 전 자료를 정리하느라 밤을 새울 뻔했다는 의견",
+          "evidence": "팀플은 조사부터 발표까지 직접 해야 해서 부담이 상당했고, 특히 조원 한 명이 회의에 거의 나오지 않아 일정 조정이 어려웠습니다.",
           "keywords": [
-            "팀 프로젝트",
-            "발표",
-            "조원 참여"
+            "팀플 부담",
+            "조원 불참",
+            "일정 조정"
           ],
           "condition": null,
           "mentions_change": false,
@@ -496,26 +510,13 @@
           "evidence_verified": true
         },
         {
-          "category": "workload",
-          "sentiment": "negative",
-          "summary": "발표 전 자료를 정리하느라 밤을 새울 정도로 부담이 있었다는 의견",
-          "evidence": "발표 전에는 자료를 다시 정리하느라 밤을 새울 뻔했어요.",
+          "category": "learning",
+          "sentiment": "positive",
+          "summary": "실무 사례를 읽고 논리를 구성하는 연습이 되었다는 의견",
+          "evidence": "그래도 결과적으로 실무 사례를 읽고 논리를 구성하는 연습은 됐습니다.",
           "keywords": [
-            "자료 정리",
-            "발표 준비"
-          ],
-          "condition": null,
-          "mentions_change": false,
-          "evidence_match": "exact",
-          "evidence_verified": true
-        },
-        {
-          "category": "exam",
-          "sentiment": "neutral",
-          "summary": "시험에서 개념을 사례에 적용하는 문제가 출제된다는 의견",
-          "evidence": "시험도 개념을 사례에 적용하는 문제가 있어서",
-          "keywords": [
-            "사례 적용"
+            "실무 사례",
+            "논리 구성"
           ],
           "condition": null,
           "mentions_change": false,
@@ -525,11 +526,11 @@
         {
           "category": "exam",
           "sentiment": "negative",
-          "summary": "강의자료 암기만으로는 부족하고 사례별 전략의 이유를 설명할 수 있어야 한다는 의견",
-          "evidence": "강의자료를 외우는 것만으로는 부족했고, 사례별로 왜 그런 전략을 썼는지 자기 말로 설명할 수 있어야 했습니다.",
+          "summary": "시험에서 개념을 사례에 적용해야 해 강의자료 암기만으로는 부족하다는 의견",
+          "evidence": "시험도 개념을 사례에 적용하는 문제가 있어서 강의자료를 외우는 것만으로는 부족했고, 사례별로 왜 그런 전략을 썼는지 자기 말로 설명할 수 있어야 했습니다.",
           "keywords": [
-            "강의자료 암기",
-            "사례 분석"
+            "사례 적용",
+            "시험 준비"
           ],
           "condition": null,
           "mentions_change": false,
@@ -539,12 +540,12 @@
         {
           "category": "general_impression",
           "sentiment": "negative",
-          "summary": "팀 프로젝트를 싫어하는 학생에게는 추천하기 어렵다는 의견",
+          "summary": "팀플을 싫어하는 학생에게는 추천하기 어렵다는 의견",
           "evidence": "팀플을 싫어하면 추천하기 어렵지만",
           "keywords": [
-            "팀 프로젝트"
+            "팀플"
           ],
-          "condition": "팀 프로젝트를 싫어하는 경우",
+          "condition": "팀플을 싫어하는 경우",
           "mentions_change": false,
           "evidence_match": "exact",
           "evidence_verified": true
@@ -571,18 +572,18 @@
       "review_id": "c04-2026-1-r01",
       "semester": "2026-1",
       "status": "ok",
-      "overall_sentiment": "negative",
+      "overall_sentiment": "neutral",
       "items": [
         {
           "category": "team_project",
-          "sentiment": "negative",
-          "summary": "팀플에서 조원 운이 필요하다는 의견",
+          "sentiment": "neutral",
+          "summary": "팀 프로젝트에서 조원 운이 필요하다는 의견",
           "evidence": "그래도 조원운은 필요함",
           "keywords": [
             "조원 운"
           ],
           "condition": null,
-          "mentions_change": false,
+          "mentions_change": true,
           "evidence_match": "exact",
           "evidence_verified": true
         }
@@ -608,7 +609,7 @@
         {
           "category": "team_project",
           "sentiment": "positive",
-          "summary": "팀 인원이 줄어 예전보다 나아졌다는 의견",
+          "summary": "팀 인원이 줄어 이전보다 나아졌다는 의견",
           "evidence": "이번 학기 팀 인원이 줄어서 예전보단 낫다고 들었는데",
           "keywords": [
             "팀 인원"
@@ -619,12 +620,12 @@
           "evidence_verified": true
         },
         {
-          "category": "workload",
+          "category": "team_project",
           "sentiment": "negative",
-          "summary": "해야 할 일이 여전히 많다는 의견",
+          "summary": "팀 프로젝트에서 해야 할 일이 여전히 많다는 의견",
           "evidence": "일은 여전히 많아요",
           "keywords": [
-            "업무량"
+            "팀 프로젝트 업무량"
           ],
           "condition": null,
           "mentions_change": false,
@@ -657,13 +658,13 @@
         {
           "category": "team_project",
           "sentiment": "positive",
-          "summary": "팀 인원이 줄어 소통이 조금 편해졌다는 의견",
+          "summary": "팀 인원이 줄어 소통이 편해졌다는 의견",
           "evidence": "2026-1부터 팀 인원이 줄어서 소통은 조금 편해졌어요.",
           "keywords": [
             "팀 인원",
             "소통"
           ],
-          "condition": "2026-1부터",
+          "condition": null,
           "mentions_change": true,
           "evidence_match": "exact",
           "evidence_verified": true
@@ -671,11 +672,10 @@
         {
           "category": "team_project",
           "sentiment": "negative",
-          "summary": "팀원이 참여하지 않으면 기여 차이가 크게 드러난다는 의견",
+          "summary": "팀원 한 명이 참여하지 않으면 그 영향이 크게 드러난다는 의견",
           "evidence": "한 명이 안 하면 그만큼 티가 크게 납니다.",
           "keywords": [
-            "팀원 참여",
-            "기여도"
+            "팀원 참여"
           ],
           "condition": null,
           "mentions_change": false,
@@ -683,7 +683,7 @@
           "evidence_verified": true
         },
         {
-          "category": "learning",
+          "category": "delivery",
           "sentiment": "positive",
           "summary": "다양한 사례를 통해 마케팅 개념의 현실 적용을 이해하기 좋다는 의견",
           "evidence": "사례는 다양해서 마케팅 개념이 현실에서 어떻게 쓰이는지 이해하기 좋고요.",
@@ -697,13 +697,13 @@
           "evidence_verified": true
         },
         {
-          "category": "exam",
-          "sentiment": "negative",
-          "summary": "발표에서 교수자의 관점에 대응하려면 근거를 준비해야 한다는 의견",
+          "category": "professor",
+          "sentiment": "neutral",
+          "summary": "교수자의 관점이 뚜렷해 발표 근거를 준비해야 한다는 의견",
           "evidence": "교수님 관점이 강한 편이라 발표할 때 근거를 준비해야 합니다.",
           "keywords": [
-            "발표",
-            "근거"
+            "교수자 관점",
+            "발표 근거"
           ],
           "condition": null,
           "mentions_change": false,
@@ -713,14 +713,28 @@
         {
           "category": "workload",
           "sentiment": "negative",
-          "summary": "발표와 팀 프로젝트, 중간·기말 일정이 겹칠 때 부담이 몰린다는 의견",
+          "summary": "발표와 팀 프로젝트, 중간·기말 일정이 겹쳐 부담이 몰릴 때가 있다는 의견",
           "evidence": "발표 2번, 팀 프로젝트 1개, 중간기말이라 로드가 한꺼번에 몰릴 때가 있음.",
           "keywords": [
             "발표",
             "팀 프로젝트",
-            "시험"
+            "시험 일정"
           ],
-          "condition": "일정이 한꺼번에 몰릴 때",
+          "condition": null,
+          "mentions_change": false,
+          "evidence_match": "exact",
+          "evidence_verified": true
+        },
+        {
+          "category": "exam",
+          "sentiment": "neutral",
+          "summary": "중간고사와 기말고사가 있다는 의견",
+          "evidence": "중간기말",
+          "keywords": [
+            "중간고사",
+            "기말고사"
+          ],
+          "condition": null,
           "mentions_change": false,
           "evidence_match": "exact",
           "evidence_verified": true
@@ -738,7 +752,7 @@
         {
           "category": "delivery",
           "sentiment": "positive",
-          "summary": "실제 사례를 들어 설명해 수업 개념이 기억에 잘 남는다는 의견",
+          "summary": "실제 사례를 활용한 설명이 기억에 잘 남는다는 의견",
           "evidence": "교수님이 실제 사례를 들어 설명해 주는 건 좋았어요.",
           "keywords": [
             "실제 사례",
@@ -756,7 +770,7 @@
           "evidence": "뉴스나 광고에서 보던 전략을 수업 개념으로 다시 보게 되니까 기억에 잘 남습니다.",
           "keywords": [
             "수업 개념",
-            "기억"
+            "전략"
           ],
           "condition": null,
           "mentions_change": false,
@@ -766,7 +780,7 @@
         {
           "category": "professor",
           "sentiment": "negative",
-          "summary": "피드백이 단호해 의견이 다를 때 당황할 수 있다는 의견",
+          "summary": "의견이 다를 때 단호한 피드백으로 당황할 수 있다는 의견",
           "evidence": "피드백이 꽤 단호해서 의견이 다르면 당황할 수 있음.",
           "keywords": [
             "피드백"
@@ -777,12 +791,11 @@
           "evidence_verified": true
         },
         {
-          "category": "workload",
-          "sentiment": "negative",
-          "summary": "프로젝트 양이 크게 줄지 않았고 자료조사와 발표 준비를 각자 책임져야 한다는 의견",
-          "evidence": "팀 인원은 줄었지만 프로젝트 양 자체가 확 줄어든 건 아니고, 자료조사와 발표 준비를 각자 책임지고 해야 합니다.",
+          "category": "team_project",
+          "sentiment": "neutral",
+          "summary": "팀 프로젝트에서 자료조사와 발표 준비를 각자 책임져야 한다는 의견",
+          "evidence": "자료조사와 발표 준비를 각자 책임지고 해야 합니다.",
           "keywords": [
-            "프로젝트 양",
             "자료조사",
             "발표 준비"
           ],
@@ -794,28 +807,43 @@
         {
           "category": "team_project",
           "sentiment": "negative",
-          "summary": "팀플 참여도가 낮은 조원이 있으면 초반에 바로 이야기하는 것이 낫다는 의견",
+          "summary": "팀 프로젝트 참여도가 낮은 조원이 있으면 초반에 대응해야 한다는 의견",
           "evidence": "팀플 참여도가 낮은 조원이 있으면 초반에 바로 이야기하는 게 낫습니다.",
           "keywords": [
             "팀플 참여도",
             "조원"
           ],
-          "condition": "참여도가 낮은 조원이 있을 때",
+          "condition": "팀 프로젝트 참여도가 낮은 조원이 있을 때",
           "mentions_change": false,
           "evidence_match": "exact",
           "evidence_verified": true
         },
         {
           "category": "exam",
-          "sentiment": "negative",
-          "summary": "시험에서 개념을 사례에 적용하는 유형이 많아 암기만으로는 어려울 수 있다는 의견",
+          "sentiment": "neutral",
+          "summary": "시험에 개념을 사례에 적용하는 유형이 많다는 의견",
           "evidence": "시험은 개념을 사례에 적용하는 유형이 많아서 암기만 하면 힘들어요.",
           "keywords": [
-            "사례 적용",
-            "암기"
+            "개념 적용",
+            "사례"
           ],
           "condition": null,
           "mentions_change": false,
+          "evidence_match": "exact",
+          "evidence_verified": true
+        },
+        {
+          "category": "workload",
+          "sentiment": "negative",
+          "summary": "프로젝트 양이 크게 줄지 않아 자료조사와 발표 준비를 각자 해야 한다는 의견",
+          "evidence": "팀 인원은 줄었지만 프로젝트 양 자체가 확 줄어든 건 아니고, 자료조사와 발표 준비를 각자 책임지고 해야 합니다.",
+          "keywords": [
+            "프로젝트 양",
+            "자료조사",
+            "발표 준비"
+          ],
+          "condition": null,
+          "mentions_change": true,
           "evidence_match": "exact",
           "evidence_verified": true
         }
@@ -832,7 +860,7 @@
         {
           "category": "team_project",
           "sentiment": "positive",
-          "summary": "조원 전원이 일을 한다는 조건에서 팀플이 쾌적하다는 의견 / 초반에 회의 일정을 정하고 자료 출처를 공유하면 결과물의 질이 좋아진다는 의견",
+          "summary": "조원 전원이 참여한다면 팀플이 쾌적하다는 의견 / 초반에 회의 일정을 정하고 자료 출처를 공유하면 결과물의 질이 좋아진다는 의견",
           "evidence": "팀원끼리 초반에 회의 일정을 정하고 자료 출처를 공유하면 결과물 퀄리티는 좋아지는 편입니다.",
           "keywords": [
             "팀플",
@@ -854,19 +882,32 @@
             "무임승차"
           ],
           "condition": null,
-          "mentions_change": false,
+          "mentions_change": true,
           "evidence_match": "exact",
           "evidence_verified": true
         },
         {
           "category": "learning",
           "sentiment": "positive",
-          "summary": "실무 사례를 통해 STP와 포지셔닝을 적용하는 연습을 할 수 있다는 의견",
+          "summary": "실무 사례를 통해 배운 개념을 적용하는 연습을 할 수 있다는 의견",
           "evidence": "실무 사례는 확실히 장점이고, 수업에서 배운 STP나 포지셔닝을 사례에 적용하는 연습을 할 수 있어요.",
           "keywords": [
             "실무 사례",
             "STP",
             "포지셔닝"
+          ],
+          "condition": null,
+          "mentions_change": false,
+          "evidence_match": "exact",
+          "evidence_verified": true
+        },
+        {
+          "category": "professor",
+          "sentiment": "neutral",
+          "summary": "교수자의 해석 기준이 뚜렷하다는 의견",
+          "evidence": "교수님은 본인만의 해석 기준이 뚜렷해서",
+          "keywords": [
+            "해석 기준"
           ],
           "condition": null,
           "mentions_change": false,
@@ -891,7 +932,7 @@
         {
           "category": "workload",
           "sentiment": "negative",
-          "summary": "마감 직전에는 업무 부담이 매우 크다는 의견",
+          "summary": "마감 직전에는 일정이 매우 빡빡하다는 의견",
           "evidence": "마감 직전에는 개빡셈.",
           "keywords": [
             "마감"
@@ -909,7 +950,7 @@
       "review_id": "c04-2026-1-r07",
       "semester": "2026-1",
       "status": "ok",
-      "overall_sentiment": "mixed",
+      "overall_sentiment": "positive",
       "items": [
         {
           "category": "exam",
@@ -917,35 +958,7 @@
           "summary": "시험에 개념을 상황에 적용하는 문제가 나온다는 의견",
           "evidence": "시험은 개념을 상황에 적용하는 문제가 나옴",
           "keywords": [
-            "시험",
             "개념 적용"
-          ],
-          "condition": null,
-          "mentions_change": false,
-          "evidence_match": "exact",
-          "evidence_verified": true
-        },
-        {
-          "category": "team_project",
-          "sentiment": "positive",
-          "summary": "팀 프로젝트 인원이 적은 점은 장점이라는 의견",
-          "evidence": "팀 인원 감소는 장점",
-          "keywords": [
-            "팀 인원"
-          ],
-          "condition": null,
-          "mentions_change": false,
-          "evidence_match": "exact",
-          "evidence_verified": true
-        },
-        {
-          "category": "team_project",
-          "sentiment": "negative",
-          "summary": "팀 인원이 적어 역할이 커지고 책임감이 필요하다는 의견",
-          "evidence": "역할이 커진 만큼 책임감 필요함",
-          "keywords": [
-            "역할",
-            "책임감"
           ],
           "condition": null,
           "mentions_change": false,
@@ -955,11 +968,24 @@
         {
           "category": "delivery",
           "sentiment": "positive",
-          "summary": "사례를 많이 다뤄 수업이 지루하지 않다는 의견",
+          "summary": "사례를 많이 다뤄 수업 시간이 지루하지 않다는 의견",
           "evidence": "사례를 많이 다뤄서 수업 시간은 지루하지 않은 편",
           "keywords": [
-            "사례 토론",
-            "수업 흥미"
+            "사례 토론"
+          ],
+          "condition": null,
+          "mentions_change": false,
+          "evidence_match": "exact",
+          "evidence_verified": true
+        },
+        {
+          "category": "team_project",
+          "sentiment": "neutral",
+          "summary": "팀 프로젝트에서 역할이 커진 만큼 책임감이 필요하다는 의견",
+          "evidence": "역할이 커진 만큼 책임감 필요함",
+          "keywords": [
+            "역할 분담",
+            "책임감"
           ],
           "condition": null,
           "mentions_change": false,
@@ -977,24 +1003,23 @@
       "overall_sentiment": "mixed",
       "items": [
         {
-          "category": "learning",
+          "category": "delivery",
           "sentiment": "positive",
-          "summary": "실무 사례를 개념과 연결해 분석하며 광고를 보는 시선이 달라졌다는 의견 / 실제 사례 분석과 발표 경험을 쌓고 싶은 사람에게 배울 점이 있다는 의견",
+          "summary": "실무 사례를 개념과 연결해 설명해 광고를 보는 시선이 달라졌다는 의견",
           "evidence": "제품이나 브랜드가 어떤 고객층을 노리는지, 경쟁 상황에서 어떤 메시지를 선택하는지 등을 개념과 연결해 설명해 주셔서 수업 이후에 광고를 보는 시선도 조금 달라졌습니다.",
           "keywords": [
             "실무 사례",
-            "광고 분석",
-            "사례 분석"
+            "개념 연결"
           ],
-          "condition": "실제 사례 분석과 발표 경험을 쌓고 싶은 사람",
+          "condition": null,
           "mentions_change": false,
           "evidence_match": "exact",
           "evidence_verified": true
         },
         {
           "category": "professor",
-          "sentiment": "negative",
-          "summary": "교수자가 중요하게 여기는 분석 관점이 뚜렷하고 피드백이 단호하다는 의견",
+          "sentiment": "neutral",
+          "summary": "교수자의 분석 관점이 분명하고 피드백이 단호하다는 의견",
           "evidence": "교수님이 중요하게 여기는 분석 관점이 분명하고 피드백도 단호한 편이라",
           "keywords": [
             "분석 관점",
@@ -1007,57 +1032,44 @@
         },
         {
           "category": "workload",
-          "sentiment": "positive",
-          "summary": "팀 인원이 줄어 회의 일정을 맞추기 편해졌다는 의견",
-          "evidence": "2026-1학기에는 팀 인원이 줄어서 회의 일정을 맞추는 건 전보다 편해졌지만",
+          "sentiment": "neutral",
+          "summary": "토론이나 발표에서 생각을 말하려면 근거를 충분히 준비하는 것이 좋다는 의견 / 평가 일정이 몰리는 주를 미리 확인하는 것이 좋다는 의견",
+          "evidence": "토론이나 발표에서 본인의 생각을 말하려면 근거를 충분히 준비하는 게 좋습니다.",
           "keywords": [
-            "팀 인원",
-            "회의 일정"
+            "근거 준비",
+            "평가 일정"
           ],
-          "condition": "2026-1학기",
-          "mentions_change": true,
-          "evidence_match": "exact",
-          "evidence_verified": true
-        },
-        {
-          "category": "workload",
-          "sentiment": "negative",
-          "summary": "팀 인원이 줄어도 개인별 담당 분량이 크게 느껴질 수 있다는 의견 / 평가 일정이 몰리는 주를 미리 확인해야 한다는 의견 / 팀 프로젝트를 싫어하는 사람에게는 부담스러운 수업이라는 의견 / 팀 인원 감소만으로 팀 프로젝트가 편해졌다고 생각하면 안 된다는 의견",
-          "evidence": "각자 맡는 분량은 오히려 크게 느껴질 수 있습니다.",
-          "keywords": [
-            "담당 분량",
-            "평가 일정",
-            "팀 프로젝트"
-          ],
-          "condition": "팀 인원이 줄어든 경우 / 팀 프로젝트를 싫어하는 사람",
-          "mentions_change": true,
-          "evidence_match": "exact",
-          "evidence_verified": true
-        },
-        {
-          "category": "team_project",
-          "sentiment": "positive",
-          "summary": "초반에 역할과 중간 점검 일정을 정하면 팀 프로젝트를 무난하게 진행할 수 있다는 의견",
-          "evidence": "저희 팀은 초반에 역할을 나누고 중간 점검 날짜까지 정해서 그나마 무난하게 진행했는데",
-          "keywords": [
-            "역할 분담",
-            "중간 점검"
-          ],
-          "condition": "초반에 역할과 중간 점검 날짜를 정한 경우",
+          "condition": null,
           "mentions_change": false,
           "evidence_match": "exact",
           "evidence_verified": true
         },
         {
           "category": "team_project",
+          "sentiment": "positive",
+          "summary": "팀 인원이 줄어 회의 일정을 맞추기 편해졌다는 의견 / 초반에 역할과 중간 점검 날짜를 정해 팀 프로젝트를 무난하게 진행했다는 의견",
+          "evidence": "저희 팀은 초반에 역할을 나누고 중간 점검 날짜까지 정해서 그나마 무난하게 진행했는데",
+          "keywords": [
+            "팀 인원",
+            "회의 일정",
+            "역할 분담"
+          ],
+          "condition": "초반에 역할을 나누고 중간 점검 날짜를 정한 경우",
+          "mentions_change": true,
+          "evidence_match": "exact",
+          "evidence_verified": true
+        },
+        {
+          "category": "team_project",
           "sentiment": "negative",
-          "summary": "참여가 적은 팀원이 있으면 발표 직전에 어려움을 겪을 수 있다는 의견",
+          "summary": "팀 인원이 줄어도 각자 맡는 분량이 크게 느껴질 수 있다는 의견 / 참여가 적은 조원 때문에 발표 직전에 고생할 수 있다는 의견 / 팀 인원 감소만으로 팀 프로젝트가 편해졌다고 생각하면 안 된다는 의견",
           "evidence": "다른 팀은 참여가 적은 조원 때문에 발표 직전에 고생했다는 얘기도 들었습니다.",
           "keywords": [
-            "팀원 참여",
-            "발표"
+            "역할 분량",
+            "조원 참여",
+            "발표 준비"
           ],
-          "condition": "참여가 적은 팀원이 있는 경우",
+          "condition": null,
           "mentions_change": false,
           "evidence_match": "exact",
           "evidence_verified": true
@@ -1065,7 +1077,7 @@
         {
           "category": "exam",
           "sentiment": "neutral",
-          "summary": "평가에 발표와 팀 프로젝트, 중간·기말 시험이 포함된다는 의견",
+          "summary": "평가에 발표 2회, 팀 프로젝트, 중간·기말이 포함된다는 의견",
           "evidence": "평가 구성은 발표 2회, 팀 프로젝트, 중간·기말이라",
           "keywords": [
             "발표",
@@ -1084,7 +1096,7 @@
           "evidence": "시험은 용어 정의만 외우는 식으로 준비하면 부족하고",
           "keywords": [
             "용어 정의",
-            "사례 적용"
+            "시험 준비"
           ],
           "condition": null,
           "mentions_change": false,
@@ -1094,12 +1106,40 @@
         {
           "category": "exam",
           "sentiment": "positive",
-          "summary": "수업 사례를 다른 상황에 적용해 설명하는 연습이 시험 준비에 도움이 된다는 의견",
+          "summary": "수업 사례를 다른 상황에 적용해 설명하는 연습이 시험에 도움이 된다는 의견",
           "evidence": "수업에서 본 사례를 다른 상황에 적용해 설명하는 연습이 도움이 됩니다.",
           "keywords": [
-            "사례 적용"
+            "사례 적용",
+            "시험 준비"
           ],
           "condition": null,
+          "mentions_change": false,
+          "evidence_match": "exact",
+          "evidence_verified": true
+        },
+        {
+          "category": "general_impression",
+          "sentiment": "negative",
+          "summary": "팀 프로젝트를 싫어하는 사람에게는 부담스러운 수업이라는 의견",
+          "evidence": "팀플이 싫은 사람에게는 부담스럽겠지만",
+          "keywords": [
+            "팀 프로젝트"
+          ],
+          "condition": "팀 프로젝트를 싫어하는 사람",
+          "mentions_change": false,
+          "evidence_match": "exact",
+          "evidence_verified": true
+        },
+        {
+          "category": "learning",
+          "sentiment": "positive",
+          "summary": "실제 사례 분석과 발표 경험을 쌓고 싶은 사람에게 배울 점이 있다는 의견",
+          "evidence": "실제 사례를 분석하고 발표 경험을 쌓고 싶은 사람이라면 배울 점이 있는 수업입니다.",
+          "keywords": [
+            "사례 분석",
+            "발표 경험"
+          ],
+          "condition": "실제 사례를 분석하고 발표 경험을 쌓고 싶은 사람",
           "mentions_change": false,
           "evidence_match": "exact",
           "evidence_verified": true
@@ -1112,24 +1152,22 @@
   "summary_by_category": [
     {
       "category": "workload",
-      "mentioned": 9,
+      "mentioned": 7,
       "counts": {
-        "positive": 1,
-        "negative": 9,
-        "neutral": 0
+        "positive": 0,
+        "negative": 6,
+        "neutral": 1
       },
       "ratios": {
-        "positive": 10.0,
-        "negative": 90.0,
-        "neutral": 0.0
+        "positive": 0.0,
+        "negative": 85.7,
+        "neutral": 14.3
       },
-      "top_pros": [
-        "팀 인원이 줄어 회의 일정을 맞추기 편해졌다는 의견"
-      ],
+      "top_pros": [],
       "top_cons": [
-        "팀플의 자료조사와 발표 준비가 시험 기간과 겹치면 부담이 커진다는 의견",
-        "팀 프로젝트와 시험, 발표 일정이 몰리는 주에는 바쁘다는 의견",
-        "발표와 팀 프로젝트, 중간·기말 일정이 겹칠 때 부담이 몰린다는 의견"
+        "팀 프로젝트와 시험 일정이 몰리는 주에는 바쁘다는 의견",
+        "발표와 팀 프로젝트, 중간·기말 일정이 겹쳐 부담이 몰릴 때가 있다는 의견",
+        "프로젝트 양이 크게 줄지 않아 자료조사와 발표 준비를 각자 해야 한다는 의견"
       ]
     },
     {
@@ -1137,52 +1175,51 @@
       "mentioned": 9,
       "counts": {
         "positive": 1,
-        "negative": 4,
-        "neutral": 7
+        "negative": 2,
+        "neutral": 8
       },
       "ratios": {
-        "positive": 8.3,
-        "negative": 33.3,
-        "neutral": 58.3
+        "positive": 9.1,
+        "negative": 18.2,
+        "neutral": 72.7
       },
       "top_pros": [
-        "수업 사례를 다른 상황에 적용해 설명하는 연습이 시험 준비에 도움이 된다는 의견"
+        "수업 사례를 다른 상황에 적용해 설명하는 연습이 시험에 도움이 된다는 의견"
       ],
       "top_cons": [
-        "강의자료 암기만으로는 부족하고 사례별 전략의 이유를 설명할 수 있어야 한다는 의견",
-        "발표에서 교수자의 관점에 대응하려면 근거를 준비해야 한다는 의견",
-        "시험에서 개념을 사례에 적용하는 유형이 많아 암기만으로는 어려울 수 있다는 의견"
+        "시험에서 개념을 사례에 적용해야 해 강의자료 암기만으로는 부족하다는 의견",
+        "용어 정의 암기만으로는 시험 준비가 부족하다는 의견"
       ]
     },
     {
       "category": "team_project",
       "mentioned": 14,
       "counts": {
-        "positive": 5,
-        "negative": 13,
-        "neutral": 2
+        "positive": 4,
+        "negative": 12,
+        "neutral": 6
       },
       "ratios": {
-        "positive": 25.0,
-        "negative": 65.0,
-        "neutral": 10.0
+        "positive": 18.2,
+        "negative": 54.5,
+        "neutral": 27.3
       },
       "top_pros": [
-        "조원 전원이 일을 한다는 조건에서 팀플이 쾌적하다는 의견 / 초반에 회의 일정을 정하고 자료 출처를 공유하면 결과물의 질이 좋아진다는 의견",
-        "팀 인원이 줄어 소통이 조금 편해졌다는 의견",
-        "초반에 역할과 중간 점검 일정을 정하면 팀 프로젝트를 무난하게 진행할 수 있다는 의견"
+        "조원 전원이 참여한다면 팀플이 쾌적하다는 의견 / 초반에 회의 일정을 정하고 자료 출처를 공유하면 결과물의 질이 좋아진다는 의견",
+        "팀 인원이 줄어 회의 일정을 맞추기 편해졌다는 의견 / 초반에 역할과 중간 점검 날짜를 정해 팀 프로젝트를 무난하게 진행했다는 의견",
+        "팀 인원이 줄어 소통이 편해졌다는 의견"
       ],
       "top_cons": [
-        "팀원 구성과 역할 분담으로 발표 및 준비 부담이 컸다는 의견 / 팀플 비중이 커 부담스럽다는 의견",
-        "팀원이 잠수하면 나머지 팀원의 부담이 커진다는 의견 / 팀 프로젝트로 고생했다는 의견",
-        "자료조사와 발표가 학기 내내 이어져 팀플 부담이 크다는 의견"
+        "팀원 운이 좋지 않아 발표를 혼자 맡고 준비가 힘들었다는 의견 / 팀플 비중이 커 부담스럽다는 의견",
+        "팀플의 자료 조사와 발표 준비에 일이 많고, 조원의 참여 부족으로 나머지가 부담을 떠안았다는 의견 / 조원의 참여가 부족해 나머지 팀원이 일을 메워야 했다는 의견",
+        "팀원이 잠수하면 나머지 팀원의 부담이 커진다는 의견 / 팀 프로젝트 때문에 고생했다는 의견"
       ]
     },
     {
       "category": "delivery",
-      "mentioned": 8,
+      "mentioned": 11,
       "counts": {
-        "positive": 8,
+        "positive": 11,
         "negative": 0,
         "neutral": 0
       },
@@ -1216,9 +1253,9 @@
     },
     {
       "category": "learning",
-      "mentioned": 8,
+      "mentioned": 7,
       "counts": {
-        "positive": 8,
+        "positive": 7,
         "negative": 0,
         "neutral": 0
       },
@@ -1228,51 +1265,50 @@
         "neutral": 0.0
       },
       "top_pros": [
-        "실무 사례를 개념으로 해석하며 마케팅에 흥미를 느끼고 논리 구성 연습을 했다는 의견 / 소비자 선택과 브랜드 이미지를 수업 개념으로 해석해 기억에 오래 남았다는 의견 / 실무 사례를 읽고 논리를 구성하는 연습이 되었다는 의견",
-        "실무 사례를 통해 STP와 포지셔닝을 적용하는 연습을 할 수 있다는 의견",
-        "실무 사례를 개념과 연결해 분석하며 광고를 보는 시선이 달라졌다는 의견 / 실제 사례 분석과 발표 경험을 쌓고 싶은 사람에게 배울 점이 있다는 의견"
+        "실무 사례를 통해 배운 개념을 적용하는 연습을 할 수 있다는 의견",
+        "발표 준비를 통해 소비자 분석과 포지셔닝을 직접 적용해 본 것이 도움이 됐다는 의견",
+        "실무 사례를 읽고 논리를 구성하는 연습이 되었다는 의견"
       ],
       "top_cons": []
     },
     {
       "category": "professor",
-      "mentioned": 6,
+      "mentioned": 8,
       "counts": {
         "positive": 0,
-        "negative": 3,
-        "neutral": 3
+        "negative": 1,
+        "neutral": 7
       },
       "ratios": {
         "positive": 0.0,
-        "negative": 50.0,
-        "neutral": 50.0
+        "negative": 12.5,
+        "neutral": 87.5
       },
       "top_pros": [],
       "top_cons": [
-        "교수자의 관점과 다른 의견을 냈을 때 피드백이 강하게 느껴질 수 있다는 의견",
-        "교수자가 중요하게 여기는 분석 관점이 뚜렷하고 피드백이 단호하다는 의견",
-        "피드백이 단호해 의견이 다를 때 당황할 수 있다는 의견"
+        "의견이 다를 때 단호한 피드백으로 당황할 수 있다는 의견"
       ]
     },
     {
       "category": "general_impression",
-      "mentioned": 2,
+      "mentioned": 3,
       "counts": {
         "positive": 2,
-        "negative": 1,
+        "negative": 2,
         "neutral": 0
       },
       "ratios": {
-        "positive": 66.7,
-        "negative": 33.3,
+        "positive": 50.0,
+        "negative": 50.0,
         "neutral": 0.0
       },
       "top_pros": [
-        "발표 경험이나 실무 감각을 얻고 싶은 학생에게 들어볼 만하다는 의견",
-        "팀플 부담을 감당하고 실제 사례 분석을 좋아하는 학생에게 얻어가는 것이 있는 수업이라는 의견"
+        "팀플 부담을 감당할 수 있고 실제 사례 분석을 좋아하는 사람에게 추천한다는 의견",
+        "발표 경험이나 실무 감각을 얻고 싶은 학생에게 들어볼 만하다는 의견"
       ],
       "top_cons": [
-        "팀 프로젝트를 싫어하는 학생에게는 추천하기 어렵다는 의견"
+        "팀플을 싫어하는 학생에게는 추천하기 어렵다는 의견",
+        "팀 프로젝트를 싫어하는 사람에게는 부담스러운 수업이라는 의견"
       ]
     }
   ],
@@ -1281,6 +1317,6 @@
     "succeeded": 16,
     "failed": 0,
     "model": "gpt-6-luna",
-    "processed_at": "2026-10-24T10:48:10.381353+00:00"
+    "processed_at": "2026-10-25T10:39:41.231727+00:00"
   }
 }

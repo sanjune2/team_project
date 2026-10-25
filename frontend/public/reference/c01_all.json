@@ -9,7 +9,7 @@
         {
           "category": "delivery",
           "sentiment": "positive",
-          "summary": "설명을 듣고 바로 이해할 수 있었다는 의견",
+          "summary": "설명이 이해하기 쉽다는 의견",
           "evidence": "설명 듣고 바로 이해됬음",
           "keywords": [
             "설명",
@@ -46,7 +46,7 @@
           "evidence": "월요일 제출하고 나면 화요일에 다음 게 올라와서 걱정할 틈조차 없거든.. 주말마다 표 정리하다 끝났음.",
           "keywords": [
             "과제 빈도",
-            "표 정리"
+            "주말 과제"
           ],
           "condition": null,
           "mentions_change": false,
@@ -66,14 +66,14 @@
         {
           "category": "workload",
           "sentiment": "negative",
-          "summary": "매주 데이터 정리와 그래프 제출로 과제 부담이 크다는 의견 / 과제에 시간이 많이 든다는 의견",
-          "evidence": "매주 데이터 정리하고 그래프까지 내야 해서 다른 전공 과제랑 겹치면 밤샘 확정임.",
+          "summary": "매주 데이터 정리와 그래프 제출이 다른 과제와 겹치면 밤샘할 정도로 부담스럽다는 의견",
+          "evidence": "매주 데이터 정리하고 그래프까지 내야 해서 다른 전공 과제랑 겹치면 밤샘 확정임",
           "keywords": [
+            "과제량",
             "데이터 정리",
-            "그래프 제출",
-            "과제 부담"
+            "그래프"
           ],
-          "condition": "다른 전공 과제와 겹칠 때",
+          "condition": null,
           "mentions_change": false,
           "evidence_match": "exact",
           "evidence_verified": true
@@ -91,10 +91,9 @@
         {
           "category": "grade",
           "sentiment": "negative",
-          "summary": "시험과 과제를 모두 수행하고 출석 만점을 받았는데도 B0를 받아 학점이 짜다는 의견",
-          "evidence": "중간 82 기말 79, 과제는 전부 냈고 출석도 만점인데 B0 받았습니다. 제 기준엔 학점이 짜요.",
+          "summary": "학점이 짜다는 의견",
+          "evidence": "제 기준엔 학점이 짜요.",
           "keywords": [
-            "B0",
             "학점"
           ],
           "condition": null,
@@ -105,7 +104,7 @@
         {
           "category": "exam",
           "sentiment": "positive",
-          "summary": "시험이 수업에서 배운 예시의 숫자를 바꾸는 방식이라 납득할 만했다는 의견",
+          "summary": "시험이 배운 예시의 숫자를 바꾸는 방식이라 납득할 수 있었다는 의견",
           "evidence": "시험은 배운 예시에서 숫자를 바꾸는 식이라 납득은 됐습니다.",
           "keywords": [
             "시험 유형",
@@ -132,7 +131,7 @@
           "summary": "표의 원리부터 차근차근 설명해 수업이 잘 들렸다는 의견 / 잘못된 숫자를 넣었을 때의 결과를 보여주는 예시가 좋았다는 의견",
           "evidence": "엉뚱한 숫자를 넣었을 때 결과가 어떻게 망가지는지 보여주는 예시가 특히 좋았음",
           "keywords": [
-            "설명",
+            "차근차근 설명",
             "예시"
           ],
           "condition": null,
@@ -143,8 +142,8 @@
         {
           "category": "workload",
           "sentiment": "negative",
-          "summary": "매주 과제와 그래프 설명 작성에 시간이 오래 걸린다는 의견",
-          "evidence": "매주 파일 하나씩 정리해서 내는 과제는 생각보다 오래 걸림.",
+          "summary": "매주 과제 정리와 그래프 설명 작성에 시간이 오래 걸린다는 의견",
+          "evidence": "다만 매주 파일 하나씩 정리해서 내는 과제는 생각보다 오래 걸림.",
           "keywords": [
             "매주 과제",
             "그래프 설명"
@@ -155,9 +154,9 @@
           "evidence_verified": true
         },
         {
-          "category": "grade",
+          "category": "general_impression",
           "sentiment": "negative",
-          "summary": "학점을 쉽게 채우려는 학생에게는 추천하기 어렵다는 의견",
+          "summary": "학점을 쉽게 채우려는 사람에게는 추천하지 않는다는 의견",
           "evidence": "학점 쉽게 채우려는 사람한텐 비추",
           "keywords": [
             "학점"
@@ -168,14 +167,14 @@
           "evidence_verified": true
         },
         {
-          "category": "learning",
+          "category": "general_impression",
           "sentiment": "positive",
-          "summary": "직접 데이터를 다루는 감각을 얻을 수 있다는 의견",
-          "evidence": "직접 데이터 만지는 감각을 얻고 싶은 사람이면 들을 만합니다",
+          "summary": "직접 데이터를 다루는 감각을 얻고 싶은 사람에게는 들을 만하다는 의견",
+          "evidence": "직접 데이터 만지는 감각을 얻고 싶은 사람이면 들을 만합니다.",
           "keywords": [
-            "데이터 활용"
+            "데이터 실습"
           ],
-          "condition": "직접 데이터를 만지는 감각을 얻고 싶은 사람",
+          "condition": "직접 데이터 만지는 감각을 얻고 싶은 사람",
           "mentions_change": false,
           "evidence_match": "exact",
           "evidence_verified": true
@@ -197,8 +196,8 @@
         {
           "category": "team_project",
           "sentiment": "neutral",
-          "summary": "팀플이 없다는 의견",
-          "evidence": "팀플은 없었어요",
+          "summary": "팀 프로젝트가 없다는 의견",
+          "evidence": "팀플은 없었어요.",
           "keywords": [
             "팀플"
           ],
@@ -220,11 +219,24 @@
         {
           "category": "delivery",
           "sentiment": "positive",
-          "summary": "표를 읽는 순서를 보여 주어 과제 수행에 도움이 되었다는 의견 / 수업에서 배운 순서를 과제에 적용해 막히는 부분이 줄었다는 의견",
-          "evidence": "혼자 과제할 때 그 순서를 그대로 따라가니까 막히는 부분이 줄었습니다.",
+          "summary": "표를 읽는 순서를 보여 주어 과제 수행에 도움이 되었다는 의견",
+          "evidence": "표를 읽는 순서부터 보여 주세요.",
           "keywords": [
-            "표 읽는 순서",
-            "과제 수행"
+            "표 읽는 순서"
+          ],
+          "condition": null,
+          "mentions_change": false,
+          "evidence_match": "exact",
+          "evidence_verified": true
+        },
+        {
+          "category": "learning",
+          "sentiment": "positive",
+          "summary": "설명 순서를 과제에 적용하자 막히는 부분이 줄었다는 의견 / 그래프를 보고 판단을 바꾸는 연습이 좋았다는 의견",
+          "evidence": "숫자만 보고 결론 내렸다가 그래프를 보고 판단을 바꾸는 연습이 좋았습니다.",
+          "keywords": [
+            "과제 수행",
+            "그래프 해석"
           ],
           "condition": null,
           "mentions_change": false,
@@ -247,55 +259,39 @@
         {
           "category": "workload",
           "sentiment": "negative",
-          "summary": "매주 과제와 퀴즈에 자잘한 작업이 많아 시간이 오래 걸릴 수 있다는 의견 / 일정이 빡빡한 학기에는 수강을 다시 고려할 필요가 있다는 의견",
+          "summary": "자잘한 과제 작업에 예상보다 시간이 많이 들 수 있다는 의견",
           "evidence": "대충 한 시간이겠지 하고 미뤘다가 새벽까지 붙잡은 날도 있어서 왠만하면 미리 시작하세요..",
           "keywords": [
-            "매주 과제",
-            "퀴즈",
-            "작업량"
+            "과제 시간"
+          ],
+          "condition": null,
+          "mentions_change": false,
+          "evidence_match": "exact",
+          "evidence_verified": true
+        },
+        {
+          "category": "grade",
+          "sentiment": "positive",
+          "summary": "본인의 점수와 지각 제출을 고려하면 받은 학점이 나쁘지 않았다는 의견",
+          "evidence": "제 점수에서는 나쁘지 않았습니다.",
+          "keywords": [
+            "A0"
+          ],
+          "condition": "중간 88점, 기말 91점에 과제 한 번 지각 제출한 경우",
+          "mentions_change": false,
+          "evidence_match": "exact",
+          "evidence_verified": true
+        },
+        {
+          "category": "general_impression",
+          "sentiment": "negative",
+          "summary": "출석만으로 학점을 받는 강의는 아니라는 의견 / 일정이 빡빡한 학기에는 수강을 다시 고려하라는 의견",
+          "evidence": "일정 빡빡한 학기에 같이 넣는 건 한 번 더 생각해 보시길.",
+          "keywords": [
+            "꿀강",
+            "일정"
           ],
           "condition": "일정이 빡빡한 학기",
-          "mentions_change": false,
-          "evidence_match": "exact",
-          "evidence_verified": true
-        },
-        {
-          "category": "grade",
-          "sentiment": "positive",
-          "summary": "중간·기말 점수와 과제 지각 제출에도 A0를 받아 성적이 나쁘지 않았다는 의견",
-          "evidence": "저는 중간 88 기말 91에 과제 한 번 지각 제출하고 A0 받았어요.",
-          "keywords": [
-            "A0",
-            "성적"
-          ],
-          "condition": null,
-          "mentions_change": false,
-          "evidence_match": "exact",
-          "evidence_verified": true
-        },
-        {
-          "category": "grade",
-          "sentiment": "negative",
-          "summary": "출석만으로 학점을 받을 수 있는 강의는 아니라는 의견",
-          "evidence": "그렇다고 출석만 하면 학점 주는 꿀강은 아니에요.",
-          "keywords": [
-            "학점"
-          ],
-          "condition": null,
-          "mentions_change": false,
-          "evidence_match": "exact",
-          "evidence_verified": true
-        },
-        {
-          "category": "learning",
-          "sentiment": "positive",
-          "summary": "그래프를 보고 판단을 바꾸는 연습이 유익했다는 의견",
-          "evidence": "숫자만 보고 결론 내렸다가 그래프를 보고 판단을 바꾸는 연습이 좋았습니다.",
-          "keywords": [
-            "그래프 해석",
-            "판단"
-          ],
-          "condition": null,
           "mentions_change": false,
           "evidence_match": "exact",
           "evidence_verified": true
@@ -318,9 +314,7 @@
           "sentiment": "positive",
           "summary": "수업을 추천한다는 의견",
           "evidence": "수업은 추천하지만",
-          "keywords": [
-            "추천"
-          ],
+          "keywords": [],
           "condition": null,
           "mentions_change": false,
           "evidence_match": "exact",
@@ -339,10 +333,11 @@
         {
           "category": "delivery",
           "sentiment": "positive",
-          "summary": "표의 여러 해석을 비교해 설명해 주어 좋았다는 의견",
+          "summary": "표의 여러 해석을 비교해 주는 설명이 좋았다는 의견",
           "evidence": "교수님이 표 하나를 놓고 여러 해석을 비교해 주시는 부분이 좋았습니다.",
           "keywords": [
-            "표 해석"
+            "표 해석",
+            "설명"
           ],
           "condition": null,
           "mentions_change": false,
@@ -355,7 +350,8 @@
           "summary": "다른 열까지 확인하며 기존 결론을 바꾸게 되었다는 의견",
           "evidence": "제가 처음엔 평균만 보고 맞다고 생각했던 결론을 다른 열까지 확인하면서 바꾸게 됐어요.",
           "keywords": [
-            "결론 수정"
+            "결론 수정",
+            "데이터 해석"
           ],
           "condition": null,
           "mentions_change": false,
@@ -378,10 +374,11 @@
         {
           "category": "delivery",
           "sentiment": "negative",
-          "summary": "과제 피드백이 늦어 같은 실수를 반복하게 되어 더 빠른 피드백을 바란다는 의견",
-          "evidence": "다만 과제 채점 결과가 다음 과제 제출 뒤에 올라와 같은 실수를 두 번 한 적은 있어요. 피드백이 조금만 빨랐으면 좋겠습니다..",
+          "summary": "과제 채점 피드백이 늦어 같은 실수를 반복했다는 의견",
+          "evidence": "과제 채점 결과가 다음 과제 제출 뒤에 올라와 같은 실수를 두 번 한 적은 있어요. 피드백이 조금만 빨랐으면 좋겠습니다..",
           "keywords": [
-            "과제 피드백"
+            "과제 피드백",
+            "피드백 지연"
           ],
           "condition": null,
           "mentions_change": false,
@@ -391,7 +388,7 @@
         {
           "category": "attendance",
           "sentiment": "neutral",
-          "summary": "매시간 전자출결로 출석을 확인한다는 의견",
+          "summary": "매시간 전자출결을 한다는 의견",
           "evidence": "출석은 매시간 전자출결이었고",
           "keywords": [
             "전자출결"
@@ -404,7 +401,7 @@
         {
           "category": "exam",
           "sentiment": "neutral",
-          "summary": "시험에 결과 해석 문제가 많았다는 의견",
+          "summary": "시험에 결과 해석 문제가 많다는 의견",
           "evidence": "시험에선 손으로 계산하는 문제보다 결과 해석하는 문제가 많았어요.",
           "keywords": [
             "결과 해석"
@@ -417,10 +414,11 @@
         {
           "category": "workload",
           "sentiment": "negative",
-          "summary": "보고서 작성을 싫어하면 학업 부담이 크게 느껴질 수 있다는 의견",
+          "summary": "보고서 작성을 싫어하면 과제 부담이 크게 느껴질 수 있다는 의견",
           "evidence": "보고서 쓰기 싫으면 로드가 꽤 크게 느껴질 듯합니다.",
           "keywords": [
-            "보고서"
+            "보고서",
+            "과제 부담"
           ],
           "condition": "보고서 쓰기를 싫어하는 경우",
           "mentions_change": false,
@@ -440,7 +438,7 @@
         {
           "category": "workload",
           "sentiment": "positive",
-          "summary": "과제 빈도가 줄어 부담이 덜해졌다는 의견",
+          "summary": "과제 빈도가 줄어 부담이 완화됐다는 의견",
           "evidence": "과제 격주로 바뀜.. 이제 숨 좀 쉬겠음 ㅎㅎ",
           "keywords": [
             "과제 빈도"
@@ -470,12 +468,13 @@
       "overall_sentiment": "negative",
       "items": [
         {
-          "category": "delivery",
+          "category": "professor",
           "sentiment": "negative",
-          "summary": "질문 게시판을 확인하고 피드백을 제때 제공해 주었으면 한다는 의견",
-          "evidence": "피드백 진짜 번개처럼 오네요^^",
+          "summary": "질문 게시판을 확인하고 답변해 주었으면 한다는 의견",
+          "evidence": "질문 게시판 확인은 좀 해주셨으면.",
           "keywords": [
-            "피드백"
+            "질문 게시판",
+            "질문 응대"
           ],
           "condition": null,
           "mentions_change": false,
@@ -495,7 +494,7 @@
         {
           "category": "delivery",
           "sentiment": "positive",
-          "summary": "설명을 들을 때는 내용을 이해하기 쉽다는 의견",
+          "summary": "설명을 들을 때는 이해하기 쉽다는 의견",
           "evidence": "설명듣고 할 땐 다 알겠는데",
           "keywords": [
             "설명"
@@ -508,14 +507,27 @@
         {
           "category": "workload",
           "sentiment": "negative",
-          "summary": "격주 제출이어도 보고서 분량이 많다는 의견 / 코딩 초보자는 과제에 충분한 시간을 들여야 한다는 의견",
+          "summary": "격주 제출이어도 보고서 분량이 많다는 의견",
           "evidence": "격주 제출이어도 보고서 분량은 여전히 많음",
           "keywords": [
             "보고서 분량",
-            "격주 제출",
-            "코딩 초보"
+            "격주 제출"
           ],
-          "condition": "코딩 초보인 경우",
+          "condition": null,
+          "mentions_change": false,
+          "evidence_match": "exact",
+          "evidence_verified": true
+        },
+        {
+          "category": "workload",
+          "sentiment": "neutral",
+          "summary": "코딩 초보자는 과제 시간을 넉넉히 잡아야 한다는 의견",
+          "evidence": "코딩 노베면 과제 시간 넉넉히 잡으세요",
+          "keywords": [
+            "코딩 초보자",
+            "과제 시간"
+          ],
+          "condition": "코딩 노베면",
           "mentions_change": false,
           "evidence_match": "exact",
           "evidence_verified": true
@@ -533,7 +545,7 @@
         {
           "category": "workload",
           "sentiment": "neutral",
-          "summary": "과제와 퀴즈 횟수를 언급했다는 의견",
+          "summary": "과제와 퀴즈가 각각 6회와 2회 있었다는 의견",
           "evidence": "과제 6번, 퀴즈 2번",
           "keywords": [
             "과제",
@@ -548,7 +560,7 @@
           "category": "exam",
           "sentiment": "neutral",
           "summary": "중간고사와 기말고사를 봤다는 의견",
-          "evidence": "중간기말 봤습니다.",
+          "evidence": "중간기말 봤습니다",
           "keywords": [
             "중간고사",
             "기말고사"
@@ -561,11 +573,10 @@
         {
           "category": "grade",
           "sentiment": "positive",
-          "summary": "시험 점수와 과제·출석을 고려하면 학점을 후하게 받았다는 의견",
-          "evidence": "중간 75 기말 84에 과제랑 출석 다 채우고 B+ 나왔어요. 저는 이 정도면 후하게 받은 편이라고 생갇합니다.",
+          "summary": "성적을 후하게 받은 편이라는 의견",
+          "evidence": "저는 이 정도면 후하게 받은 편이라고 생갇합니다.",
           "keywords": [
-            "B+",
-            "학점"
+            "B+"
           ],
           "condition": null,
           "mentions_change": false,
@@ -585,20 +596,20 @@
         {
           "category": "workload",
           "sentiment": "positive",
-          "summary": "과제가 격주라 다른 전공과 병행하기 편하다는 의견",
-          "evidence": "이번엔 격주라 다른 전공이랑 같이 듣기 한결 편했어요.",
+          "summary": "과제 빈도가 격주라 다른 전공과 병행하기 편하다는 의견",
+          "evidence": "이번엔 격주라 다른 전공이랑 같이 듣기 한결 편했어요",
           "keywords": [
             "과제 빈도"
           ],
           "condition": null,
-          "mentions_change": false,
+          "mentions_change": true,
           "evidence_match": "exact",
           "evidence_verified": true
         },
         {
           "category": "workload",
           "sentiment": "neutral",
-          "summary": "과제마다 표를 정리하고 설명을 써야 한다는 의견",
+          "summary": "과제마다 표를 정리하고 설명을 작성해야 한다는 의견",
           "evidence": "과제 하나당 표 정리하고 설명 쓰는 건 그대로라",
           "keywords": [
             "과제 분량"
@@ -611,8 +622,8 @@
         {
           "category": "delivery",
           "sentiment": "positive",
-          "summary": "그래프의 축에 따라 인상이 달라지는 예시가 기억에 남았다는 의견",
-          "evidence": "교수님은 같은 그래프를 축만 바꿔서 보여주고 왜 인상이 달라지는지 물어보시는데 그 예시가 기억에 남아요.",
+          "summary": "그래프 예시가 기억에 남는다는 의견",
+          "evidence": "그 예시가 기억에 남아요",
           "keywords": [
             "그래프 예시"
           ],
@@ -622,28 +633,15 @@
           "evidence_verified": true
         },
         {
-          "category": "etc",
+          "category": "delivery",
           "sentiment": "negative",
           "summary": "강의실 마이크가 끊겨 뒷자리에서 숫자를 놓칠 수 있다는 의견",
-          "evidence": "강의실 마이크가 중간중간 끊겨 뒷자리에서는 숫자를 놓친 적이 있습니다.",
+          "evidence": "강의실 마이크가 중간중간 끊겨 뒷자리에서는 숫자를 놓친 적이 있습니다",
           "keywords": [
             "마이크",
-            "강의실"
+            "강의 전달"
           ],
-          "condition": null,
-          "mentions_change": false,
-          "evidence_match": "exact",
-          "evidence_verified": true
-        },
-        {
-          "category": "etc",
-          "sentiment": "positive",
-          "summary": "앞자리에서는 마이크 문제가 괜찮았다는 의견",
-          "evidence": "앞자리에서는 ㄱㅊ았음..",
-          "keywords": [
-            "강의실"
-          ],
-          "condition": "앞자리에 앉으면",
+          "condition": "뒷자리에서",
           "mentions_change": false,
           "evidence_match": "exact",
           "evidence_verified": true
@@ -651,13 +649,13 @@
         {
           "category": "delivery",
           "sentiment": "neutral",
-          "summary": "기초 통계가 있으면 수업이 어렵지 않다는 의견 / 기초 통계가 없으면 첫 두 주에 용어를 찾아보는 것이 좋다는 의견",
-          "evidence": "없으면 첫 두 주는 용어를 조금 찾아보고 오면 좋을 듯합니다.",
+          "summary": "기초 통계가 없으면 첫 두 주 동안 용어를 찾아보는 것이 좋다는 의견",
+          "evidence": "없으면 첫 두 주는 용어를 조금 찾아보고 오면 좋을 듯합니다",
           "keywords": [
             "기초 통계",
             "용어"
           ],
-          "condition": "기초 통계 지식이 있으면 / 기초 통계 지식이 없으면",
+          "condition": "기초 통계가 없으면",
           "mentions_change": false,
           "evidence_match": "exact",
           "evidence_verified": true
@@ -675,11 +673,11 @@
         {
           "category": "learning",
           "sentiment": "positive",
-          "summary": "결과를 의심하고 확인하는 습관을 다른 수업에도 활용해 배운 것이 남는다는 의견",
+          "summary": "결과를 비판적으로 확인하는 습관을 기르고 다른 수업에도 적용할 수 있어 배움이 남는다는 의견",
           "evidence": "다른 수업 보고서에도 그 방식을 써먹어서 배운 게 남는 수업이라고 느꼈어요.",
           "keywords": [
             "결과 해석",
-            "데이터 읽기"
+            "비판적 확인"
           ],
           "condition": null,
           "mentions_change": false,
@@ -689,11 +687,11 @@
         {
           "category": "workload",
           "sentiment": "positive",
-          "summary": "과제가 격주 제출이고 미루지 않으면 감당할 만하다는 의견",
+          "summary": "과제가 격주로 제출되고 미루지 않으면 감당할 만하다는 의견",
           "evidence": "미루지만 않으면 버틸 만했고 시험 주간에는 제출일을 피해서 잡아 주셔서 좋았습니다.",
           "keywords": [
             "격주 과제",
-            "제출일"
+            "과제 부담"
           ],
           "condition": null,
           "mentions_change": true,
@@ -703,24 +701,11 @@
         {
           "category": "exam",
           "sentiment": "neutral",
-          "summary": "시험이 작은 표의 결과를 해석하는 문제 위주라는 의견",
+          "summary": "작은 표의 결과를 해석하는 문제가 주로 출제된다는 의견",
           "evidence": "시험은 작은 표를 주고 결과를 해석하는 문제 위주였어요.",
           "keywords": [
-            "결과 해석"
-          ],
-          "condition": null,
-          "mentions_change": false,
-          "evidence_match": "exact",
-          "evidence_verified": true
-        },
-        {
-          "category": "exam",
-          "sentiment": "positive",
-          "summary": "실습 때 쓴 설명을 자기 말로 정리한 것이 시험에 도움이 됐다는 의견",
-          "evidence": "공식만 외우는 것보다 실습 때 쓴 설명을 자기 말로 정리해 둔 게 도움이 됐습니다.",
-          "keywords": [
-            "실습 설명",
-            "시험 준비"
+            "결과 해석",
+            "시험 유형"
           ],
           "condition": null,
           "mentions_change": false,
@@ -744,11 +729,10 @@
         {
           "category": "grade",
           "sentiment": "negative",
-          "summary": "기대보다 낮은 B+를 받아 성적 결과에 아쉬움이 있다는 의견",
+          "summary": "받은 학점이 기대보다 낮았다는 의견",
           "evidence": "제 기대보다는 낮았지만",
           "keywords": [
-            "B+",
-            "성적 결과"
+            "B+"
           ],
           "condition": null,
           "mentions_change": false,
@@ -757,14 +741,27 @@
         },
         {
           "category": "grade",
-          "sentiment": "positive",
+          "sentiment": "neutral",
           "summary": "채점표가 공개되어 감점된 부분을 확인할 수 있다는 의견",
-          "evidence": "채점표가 공개돼서 어디서 빠졌는지는 알 수 있었어요.",
+          "evidence": "채점표가 공개돼서 어디서 빠졌는지는 알 수 있었어요",
           "keywords": [
             "채점표",
-            "감점 기준"
+            "채점 기준"
           ],
           "condition": null,
+          "mentions_change": false,
+          "evidence_match": "exact",
+          "evidence_verified": true
+        },
+        {
+          "category": "general_impression",
+          "sentiment": "negative",
+          "summary": "에쁠을 기대하는 경우에는 실망할 수 있다는 의견",
+          "evidence": "무조건 에쁠을 기대하면 실망할 수 있고",
+          "keywords": [
+            "학점 기대"
+          ],
+          "condition": "무조건 에쁠을 기대하는 경우",
           "mentions_change": false,
           "evidence_match": "exact",
           "evidence_verified": true
@@ -777,7 +774,7 @@
           "keywords": [
             "데이터 읽기 연습"
           ],
-          "condition": "데이터 읽기 연습이 목적이라면",
+          "condition": "데이터 읽는 연습이 목적이라면",
           "mentions_change": false,
           "evidence_match": "exact",
           "evidence_verified": true
@@ -796,9 +793,10 @@
           "category": "workload",
           "sentiment": "positive",
           "summary": "과제가 격주 제출이라 감당할 만했다는 의견",
-          "evidence": "이번에는 격주 제출이라 저는 감당할 만했어요.",
+          "evidence": "이번에는 격주 제출이라 저는 감당할 만했어요",
           "keywords": [
-            "과제 빈도"
+            "과제",
+            "격주 제출"
           ],
           "condition": null,
           "mentions_change": false,
@@ -808,10 +806,10 @@
         {
           "category": "delivery",
           "sentiment": "positive",
-          "summary": "어려운 내용을 표와 예시로 설명해 이해를 돕는다는 의견",
-          "evidence": "문제를 어려운 말로 포장하지 않고 작은 표부터 보여 주시는 게 장점입니다.",
+          "summary": "어려운 내용을 작은 표와 예시로 설명해 이해를 돕는다는 의견",
+          "evidence": "문제를 어려운 말로 포장하지 않고 작은 표부터 보여 주시는 게 장점입니다. 처음 보는 용어도 예시랑 같이 적어두니까 뒤에서 다시 나왔을 때 이해가 됐습니다.",
           "keywords": [
-            "표 설명",
+            "설명 방식",
             "예시"
           ],
           "condition": null,
@@ -822,14 +820,13 @@
         {
           "category": "workload",
           "sentiment": "negative",
-          "summary": "보고서 형식과 그래프를 다듬는 데 시간이 오래 걸린다는 의견 / 바쁜 학기에는 과제 시간을 미리 확보해야 한다는 의견",
+          "summary": "보고서 형식에 맞추느라 분석보다 꾸미는 데 시간이 오래 걸렸다는 의견",
           "evidence": "그래프를 만든 뒤에도 글자 크기랑 축 이름을 계속 손봐야 해서 분석보다 꾸미는 데 오래 쓴 날이 있었거든요.",
           "keywords": [
-            "보고서 형식",
-            "그래프",
-            "과제 시간"
+            "보고서",
+            "그래프"
           ],
-          "condition": "바쁜 학기에는",
+          "condition": null,
           "mentions_change": false,
           "evidence_match": "exact",
           "evidence_verified": true
@@ -837,13 +834,26 @@
         {
           "category": "learning",
           "sentiment": "positive",
-          "summary": "수업을 통해 숫자를 판단하기 전에 기준을 확인하게 됐다는 의견 / 수업이 배울 점이 많은 명강이라는 의견",
-          "evidence": "그래도 수업 듣고 나니 숫자를 그냥 믿기보다 기준부터 확인하게 됐습니다.",
+          "summary": "수업을 통해 숫자를 그대로 믿기보다 기준을 확인하게 됐다는 의견 / 명강에 가깝다는 의견",
+          "evidence": "수업 듣고 나니 숫자를 그냥 믿기보다 기준부터 확인하게 됐습니다.",
           "keywords": [
             "기준 확인",
             "명강"
           ],
           "condition": null,
+          "mentions_change": false,
+          "evidence_match": "exact",
+          "evidence_verified": true
+        },
+        {
+          "category": "general_impression",
+          "sentiment": "positive",
+          "summary": "바쁜 학기에는 과제 시간을 미리 확보할 것을 추천한다는 의견",
+          "evidence": "바쁜 학기에는 과제 시간을 미리 비워두는 걸 추천해요",
+          "keywords": [
+            "과제 시간"
+          ],
+          "condition": "바쁜 학기에는",
           "mentions_change": false,
           "evidence_match": "exact",
           "evidence_verified": true
@@ -860,40 +870,39 @@
       "counts": {
         "positive": 4,
         "negative": 7,
-        "neutral": 2
+        "neutral": 3
       },
       "ratios": {
-        "positive": 30.8,
-        "negative": 53.8,
-        "neutral": 15.4
+        "positive": 28.6,
+        "negative": 50.0,
+        "neutral": 21.4
       },
       "top_pros": [
-        "과제가 격주 제출이고 미루지 않으면 감당할 만하다는 의견",
-        "과제 빈도가 줄어 부담이 덜해졌다는 의견",
-        "과제가 격주라 다른 전공과 병행하기 편하다는 의견"
+        "과제가 격주로 제출되고 미루지 않으면 감당할 만하다는 의견",
+        "과제가 격주 제출이라 감당할 만했다는 의견",
+        "과제 빈도가 줄어 부담이 완화됐다는 의견"
       ],
       "top_cons": [
-        "매주 데이터 정리와 그래프 제출로 과제 부담이 크다는 의견 / 과제에 시간이 많이 든다는 의견",
-        "매주 과제와 퀴즈에 자잘한 작업이 많아 시간이 오래 걸릴 수 있다는 의견 / 일정이 빡빡한 학기에는 수강을 다시 고려할 필요가 있다는 의견",
-        "격주 제출이어도 보고서 분량이 많다는 의견 / 코딩 초보자는 과제에 충분한 시간을 들여야 한다는 의견"
+        "매주 데이터 정리와 그래프 제출이 다른 과제와 겹치면 밤샘할 정도로 부담스럽다는 의견",
+        "과제가 연이어 주어지고 주말마다 표를 정리해야 해 부담스럽다는 의견",
+        "매주 과제 정리와 그래프 설명 작성에 시간이 오래 걸린다는 의견"
       ]
     },
     {
       "category": "exam",
       "mentioned": 5,
       "counts": {
-        "positive": 2,
+        "positive": 1,
         "negative": 1,
         "neutral": 4
       },
       "ratios": {
-        "positive": 28.6,
-        "negative": 14.3,
-        "neutral": 57.1
+        "positive": 16.7,
+        "negative": 16.7,
+        "neutral": 66.7
       },
       "top_pros": [
-        "시험이 수업에서 배운 예시의 숫자를 바꾸는 방식이라 납득할 만했다는 의견",
-        "실습 때 쓴 설명을 자기 말로 정리한 것이 시험에 도움이 됐다는 의견"
+        "시험이 배운 예시의 숫자를 바꾸는 방식이라 납득할 수 있었다는 의견"
       ],
       "top_cons": [
         "시험 시간이 빠듯해 마지막 서술형을 급하게 작성했다는 의견"
@@ -919,7 +928,7 @@
     },
     {
       "category": "delivery",
-      "mentioned": 8,
+      "mentioned": 7,
       "counts": {
         "positive": 7,
         "negative": 2,
@@ -931,13 +940,13 @@
         "neutral": 10.0
       },
       "top_pros": [
-        "설명을 듣고 바로 이해할 수 있었다는 의견",
+        "설명이 이해하기 쉽다는 의견",
         "표의 원리부터 차근차근 설명해 수업이 잘 들렸다는 의견 / 잘못된 숫자를 넣었을 때의 결과를 보여주는 예시가 좋았다는 의견",
-        "표를 읽는 순서를 보여 주어 과제 수행에 도움이 되었다는 의견 / 수업에서 배운 순서를 과제에 적용해 막히는 부분이 줄었다는 의견"
+        "표의 여러 해석을 비교해 주는 설명이 좋았다는 의견"
       ],
       "top_cons": [
-        "과제 피드백이 늦어 같은 실수를 반복하게 되어 더 빠른 피드백을 바란다는 의견",
-        "질문 게시판을 확인하고 피드백을 제때 제공해 주었으면 한다는 의견"
+        "과제 채점 피드백이 늦어 같은 실수를 반복했다는 의견",
+        "강의실 마이크가 끊겨 뒷자리에서 숫자를 놓칠 수 있다는 의견"
       ]
     },
     {
@@ -958,33 +967,31 @@
     },
     {
       "category": "grade",
-      "mentioned": 5,
+      "mentioned": 4,
       "counts": {
-        "positive": 3,
-        "negative": 4,
-        "neutral": 0
+        "positive": 2,
+        "negative": 2,
+        "neutral": 1
       },
       "ratios": {
-        "positive": 42.9,
-        "negative": 57.1,
-        "neutral": 0.0
+        "positive": 40.0,
+        "negative": 40.0,
+        "neutral": 20.0
       },
       "top_pros": [
-        "중간·기말 점수와 과제 지각 제출에도 A0를 받아 성적이 나쁘지 않았다는 의견",
-        "시험 점수와 과제·출석을 고려하면 학점을 후하게 받았다는 의견",
-        "채점표가 공개되어 감점된 부분을 확인할 수 있다는 의견"
+        "본인의 점수와 지각 제출을 고려하면 받은 학점이 나쁘지 않았다는 의견",
+        "성적을 후하게 받은 편이라는 의견"
       ],
       "top_cons": [
-        "시험과 과제를 모두 수행하고 출석 만점을 받았는데도 B0를 받아 학점이 짜다는 의견",
-        "기대보다 낮은 B+를 받아 성적 결과에 아쉬움이 있다는 의견",
-        "학점을 쉽게 채우려는 학생에게는 추천하기 어렵다는 의견"
+        "학점이 짜다는 의견",
+        "받은 학점이 기대보다 낮았다는 의견"
       ]
     },
     {
       "category": "learning",
-      "mentioned": 5,
+      "mentioned": 4,
       "counts": {
-        "positive": 5,
+        "positive": 4,
         "negative": 0,
         "neutral": 0
       },
@@ -994,68 +1001,55 @@
         "neutral": 0.0
       },
       "top_pros": [
-        "그래프를 보고 판단을 바꾸는 연습이 유익했다는 의견",
-        "결과를 의심하고 확인하는 습관을 다른 수업에도 활용해 배운 것이 남는다는 의견",
-        "수업을 통해 숫자를 판단하기 전에 기준을 확인하게 됐다는 의견 / 수업이 배울 점이 많은 명강이라는 의견"
+        "설명 순서를 과제에 적용하자 막히는 부분이 줄었다는 의견 / 그래프를 보고 판단을 바꾸는 연습이 좋았다는 의견",
+        "다른 열까지 확인하며 기존 결론을 바꾸게 되었다는 의견",
+        "결과를 비판적으로 확인하는 습관을 기르고 다른 수업에도 적용할 수 있어 배움이 남는다는 의견"
       ],
       "top_cons": []
     },
     {
       "category": "professor",
-      "mentioned": 2,
+      "mentioned": 3,
       "counts": {
         "positive": 2,
-        "negative": 0,
+        "negative": 1,
         "neutral": 0
       },
       "ratios": {
-        "positive": 100.0,
-        "negative": 0.0,
+        "positive": 66.7,
+        "negative": 33.3,
         "neutral": 0.0
       },
       "top_pros": [
         "수업이 끝난 뒤 질문을 받아 주었다는 의견",
         "질문에 먼저 생각의 근거를 물어 부담을 덜어 주었다는 의견"
       ],
-      "top_cons": []
+      "top_cons": [
+        "질문 게시판을 확인하고 답변해 주었으면 한다는 의견"
+      ]
     },
     {
       "category": "general_impression",
-      "mentioned": 2,
+      "mentioned": 4,
       "counts": {
-        "positive": 2,
-        "negative": 0,
+        "positive": 4,
+        "negative": 3,
         "neutral": 0
       },
       "ratios": {
-        "positive": 100.0,
-        "negative": 0.0,
+        "positive": 57.1,
+        "negative": 42.9,
         "neutral": 0.0
       },
       "top_pros": [
-        "수업을 추천한다는 의견",
-        "데이터 읽기 연습이 목적이라면 추천한다는 의견"
-      ],
-      "top_cons": []
-    },
-    {
-      "category": "etc",
-      "mentioned": 1,
-      "counts": {
-        "positive": 1,
-        "negative": 1,
-        "neutral": 0
-      },
-      "ratios": {
-        "positive": 50.0,
-        "negative": 50.0,
-        "neutral": 0.0
-      },
-      "top_pros": [
-        "앞자리에서는 마이크 문제가 괜찮았다는 의견"
+        "직접 데이터를 다루는 감각을 얻고 싶은 사람에게는 들을 만하다는 의견",
+        "데이터 읽기 연습이 목적이라면 추천한다는 의견",
+        "바쁜 학기에는 과제 시간을 미리 확보할 것을 추천한다는 의견"
       ],
       "top_cons": [
-        "강의실 마이크가 끊겨 뒷자리에서 숫자를 놓칠 수 있다는 의견"
+        "출석만으로 학점을 받는 강의는 아니라는 의견 / 일정이 빡빡한 학기에는 수강을 다시 고려하라는 의견",
+        "학점을 쉽게 채우려는 사람에게는 추천하지 않는다는 의견",
+        "에쁠을 기대하는 경우에는 실망할 수 있다는 의견"
       ]
     }
   ],
@@ -1064,6 +1058,6 @@
     "succeeded": 16,
     "failed": 0,
     "model": "gpt-6-luna",
-    "processed_at": "2026-10-24T10:48:10.371535+00:00"
+    "processed_at": "2026-10-25T10:39:41.225840+00:00"
   }
 }

@@ -1,0 +1,141 @@
+{
+  "base_commit": "fedf04d732e0056830754fac041b701c03a1db91",
+  "new_analysis_calls": 64,
+  "unique_reviews": 64,
+  "succeeded": 64,
+  "failed": 0,
+  "semester_files": 8,
+  "merged_files": 4,
+  "index_files": 1,
+  "source_text_preserved": true,
+  "evidence": {
+    "exact": 253
+  },
+  "aggregations_recomputed": true,
+  "historical_hashes_preserved": true,
+  "prompt_instructions_unchanged": true,
+  "offline_rescore_passed": true,
+  "offline_new_calls": 0,
+  "fresh64_summary": {
+    "tp": 200,
+    "fp": 9,
+    "fn": 6,
+    "sentiment_correct": 220,
+    "sentiment_total": 247,
+    "pair_correct": 220,
+    "gold_items": 237,
+    "predicted_items": 253,
+    "evidence_exact": 253,
+    "failed": 0,
+    "pair_exact": 37,
+    "review_count": 64,
+    "category_precision": 0.9569377990430622,
+    "category_recall": 0.970873786407767,
+    "category_f1": 0.963855421686747,
+    "sentiment_accuracy": 0.8906882591093117,
+    "evidence_exact_rate": 1.0,
+    "failure_rate": 0.0,
+    "mean_latency_ms": null,
+    "timed_review_count": 0,
+    "merged_item_distribution": {},
+    "merged_review_ids": [],
+    "merged_review_rate": null,
+    "fields": {
+      "condition": {
+        "annotated_count": 237,
+        "missing_gold_count": 0,
+        "matched_item_count": 220,
+        "presence_accuracy": 0.8396624472573839,
+        "literal_accuracy": 0.7468354430379747
+      },
+      "mentions_change": {
+        "annotated_count": 237,
+        "missing_gold_count": 0,
+        "matched_item_count": 220,
+        "presence_accuracy": 0.9156118143459916,
+        "literal_accuracy": 0.9156118143459916
+      }
+    },
+    "pair_precision": 0.8695652173913043,
+    "pair_recall": 0.9282700421940928,
+    "pair_f1": 0.8979591836734694,
+    "review_pair_exact_rate": 0.578125
+  },
+  "file_checks": [
+    {
+      "file": "c01_2025-2.json",
+      "reviews": 8,
+      "failed": 0
+    },
+    {
+      "file": "c01_2026-1.json",
+      "reviews": 8,
+      "failed": 0
+    },
+    {
+      "file": "c02_2025-2.json",
+      "reviews": 8,
+      "failed": 0
+    },
+    {
+      "file": "c02_2026-1.json",
+      "reviews": 8,
+      "failed": 0
+    },
+    {
+      "file": "c03_2025-2.json",
+      "reviews": 8,
+      "failed": 0
+    },
+    {
+      "file": "c03_2026-1.json",
+      "reviews": 8,
+      "failed": 0
+    },
+    {
+      "file": "c04_2025-2.json",
+      "reviews": 8,
+      "failed": 0
+    },
+    {
+      "file": "c04_2026-1.json",
+      "reviews": 8,
+      "failed": 0
+    },
+    {
+      "file": "c01_all.json",
+      "reviews": 16,
+      "failed": 0
+    },
+    {
+      "file": "c02_all.json",
+      "reviews": 16,
+      "failed": 0
+    },
+    {
+      "file": "c03_all.json",
+      "reviews": 16,
+      "failed": 0
+    },
+    {
+      "file": "c04_all.json",
+      "reviews": 16,
+      "failed": 0
+    }
+  ],
+  "sha256": {
+    "c01_2025-2.json": "7d5ecb7a802320e3915a66be1e541157fb0311574fef731c143ae189f56efe25",
+    "c01_2026-1.json": "15bf72531be1fb41f3efac762327603f3e6ef1eccdfc53b2ecd858e829d734be",
+    "c01_all.json": "f261f084d23959494bdf574fe94096d64d4e827643f17b1e1b868d18655cc42f",
+    "c02_2025-2.json": "afddf31024f1a6052e3bcbe77c715b5776ec811398aff23523fce689d97feda2",
+    "c02_2026-1.json": "bf23c43279f1c0f19a4ca546bbe1bdc641d46b46abb5f55dadb3103122310ecc",
+    "c02_all.json": "72b0ec2e4ad0b98c502dc24d0fdece4fb6856a643a7ae1a1a7f256126cc5219e",
+    "c03_2025-2.json": "4b657721920a2664f0d262de8f3cbd17a59f6d37e9a436d26957e598ad7f82a3",
+    "c03_2026-1.json": "393c9e100f4ef2dd0fb20d9b5d9227f25ec0ed7f12a9c04307d9156e54c0bdaf",
+    "c03_all.json": "ab9ed764024d0f16bd817021e77f38b616a376deab7941b4ca35ef6002fdc7b4",
+    "c04_2025-2.json": "87ec0668ab9b8d02cd306fa91daf165d4a5c698701713f6e2740973fd4fc1f33",
+    "c04_2026-1.json": "31087ed532d62524e4cfed4e85bcb37d3f47cc0cd77ea41a8f0b8ff2352f0cd1",
+    "c04_all.json": "02e2d7428d12be453cf7619b6bd67ce5979a445ddef78b63f95df8437bb48b25",
+    "index.json": "a48016ad8f2d9044bd4b709e18a2e7c188fd996a93ecbfed5b346f031f5e4730"
+  }
+}

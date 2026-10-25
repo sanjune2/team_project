@@ -10,7 +10,7 @@
           "category": "delivery",
           "sentiment": "positive",
           "summary": "실습이 재미있다는 의견",
-          "evidence": "파프 실습 재밌음.",
+          "evidence": "파프 실습 재밌음",
           "keywords": [
             "실습"
           ],
@@ -22,7 +22,7 @@
         {
           "category": "learning",
           "sentiment": "positive",
-          "summary": "혼자 작은 도구를 만들며 배운다는 의견",
+          "summary": "혼자 작은 도구를 만들 수 있게 된다는 의견",
           "evidence": "혼자 작은 도구 만들게 됨!!!",
           "keywords": [
             "도구 만들기"
@@ -54,7 +54,7 @@
         {
           "category": "exam",
           "sentiment": "negative",
-          "summary": "시험 시간이 부족해 문제를 다 풀기 어렵다는 의견",
+          "summary": "시험 시간이 부족해 문제 수를 줄이거나 시간을 늘려야 한다는 의견",
           "evidence": "마지막 문제까지 읽기도 전에 종 쳐서 마음 편하게 빈칸 내고 나옴.. 문제 수를 좀 줄이던가 시간을 늘려주세요.",
           "keywords": [
             "시험 시간",
@@ -76,16 +76,16 @@
       "overall_sentiment": "negative",
       "items": [
         {
-          "category": "delivery",
+          "category": "workload",
           "sentiment": "negative",
-          "summary": "코딩 기초가 없으면 실습을 따라가기 어렵고 설명을 놓치기 쉽다는 의견",
+          "summary": "코딩 초보자는 실습 중 오류를 찾느라 다음 설명을 놓쳐 부담스럽다는 의견",
           "evidence": "실습 한 줄 놓치면 오류 찾다가 다음 설명 다 놓쳐서 드럽게 힘듦ㅠㅠ",
           "keywords": [
-            "코딩 기초",
+            "코딩 초보",
             "실습",
-            "설명"
+            "오류"
           ],
-          "condition": "코딩 기초가 없는 경우",
+          "condition": "코딩 노베인 경우",
           "mentions_change": false,
           "evidence_match": "exact",
           "evidence_verified": true
@@ -93,8 +93,8 @@
         {
           "category": "professor",
           "sentiment": "negative",
-          "summary": "질문하려 해도 바로 응답받지 못할 때가 있다는 의견",
-          "evidence": "질문하려고 손들면 일단 따라오라 하실 때도 있엇음.",
+          "summary": "질문하려 해도 바로 응답받지 못하는 경우가 있다는 의견",
+          "evidence": "질문하려고 손들면 일단 따라오라 하실 때도 있엇음",
           "keywords": [
             "질문 응대"
           ],
@@ -111,26 +111,13 @@
       "review_id": "c02-2025-2-r05",
       "semester": "2025-2",
       "status": "ok",
-      "overall_sentiment": "mixed",
+      "overall_sentiment": "positive",
       "items": [
-        {
-          "category": "exam",
-          "sentiment": "negative",
-          "summary": "시험이 어렵다는 의견",
-          "evidence": "시험은 어렵지만",
-          "keywords": [
-            "시험"
-          ],
-          "condition": null,
-          "mentions_change": false,
-          "evidence_match": "exact",
-          "evidence_verified": true
-        },
         {
           "category": "grade",
           "sentiment": "positive",
           "summary": "시험 점수에 비해 학점이 괜찮게 나왔다는 의견",
-          "evidence": "점수에 비해 학점은 괜찮게 나왔어요.",
+          "evidence": "시험은 어렵지만 점수에 비해 학점은 괜찮게 나왔어요.",
           "keywords": [
             "학점"
           ],
@@ -166,13 +153,14 @@
         {
           "category": "learning",
           "sentiment": "positive",
-          "summary": "실습을 통해 배운 내용이 실제로 남는다는 의견",
-          "evidence": "직접 파일 읽어서 정리하는 실습까지 하니 확실히 손에 남는 게 있네요.",
+          "summary": "실습을 통해 배운 내용이 실제로 남고 활용할 수 있다는 의견 / 기초 문법을 아는 학생에게 배울 내용이 많다는 의견",
+          "evidence": "직접 파일 읽어서 정리하는 실습까지 하니 확실히 손에 남는 게 있네요. 수업시간에 만든 예제를 살짝 바꿔서 제 공부 기록 정리하는 데 써봤어요.",
           "keywords": [
-            "파일 읽기",
-            "실습"
+            "실습",
+            "파일 정리",
+            "활용"
           ],
-          "condition": null,
+          "condition": "기초 문법을 한 번 본 사람",
           "mentions_change": false,
           "evidence_match": "exact",
           "evidence_verified": true
@@ -180,11 +168,11 @@
         {
           "category": "exam",
           "sentiment": "negative",
-          "summary": "시험에서 생각할 시간이 부족하고 시간 압박으로 실수가 난다는 의견",
-          "evidence": "다만 시험은 코드 빈칸 채우기랑 실행 결과 쓰기가 섞여서 생각할 시간이 부족했습니다.",
+          "summary": "시험에서 생각할 시간이 부족해 실수가 생긴다는 의견",
+          "evidence": "다만 시험은 코드 빈칸 채우기랑 실행 결과 쓰기가 섞여서 생각할 시간이 부족했습니다. 연습 때는 되던 것도 시계 보면서 하니까 실수가 나요..",
           "keywords": [
-            "코드 빈칸",
-            "실행 결과"
+            "시험 유형",
+            "시간 부족"
           ],
           "condition": null,
           "mentions_change": false,
@@ -192,13 +180,13 @@
           "evidence_verified": true
         },
         {
-          "category": "delivery",
-          "sentiment": "negative",
+          "category": "workload",
+          "sentiment": "neutral",
           "summary": "완전 초보자는 초반 반복문을 예습할 필요가 있다는 의견",
           "evidence": "완전 처음이면 초반 반복문 부분은 예습이 필요해 보입니다.",
           "keywords": [
-            "반복문",
-            "예습"
+            "예습",
+            "반복문"
           ],
           "condition": "완전 처음인 경우",
           "mentions_change": false,
@@ -208,12 +196,12 @@
         {
           "category": "professor",
           "sentiment": "positive",
-          "summary": "질문할 때 학습 상황을 알려 주면 자세히 봐준다는 의견",
+          "summary": "질문할 때 자세히 살펴봐 준다는 의견",
           "evidence": "교수님은 질문할 때 어디까지 해 봤는지 적어 오면 자세히 봐주셨어요.",
           "keywords": [
             "질문 응대"
           ],
-          "condition": null,
+          "condition": "질문할 때 어디까지 해 봤는지 적어 오는 경우",
           "mentions_change": false,
           "evidence_match": "exact",
           "evidence_verified": true
@@ -234,7 +222,7 @@
           "summary": "수업 중 직접 실행하고 오류를 확인하는 방식이 이해에 도움이 된다는 의견",
           "evidence": "수업 중에 직접 실행하고 에러도 같이 보는 방식이라 문법 이름만 외우는 것보다 이해가 잘됐습니다.",
           "keywords": [
-            "직접 실행",
+            "실습",
             "오류 확인"
           ],
           "condition": null,
@@ -259,11 +247,10 @@
         {
           "category": "learning",
           "sentiment": "positive",
-          "summary": "실습 과정을 설명하며 과제를 수행하는 것이 배우는 데 도움이 된다는 의견",
-          "evidence": "단순 복붙으로 끝내기 어려워서 배우는 데는 좋았지만 다른 과제랑 몰리는 주에는 시간이 많이 들었습니다.",
+          "summary": "실습 과제가 배우는 데 도움이 된다는 의견",
+          "evidence": "배우는 데는 좋았지만",
           "keywords": [
-            "실습",
-            "학습"
+            "실습 과제"
           ],
           "condition": null,
           "mentions_change": false,
@@ -273,12 +260,26 @@
         {
           "category": "exam",
           "sentiment": "negative",
-          "summary": "중간고사와 기말고사에 긴 문제가 있어 시간 내에 풀기 어렵다는 의견",
-          "evidence": "중간고사는 예상보다 문제가 많았어요. 쉬운 것부터 풀어도 뒤쪽 긴 문제 하나는 거의 손을 못 댔습니다.",
+          "summary": "중간고사와 기말고사에서 문제 수와 긴 문제 풀이에 어려움이 있었다는 의견",
+          "evidence": "중간고사는 예상보다 문제가 많았어요. 쉬운 것부터 풀어도 뒤쪽 긴 문제 하나는 거의 손을 못 댔습니다. 기말도 비슷해서",
           "keywords": [
             "중간고사",
-            "문제 수",
-            "긴 문제"
+            "기말고사",
+            "문제 수"
+          ],
+          "condition": null,
+          "mentions_change": false,
+          "evidence_match": "exact",
+          "evidence_verified": true
+        },
+        {
+          "category": "workload",
+          "sentiment": "neutral",
+          "summary": "시험 대비를 위해 평소 실습을 다시 해 보고 풀이 속도를 높이는 것이 좋다는 의견",
+          "evidence": "평소 실습을 다시 해 보면서 속도를 올려 두는 게 좋을 것 같아요",
+          "keywords": [
+            "시험 대비",
+            "실습"
           ],
           "condition": null,
           "mentions_change": false,
@@ -288,7 +289,7 @@
         {
           "category": "professor",
           "sentiment": "positive",
-          "summary": "코드와 오류 문구를 바탕으로 문제 원인을 설명해 주는 질문 응대가 만족스럽다는 의견",
+          "summary": "질문에 만족스럽게 응대하고 코드 오류의 원인을 설명해 준다는 의견",
           "evidence": "질문 응대는 저는 만족했습니다. 실행한 코드랑 에러 문구를 같이 보여 드리니까 어디서 자료형이 달라졌는지 설명해 주셨어요.",
           "keywords": [
             "질문 응대",
@@ -302,7 +303,7 @@
         {
           "category": "delivery",
           "sentiment": "negative",
-          "summary": "진도가 계속 나가 수업 중 질문할 타이밍을 잡기 어렵다는 의견",
+          "summary": "수업 진도가 계속 진행되어 질문할 타이밍을 잡기 어렵다는 의견",
           "evidence": "수업 중 바로 질문하려면 진도가 계속 나가서 타이밍 잡기 어렵긴 합니다.",
           "keywords": [
             "진도",
@@ -316,10 +317,22 @@
         {
           "category": "attendance",
           "sentiment": "neutral",
-          "summary": "전자출결로 출석을 확인하고 조별 발표는 없었다는 의견",
-          "evidence": "출석은 전자출결로 했고 조별 발표는 없었습니다.",
+          "summary": "출석을 전자출결로 확인한다는 의견",
+          "evidence": "출석은 전자출결로 했고",
           "keywords": [
-            "전자출결",
+            "전자출결"
+          ],
+          "condition": null,
+          "mentions_change": false,
+          "evidence_match": "exact",
+          "evidence_verified": true
+        },
+        {
+          "category": "team_project",
+          "sentiment": "neutral",
+          "summary": "조별 발표가 없다는 의견",
+          "evidence": "조별 발표는 없었습니다.",
+          "keywords": [
             "조별 발표"
           ],
           "condition": null,
@@ -330,12 +343,12 @@
         {
           "category": "general_impression",
           "sentiment": "positive",
-          "summary": "편한 학점용 수업보다는 직접 코드를 많이 써 보고 싶은 사람에게 맞는다는 의견",
+          "summary": "편한 학점용 수업보다 직접 코드를 많이 써 보고 싶은 사람에게 맞는다는 의견",
           "evidence": "편한 학점용 수업이라기보단 손으로 코드를 많이 써 보고 싶은 사람에게 맞는 듯해요.",
           "keywords": [
             "코딩 실습"
           ],
-          "condition": "직접 코드를 많이 써 보고 싶은 사람",
+          "condition": "손으로 코드를 많이 써 보고 싶은 사람",
           "mentions_change": false,
           "evidence_match": "exact",
           "evidence_verified": true
@@ -354,7 +367,7 @@
           "category": "learning",
           "sentiment": "positive",
           "summary": "오류 원인을 구분하는 데 도움이 되었다는 의견",
-          "evidence": "특히 파일 이름 잘못 적어서 안 돌아가는 거랑 코드 자체가 틀린 거를 구분하게 된 게 도움이 됬다.",
+          "evidence": "파일 이름 잘못 적어서 안 돌아가는 거랑 코드 자체가 틀린 거를 구분하게 된 게 도움이 됬다.",
           "keywords": [
             "오류 원인 구분"
           ],
@@ -390,22 +403,9 @@
           "evidence_verified": true
         },
         {
-          "category": "professor",
-          "sentiment": "positive",
-          "summary": "수업 종료 후 질문하면 설명해 준다는 의견",
-          "evidence": "수업 종료 후에 남아서 질문하면 설명을 해주셨지만",
-          "keywords": [
-            "질문 응대"
-          ],
-          "condition": "수업 종료 후 질문할 때",
-          "mentions_change": false,
-          "evidence_match": "exact",
-          "evidence_verified": true
-        },
-        {
           "category": "workload",
-          "sentiment": "negative",
-          "summary": "초보자는 수업 외에 따로 복습할 시간을 잡아야 한다는 의견",
+          "sentiment": "neutral",
+          "summary": "노베이스라면 별도로 복습할 시간을 마련하는 것이 좋다는 의견",
           "evidence": "파프 노베면 수업시간만으로 해결하려고 하지 말고 따로 복습할 시간 잡는 게 좋을 듯.",
           "keywords": [
             "복습 시간"
@@ -418,7 +418,7 @@
         {
           "category": "general_impression",
           "sentiment": "negative",
-          "summary": "배울 점은 있지만 수업이 편하지는 않다는 의견",
+          "summary": "배우는 점은 있지만 수업이 편하지는 않다는 의견",
           "evidence": "남는 건 있는데 편하진 않음.",
           "keywords": [],
           "condition": null,
@@ -484,7 +484,7 @@
         {
           "category": "professor",
           "sentiment": "negative",
-          "summary": "질문에 이미 설명한 내용이라고 답해 질문하기 어렵다는 의견 / 처음 배우는 학생을 기다려 주었으면 한다는 의견",
+          "summary": "질문하면 이미 설명했다고 답해 질문하기 어려워진다는 의견 / 처음 배우는 사람을 더 기다려 주었으면 한다는 의견",
           "evidence": "물어보면 이건 이미 설명했다고 하셔서 그 뒤로는 검색창한테만 물어봄",
           "keywords": [
             "질문 응대",
@@ -508,7 +508,7 @@
         {
           "category": "exam",
           "sentiment": "negative",
-          "summary": "기말 시험 시간이 짧아 문제를 다 풀기 어렵다는 의견 / 파일 처리 문제를 시작하지 못했다는 의견 / 과제에서 작동하던 코드가 시험에서는 작동하지 않았다는 의견",
+          "summary": "기말 시험 시간이 짧아 문제를 다 풀기 어렵다는 의견 / 시험에서 파일 처리 문제를 시작하지 못했다는 의견",
           "evidence": "기말 시간 왜케 짧음.. 문제 읽다가 반은 간듯.",
           "keywords": [
             "기말 시험",
@@ -531,14 +531,13 @@
       "overall_sentiment": "positive",
       "items": [
         {
-          "category": "workload",
+          "category": "exam",
           "sentiment": "neutral",
-          "summary": "과제와 짧은 퀴즈가 있고 중간·기말 시험을 본다는 의견",
-          "evidence": "과제 8번에 짧은 퀴즈 3번, 중간기말 있습니다.",
+          "summary": "중간고사와 기말고사가 있다는 의견",
+          "evidence": "중간기말 있습니다",
           "keywords": [
-            "과제",
-            "퀴즈",
-            "중간·기말"
+            "중간고사",
+            "기말고사"
           ],
           "condition": null,
           "mentions_change": false,
@@ -548,10 +547,10 @@
         {
           "category": "grade",
           "sentiment": "positive",
-          "summary": "A0 성적에 만족한다는 의견",
+          "summary": "성적에 만족한다는 의견",
           "evidence": "성적은 만족하고",
           "keywords": [
-            "A0"
+            "성적"
           ],
           "condition": null,
           "mentions_change": false,
@@ -561,8 +560,8 @@
         {
           "category": "learning",
           "sentiment": "positive",
-          "summary": "실습 예제를 다시 풀어본 것이 도움이 되었다는 의견",
-          "evidence": "실습 예제를 다시 풀어본 게 도움됐습니다.",
+          "summary": "실습 예제를 다시 풀어본 것이 도움이 됐다는 의견",
+          "evidence": "실습 예제를 다시 풀어본 게 도움됐습니다",
           "keywords": [
             "실습 예제"
           ],
@@ -582,30 +581,29 @@
       "overall_sentiment": "mixed",
       "items": [
         {
+          "category": "workload",
+          "sentiment": "neutral",
+          "summary": "기초 지식이 부족하면 수업 전 준비 시간이 필요하다는 의견",
+          "evidence": "노베면 준비 시간이 필요하고",
+          "keywords": [
+            "준비 시간",
+            "기초 지식"
+          ],
+          "condition": "기초 지식이 부족한 경우",
+          "mentions_change": false,
+          "evidence_match": "exact",
+          "evidence_verified": true
+        },
+        {
           "category": "delivery",
           "sentiment": "negative",
-          "summary": "진도가 빠르고 실습 중 설명을 놓치기 쉽다는 의견 / 기초가 부족한 학생은 수업 전에 준비 시간이 필요하다는 의견",
-          "evidence": "파프 진도가 꽤 빨라요. 실습 때 교수님 화면을 따라 치느라 설명을 놓치는 날이 많아서",
+          "summary": "실습 진도가 빨라 화면을 따라 치느라 설명을 놓치기 쉽다는 의견",
+          "evidence": "실습 때 교수님 화면을 따라 치느라 설명을 놓치는 날이 많아서",
           "keywords": [
             "빠른 진도",
-            "실습",
-            "기초 문법"
+            "실습 설명"
           ],
-          "condition": "기초가 부족하면",
-          "mentions_change": false,
-          "evidence_match": "exact",
-          "evidence_verified": true
-        },
-        {
-          "category": "workload",
-          "sentiment": "positive",
-          "summary": "수업 전에 예제 코드를 읽어 준비하면 실습을 따라가는 데 도움이 된다는 의견",
-          "evidence": "수업 전에 예제 코드를 미리 받아 읽었습니다. 그렇게 준비하니까",
-          "keywords": [
-            "예제 코드",
-            "수업 준비"
-          ],
-          "condition": "수업 전에 예제 코드를 미리 읽어 준비하면",
+          "condition": null,
           "mentions_change": false,
           "evidence_match": "exact",
           "evidence_verified": true
@@ -613,12 +611,13 @@
         {
           "category": "delivery",
           "sentiment": "positive",
-          "summary": "코드의 값을 바꿔 결과를 확인하는 실습이 재미있다는 의견",
-          "evidence": "같은 코드에서 값을 바꿨을 때 결과가 달라지는 게 보여서 재미는 있었어요.",
+          "summary": "예제 코드를 미리 읽고 준비하면 실습 결과의 변화를 확인하는 재미가 있다는 의견",
+          "evidence": "그렇게 준비하니까 같은 코드에서 값을 바꿨을 때 결과가 달라지는 게 보여서 재미는 있었어요.",
           "keywords": [
-            "코드 실습"
+            "예제 코드",
+            "실습"
           ],
-          "condition": null,
+          "condition": "수업 전에 예제 코드를 미리 읽고 준비한 경우",
           "mentions_change": false,
           "evidence_match": "exact",
           "evidence_verified": true
@@ -639,27 +638,27 @@
         {
           "category": "professor",
           "sentiment": "positive",
-          "summary": "에러를 보여 주고 구체적으로 질문하면 차분하게 함께 해결해 준다는 의견",
+          "summary": "에러를 구체적으로 보여 주면 차분하게 함께 해결해 준다는 의견",
           "evidence": "수업 끝나고 에러 화면을 보여 드렸을 때는 차분하게 같이 찾아 주셨습니다.",
           "keywords": [
             "질문 응대",
             "에러 해결"
           ],
-          "condition": "에러 화면을 보여 드렸을 때",
+          "condition": "에러 화면을 구체적으로 보여 준 경우",
           "mentions_change": false,
           "evidence_match": "exact",
           "evidence_verified": true
         },
         {
-          "category": "learning",
+          "category": "general_impression",
           "sentiment": "positive",
-          "summary": "기본 문법이 있으면 실습 경험을 쌓기 괜찮다는 의견",
+          "summary": "기본 문법이 있으면 실습 경험을 쌓기에 괜찮은 과목이라는 의견",
           "evidence": "기본 문법이 있으면 실습 경험을 쌓기 괜찮은 과목입니다.",
           "keywords": [
-            "실습 경험",
-            "기본 문법"
+            "기본 문법",
+            "실습 경험"
           ],
-          "condition": "기본 문법이 있으면",
+          "condition": "기본 문법이 있는 경우",
           "mentions_change": false,
           "evidence_match": "exact",
           "evidence_verified": true
@@ -677,14 +676,14 @@
         {
           "category": "workload",
           "sentiment": "negative",
-          "summary": "실습이 많아 수업에 손이 많이 간다는 의견 / 기초가 없는 학생은 첫 몇 주 예습 시간을 확보해야 한다는 의견",
-          "evidence": "노베라면 첫 몇 주 예습 시간을 꼭 잡고",
+          "summary": "실습이 많아 수업에 손이 많이 간다는 의견 / 기초가 없는 학생은 예습에 부담을 느낄 수 있다는 의견",
+          "evidence": "기초가 없는 친구는 그 부분이 부담스럽다고 했어요.",
           "keywords": [
             "실습",
-            "예습",
-            "기초 지식"
+            "기초 지식",
+            "질문"
           ],
-          "condition": "기초가 없는 학생",
+          "condition": "기초가 없는 경우",
           "mentions_change": false,
           "evidence_match": "exact",
           "evidence_verified": true
@@ -692,7 +691,7 @@
         {
           "category": "learning",
           "sentiment": "positive",
-          "summary": "자료 정리 작업을 직접 해 보고 다른 과목에도 활용했다는 의견 / 수업을 통해 코드를 보는 두려움이 줄었다는 의견",
+          "summary": "실습에서 익힌 자료 정리 방법을 다른 과목에 활용했다는 의견 / 코드를 보는 데 대한 두려움이 줄었다는 의견",
           "evidence": "파일 여러 개 읽고 원하는 줄만 남기는 작업을 직접 해 봐서 나중에 다른 과목 자료 정리할 때 써먹었습니다.",
           "keywords": [
             "자료 정리",
@@ -707,10 +706,11 @@
         {
           "category": "delivery",
           "sentiment": "positive",
-          "summary": "코드 암기 위주가 아닌 수업 방식이 좋았다는 의견",
+          "summary": "코드를 외우기보다 직접 활용하는 수업 방식이 좋다는 의견",
           "evidence": "그냥 코드 외우는 수업은 아니어서 그 부분은 좋았습니다.",
           "keywords": [
-            "코드 암기"
+            "코드",
+            "실습"
           ],
           "condition": null,
           "mentions_change": false,
@@ -720,11 +720,12 @@
         {
           "category": "exam",
           "sentiment": "negative",
-          "summary": "시험이 어렵고 제한 시간 안에 문제를 풀기 어렵다는 의견 / 시험에서 문제 풀이 시간이 부족했다는 의견",
-          "evidence": "저는 한 문제 오류 찾다가 시간을 써서 마지막 문제를 못 풀었고, 기말에도 시간이 남지는 않았습니다.",
+          "summary": "시험 문제가 어렵고 제한 시간 안에 풀기 어렵다는 의견 / 실습 이해와 제한 시간 내 시험 풀이가 다르다는 의견",
+          "evidence": "시험은 어려움. 중간 때는 짧은 문제를 빨리 풀고 넘어가야 뒤에 긴 문제를 볼 수 있었어요.",
           "keywords": [
             "시험 난이도",
-            "시간 부족"
+            "시간 제한",
+            "실습"
           ],
           "condition": null,
           "mentions_change": false,
@@ -745,28 +746,15 @@
           "evidence_verified": true
         },
         {
-          "category": "professor",
-          "sentiment": "negative",
-          "summary": "수업 흐름을 끊는 질문에는 급하게 넘어가는 편이라는 의견",
-          "evidence": "수업 중에 흐름을 끊는 질문에는 급하게 넘어가는 편입니다.",
-          "keywords": [
-            "질문 응대"
-          ],
-          "condition": null,
-          "mentions_change": false,
-          "evidence_match": "exact",
-          "evidence_verified": true
-        },
-        {
           "category": "delivery",
           "sentiment": "negative",
-          "summary": "기초가 없는 학생에게 수업 중 질문 응대 방식이 부담스러울 수 있다는 의견",
-          "evidence": "기초가 없는 친구는 그 부분이 부담스럽다고 했어요.",
+          "summary": "수업 중 흐름을 끊는 질문에는 급하게 넘어간다는 의견",
+          "evidence": "수업 중에 흐름을 끊는 질문에는 급하게 넘어가는 편입니다.",
           "keywords": [
-            "기초 지식",
-            "질문 응대"
+            "질문 응대",
+            "수업 흐름"
           ],
-          "condition": "기초가 없는 학생",
+          "condition": null,
           "mentions_change": false,
           "evidence_match": "exact",
           "evidence_verified": true
@@ -779,7 +767,20 @@
           "keywords": [
             "추천"
           ],
-          "condition": "배울 의지가 있는 학생",
+          "condition": "배울 의지가 있는 경우",
+          "mentions_change": false,
+          "evidence_match": "exact",
+          "evidence_verified": true
+        },
+        {
+          "category": "workload",
+          "sentiment": "neutral",
+          "summary": "기초가 없다면 첫 몇 주 예습 시간을 확보하라는 의견",
+          "evidence": "노베라면 첫 몇 주 예습 시간을 꼭 잡고",
+          "keywords": [
+            "예습 시간"
+          ],
+          "condition": "기초가 없는 경우",
           "mentions_change": false,
           "evidence_match": "exact",
           "evidence_verified": true
@@ -787,12 +788,12 @@
         {
           "category": "general_impression",
           "sentiment": "negative",
-          "summary": "출석만 채우며 학점을 따려는 학생에게는 다른 수업을 권한다는 의견",
+          "summary": "출석만 채우며 학점을 얻으려는 학생에게는 다른 수업을 권한다는 의견",
           "evidence": "그냥 출석만 채우면서 학점 따려는 거면 다른 수업을 알아보는 편이 나을 듯합니다.",
           "keywords": [
             "비추천"
           ],
-          "condition": "출석만 채우며 학점을 따려는 학생",
+          "condition": "출석만 채우며 학점을 얻으려는 경우",
           "mentions_change": false,
           "evidence_match": "exact",
           "evidence_verified": true
@@ -810,8 +811,8 @@
         {
           "category": "delivery",
           "sentiment": "positive",
-          "summary": "실행 결과를 계속 확인하는 수업 방식이 잘 맞았다는 의견 / 같은 기능을 여러 코드로 구현하고 비교하는 실습이 좋았다는 의견",
-          "evidence": "같은 기능을 두 가지 코드로 만들고 어떤 쪽이 읽기 쉬운지 비교하는 실습도 좋았어요.",
+          "summary": "실행 결과를 확인하는 방식이 잘 맞았다는 의견 / 두 가지 코드의 가독성을 비교하는 실습이 좋았다는 의견",
+          "evidence": "같은 기능을 두 가지 코드로 만들고 어떤 쪽이 읽기 쉬운지 비교하는 실습도 좋았어요",
           "keywords": [
             "실행 결과 확인",
             "코드 비교",
@@ -825,8 +826,8 @@
         {
           "category": "workload",
           "sentiment": "negative",
-          "summary": "과제에 막힌 이유까지 기록해야 해 처음에는 번거로웠다는 의견",
-          "evidence": "과제는 정답 파일만 올리는 게 아니라 중간에 막힌 이유도 적게 하셔서 처음에는 번거롭다고 느꼈습니다.",
+          "summary": "과제에 막힌 이유까지 기록하는 것이 처음에는 번거로웠다는 의견",
+          "evidence": "과제는 정답 파일만 올리는 게 아니라 중간에 막힌 이유도 적게 하셔서 처음에는 번거롭다고 느꼈습니다",
           "keywords": [
             "과제",
             "오류 기록"
@@ -840,10 +841,9 @@
           "category": "learning",
           "sentiment": "positive",
           "summary": "과제 기록을 다시 보며 비슷한 오류를 더 빨리 고칠 수 있었다는 의견",
-          "evidence": "나중에 제 기록을 다시 보니 비슷한 오류를 빨리 고칠 수 있더라고요.",
+          "evidence": "나중에 제 기록을 다시 보니 비슷한 오류를 빨리 고칠 수 있더라고요",
           "keywords": [
-            "오류 수정",
-            "과제 기록"
+            "오류 수정"
           ],
           "condition": null,
           "mentions_change": false,
@@ -853,8 +853,8 @@
         {
           "category": "exam",
           "sentiment": "negative",
-          "summary": "시험 문제가 실습 예제보다 길어 끝까지 읽을 시간이 부족했다는 의견",
-          "evidence": "다만 시험 문제는 실습 예제보다 길어서 끝까지 읽을 여유가 부족했고",
+          "summary": "시험 문제가 실습 예제보다 길어 읽을 시간이 부족했다는 의견",
+          "evidence": "시험 문제는 실습 예제보다 길어서 끝까지 읽을 여유가 부족했고",
           "keywords": [
             "시험 문제",
             "시간 부족"
@@ -865,25 +865,12 @@
           "evidence_verified": true
         },
         {
-          "category": "grade",
-          "sentiment": "negative",
-          "summary": "성적 공지가 있을 때까지 불안했다는 의견",
-          "evidence": "성적 공지 때까지 불안했습니다..",
-          "keywords": [
-            "성적 공지"
-          ],
-          "condition": null,
-          "mentions_change": false,
-          "evidence_match": "exact",
-          "evidence_verified": true
-        },
-        {
           "category": "general_impression",
           "sentiment": "positive",
-          "summary": "과제를 성실히 하고 직접 만들어 보는 것을 선호하는 학생에게 추천한다는 의견",
-          "evidence": "과제는 성실히 할 자신이 있고 손으로 직접 만들어 보고 싶다면 추천해요.",
+          "summary": "과제를 성실히 하고 직접 만들어 보고 싶은 사람에게 추천한다는 의견",
+          "evidence": "과제는 성실히 할 자신이 있고 손으로 직접 만들어 보고 싶다면 추천해요",
           "keywords": [
-            "과제",
+            "과제 성실성",
             "직접 만들기"
           ],
           "condition": "과제를 성실히 할 자신이 있고 손으로 직접 만들어 보고 싶은 경우",
@@ -894,8 +881,8 @@
         {
           "category": "general_impression",
           "sentiment": "negative",
-          "summary": "시험 부담이 적은 수업을 찾는 학생에게는 맞지 않을 수 있다는 의견",
-          "evidence": "시험 부담까지 적은 수업을 찾는 거면 맞지 않을 수 있습니다.",
+          "summary": "시험 부담이 적은 수업을 찾는 사람에게는 맞지 않을 수 있다는 의견",
+          "evidence": "시험 부담까지 적은 수업을 찾는 거면 맞지 않을 수 있습니다",
           "keywords": [
             "시험 부담"
           ],
@@ -912,24 +899,22 @@
   "summary_by_category": [
     {
       "category": "workload",
-      "mentioned": 6,
+      "mentioned": 7,
       "counts": {
-        "positive": 1,
+        "positive": 0,
         "negative": 4,
-        "neutral": 1
+        "neutral": 5
       },
       "ratios": {
-        "positive": 16.7,
-        "negative": 66.7,
-        "neutral": 16.7
+        "positive": 0.0,
+        "negative": 44.4,
+        "neutral": 55.6
       },
-      "top_pros": [
-        "수업 전에 예제 코드를 읽어 준비하면 실습을 따라가는 데 도움이 된다는 의견"
-      ],
+      "top_pros": [],
       "top_cons": [
-        "실습이 많아 수업에 손이 많이 간다는 의견 / 기초가 없는 학생은 첫 몇 주 예습 시간을 확보해야 한다는 의견",
-        "실습 과제에 결과 설명까지 작성해야 하고 과제가 몰리는 주에는 시간이 많이 든다는 의견",
-        "과제에 막힌 이유까지 기록해야 해 처음에는 번거로웠다는 의견"
+        "코딩 초보자는 실습 중 오류를 찾느라 다음 설명을 놓쳐 부담스럽다는 의견",
+        "실습이 많아 수업에 손이 많이 간다는 의견 / 기초가 없는 학생은 예습에 부담을 느낄 수 있다는 의견",
+        "실습 과제에 결과 설명까지 작성해야 하고 과제가 몰리는 주에는 시간이 많이 든다는 의견"
       ]
     },
     {
@@ -937,28 +922,28 @@
       "mentioned": 9,
       "counts": {
         "positive": 0,
-        "negative": 9,
-        "neutral": 0
+        "negative": 8,
+        "neutral": 1
       },
       "ratios": {
         "positive": 0.0,
-        "negative": 100.0,
-        "neutral": 0.0
+        "negative": 88.9,
+        "neutral": 11.1
       },
       "top_pros": [],
       "top_cons": [
-        "중간고사와 기말고사에 긴 문제가 있어 시간 내에 풀기 어렵다는 의견",
-        "기말 시험 시간이 짧아 문제를 다 풀기 어렵다는 의견 / 파일 처리 문제를 시작하지 못했다는 의견 / 과제에서 작동하던 코드가 시험에서는 작동하지 않았다는 의견",
-        "시험 시간이 부족해 문제를 다 풀기 어렵다는 의견"
+        "중간고사와 기말고사에서 문제 수와 긴 문제 풀이에 어려움이 있었다는 의견",
+        "기말 시험 시간이 짧아 문제를 다 풀기 어렵다는 의견 / 시험에서 파일 처리 문제를 시작하지 못했다는 의견",
+        "시험 문제가 어렵고 제한 시간 안에 풀기 어렵다는 의견 / 실습 이해와 제한 시간 내 시험 풀이가 다르다는 의견"
       ]
     },
     {
       "category": "team_project",
-      "mentioned": 1,
+      "mentioned": 2,
       "counts": {
         "positive": 0,
         "negative": 0,
-        "neutral": 1
+        "neutral": 2
       },
       "ratios": {
         "positive": 0.0,
@@ -970,26 +955,26 @@
     },
     {
       "category": "delivery",
-      "mentioned": 8,
+      "mentioned": 6,
       "counts": {
         "positive": 6,
-        "negative": 5,
+        "negative": 3,
         "neutral": 0
       },
       "ratios": {
-        "positive": 54.5,
-        "negative": 45.5,
+        "positive": 66.7,
+        "negative": 33.3,
         "neutral": 0.0
       },
       "top_pros": [
-        "실행 결과를 계속 확인하는 수업 방식이 잘 맞았다는 의견 / 같은 기능을 여러 코드로 구현하고 비교하는 실습이 좋았다는 의견",
+        "실행 결과를 확인하는 방식이 잘 맞았다는 의견 / 두 가지 코드의 가독성을 비교하는 실습이 좋았다는 의견",
         "수업 중 직접 실행하고 오류를 확인하는 방식이 이해에 도움이 된다는 의견",
-        "실습이 재미있다는 의견"
+        "예제 코드를 미리 읽고 준비하면 실습 결과의 변화를 확인하는 재미가 있다는 의견"
       ],
       "top_cons": [
-        "코딩 기초가 없으면 실습을 따라가기 어렵고 설명을 놓치기 쉽다는 의견",
-        "진도가 빠르고 실습 중 설명을 놓치기 쉽다는 의견 / 기초가 부족한 학생은 수업 전에 준비 시간이 필요하다는 의견",
-        "완전 초보자는 초반 반복문을 예습할 필요가 있다는 의견"
+        "수업 진도가 계속 진행되어 질문할 타이밍을 잡기 어렵다는 의견",
+        "실습 진도가 빨라 화면을 따라 치느라 설명을 놓치기 쉽다는 의견",
+        "수업 중 흐름을 끊는 질문에는 급하게 넘어간다는 의견"
       ]
     },
     {
@@ -1010,30 +995,9 @@
     },
     {
       "category": "grade",
-      "mentioned": 3,
+      "mentioned": 2,
       "counts": {
         "positive": 2,
-        "negative": 1,
-        "neutral": 0
-      },
-      "ratios": {
-        "positive": 66.7,
-        "negative": 33.3,
-        "neutral": 0.0
-      },
-      "top_pros": [
-        "시험 점수에 비해 학점이 괜찮게 나왔다는 의견",
-        "A0 성적에 만족한다는 의견"
-      ],
-      "top_cons": [
-        "성적 공지가 있을 때까지 불안했다는 의견"
-      ]
-    },
-    {
-      "category": "learning",
-      "mentioned": 9,
-      "counts": {
-        "positive": 9,
         "negative": 0,
         "neutral": 0
       },
@@ -1043,9 +1007,28 @@
         "neutral": 0.0
       },
       "top_pros": [
-        "자료 정리 작업을 직접 해 보고 다른 과목에도 활용했다는 의견 / 수업을 통해 코드를 보는 두려움이 줄었다는 의견",
-        "실습을 통해 배운 내용이 실제로 남는다는 의견",
-        "실습 과정을 설명하며 과제를 수행하는 것이 배우는 데 도움이 된다는 의견"
+        "시험 점수에 비해 학점이 괜찮게 나왔다는 의견",
+        "성적에 만족한다는 의견"
+      ],
+      "top_cons": []
+    },
+    {
+      "category": "learning",
+      "mentioned": 8,
+      "counts": {
+        "positive": 8,
+        "negative": 0,
+        "neutral": 0
+      },
+      "ratios": {
+        "positive": 100.0,
+        "negative": 0.0,
+        "neutral": 0.0
+      },
+      "top_pros": [
+        "실습을 통해 배운 내용이 실제로 남고 활용할 수 있다는 의견 / 기초 문법을 아는 학생에게 배울 내용이 많다는 의견",
+        "실습에서 익힌 자료 정리 방법을 다른 과목에 활용했다는 의견 / 코드를 보는 데 대한 두려움이 줄었다는 의견",
+        "혼자 작은 도구를 만들 수 있게 된다는 의견"
       ],
       "top_cons": []
     },
@@ -1053,48 +1036,48 @@
       "category": "professor",
       "mentioned": 7,
       "counts": {
-        "positive": 5,
-        "negative": 4,
+        "positive": 4,
+        "negative": 3,
         "neutral": 0
       },
       "ratios": {
-        "positive": 55.6,
-        "negative": 44.4,
+        "positive": 57.1,
+        "negative": 42.9,
         "neutral": 0.0
       },
       "top_pros": [
-        "코드와 오류 문구를 바탕으로 문제 원인을 설명해 주는 질문 응대가 만족스럽다는 의견",
-        "에러를 보여 주고 구체적으로 질문하면 차분하게 함께 해결해 준다는 의견",
-        "질문할 때 학습 상황을 알려 주면 자세히 봐준다는 의견"
+        "질문에 만족스럽게 응대하고 코드 오류의 원인을 설명해 준다는 의견",
+        "에러를 구체적으로 보여 주면 차분하게 함께 해결해 준다는 의견",
+        "질문할 때 자세히 살펴봐 준다는 의견"
       ],
       "top_cons": [
-        "질문에 이미 설명한 내용이라고 답해 질문하기 어렵다는 의견 / 처음 배우는 학생을 기다려 주었으면 한다는 의견",
-        "질문하려 해도 바로 응답받지 못할 때가 있다는 의견",
+        "질문하면 이미 설명했다고 답해 질문하기 어려워진다는 의견 / 처음 배우는 사람을 더 기다려 주었으면 한다는 의견",
+        "질문하려 해도 바로 응답받지 못하는 경우가 있다는 의견",
         "강의 중 질문에 대한 답변이 짧아 아쉽다는 의견"
       ]
     },
     {
       "category": "general_impression",
-      "mentioned": 4,
+      "mentioned": 5,
       "counts": {
-        "positive": 3,
+        "positive": 4,
         "negative": 3,
         "neutral": 0
       },
       "ratios": {
-        "positive": 50.0,
-        "negative": 50.0,
+        "positive": 57.1,
+        "negative": 42.9,
         "neutral": 0.0
       },
       "top_pros": [
-        "과제를 성실히 하고 직접 만들어 보는 것을 선호하는 학생에게 추천한다는 의견",
-        "편한 학점용 수업보다는 직접 코드를 많이 써 보고 싶은 사람에게 맞는다는 의견",
-        "배울 의지가 있는 학생에게 추천한다는 의견"
+        "기본 문법이 있으면 실습 경험을 쌓기에 괜찮은 과목이라는 의견",
+        "과제를 성실히 하고 직접 만들어 보고 싶은 사람에게 추천한다는 의견",
+        "편한 학점용 수업보다 직접 코드를 많이 써 보고 싶은 사람에게 맞는다는 의견"
       ],
       "top_cons": [
-        "출석만 채우며 학점을 따려는 학생에게는 다른 수업을 권한다는 의견",
-        "시험 부담이 적은 수업을 찾는 학생에게는 맞지 않을 수 있다는 의견",
-        "배울 점은 있지만 수업이 편하지는 않다는 의견"
+        "출석만 채우며 학점을 얻으려는 학생에게는 다른 수업을 권한다는 의견",
+        "시험 부담이 적은 수업을 찾는 사람에게는 맞지 않을 수 있다는 의견",
+        "배우는 점은 있지만 수업이 편하지는 않다는 의견"
       ]
     }
   ],
@@ -1103,6 +1086,6 @@
     "succeeded": 16,
     "failed": 0,
     "model": "gpt-6-luna",
-    "processed_at": "2026-10-24T10:48:10.375328+00:00"
+    "processed_at": "2026-10-25T10:39:41.228015+00:00"
   }
 }

@@ -1,6 +1,6 @@
 {
   "label_status": "AI-adjudicated; human_review=pending; team_approved=false",
-  "baseline64_source": "frontend/public/reference/*_202*.json (8 semester files only; merged files excluded)",
+  "baseline64_source": "docs/evaluation/day5_consistency/baseline64_frozen.json; archived from fedf04d portal semester files",
   "model_settings": {
     "model": "gpt-6-luna",
     "reasoning_effort": "none",
@@ -545,6 +545,17 @@
     }
   },
   "packaged_file_sha256": {
+    "docs/labeling_boundary_v2.md": "19593f51c6ae871c2ee9941114fff475ae82bcfbec8b8eb42976d038dcedd148",
+    "data/test_reviews.jsonl": "6face952d8dff0b1c62e3c0835cdb859909327bd821c21ae63010a0fc604854b",
+    "data/reference_gold64_v1.jsonl": "82a9c41aab2ca672528f74679e9babe157a7abf49a10fe349b316d5109b4d0d5",
+    "data/reference_gold64_v2.jsonl": "b4b0c51b3303a406ed808d7cd3710490f24da470bb35fff1c089459894860893",
+    "data/consistency_challenge24.jsonl": "cbdbaff8b6ecac6b06c0547ffff4980b1f3a30adb5d36501832a944245b9dd41",
+    "docs/evaluation/day5_consistency/label_changes.json": "b9fca4c543a29032ee23c08eb8440d9ad4618aa6beffc3a58be69e5210e573ee",
+    "docs/evaluation/day5_consistency/saved_predictions.json": "48e3039fae262d6887da8bab2e60fe80bf0a4bd708de8c6bcec90b9bb27f2fd9",
+    "docs/evaluation/day5_consistency/baseline64_frozen.json": "a9e93d711de438835ecbc32b3b2a228a7a05fff43b244c20150b2c091884df5c",
+    "docs/evaluation/day5_consistency/prompt_v3_frozen.txt": "1be288abfc67f01b4767b2787113fde0875d90333936a10de6c120d3db3db4a5"
+  },
+  "historical_raw_file_sha256": {
     "analysis/prompt.py": "1f7892b4d3063eafe0017a4f8e90d63c8431d7154243d8e39c441fff38cface1",
     "docs/labeling_boundary_v2.md": "07bb1778a1fcb04c3db9c6b9d25f6dfd3122d5e633e10486b1a0ab448e0516d2",
     "data/test_reviews.jsonl": "1b4508fbcf8e404c3c276a6bea5837cc54ade896a1fed8f4e7cdf5feac871681",
@@ -553,5 +564,7 @@
     "data/consistency_challenge24.jsonl": "3db665a64803e83dce380b34dce0195e84e6c5ac508e652f1f57b951f4d835c8",
     "docs/evaluation/day5_consistency/label_changes.json": "c71f47c8652854a28a1a388184f468b7c00011ad4382669bc1633f0f572219d9",
     "docs/evaluation/day5_consistency/saved_predictions.json": "f5c82fc23102585cd18012570e7fccba7cf5026a6b21089e35b91cabe0a266a4"
-  }
+  },
+  "hash_scheme": "sha256-utf8-lf-v1 (CRLF normalized to LF; other bytes preserved)",
+  "prompt_source": "docs/evaluation/day5_consistency/prompt_v3_frozen.txt; original experiment prompt, independent of active prompt comments"
 }
