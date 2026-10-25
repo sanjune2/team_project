@@ -209,3 +209,10 @@
 - condition·evidence와 리뷰 원문·메타데이터는 사용자 지정 통합 라벨 파일을 따른다. 라벨과 리뷰 ID는 모델 프롬프트에 넣지 않는다.
 
 이 기준과 활성 프롬프트의 반영 상태는 다를 수 있다. P1 후보는 근거 원문 복사율 회귀로 채택하지 않았다. 실험 결과와 남은 불일치는 `docs/day4_label_rescore_and_prompt.md`에 기록한다.
+
+
+## 7. 로컬 일관성 개선 후보 (2026-10-24)
+
+사용자 요청으로 별도 기능 브랜치에서 검증한 AI 판정 기준이다. 팀 승인 기준으로 표시하지 않는다. 기존 45개 정답은 변경하지 않는다.
+
+64개 평가 후보에 적용한 세부 판정은 `docs/labeling_boundary_v2.md`, 데이터는 `data/reference_gold64_v2.jsonl`, 비교 결과는 `docs/day5_consistency_improvement.md`를 따른다.
