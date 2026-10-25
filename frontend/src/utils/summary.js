@@ -86,11 +86,7 @@ export function buildOverview(result, mode, labels) {
   }
 
   const keep = pos.map((s) => ({ name: labels[s.category] ?? s.category, text: splitNotes(s.top_pros)[0] }));
-  const improve = neg.map((s) => {
-    const conds = (negCond[s.category] ?? []).slice(0, 3);
-    const note = splitNotes(s.top_cons)[0];
-    return { name: labels[s.category] ?? s.category, text: note, extra: conds.length ? `특히 ${conds.join(", ")}` : "" };
-  });
+  const improve = neg.map((s) => ({ name: labels[s.category] ?? s.category, text: splitNotes(s.top_cons)[0] }));
   return {
     lead,
     tail: tail.length ? `${tail.join(", ")} 평가됐어요.` : "",

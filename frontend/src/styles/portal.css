@@ -1,0 +1,56 @@
+/* 가나대학교 포털 (레퍼런스 예시). 값은 tokens.css 변수만 사용 */
+
+/* 상단: 학교명 + 예시 로그인 */
+.pt-header { border-bottom: var(--border); background: var(--bg); }
+.pt-header-inner { max-width: 860px; margin: 0 auto; padding: var(--sp-3) var(--sp-4); display: flex; align-items: center; justify-content: space-between; gap: var(--sp-4); }
+.pt-school { font-weight: var(--fw-strong); }
+.pt-login { display: flex; align-items: center; gap: var(--sp-3); font-size: var(--fs-small); }
+.pt-login-label { color: var(--text-sub); }
+
+/* 버튼 기본 스타일(App.css) 초기화 */
+.pt-role, .pt-tab, .pt-row, .pt-back { all: unset; box-sizing: border-box; cursor: pointer; }
+.pt-role:focus-visible, .pt-tab:focus-visible, .pt-row:focus-visible, .pt-back:focus-visible { outline: 0.5px solid var(--line-strong); outline-offset: 2px; }
+
+.pt-role { color: var(--text-sub); padding: var(--sp-1) 0; border-bottom: 1px solid transparent; }
+.pt-role:hover { color: var(--text); }
+.pt-role[aria-pressed="true"] { color: var(--text); font-weight: var(--fw-strong); border-bottom-color: var(--text); }
+
+.pt-main { word-break: keep-all; }
+
+/* 목록 화면 제목 */
+.pt-title { display: flex; align-items: baseline; gap: var(--sp-3); padding-bottom: var(--sp-4); }
+.pt-title h1 { font-size: var(--fs-title); font-weight: var(--fw-strong); line-height: var(--lh-tight); margin: 0; }
+.pt-sub { margin: 0; color: var(--text-sub); font-size: var(--fs-small); }
+
+/* 학기 선택 */
+.pt-tabs { display: flex; gap: var(--sp-5); border-bottom: var(--border); }
+.pt-tab { padding: var(--sp-2) 0; color: var(--text-sub); border-bottom: 1px solid transparent; margin-bottom: -0.5px; }
+.pt-tab:hover { color: var(--text); }
+.pt-tab[aria-pressed="true"] { color: var(--text); font-weight: var(--fw-strong); border-bottom-color: var(--text); }
+
+/* 검색 */
+.pt-search { box-sizing: border-box; width: 100%; padding: var(--sp-2) var(--sp-3); font: inherit; color: var(--text); background: var(--bg); border: var(--border); border-radius: var(--radius-control); }
+.pt-search:focus { outline: 0.5px solid var(--line-strong); }
+.pt-search::placeholder { color: var(--text-sub); }
+
+/* 과목 목록 */
+.pt-list { list-style: none; margin: var(--sp-4) 0 0; padding: 0; }
+.pt-list li { border-top: var(--border); }
+.pt-list li:last-child { border-bottom: var(--border); }
+.pt-row { width: 100%; display: flex; align-items: baseline; gap: var(--sp-3); padding: var(--sp-3); }
+.pt-row:hover { background: var(--bg-hover); }
+.pt-row-name { font-weight: var(--fw-strong); }
+.pt-row-sub { flex: 1; color: var(--text-sub); font-size: var(--fs-small); }
+.pt-row-count { color: var(--text-sub); font-size: var(--fs-small); white-space: nowrap; }
+.pt-empty { margin: var(--sp-4) 0 0; color: var(--text-sub); }
+
+/* 결과 화면 맨 아래 오른쪽 목록으로 */
+.pt-foot { display: flex; justify-content: flex-end; margin-top: var(--sp-6); }
+.pt-back { padding: var(--sp-2) var(--sp-3); color: var(--text); font-size: var(--fs-small); border: var(--border); border-radius: var(--radius-control); }
+.pt-back:hover { background: var(--bg-hover); }
+
+@media (max-width: 640px) {
+  .pt-header-inner { flex-wrap: wrap; gap: var(--sp-2); }
+  .pt-row { flex-wrap: wrap; row-gap: 0; }
+  .pt-row-name { flex-basis: 100%; }
+}
