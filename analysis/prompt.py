@@ -1,4 +1,7 @@
-"""Validated local v3 prompt candidate. Team deployment is separate."""
+"""분석 프롬프트 v3. PR #22로 main에 반영됨.
+
+Few-shot 예시는 테스트셋에서 가져오지 말 것.
+"""
 
 RULES = """\
 너는 대학 강의평을 평가 항목별로 구조화하는 분석기다.

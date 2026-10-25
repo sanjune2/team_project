@@ -9,11 +9,11 @@
         {
           "category": "attendance",
           "sentiment": "negative",
-          "summary": "랜덤 호명으로 출석을 확인해 출석 후 이탈하기 어렵다는 의견",
-          "evidence": "랜덤 호명이라 출튀는 꿈도 꾸지마셈",
+          "summary": "랜덤 호명으로 출석 관리가 엄격하다는 의견",
+          "evidence": "출석 빡셈.. 랜덤 호명이라 출튀는 꿈도 꾸지마셈",
           "keywords": [
             "랜덤 호명",
-            "출튀"
+            "출석 관리"
           ],
           "condition": null,
           "mentions_change": false,
@@ -42,7 +42,7 @@
         {
           "category": "delivery",
           "sentiment": "negative",
-          "summary": "수업 템포가 일정해 가끔 집중이 흐트러진다는 의견",
+          "summary": "수업 템포가 일정해 가끔 집중하기 어렵다는 의견",
           "evidence": "수업 템포가 일정해서 가끔 정신 놓게 됨",
           "keywords": [
             "수업 템포",
@@ -56,23 +56,10 @@
         {
           "category": "attendance",
           "sentiment": "neutral",
-          "summary": "출석을 무작위로 이름을 불러 확인한다는 의견",
+          "summary": "출석을 랜덤으로 이름을 불러 확인한다는 의견",
           "evidence": "출석은 랜덤으로 이름 부르셔서",
           "keywords": [
-            "출석 확인"
-          ],
-          "condition": null,
-          "mentions_change": false,
-          "evidence_match": "exact",
-          "evidence_verified": true
-        },
-        {
-          "category": "attendance",
-          "sentiment": "negative",
-          "summary": "결석 관리를 철저히 해야 한다는 의견",
-          "evidence": "결석 관리 꼭 해야 함",
-          "keywords": [
-            "결석 관리"
+            "랜덤 호명"
           ],
           "condition": null,
           "mentions_change": false,
@@ -82,7 +69,7 @@
         {
           "category": "exam",
           "sentiment": "positive",
-          "summary": "시험이 배운 범위에서 출제되어 억울한 문제가 거의 없다는 의견",
+          "summary": "시험이 배운 범위에서 출제되어 억울한 문제가 별로 없다는 의견",
           "evidence": "시험은 배운 범위에서 나오는 편이라 억울한 문제는 별로 없었고",
           "keywords": [
             "시험 범위"
@@ -95,7 +82,7 @@
         {
           "category": "grade",
           "sentiment": "positive",
-          "summary": "학점을 후하게 준다는 의견",
+          "summary": "학점을 후하게 주는 편이라는 의견",
           "evidence": "학점도 후하게 주시는 듯",
           "keywords": [
             "학점"
@@ -122,7 +109,7 @@
           "evidence": "공식 설명하고 예제 푸는 흐름은 ㄱㅊ았어요",
           "keywords": [
             "공식 설명",
-            "수업 예제"
+            "예제"
           ],
           "condition": null,
           "mentions_change": false,
@@ -147,7 +134,7 @@
           "category": "attendance",
           "sentiment": "neutral",
           "summary": "출석을 랜덤 호명으로 확인한다는 의견",
-          "evidence": "출석은 1번씩 랜덤 호명해서 대리출석 생각하지 마세요.",
+          "evidence": "출석은 1번씩 랜덤 호명해서 대리출석 생각하지 마세요",
           "keywords": [
             "랜덤 호명"
           ],
@@ -159,8 +146,8 @@
         {
           "category": "grade",
           "sentiment": "positive",
-          "summary": "계산 실수를 했지만 A0를 받았다는 의견",
-          "evidence": "중간은 계산 실수 2개, 기말은 하나 틀렸는데 A0 받았습니다.",
+          "summary": "계산 실수가 있었지만 A0를 받았다는 의견",
+          "evidence": "중간은 계산 실수 2개, 기말은 하나 틀렸는데 A0 받았습니다",
           "keywords": [
             "A0"
           ],
@@ -173,10 +160,11 @@
           "category": "exam",
           "sentiment": "positive",
           "summary": "시험이 공정하고 강의자료와 수업 예제를 복습하면 대비할 수 있다는 의견",
-          "evidence": "시험 자체는 공정한 편이고 강의자료랑 수업 예제 복습하면 충분히 대비 가능해요.",
+          "evidence": "시험 자체는 공정한 편이고 강의자료랑 수업 예제 복습하면 충분히 대비 가능해요",
           "keywords": [
             "시험 공정성",
-            "시험 대비"
+            "강의자료",
+            "수업 예제"
           ],
           "condition": null,
           "mentions_change": false,
@@ -196,10 +184,11 @@
         {
           "category": "delivery",
           "sentiment": "negative",
-          "summary": "강의 톤이 매주 비슷하고 졸릴 정도로 안정적이라는 의견",
+          "summary": "강의 전달이 단조로워 졸릴 수 있다는 의견",
           "evidence": "강의력은 진짜 잠 오는 수준으로 안정적임.. 매주 비슷한 톤이라 ASMR인 줄.",
           "keywords": [
-            "강의 톤"
+            "강의 전달",
+            "단조로움"
           ],
           "condition": null,
           "mentions_change": false,
@@ -209,7 +198,7 @@
         {
           "category": "exam",
           "sentiment": "positive",
-          "summary": "시험 범위와 문제 유형이 수업 내용에서 크게 벗어나지 않고 준비한 만큼 점수를 받을 수 있다는 의견",
+          "summary": "시험 범위와 문제 유형이 수업 내용에서 크게 벗어나지 않는다는 의견",
           "evidence": "시험 범위랑 문제 스타일이 수업에서 다뤘던 거랑 크게 안 벗어나서 준비한 만큼 점수 나옴.",
           "keywords": [
             "시험 범위",
@@ -222,8 +211,8 @@
         },
         {
           "category": "attendance",
-          "sentiment": "negative",
-          "summary": "랜덤 호명과 꼼꼼한 출석 확인으로 출석 후 이탈이 어렵다는 의견",
+          "sentiment": "neutral",
+          "summary": "출석을 랜덤 호명과 꼼꼼한 확인으로 관리한다는 의견",
           "evidence": "출석은 랜덤 호명에 체크도 꼼꼼해서 출튀러는 바로 걸릴 듯.",
           "keywords": [
             "랜덤 호명",
@@ -237,7 +226,7 @@
         {
           "category": "exam",
           "sentiment": "neutral",
-          "summary": "과제 4회, 퀴즈 2회와 중간·기말 시험으로 구성된다는 의견",
+          "summary": "과제와 퀴즈, 중간·기말로 평가가 구성된다는 의견",
           "evidence": "과제 4번, 퀴즈 2번, 중간기말 구성이고",
           "keywords": [
             "과제",
@@ -252,7 +241,7 @@
         {
           "category": "workload",
           "sentiment": "negative",
-          "summary": "과제는 어렵지 않지만 미루면 번거롭다는 의견",
+          "summary": "과제가 어렵지는 않지만 미루면 번거롭다는 의견",
           "evidence": "과제는 어렵진 않지만 미루면 귀찮아짐.",
           "keywords": [
             "과제"
@@ -265,7 +254,7 @@
         {
           "category": "grade",
           "sentiment": "positive",
-          "summary": "학점을 후하게 주고 시험에서 실수해도 만회할 여지가 있다는 의견",
+          "summary": "학점을 후하게 주고 시험 실수를 만회할 여지가 있다는 의견",
           "evidence": "학점은 후하다는 말이 맞는 것 같고, 시험에서 조금 실수해도 만회 여지가 있었음.",
           "keywords": [
             "학점",
@@ -279,12 +268,12 @@
         {
           "category": "general_impression",
           "sentiment": "positive",
-          "summary": "수업의 재미를 기대하지 않으면 나쁘지 않다는 의견",
+          "summary": "수업의 재미를 기대하지 않는다면 나쁘지 않다는 의견",
           "evidence": "수업 재미만 기대하지 않으면 나쁘지 않음.",
           "keywords": [
             "수업 재미"
           ],
-          "condition": "수업 재미를 기대하지 않는다면",
+          "condition": "수업의 재미를 기대하지 않는 경우",
           "mentions_change": false,
           "evidence_match": "exact",
           "evidence_verified": true
@@ -315,8 +304,8 @@
         {
           "category": "delivery",
           "sentiment": "negative",
-          "summary": "강의가 지루하고 진행이 단조로워 집중하기 어렵다는 의견",
-          "evidence": "교수님이 설명을 대충 하시는 건 아닌데 목소리랑 진행이 일정해서 집중력 유지가 쉽지 않아요.",
+          "summary": "강의가 지루하고 목소리와 진행이 일정해 집중력을 유지하기 어렵다는 의견",
+          "evidence": "강의는 솔직히 좀 지루합니다. 교수님이 설명을 대충 하시는 건 아닌데 목소리랑 진행이 일정해서 집중력 유지가 쉽지 않아요.",
           "keywords": [
             "강의 진행",
             "집중력"
@@ -329,10 +318,22 @@
         {
           "category": "exam",
           "sentiment": "positive",
-          "summary": "시험이 납득 가능한 문제 위주이며 수업 예제를 풀어보는 것이 도움이 된다는 의견",
-          "evidence": "그래도 시험은 납득 가능한 문제 위주라 족보만 찾기보다 수업 예제를 직접 풀어보는 게 낫습니다.",
+          "summary": "시험이 납득 가능한 문제 위주로 출제된다는 의견",
+          "evidence": "시험은 납득 가능한 문제 위주라",
           "keywords": [
-            "시험 문제",
+            "시험 문제"
+          ],
+          "condition": null,
+          "mentions_change": false,
+          "evidence_match": "exact",
+          "evidence_verified": true
+        },
+        {
+          "category": "delivery",
+          "sentiment": "positive",
+          "summary": "수업 예제를 직접 풀어보는 것이 시험 준비에 도움이 된다는 의견",
+          "evidence": "수업 예제를 직접 풀어보는 게 낫습니다.",
+          "keywords": [
             "수업 예제"
           ],
           "condition": null,
@@ -342,11 +343,12 @@
         },
         {
           "category": "attendance",
-          "sentiment": "neutral",
-          "summary": "출석을 랜덤 호명으로 확인한다는 의견",
+          "sentiment": "negative",
+          "summary": "랜덤 호명 출석에서 결석하면 불이익을 감수해야 한다는 의견",
           "evidence": "출석은 랜덤 호명이라 한 번이라도 빠질 생각이면 리스크 감수해야 함.",
           "keywords": [
-            "랜덤 호명"
+            "랜덤 호명",
+            "결석"
           ],
           "condition": null,
           "mentions_change": false,
@@ -359,7 +361,7 @@
           "summary": "성실하게 출석하고 복습하는 사람에게 추천한다는 의견",
           "evidence": "성실하게 출석하고 복습하는 사람한테는 추천.",
           "keywords": [
-            "출석",
+            "성실한 출석",
             "복습"
           ],
           "condition": "성실하게 출석하고 복습하는 사람",
@@ -381,7 +383,7 @@
           "category": "delivery",
           "sentiment": "negative",
           "summary": "강의가 단조롭다는 의견",
-          "evidence": "강의: 단조롭지만",
+          "evidence": "강의: 단조롭지만 개념은 반복해서 설명함",
           "keywords": [
             "강의"
           ],
@@ -393,11 +395,11 @@
         {
           "category": "delivery",
           "sentiment": "positive",
-          "summary": "개념을 반복해서 설명한다는 의견 / 수업 시간에 졸지 않으면 따라갈 만하다는 의견",
+          "summary": "개념을 반복해서 설명한다는 의견 / 수업 시간에 집중하면 따라갈 만하다는 의견",
           "evidence": "수업 시간에 졸지만 않으면 따라갈 만함",
           "keywords": [
             "개념 설명",
-            "수업 난이도"
+            "수업 이해"
           ],
           "condition": "수업 시간에 졸지 않으면",
           "mentions_change": false,
@@ -407,12 +409,12 @@
         {
           "category": "exam",
           "sentiment": "neutral",
-          "summary": "중간·기말 시험이 수업 예제를 응용한다는 의견 / 시험 준비에는 공식 암기보다 적용 상황을 연습하는 것이 중요하다는 의견",
-          "evidence": "시험 준비는 공식 외우는 것보다 어떤 상황에 적용하는지 연습하는 게 중요했음",
+          "summary": "중간·기말 시험이 수업 예제를 응용하는 유형이라는 의견",
+          "evidence": "시험: 중간, 기말 모두 수업 예제 응용",
           "keywords": [
-            "중간·기말",
-            "수업 예제",
-            "공식 적용"
+            "중간",
+            "기말",
+            "수업 예제 응용"
           ],
           "condition": null,
           "mentions_change": false,
@@ -422,11 +424,11 @@
         {
           "category": "attendance",
           "sentiment": "neutral",
-          "summary": "출석을 랜덤 호명으로 확인하고 엄격하게 체크한다는 의견",
+          "summary": "출석을 랜덤 호명으로 엄격하게 확인한다는 의견",
           "evidence": "출석: 랜덤 호명, 체크 엄격",
           "keywords": [
             "랜덤 호명",
-            "출석 체크"
+            "출석 확인"
           ],
           "condition": null,
           "mentions_change": false,
@@ -449,12 +451,26 @@
         {
           "category": "workload",
           "sentiment": "positive",
-          "summary": "과제와 퀴즈 횟수에 비해 학업 부담이 크지 않다는 의견",
+          "summary": "과제와 퀴즈가 있어도 학업 부담이 크지 않다는 의견",
           "evidence": "과제 4회에 퀴즈 2회라 로드는 크지 않았고",
           "keywords": [
             "과제",
             "퀴즈",
             "학업 부담"
+          ],
+          "condition": null,
+          "mentions_change": false,
+          "evidence_match": "exact",
+          "evidence_verified": true
+        },
+        {
+          "category": "workload",
+          "sentiment": "neutral",
+          "summary": "시험 준비에는 공식 암기보다 적용 연습이 중요하다는 의견",
+          "evidence": "시험 준비는 공식 외우는 것보다 어떤 상황에 적용하는지 연습하는 게 중요했음",
+          "keywords": [
+            "시험 준비",
+            "적용 연습"
           ],
           "condition": null,
           "mentions_change": false,
@@ -473,28 +489,15 @@
       "items": [
         {
           "category": "delivery",
-          "sentiment": "neutral",
-          "summary": "수업 진행이 조용하고 큰 변화 없이 흘러간다는 의견",
-          "evidence": "수업 분위기는 조용하고 진행도 크게 튀는 부분 없이 흘러갑니다.",
-          "keywords": [
-            "수업 분위기"
-          ],
-          "condition": null,
-          "mentions_change": false,
-          "evidence_match": "exact",
-          "evidence_verified": true
-        },
-        {
-          "category": "delivery",
           "sentiment": "negative",
-          "summary": "재미있는 강의를 기대하면 실망할 수 있다는 의견 / 통계 기초가 거의 없는 상태에서는 처음에 기호가 많아 당황할 수 있다는 의견 / 수업이 잔잔해 집중력이 약한 사람은 집중하기 어려울 수 있다는 의견",
-          "evidence": "다만 수업이 워낙 잔잔해서 집중력이 약한 사람은 녹음이나 필기를 활용하는 게 좋을 듯합니다.",
+          "summary": "재미있는 강의를 기대하면 만족하기 어려울 수 있다는 의견 / 수업이 잔잔해 집중력이 약한 사람은 집중하기 어려울 수 있다는 의견",
+          "evidence": "수업이 워낙 잔잔해서 집중력이 약한 사람은 녹음이나 필기를 활용하는 게 좋을 듯합니다",
           "keywords": [
             "강의 흥미도",
-            "통계 기초",
-            "기호"
+            "수업 분위기",
+            "집중력"
           ],
-          "condition": "재미있는 강의를 기대하는 경우 / 통계 기초가 거의 없는 경우 / 집중력이 약한 사람",
+          "condition": "재미있는 강의를 기대하는 경우 / 집중력이 약한 사람",
           "mentions_change": false,
           "evidence_match": "exact",
           "evidence_verified": true
@@ -502,11 +505,10 @@
         {
           "category": "exam",
           "sentiment": "positive",
-          "summary": "시험 기준이 비교적 명확하다는 의견 / 수업에서 다룬 계산 유형을 반복 연습하면 성적을 챙길 수 있다는 의견",
-          "evidence": "수업에서 다룬 계산 유형을 반복해서 연습하면 성적을 챙길 수 있다는 장점이 있습니다.",
+          "summary": "시험 기준이 비교적 명확하다는 의견",
+          "evidence": "시험 기준이 비교적 명확하고",
           "keywords": [
-            "시험 기준",
-            "계산 유형"
+            "시험 기준"
           ],
           "condition": null,
           "mentions_change": false,
@@ -514,14 +516,13 @@
           "evidence_verified": true
         },
         {
-          "category": "workload",
+          "category": "learning",
           "sentiment": "positive",
-          "summary": "매주 예제를 다시 풀면 다음 주 내용이 덜 낯설어진다는 의견 / 과제는 풀이 과정을 쓰면 무난하다는 의견",
-          "evidence": "매주 예제만 다시 풀어도 다음 주 내용이 덜 낯설어졌습니다.",
+          "summary": "예제를 반복해서 풀며 다음 주 내용을 익힐 수 있다는 의견 / 명강까지는 아니어도 배울 내용을 챙길 수 있다는 의견",
+          "evidence": "막 엄청난 명강은 아니지만 성적 기준이 납득되고 배울 내용은 챙길 수 있는 수업임",
           "keywords": [
-            "매주 예제",
-            "과제",
-            "풀이 과정"
+            "예제 반복 연습",
+            "배울 내용"
           ],
           "condition": null,
           "mentions_change": false,
@@ -531,11 +532,10 @@
         {
           "category": "attendance",
           "sentiment": "neutral",
-          "summary": "출석은 랜덤으로 이름을 부르고 응답 여부도 확인한다는 의견",
-          "evidence": "출석은 랜덤으로 이름을 부르는 방식이라 강의실에 앉아 있는지만 보는 게 아니라 실제로 응답하는지도 중요합니다.",
+          "summary": "출석 때 랜덤으로 이름을 부르고 응답 여부도 확인한다는 의견",
+          "evidence": "출석은 랜덤으로 이름을 부르는 방식이라 강의실에 앉아 있는지만 보는 게 아니라 실제로 응답하는지도 중요합니다",
           "keywords": [
-            "랜덤 출석",
-            "응답"
+            "랜덤 호명"
           ],
           "condition": null,
           "mentions_change": false,
@@ -545,7 +545,7 @@
         {
           "category": "exam",
           "sentiment": "neutral",
-          "summary": "평가는 과제와 퀴즈, 중간·기말 시험으로 구성된다는 의견",
+          "summary": "과제와 퀴즈, 중간·기말 시험으로 평가한다는 의견",
           "evidence": "과제 4번, 퀴즈 2번, 중간·기말로 평가했고",
           "keywords": [
             "과제",
@@ -558,13 +558,12 @@
           "evidence_verified": true
         },
         {
-          "category": "grade",
+          "category": "workload",
           "sentiment": "positive",
-          "summary": "계산 실수와 만점이 아닌 시험 결과에도 A0를 받아 학점이 후한 편이라는 의견",
-          "evidence": "중간에 계산 실수를 꽤 했고 기말도 만점은 아니었는데 A0가 나와서 학점은 후한 편이라고 느꼈습니다.",
+          "summary": "과제는 풀이 과정을 작성하면 무난하다는 의견",
+          "evidence": "과제는 풀이 과정을 쓰면 무난했습니다",
           "keywords": [
-            "A0",
-            "학점"
+            "과제"
           ],
           "condition": null,
           "mentions_change": false,
@@ -572,12 +571,13 @@
           "evidence_verified": true
         },
         {
-          "category": "learning",
+          "category": "grade",
           "sentiment": "positive",
-          "summary": "배울 내용을 챙길 수 있는 수업이라는 의견",
-          "evidence": "배울 내용은 챙길 수 있는 수업임.",
+          "summary": "시험에서 실수가 있었어도 A0를 받아 학점이 후한 편이라는 의견",
+          "evidence": "중간에 계산 실수를 꽤 했고 기말도 만점은 아니었는데 A0가 나와서 학점은 후한 편이라고 느꼈습니다",
           "keywords": [
-            "배울 내용"
+            "A0",
+            "학점"
           ],
           "condition": null,
           "mentions_change": false,
@@ -597,10 +597,9 @@
         {
           "category": "attendance",
           "sentiment": "neutral",
-          "summary": "출석을 무작위로 호명한다는 의견",
+          "summary": "출석을 랜덤으로 호명한다는 의견",
           "evidence": "출석 랜덤 호명함",
           "keywords": [
-            "출석",
             "랜덤 호명"
           ],
           "condition": null,
@@ -609,14 +608,14 @@
           "evidence_verified": true
         },
         {
-          "category": "grade",
+          "category": "attendance",
           "sentiment": "negative",
-          "summary": "잠시 자리를 비우면 성적상 불이익을 받을 수 있다는 의견",
+          "summary": "잠시 자리를 비우면 출석 처리에 문제가 생길 수 있다는 의견",
           "evidence": "잠깐 나갔다가 의문사 가능",
           "keywords": [
-            "의문사"
+            "출석"
           ],
-          "condition": "잠깐 자리를 비우는 경우",
+          "condition": null,
           "mentions_change": false,
           "evidence_match": "exact",
           "evidence_verified": true
@@ -657,11 +656,11 @@
         {
           "category": "exam",
           "sentiment": "positive",
-          "summary": "시험이 배운 내용에서 출제되어 준비한 만큼 성적을 받는다는 의견",
+          "summary": "시험이 배운 내용에서 출제되어 준비한 만큼 성적을 받는 편이라는 의견",
           "evidence": "시험은 배운 데서 나와서 준비한 만큼 받는 편",
           "keywords": [
             "시험",
-            "출제 범위"
+            "배운 내용"
           ],
           "condition": null,
           "mentions_change": false,
@@ -676,15 +675,29 @@
       "review_id": "c03-2026-1-r04",
       "semester": "2026-1",
       "status": "ok",
-      "overall_sentiment": "mixed",
+      "overall_sentiment": "positive",
       "items": [
+        {
+          "category": "workload",
+          "sentiment": "neutral",
+          "summary": "통계 기초가 없는 경우 수업을 따라갈 수 있을지 걱정했다는 의견 / 과제 3회와 퀴즈 2회가 있다는 의견",
+          "evidence": "경통 듣기 전에 통계 노베라 쫄았는데 생각보다 따라갈 만했어요.",
+          "keywords": [
+            "통계 기초",
+            "과제",
+            "퀴즈"
+          ],
+          "condition": "통계 기초가 없는 경우",
+          "mentions_change": false,
+          "evidence_match": "exact",
+          "evidence_verified": true
+        },
         {
           "category": "delivery",
           "sentiment": "positive",
-          "summary": "통계 기초가 없어도 수업을 따라갈 만하다는 의견 / 매주 예제를 풀어준다는 의견",
-          "evidence": "통계 노베라 쫄았는데 생각보다 따라갈 만했어요",
+          "summary": "매주 예제를 풀어준다는 의견",
+          "evidence": "매주 예제 풀어주고",
           "keywords": [
-            "통계 기초",
             "예제 풀이"
           ],
           "condition": null,
@@ -694,9 +707,9 @@
         },
         {
           "category": "exam",
-          "sentiment": "positive",
+          "sentiment": "neutral",
           "summary": "시험이 수업 범위 안에서 출제된다는 의견",
-          "evidence": "시험도 수업 범위 안에서 나옵니다",
+          "evidence": "시험도 수업 범위 안에서 나옵니다.",
           "keywords": [
             "시험 범위"
           ],
@@ -707,25 +720,12 @@
         },
         {
           "category": "attendance",
-          "sentiment": "negative",
-          "summary": "출석 확인이 엄격하고 랜덤 호명 때 자리에 없으면 불이익이 있다는 의견",
-          "evidence": "출석만큼은 진짜 엄격해서 랜덤 호명 때 없으면 끝",
-          "keywords": [
-            "랜덤 호명"
-          ],
-          "condition": null,
-          "mentions_change": false,
-          "evidence_match": "exact",
-          "evidence_verified": true
-        },
-        {
-          "category": "exam",
           "sentiment": "neutral",
-          "summary": "과제와 퀴즈, 중간·기말 시험이 있다는 의견",
-          "evidence": "과제 3번, 퀴즈 2번, 중간기말이었고",
+          "summary": "출석을 엄격하게 확인하고 랜덤 호명을 한다는 의견",
+          "evidence": "출석만큼은 진짜 엄격해서 랜덤 호명 때 없으면 끝…",
           "keywords": [
-            "퀴즈",
-            "중간·기말"
+            "출석",
+            "랜덤 호명"
           ],
           "condition": null,
           "mentions_change": false,
@@ -735,7 +735,7 @@
         {
           "category": "grade",
           "sentiment": "positive",
-          "summary": "과제 점수를 잘 준다는 의견 / 계산을 하나 틀리고도 A+를 받아 학점을 후하게 준다는 의견",
+          "summary": "과제 점수를 잘 주는 편이라는 의견 / 기말에서 계산을 하나 틀렸는데도 A+를 받아 학점을 후하게 준다고 느꼈다는 의견",
           "evidence": "기말에서 계산 하나 틀렸는데 A+ 받아서 쁠몰 얘기가 왜 나오는지 알겠더라고요.",
           "keywords": [
             "과제 점수",
@@ -760,10 +760,11 @@
         {
           "category": "delivery",
           "sentiment": "negative",
-          "summary": "수업이 잔잔해 집중하기 어렵다는 의견",
+          "summary": "수업이 잔잔해 강의가 지루하게 느껴진다는 의견",
           "evidence": "수업이 너무 잔잔해서 가끔 이게 강의인지 수면 유도인지 헷갈림",
           "keywords": [
-            "수업 분위기"
+            "수업",
+            "강의"
           ],
           "condition": null,
           "mentions_change": false,
@@ -773,11 +774,10 @@
         {
           "category": "delivery",
           "sentiment": "positive",
-          "summary": "설명을 생략하지 않고 시험을 꼬아서 내지 않는다는 의견",
+          "summary": "설명을 생략하거나 시험을 꼬아서 내지 않는다는 의견",
           "evidence": "설명을 생략하거나 시험을 꼬아서 내는 스타일은 아니었음",
           "keywords": [
-            "설명",
-            "시험"
+            "설명"
           ],
           "condition": null,
           "mentions_change": false,
@@ -793,16 +793,16 @@
             "예제 복습",
             "공식 적용"
           ],
-          "condition": "수업 예제를 복습하고 공식 적용을 연습하면",
+          "condition": null,
           "mentions_change": false,
           "evidence_match": "exact",
           "evidence_verified": true
         },
         {
           "category": "attendance",
-          "sentiment": "negative",
-          "summary": "랜덤 호명으로 출튀가 어렵고 지각에 주의해야 한다는 의견",
-          "evidence": "출석은 랜덤 호명이라 출튀는 거의 불가능하고, 지각도 조심하는 게 좋음",
+          "sentiment": "neutral",
+          "summary": "출석을 랜덤 호명으로 확인한다는 의견 / 지각에 주의하는 것이 좋다는 의견",
+          "evidence": "지각도 조심하는 게 좋음",
           "keywords": [
             "랜덤 호명",
             "지각"
@@ -815,11 +815,12 @@
         {
           "category": "workload",
           "sentiment": "positive",
-          "summary": "과제와 퀴즈가 있지만 학업 부담이 크지 않다는 의견",
+          "summary": "과제와 퀴즈 횟수에 비해 학업 부담이 크지 않다는 의견",
           "evidence": "과제 3번, 퀴즈 2번, 중간기말 구성이라 로드가 폭발하진 않았습니다",
           "keywords": [
             "과제",
-            "퀴즈"
+            "퀴즈",
+            "로드"
           ],
           "condition": null,
           "mentions_change": false,
@@ -829,11 +830,24 @@
         {
           "category": "grade",
           "sentiment": "positive",
-          "summary": "성적을 후하게 주지만 공부해야 좋은 학점을 받을 수 있다는 의견",
-          "evidence": "성적은 후하다는 의견에 동의하지만 실수해도 무조건 에쁠 주는 건 아니니 공부는 해야 함",
+          "summary": "성적을 후하게 주는 편이라는 의견",
+          "evidence": "성적은 후하다는 의견에 동의하지만",
           "keywords": [
-            "성적",
-            "에쁠"
+            "성적"
+          ],
+          "condition": null,
+          "mentions_change": false,
+          "evidence_match": "exact",
+          "evidence_verified": true
+        },
+        {
+          "category": "grade",
+          "sentiment": "neutral",
+          "summary": "실수해도 무조건 높은 학점을 받는 것은 아니므로 공부가 필요하다는 의견",
+          "evidence": "실수해도 무조건 에쁠 주는 건 아니니 공부는 해야 함",
+          "keywords": [
+            "에쁠",
+            "공부"
           ],
           "condition": null,
           "mentions_change": false,
@@ -853,10 +867,10 @@
         {
           "category": "delivery",
           "sentiment": "negative",
-          "summary": "매주 비슷한 강의 흐름이라 한 번 놓치면 따라가기 어렵다는 의견",
-          "evidence": "매주 비슷한 흐름이라 한 번 놓치면 다음 주도 놓치기 좋다는 점이 특히 인상적이었음.",
+          "summary": "매주 비슷한 흐름이라 한 번 놓치면 다음 주 수업도 따라가기 어렵다는 의견",
+          "evidence": "매주 비슷한 흐름이라 한 번 놓치면 다음 주도 놓치기 좋다는 점이 특히 인상적이었음. 농담이고,",
           "keywords": [
-            "강의 흐름"
+            "수업 흐름"
           ],
           "condition": null,
           "mentions_change": false,
@@ -879,10 +893,11 @@
         {
           "category": "exam",
           "sentiment": "positive",
-          "summary": "시험이 수업에서 다룬 유형 중심으로 출제되어 공정하다는 의견",
-          "evidence": "시험은 수업에서 푼 유형 중심이라 공정했고",
+          "summary": "수업에서 다룬 유형 중심으로 출제되어 공정하다는 의견",
+          "evidence": "시험은 수업에서 푼 유형 중심이라 공정했고,",
           "keywords": [
-            "시험 유형"
+            "시험 유형",
+            "공정성"
           ],
           "condition": null,
           "mentions_change": false,
@@ -892,9 +907,11 @@
         {
           "category": "grade",
           "sentiment": "neutral",
-          "summary": "중간과 기말 성적 결과로 A0를 받았다는 의견",
+          "summary": "중간·기말 성적 결과와 최종 학점을 언급했다는 의견",
           "evidence": "중간 q2에서 계산 하나 틀리고 기말 q3까지 맞혀서 A0 받음.",
           "keywords": [
+            "중간 성적",
+            "기말 성적",
             "A0"
           ],
           "condition": null,
@@ -904,8 +921,8 @@
         },
         {
           "category": "attendance",
-          "sentiment": "negative",
-          "summary": "랜덤 호명으로 출석을 확인해 강의실에 없으면 답하기 어렵다는 의견",
+          "sentiment": "neutral",
+          "summary": "랜덤 호명으로 출석을 확인한다는 의견",
           "evidence": "출석은 랜덤 호명으로 확인해서 강의실에 없으면 답이 없습니다.",
           "keywords": [
             "랜덤 호명"
@@ -919,7 +936,7 @@
           "category": "workload",
           "sentiment": "positive",
           "summary": "과제와 퀴즈 일정이 감당할 만하다는 의견",
-          "evidence": "과제 3번에 퀴즈 2번이라 일정은 manageable한 편이고",
+          "evidence": "과제 3번에 퀴즈 2번이라 일정은 manageable한 편이고,",
           "keywords": [
             "과제",
             "퀴즈"
@@ -930,12 +947,12 @@
           "evidence_verified": true
         },
         {
-          "category": "learning",
-          "sentiment": "positive",
-          "summary": "통계가 처음이라면 수업 후 예제를 다시 풀어보는 것이 도움이 된다는 의견",
+          "category": "workload",
+          "sentiment": "neutral",
+          "summary": "통계가 처음이라면 수업 후 예제를 다시 풀어보는 것이 좋다는 의견",
           "evidence": "통계가 처음이면 수업 끝나고 예제를 바로 다시 풀어보는 걸 추천.",
           "keywords": [
-            "예제 복습"
+            "예습·복습"
           ],
           "condition": "통계가 처음인 경우",
           "mentions_change": false,
@@ -954,7 +971,7 @@
       "items": [
         {
           "category": "delivery",
-          "sentiment": "positive",
+          "sentiment": "neutral",
           "summary": "수업 분위기가 차분하다는 의견",
           "evidence": "수업 - 차분함",
           "keywords": [
@@ -980,11 +997,11 @@
         },
         {
           "category": "attendance",
-          "sentiment": "negative",
+          "sentiment": "neutral",
           "summary": "출석 관리가 엄격하다는 의견",
           "evidence": "출석 - 엄격",
           "keywords": [
-            "출석"
+            "출석 관리"
           ],
           "condition": null,
           "mentions_change": false,
@@ -994,7 +1011,7 @@
         {
           "category": "grade",
           "sentiment": "positive",
-          "summary": "학점을 후하게 준다는 의견",
+          "summary": "학점을 후하게 주는 편이라는 의견",
           "evidence": "학점 - 후한 편",
           "keywords": [
             "학점"
@@ -1032,9 +1049,9 @@
           "evidence_verified": true
         },
         {
-          "category": "learning",
-          "sentiment": "positive",
-          "summary": "계산 문제 풀이 과정을 손으로 써보면 실수가 줄어든다는 의견",
+          "category": "workload",
+          "sentiment": "neutral",
+          "summary": "계산 문제는 풀이 과정을 손으로 써보면 실수를 줄일 수 있다는 의견",
           "evidence": "계산 문제는 풀이 과정을 손으로 써보면 실수가 줄어듦",
           "keywords": [
             "계산 문제",
@@ -1071,10 +1088,24 @@
           "evidence_verified": true
         },
         {
+          "category": "workload",
+          "sentiment": "neutral",
+          "summary": "수업 자료를 주말마다 다시 풀어보는 것이 도움이 된다는 의견",
+          "evidence": "수업 자료를 주말에 한 번씩 다시 풀어보니",
+          "keywords": [
+            "수업 자료",
+            "복습"
+          ],
+          "condition": null,
+          "mentions_change": false,
+          "evidence_match": "exact",
+          "evidence_verified": true
+        },
+        {
           "category": "learning",
           "sentiment": "positive",
-          "summary": "자료를 반복해 풀며 문제를 읽는 속도가 빨라졌다는 의견",
-          "evidence": "수업 자료를 주말에 한 번씩 다시 풀어보니 중간 이후에는 문제를 읽는 속도가 빨라졌습니다.",
+          "summary": "복습을 통해 문제를 읽는 속도가 빨라졌다는 의견",
+          "evidence": "중간 이후에는 문제를 읽는 속도가 빨라졌습니다.",
           "keywords": [
             "문제 풀이 속도"
           ],
@@ -1086,10 +1117,12 @@
         {
           "category": "exam",
           "sentiment": "neutral",
-          "summary": "과제와 퀴즈, 중간·기말로 평가한다는 의견",
+          "summary": "평가가 과제, 퀴즈, 중간·기말로 구성된다는 의견",
           "evidence": "평가 구성은 과제 3회, 퀴즈 2회, 중간·기말이었고",
           "keywords": [
-            "평가 구성"
+            "과제",
+            "퀴즈",
+            "중간·기말"
           ],
           "condition": null,
           "mentions_change": false,
@@ -1104,7 +1137,7 @@
           "keywords": [
             "과제 난도"
           ],
-          "condition": "수업을 들었다면",
+          "condition": null,
           "mentions_change": false,
           "evidence_match": "exact",
           "evidence_verified": true
@@ -1112,7 +1145,7 @@
         {
           "category": "grade",
           "sentiment": "positive",
-          "summary": "성적을 후하게 주며 실수에도 A0를 받았다는 의견",
+          "summary": "성적을 후하게 주며 실수가 있어도 좋은 학점을 받을 수 있다는 의견",
           "evidence": "성적도 후하게 주신다는 평이 있는데, 저 역시 중간에서 실수를 몇 개 했음에도 A0를 받아서 어느 정도 공감합니다.",
           "keywords": [
             "성적",
@@ -1126,10 +1159,11 @@
         {
           "category": "attendance",
           "sentiment": "negative",
-          "summary": "랜덤 호명 방식이라 출석에 신경 써야 한다는 의견",
+          "summary": "랜덤 호명으로 잠시 자리를 비우면 곤란하다는 의견",
           "evidence": "랜덤 호명 방식이라 잠깐 나갔다가 이름 불리면 곤란하고, 친구한테 대신 답해 달라고 할 수도 없는 분위기입니다.",
           "keywords": [
-            "랜덤 호명"
+            "랜덤 호명",
+            "출석"
           ],
           "condition": null,
           "mentions_change": false,
@@ -1143,7 +1177,7 @@
           "evidence": "강의는 다소 단조롭고 설명 톤이 일정해서 집중하기 힘든 날이 있지만",
           "keywords": [
             "강의",
-            "설명 톤"
+            "집중"
           ],
           "condition": null,
           "mentions_change": false,
@@ -1153,13 +1187,13 @@
         {
           "category": "general_impression",
           "sentiment": "positive",
-          "summary": "통계 기초를 익히고 학점을 안정적으로 챙기려는 사람에게 적합하다는 의견",
+          "summary": "통계 기초를 익히고 학점을 안정적으로 챙기려는 사람에게 더 맞는 수업이라는 의견",
           "evidence": "통계 기초를 차근차근 익히고 학점도 안정적으로 챙기려는 사람에게 더 맞을 것 같음.",
           "keywords": [
             "통계 기초",
             "학점"
           ],
-          "condition": "통계 기초를 차근차근 익히고 학점도 안정적으로 챙기려는 사람",
+          "condition": "통계 기초를 차근차근 익히고 학점을 안정적으로 챙기려는 사람",
           "mentions_change": false,
           "evidence_match": "exact",
           "evidence_verified": true
@@ -1172,43 +1206,43 @@
   "summary_by_category": [
     {
       "category": "workload",
-      "mentioned": 6,
+      "mentioned": 8,
       "counts": {
         "positive": 5,
         "negative": 1,
-        "neutral": 0
+        "neutral": 5
       },
       "ratios": {
-        "positive": 83.3,
-        "negative": 16.7,
-        "neutral": 0.0
+        "positive": 45.5,
+        "negative": 9.1,
+        "neutral": 45.5
       },
       "top_pros": [
+        "과제와 퀴즈가 있어도 학업 부담이 크지 않다는 의견",
         "과제와 퀴즈 횟수에 비해 학업 부담이 크지 않다는 의견",
-        "매주 예제를 다시 풀면 다음 주 내용이 덜 낯설어진다는 의견 / 과제는 풀이 과정을 쓰면 무난하다는 의견",
-        "과제와 퀴즈가 있지만 학업 부담이 크지 않다는 의견"
+        "과제와 퀴즈 일정이 감당할 만하다는 의견"
       ],
       "top_cons": [
-        "과제는 어렵지 않지만 미루면 번거롭다는 의견"
+        "과제가 어렵지는 않지만 미루면 번거롭다는 의견"
       ]
     },
     {
       "category": "exam",
       "mentioned": 11,
       "counts": {
-        "positive": 10,
+        "positive": 9,
         "negative": 0,
         "neutral": 6
       },
       "ratios": {
-        "positive": 62.5,
+        "positive": 60.0,
         "negative": 0.0,
-        "neutral": 37.5
+        "neutral": 40.0
       },
       "top_pros": [
-        "수업에서 다룬 개념과 예제가 시험에 연결된다는 의견 / 시험 난도가 비교적 공정하다는 의견",
         "시험이 공정하고 강의자료와 수업 예제를 복습하면 대비할 수 있다는 의견",
-        "시험 범위와 문제 유형이 수업 내용에서 크게 벗어나지 않고 준비한 만큼 점수를 받을 수 있다는 의견"
+        "수업에서 다룬 개념과 예제가 시험에 연결된다는 의견 / 시험 난도가 비교적 공정하다는 의견",
+        "시험 범위와 문제 유형이 수업 내용에서 크게 벗어나지 않는다는 의견"
       ],
       "top_cons": []
     },
@@ -1227,12 +1261,12 @@
       },
       "top_pros": [
         "공식 설명과 예제를 푸는 흐름이 괜찮았다는 의견",
-        "개념을 반복해서 설명한다는 의견 / 수업 시간에 졸지 않으면 따라갈 만하다는 의견",
-        "통계 기초가 없어도 수업을 따라갈 만하다는 의견 / 매주 예제를 풀어준다는 의견"
+        "개념을 반복해서 설명한다는 의견 / 수업 시간에 집중하면 따라갈 만하다는 의견",
+        "수업 예제를 직접 풀어보는 것이 시험 준비에 도움이 된다는 의견"
       ],
       "top_cons": [
-        "재미있는 강의를 기대하면 실망할 수 있다는 의견 / 통계 기초가 거의 없는 상태에서는 처음에 기호가 많아 당황할 수 있다는 의견 / 수업이 잔잔해 집중력이 약한 사람은 집중하기 어려울 수 있다는 의견",
-        "수업 템포가 일정해 가끔 집중이 흐트러진다는 의견",
+        "재미있는 강의를 기대하면 만족하기 어려울 수 있다는 의견 / 수업이 잔잔해 집중력이 약한 사람은 집중하기 어려울 수 있다는 의견",
+        "수업 템포가 일정해 가끔 집중하기 어렵다는 의견",
         "수업 패턴이 반복되어 점심 이후 졸음이 온다는 의견"
       ]
     },
@@ -1241,48 +1275,46 @@
       "mentioned": 13,
       "counts": {
         "positive": 0,
-        "negative": 8,
-        "neutral": 6
+        "negative": 4,
+        "neutral": 10
       },
       "ratios": {
         "positive": 0.0,
-        "negative": 57.1,
-        "neutral": 42.9
+        "negative": 28.6,
+        "neutral": 71.4
       },
       "top_pros": [],
       "top_cons": [
-        "랜덤 호명으로 출석을 확인해 출석 후 이탈하기 어렵다는 의견",
-        "랜덤 호명과 꼼꼼한 출석 확인으로 출석 후 이탈이 어렵다는 의견",
-        "랜덤 호명으로 출튀가 어렵고 지각에 주의해야 한다는 의견"
+        "랜덤 호명으로 출석 관리가 엄격하다는 의견",
+        "랜덤 호명 출석에서 결석하면 불이익을 감수해야 한다는 의견",
+        "랜덤 호명으로 잠시 자리를 비우면 곤란하다는 의견"
       ]
     },
     {
       "category": "grade",
-      "mentioned": 12,
+      "mentioned": 11,
       "counts": {
         "positive": 10,
-        "negative": 1,
-        "neutral": 1
+        "negative": 0,
+        "neutral": 2
       },
       "ratios": {
         "positive": 83.3,
-        "negative": 8.3,
-        "neutral": 8.3
+        "negative": 0.0,
+        "neutral": 16.7
       },
       "top_pros": [
-        "과제 점수를 잘 준다는 의견 / 계산을 하나 틀리고도 A+를 받아 학점을 후하게 준다는 의견",
-        "학점을 후하게 주고 시험에서 실수해도 만회할 여지가 있다는 의견",
-        "계산 실수와 만점이 아닌 시험 결과에도 A0를 받아 학점이 후한 편이라는 의견"
+        "과제 점수를 잘 주는 편이라는 의견 / 기말에서 계산을 하나 틀렸는데도 A+를 받아 학점을 후하게 준다고 느꼈다는 의견",
+        "학점을 후하게 주고 시험 실수를 만회할 여지가 있다는 의견",
+        "시험에서 실수가 있었어도 A0를 받아 학점이 후한 편이라는 의견"
       ],
-      "top_cons": [
-        "잠시 자리를 비우면 성적상 불이익을 받을 수 있다는 의견"
-      ]
+      "top_cons": []
     },
     {
       "category": "learning",
-      "mentioned": 5,
+      "mentioned": 3,
       "counts": {
-        "positive": 5,
+        "positive": 3,
         "negative": 0,
         "neutral": 0
       },
@@ -1292,9 +1324,9 @@
         "neutral": 0.0
       },
       "top_pros": [
+        "예제를 반복해서 풀며 다음 주 내용을 익힐 수 있다는 의견 / 명강까지는 아니어도 배울 내용을 챙길 수 있다는 의견",
         "수업 예제를 복습하고 공식 적용을 연습하면 점수가 따라온다는 의견",
-        "계산 문제 풀이 과정을 손으로 써보면 실수가 줄어든다는 의견",
-        "배울 내용을 챙길 수 있는 수업이라는 의견"
+        "복습을 통해 문제를 읽는 속도가 빨라졌다는 의견"
       ],
       "top_cons": []
     },
@@ -1313,8 +1345,8 @@
       },
       "top_pros": [
         "성실하게 출석하고 복습하는 사람에게 추천한다는 의견",
-        "통계 기초를 익히고 학점을 안정적으로 챙기려는 사람에게 적합하다는 의견",
-        "수업의 재미를 기대하지 않으면 나쁘지 않다는 의견"
+        "통계 기초를 익히고 학점을 안정적으로 챙기려는 사람에게 더 맞는 수업이라는 의견",
+        "수업의 재미를 기대하지 않는다면 나쁘지 않다는 의견"
       ],
       "top_cons": []
     }
@@ -1324,6 +1356,6 @@
     "succeeded": 16,
     "failed": 0,
     "model": "gpt-6-luna",
-    "processed_at": "2026-10-24T10:48:10.378514+00:00"
+    "processed_at": "2026-10-25T10:39:41.229844+00:00"
   }
 }

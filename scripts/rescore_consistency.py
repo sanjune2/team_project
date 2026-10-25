@@ -12,6 +12,10 @@ from analysis.evaluate import evaluate,read_gold
 EVIDENCE=ROOT/'docs/evaluation/day5_consistency'
 WIRE={'category','sentiment','summary','evidence','keywords','condition','mentions_change'}
 
+def canonical_sha256(data):
+    """Ignore checkout line endings, while preserving all other file bytes."""
+    return hashlib.sha256(data.replace(b'\r\n', b'\n')).hexdigest()
+
 def score(gold,predictions):
     result=evaluate(gold,predictions);s=result['summary']
     ng,np,tp=s['gold_items'],s['predicted_items'],s['pair_correct']
@@ -22,7 +26,7 @@ def score(gold,predictions):
 def rescore():
     manifest=json.loads((EVIDENCE/'manifest.json').read_text(encoding='utf-8'))
     for path,expected in manifest['packaged_file_sha256'].items():
-        assert hashlib.sha256((ROOT/path).read_bytes()).hexdigest()==expected,f'Artifact changed: {path}'
+        assert canonical_sha256((ROOT/path).read_bytes())==expected,f'Artifact changed: {path}'
     gold1,_=read_gold(ROOT/'data/reference_gold64_v1.jsonl',64)
     gold2,_=read_gold(ROOT/'data/reference_gold64_v2.jsonl',64)
     gold45,_=read_gold(ROOT/'data/test_reviews.jsonl',45)
@@ -32,12 +36,11 @@ def rescore():
         for line in (ROOT/'data/reference'/filename).read_text(encoding='utf-8-sig').splitlines():
             if line.strip():
                 r=json.loads(line);assert r['id'] not in originals;originals[r['id']]=r
-    baseline=[]
-    for path in sorted((ROOT/'frontend/public/reference').glob('c0*_202*.json')):
-        for row in json.loads(path.read_text(encoding='utf-8'))['reviews']:
-            assert row['text']==originals[row['review_id']]['text']
-            baseline.append({'id':row['review_id'],'status':row['status'],'items':[{k:v for k,v in item.items() if k in WIRE} for item in row['items']]})
+    # Portal files are regenerated for deployment. Historical scores must use
+    # the frozen experimental baseline instead of those mutable portal files.
+    baseline=json.loads((EVIDENCE/'baseline64_frozen.json').read_text(encoding='utf-8'))
     assert len(baseline)==64 and len({p['id'] for p in baseline})==64
+    assert {p['id'] for p in baseline}==set(originals)
     assert all(r['text']==originals[r['id']]['text'] for r in gold1+gold2)
     saved=json.loads((EVIDENCE/'saved_predictions.json').read_text(encoding='utf-8'))
     cases={'baseline64_v1':(gold1,baseline),'baseline64_v2':(gold2,baseline),

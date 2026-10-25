@@ -50,4 +50,20 @@ class ConsistencyReferenceTests(unittest.TestCase):
             self.assertNotIn(r['text'],prompt)
             self.assertNotIn(r['id'],prompt)
 
+    def test_canonical_hash_preserves_content_and_ignores_crlf(self):
+        from scripts.rescore_consistency import canonical_sha256
+        self.assertEqual(canonical_sha256(b'one\ntwo\n'),canonical_sha256(b'one\r\ntwo\r\n'))
+        self.assertNotEqual(canonical_sha256(b'one\ntwo\n'),canonical_sha256(b'one\nchanged\n'))
+
+    def test_baseline_snapshot_is_independent_of_portal_results(self):
+        from scripts import rescore_consistency
+        from unittest.mock import patch
+        original_glob=Path.glob
+        def guarded_glob(path,pattern):
+            if path.as_posix().endswith('/frontend/public/reference'):
+                raise AssertionError('Historical rescore must not read mutable portal files')
+            return original_glob(path,pattern)
+        with patch.object(Path,'glob',guarded_glob):
+            self.assertTrue(all(rescore_consistency.rescore()['checks'].values()))
+
 if __name__=='__main__':unittest.main()
