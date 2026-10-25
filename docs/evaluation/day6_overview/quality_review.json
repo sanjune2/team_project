@@ -1,0 +1,247 @@
+{
+  "review_type": "AI-assisted, not independent human validation",
+  "editorial_changes": [
+    {
+      "file": "c01_all.json",
+      "location": "left[0].text",
+      "reason": "recommendation form and count in one sentence",
+      "before": "결과를 비판적으로 확인하는 습관을 기르고 데이터 읽기 연습을 하고 싶은 학생에게 맞아요. 이런 배움이 언급된 의견이 4건 있었어요.",
+      "after": "데이터를 비판적으로 읽는 학습 효과가 4건 언급돼, 데이터 해석 연습을 원하는 학생에게 맞아요."
+    },
+    {
+      "file": "c01_all.json",
+      "location": "left[1].text",
+      "reason": "recommendation form and count in one sentence",
+      "before": "직접 데이터를 다루는 감각을 얻고 싶거나 데이터 읽기 연습이 목적인 학생에게 맞아요. 이런 수강 추천 의견이 2건 있었어요.",
+      "after": "데이터 실습을 목적으로 한 추천이 2건 있어, 직접 데이터를 다루는 감각을 얻고 싶은 학생에게 맞아요."
+    },
+    {
+      "file": "c01_all.json",
+      "location": "left[2].text",
+      "reason": "recommendation form and count in one sentence",
+      "before": "표와 예시를 활용한 이해하기 쉬운 설명을 원하는 학생에게 맞아요. 설명이 이해하기 쉽거나 과제 수행에 도움이 됐다는 의견이 7건 있었어요.",
+      "after": "예시를 활용한 설명에 대한 긍정 의견이 7건 있어, 표와 그래프로 개념을 이해하고 싶은 학생에게 맞아요."
+    },
+    {
+      "file": "c01_all.json",
+      "location": "right[1].text",
+      "reason": "remove an uncited A+ condition or future outcome prediction",
+      "before": "일정이 빡빡한 학기이거나 학점을 쉽게 채우거나 A+을 기대하는 경우에는 고려할 점이 있어요. 이런 조건에서 수강을 다시 생각하거나 기대에 못 미칠 수 있다는 의견이 2건 있었어요.",
+      "after": "학점을 쉽게 채우려는 경우나 일정이 빡빡한 학기에 수강을 다시 고려하라는 의견이 2건 있었어요."
+    },
+    {
+      "file": "c01_all.json",
+      "location": "right[2].text",
+      "reason": "remove an uncited A+ condition or future outcome prediction",
+      "before": "기대보다 낮은 학점을 받을 가능성을 고려할 수 있어요. 학점이 짜거나 기대보다 낮았다는 의견이 2건 있었어요.",
+      "after": "학점이 짜거나 기대보다 낮았다는 의견이 2건 있었어요."
+    },
+    {
+      "file": "c02_all.json",
+      "location": "left[0].text",
+      "reason": "recommendation form and count in one sentence",
+      "before": "실습을 통해 배운 내용을 활용하고 오류를 해결하는 경험을 원하는 학생에게 맞아요. 이런 학습 효과가 8건 언급됐어요.",
+      "after": "실습에서 배운 내용을 활용한 경험이 8건 언급돼, 직접 코드를 작성하며 오류 해결을 익히고 싶은 학생에게 맞아요."
+    },
+    {
+      "file": "c02_all.json",
+      "location": "left[1].text",
+      "reason": "recommendation form and count in one sentence",
+      "before": "직접 코드를 많이 써 보고 싶거나 배울 의지가 있는 학생에게 맞아요. 이런 수강 추천이 4건 있었어요.",
+      "after": "직접 코드를 쓰는 수강 목적의 추천이 4건 있어, 코딩 실습에 시간을 들일 의지가 있는 학생에게 맞아요."
+    },
+    {
+      "file": "c02_all.json",
+      "location": "left[2].text",
+      "reason": "recommendation form and count in one sentence",
+      "before": "실습을 직접 해 보고 실행 결과를 확인하는 수업 방식을 원하는 학생에게 맞아요. 이런 수업 방식에 대한 긍정 의견이 6건 있었어요.",
+      "after": "실습 방식에 대한 긍정 의견이 6건 있어, 실행 결과를 확인하며 배우고 싶은 학생에게 맞아요."
+    },
+    {
+      "file": "c02_all.json",
+      "location": "right[1]",
+      "reason": "invalid IDs removed; text reviewed against remaining category/sentiment items",
+      "removed_ids": [
+        "c02-2025-2-r08",
+        "c02-2026-1-r06"
+      ]
+    },
+    {
+      "file": "c02_all.json",
+      "location": "workload.groups[1]",
+      "reason": "invalid IDs removed; text reviewed against remaining category/sentiment items",
+      "removed_ids": [
+        "c02-2025-2-r08",
+        "c02-2026-1-r06"
+      ]
+    },
+    {
+      "file": "c03_2026-1.json",
+      "location": "left[1]",
+      "reason": "invalid IDs removed; text reviewed against remaining category/sentiment items",
+      "removed_ids": [
+        "c03-2026-2026-1-r03"
+      ]
+    },
+    {
+      "file": "c03_all.json",
+      "location": "left[0].text",
+      "reason": "recommendation form and count in one sentence",
+      "before": "수업에서 다룬 범위와 예제를 바탕으로 공정하고 예측 가능한 시험을 원하는 학생에게 맞아요. 이런 의견이 9건 있었어요.",
+      "after": "수업 범위와 예제를 바탕으로 한 시험의 긍정 평가가 9건 있어, 예측 가능한 평가를 원하는 학생에게 맞아요."
+    },
+    {
+      "file": "c03_all.json",
+      "location": "left[1].text",
+      "reason": "recommendation form and count in one sentence",
+      "before": "예제를 반복해서 풀고 복습하며 통계 개념과 문제 풀이를 익히고 싶은 학생에게 맞아요. 이런 의견이 3건 있었어요.",
+      "after": "예제 풀이와 통계 학습의 효과가 3건 언급돼, 반복 연습으로 통계 기초를 익히고 싶은 학생에게 맞아요."
+    },
+    {
+      "file": "c03_all.json",
+      "location": "left[2].text",
+      "reason": "recommendation form and count in one sentence",
+      "before": "성실하게 출석하고 복습하거나 통계 기초와 학점을 함께 챙기려는 학생에게 맞아요. 이런 의견이 2건 있었어요.",
+      "after": "성실한 출석과 복습을 전제로 한 추천이 2건 있어, 통계 기초와 학점을 함께 챙기려는 학생에게 맞아요."
+    },
+    {
+      "file": "c03_all.json",
+      "location": "attendance.groups[1]",
+      "reason": "invalid IDs removed; text reviewed against remaining category/sentiment items",
+      "removed_ids": [
+        "c03-2025-2-r06"
+      ]
+    },
+    {
+      "file": "c04_all.json",
+      "location": "left[0].text",
+      "reason": "recommendation form and count in one sentence",
+      "before": "실제 사례를 통해 개념을 이해하고 싶은 학생에게 맞아요. 이런 의견이 11건 있었어요.",
+      "after": "실제 사례를 활용한 설명의 긍정 평가가 11건 있어, 사례를 통해 개념을 이해하고 싶은 학생에게 맞아요."
+    },
+    {
+      "file": "c04_all.json",
+      "location": "left[1].text",
+      "reason": "recommendation form and count in one sentence",
+      "before": "실무 사례를 분석하고 개념을 적용하는 연습을 원하는 학생에게 맞아요. 이런 의견이 7건 있었어요.",
+      "after": "개념을 실제 상황에 적용한 학습 효과가 7건 언급돼, 실무 사례를 분석하는 연습을 원하는 학생에게 맞아요."
+    },
+    {
+      "file": "c04_all.json",
+      "location": "left[2].text",
+      "reason": "recommendation form and count in one sentence",
+      "before": "팀 프로젝트 부담을 감당할 수 있고 실제 사례 분석이나 발표 경험을 원하는 학생에게 맞아요. 이런 추천 의견이 2건 있었어요.",
+      "after": "팀 프로젝트 부담을 고려한 추천이 2건 있어, 팀 프로젝트 부담을 감당하며 실제 사례를 분석하고 싶은 학생에게 맞아요."
+    }
+  ],
+  "semantic_changes": [
+    {
+      "file": "c01_2025-2.json",
+      "reasons": [
+        "summarize an individual grade experience without unnecessary raw score numbers"
+      ]
+    },
+    {
+      "file": "c01_all.json",
+      "reasons": [
+        "split unrelated feedback and microphone complaints",
+        "include the verified graph-example review in the shared positive explanation group",
+        "include the verified reduced-assignment-frequency review in the same opinion group",
+        "remove reading-purpose and A+ conditions not supported by the selected group IDs"
+      ]
+    },
+    {
+      "file": "c02_all.json",
+      "reasons": [
+        "limit the preparation condition to the remaining verified IDs; do not add an unsupported revision burden"
+      ]
+    },
+    {
+      "file": "c03_2025-2.json",
+      "reasons": [
+        "merge overlapping negative delivery groups with the same meaning",
+        "merge overlapping generous-grade groups without double-counting reviews"
+      ]
+    },
+    {
+      "file": "c04_2025-2.json",
+      "reasons": [
+        "preserve the original wish about team-project burden without implying the actual course has no team project"
+      ]
+    },
+    {
+      "file": "c04_all.json",
+      "reasons": [
+        "preserve the original wish about team-project burden without implying the actual course has no team project"
+      ]
+    }
+  ],
+  "separator_changes": [
+    {
+      "location": "c03_2025-2.json.categories[1].groups[2].short",
+      "before": "과제와 퀴즈, 중간·기말 시험으로 평가한다는 의견이 2건 있었어요.",
+      "after": "과제와 퀴즈, 중간고사와 기말고사 시험으로 평가한다는 의견이 2건 있었어요."
+    },
+    {
+      "location": "c03_2025-2.json.categories[1].groups[2].detail",
+      "before": "리뷰 2건에서는 평가가 과제와 퀴즈, 중간·기말 시험으로 구성된다는 설명이 있었어요.",
+      "after": "리뷰 2건에서는 평가가 과제와 퀴즈, 중간고사와 기말고사 시험으로 구성된다는 설명이 있었어요."
+    },
+    {
+      "location": "c03_2025-2.json.categories[1].groups[3].short",
+      "before": "중간·기말 시험이 수업 예제를 응용하는 유형이라는 의견이 1건 있었어요.",
+      "after": "중간고사와 기말고사 시험이 수업 예제를 응용하는 유형이라는 의견이 1건 있었어요."
+    },
+    {
+      "location": "c03_2025-2.json.categories[1].groups[3].detail",
+      "before": "리뷰 1건에서는 중간·기말 시험에서 수업 예제를 응용하는 문제가 나온다는 설명이 있었어요.",
+      "after": "리뷰 1건에서는 중간고사와 기말고사 시험에서 수업 예제를 응용하는 문제가 나온다는 설명이 있었어요."
+    },
+    {
+      "location": "c03_all.json.categories[1].groups[1].short",
+      "before": "평가는 과제와 퀴즈, 중간·기말로 구성되고 시험에 예제 응용 문제가 나온다는 의견이 6건 있었어요.",
+      "after": "평가는 과제와 퀴즈, 중간고사와 기말고사로 구성되고 시험에 예제 응용 문제가 나온다는 의견이 6건 있었어요."
+    },
+    {
+      "location": "c03_all.json.categories[1].groups[1].detail",
+      "before": "리뷰 6건에서는 평가에 과제와 퀴즈, 중간·기말 시험이 포함된다는 의견이에요. 시험에서 수업 예제를 응용한 문제가 나온다는 의견도 있었어요.",
+      "after": "리뷰 6건에서는 평가에 과제와 퀴즈, 중간고사와 기말고사 시험이 포함된다는 의견이에요. 시험에서 수업 예제를 응용한 문제가 나온다는 의견도 있었어요."
+    },
+    {
+      "location": "c03_all.json.categories[4].groups[1].detail",
+      "before": "리뷰 2건에서는 실수가 있어도 반드시 높은 학점을 받는 것은 아니며 공부가 필요하다는 의견이에요. 중간·기말 성적과 최종 학점을 언급한 의견도 있었어요.",
+      "after": "리뷰 2건에서는 실수가 있어도 반드시 높은 학점을 받는 것은 아니며 공부가 필요하다는 의견이에요. 중간고사와 기말고사 성적과 최종 학점을 언급한 의견도 있었어요."
+    },
+    {
+      "location": "c04_2025-2.json.categories[1].groups[0].short",
+      "before": "시험에서 수업 사례와 개념을 연결해 평가하며, 중간·기말 시험 비중이 각각 25%라는 의견이 3건 있었어요.",
+      "after": "시험에서 수업 사례와 개념을 연결해 평가하며, 중간고사와 기말고사 시험 비중이 각각 25%라는 의견이 3건 있었어요."
+    },
+    {
+      "location": "c04_2025-2.json.categories[1].groups[0].detail",
+      "before": "리뷰 3건에서는 시험에서 수업 사례와 개념을 연결해 평가한다는 의견과 중간·기말 시험의 평가 비중이 각각 25%라는 의견이 있었어요.",
+      "after": "리뷰 3건에서는 시험에서 수업 사례와 개념을 연결해 평가한다는 의견과 중간고사와 기말고사 시험의 평가 비중이 각각 25%라는 의견이 있었어요."
+    },
+    {
+      "location": "c04_2025-2.json.categories[3].groups[0].topic",
+      "before": "실무·기업 사례 중심 설명",
+      "after": "실무 및 기업 사례 중심 설명"
+    },
+    {
+      "location": "c04_2026-1.json.categories[0].groups[0].detail",
+      "before": "발표와 팀 프로젝트, 중간·기말 일정이 겹쳐 부담이 몰릴 때가 있다는 의견이 있었어요. 프로젝트 양이 크게 줄지 않은 채 자료조사와 발표 준비를 해야 하거나 마감 직전 일정이 빡빡하다는 의견도 있었어요. 이 의견은 3건이에요.",
+      "after": "발표와 팀 프로젝트, 중간고사와 기말고사 일정이 겹쳐 부담이 몰릴 때가 있다는 의견이 있었어요. 프로젝트 양이 크게 줄지 않은 채 자료조사와 발표 준비를 해야 하거나 마감 직전 일정이 빡빡하다는 의견도 있었어요. 이 의견은 3건이에요."
+    },
+    {
+      "location": "c04_2026-1.json.categories[1].groups[0].short",
+      "before": "중간·기말고사와 발표, 팀 프로젝트가 평가에 포함된다는 의견이 3건 있었어요.",
+      "after": "중간고사와 기말고사고사와 발표, 팀 프로젝트가 평가에 포함된다는 의견이 3건 있었어요."
+    },
+    {
+      "location": "c04_all.json.categories[1].groups[0].short",
+      "before": "중간·기말 시험이 있고, 시험에서 개념을 사례에 적용한다는 의견이 있었어요. 이런 의견이 8건 있었어요.",
+      "after": "중간고사와 기말고사 시험이 있고, 시험에서 개념을 사례에 적용한다는 의견이 있었어요. 이런 의견이 8건 있었어요."
+    }
+  ],
+  "new_api_calls_for_review": 0
+}
